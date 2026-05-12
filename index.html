@@ -1,0 +1,1870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My News Brief</title>
+  <style>
+    /* ── Reset & Base ─────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --salmon:        #F0DDD0;
+      --salmon-mid:    #E8C9B4;
+      --salmon-dark:   #B06830;
+      --main-bg:       #FAFAF7;
+      --card-bg:       #FFFFFF;
+      --border:        #DDD8D2;
+      --border-light:  #EAE6E0;
+      --navy:          #0F3B6E;
+      --navy-hover:    #1A56A0;
+      --text-black:    #1A1A1A;
+      --text-mid:      #3D3D3D;
+      --text-light:    #787470;
+      --text-xlight:   #AEAAA6;
+      --hl-bg:         #F0DDD0;
+      --hl-fg:         #1A1A1A;
+      --font-serif:    Georgia, "Times New Roman", serif;
+      --font-sans:     Arial, Helvetica, sans-serif;
+      --sidebar-w:     292px;
+    }
+
+    html, body { height: 100%; overflow: hidden; }
+
+    body {
+      font-family: var(--font-serif);
+      color: var(--text-mid);
+      font-size: 15px;
+      line-height: 1.6;
+      display: flex;
+    }
+
+    a { color: var(--navy); text-decoration: none; }
+    a:hover { text-decoration: underline; color: var(--navy-hover); }
+
+    /* ── Sidebar ──────────────────────────────────────────────────── */
+    #sidebar {
+      width: var(--sidebar-w);
+      min-width: var(--sidebar-w);
+      height: 100vh;
+      background: var(--salmon);
+      border-right: 1px solid var(--salmon-mid);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* Filter scroll area */
+    #filter-scroll {
+      flex: 1;
+      overflow-y: auto;
+      padding: 0 0 24px;
+    }
+
+    /* Scrollbar styling */
+    #filter-scroll::-webkit-scrollbar { width: 4px; }
+    #filter-scroll::-webkit-scrollbar-track { background: transparent; }
+    #filter-scroll::-webkit-scrollbar-thumb { background: var(--salmon-mid); border-radius: 2px; }
+
+    .filter-section {
+      padding: 16px 22px;
+      border-bottom: 1px solid var(--salmon-mid);
+    }
+    .filter-section:last-of-type { border-bottom: none; }
+
+    .filter-label {
+      font-family: var(--font-sans);
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      color: var(--salmon-dark);
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    /* Search box */
+    #search-input {
+      width: 100%;
+      font-family: var(--font-sans);
+      font-size: 12.5px;
+      color: var(--text-black);
+      background: rgba(255,255,255,0.7);
+      border: 1px solid var(--salmon-mid);
+      border-radius: 2px;
+      padding: 7px 10px;
+      outline: none;
+      margin-bottom: 10px;
+    }
+    #search-input::placeholder { color: var(--text-xlight); }
+    #search-input:focus { border-color: var(--navy); background: #fff; }
+
+    /* Time range radio group */
+    .range-options { display: flex; flex-direction: column; gap: 2px; }
+
+    .range-option {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 0;
+      cursor: pointer;
+      font-family: var(--font-sans);
+      font-size: 12px;
+      color: var(--text-mid);
+    }
+    .range-option:hover { color: var(--navy); }
+    .range-option input[type="radio"] {
+      accent-color: var(--salmon-dark);
+      width: 13px;
+      height: 13px;
+      flex-shrink: 0;
+      cursor: pointer;
+    }
+
+    /* Date select */
+    #date-select {
+      width: 100%;
+      font-family: var(--font-sans);
+      font-size: 12px;
+      color: var(--text-mid);
+      background: rgba(255,255,255,0.7);
+      border: 1px solid var(--salmon-mid);
+      border-radius: 2px;
+      padding: 7px 10px;
+      outline: none;
+      cursor: pointer;
+    }
+    #date-select:focus { border-color: var(--navy); }
+
+    /* Checkbox filters */
+    .filter-option {
+      display: flex;
+      align-items: flex-start;
+      gap: 7px;
+      padding: 3px 0;
+      cursor: pointer;
+      font-family: var(--font-sans);
+      font-size: 12px;
+      color: var(--text-mid);
+      line-height: 1.4;
+    }
+    .filter-option:hover { color: var(--navy); }
+    .filter-option input[type="checkbox"] {
+      accent-color: var(--salmon-dark);
+      width: 12px;
+      height: 12px;
+      flex-shrink: 0;
+      margin-top: 2px;
+      cursor: pointer;
+    }
+
+    /* Clear button */
+    #clear-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 14px 22px 0;
+      font-family: var(--font-sans);
+      font-size: 11px;
+      color: var(--salmon-dark);
+      cursor: pointer;
+      background: none;
+      border: none;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    #clear-btn:hover { color: var(--navy); }
+
+    /* ── Main ────────────────────────────────────────────────────── */
+    #main {
+      flex: 1;
+      height: 100vh;
+      background: var(--main-bg);
+      overflow-y: auto;
+      padding: 0 48px 72px;
+    }
+
+    /* Scrollbar */
+    #main::-webkit-scrollbar { width: 5px; }
+    #main::-webkit-scrollbar-track { background: transparent; }
+    #main::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+    /* Masthead */
+    #masthead {
+      padding: 32px 0 20px;
+      margin-bottom: 28px;
+      border-bottom: 2px solid var(--text-black);
+    }
+
+    #masthead h1 {
+      font-family: var(--font-sans);
+      font-size: 30px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--text-black);
+      line-height: 1;
+      margin-bottom: 5px;
+    }
+
+    #masthead .tagline {
+      font-family: var(--font-sans);
+      font-size: 11.5px;
+      color: var(--text-light);
+      letter-spacing: 0.02em;
+    }
+
+    /* Search note */
+    #search-active-note {
+      font-family: var(--font-sans);
+      font-size: 11.5px;
+      font-style: italic;
+      color: var(--salmon-dark);
+      margin-bottom: 20px;
+      min-height: 16px;
+    }
+
+    /* ── News Highlight ──────────────────────────────────────────── */
+    #highlight-block, .highlight-block {
+      background: var(--hl-bg);
+      color: var(--hl-fg);
+      border-radius: 2px;
+      padding: 26px 32px;
+      margin-bottom: 36px;
+    }
+
+    #highlight-block .hl-label, .highlight-block .hl-label {
+      font-family: var(--font-sans);
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--salmon-dark);
+      margin-bottom: 10px;
+    }
+
+    #highlight-block .hl-title, .highlight-block .hl-title {
+      font-family: var(--font-serif);
+      font-size: 21px;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 8px;
+    }
+    #highlight-block .hl-title a, .highlight-block .hl-title a { color: var(--hl-fg); text-decoration: underline; text-underline-offset: 3px; }
+    #highlight-block .hl-title a:hover, .highlight-block .hl-title a:hover { color: var(--navy); text-decoration: underline; }
+
+    #highlight-block .hl-meta, .highlight-block .hl-meta {
+      font-family: var(--font-sans);
+      font-size: 11.5px;
+      color: var(--text-light);
+      margin-bottom: 14px;
+    }
+
+    #highlight-block .hl-summary, .highlight-block .hl-summary {
+      font-family: var(--font-serif);
+      font-size: 14.5px;
+      line-height: 1.7;
+      color: var(--text-mid);
+    }
+
+    #highlight-block .hl-coverage, .highlight-block .hl-coverage {
+      margin-top: 14px;
+      font-family: var(--font-sans);
+      font-size: 11px;
+      color: var(--text-xlight);
+      font-style: italic;
+    }
+
+    /* ── Day group ───────────────────────────────────────────────── */
+    .day-group { margin-bottom: 40px; }
+
+    .day-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      font-family: var(--font-sans);
+      font-size: 12.5px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-light);
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .day-count {
+      font-weight: 400;
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      color: var(--text-xlight);
+      white-space: nowrap;
+    }
+
+    /* ── Article card ────────────────────────────────────────────── */
+    .article-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      padding: 20px 24px 18px;
+      margin-bottom: 10px;
+      transition: box-shadow 0.15s ease;
+    }
+    .article-card:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.06); }
+
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .cat-pill {
+      display: inline-block;
+      font-family: var(--font-sans);
+      font-size: 9.5px;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      padding: 2px 7px 3px;
+      border-radius: 2px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .priority-badge {
+      font-family: var(--font-sans);
+      font-size: 10px;
+      color: var(--salmon-dark);
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+      flex-shrink: 0;
+      opacity: 0.8;
+    }
+
+    .card-headline {
+      font-family: var(--font-serif);
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.35;
+      margin-bottom: 5px;
+      color: var(--text-black);
+    }
+    .card-headline a { color: var(--text-black); text-decoration: underline; text-underline-offset: 3px; }
+    .card-headline a:hover { color: var(--navy); text-decoration: underline; }
+
+    .card-byline {
+      font-family: var(--font-sans);
+      font-size: 11px;
+      color: var(--text-light);
+      margin-bottom: 11px;
+    }
+    .card-byline .source-name { font-weight: 700; color: var(--text-mid); }
+
+    .card-summary {
+      font-family: var(--font-serif);
+      font-size: 14.5px;
+      line-height: 1.7;
+      color: var(--text-mid);
+      margin-bottom: 10px;
+    }
+
+    .also-covered {
+      font-family: var(--font-sans);
+      font-size: 11px;
+      color: var(--text-xlight);
+      font-style: italic;
+    }
+
+    /* ── Mark search matches ─────────────────────────────────────── */
+    mark {
+      background: #FEF3C0;
+      color: inherit;
+      border-radius: 1px;
+      padding: 0 1px;
+    }
+
+    /* ── Empty state ─────────────────────────────────────────────── */
+    #empty-state {
+      text-align: center;
+      padding: 100px 20px;
+      color: var(--text-xlight);
+    }
+    #empty-state p {
+      font-family: var(--font-sans);
+      font-size: 13.5px;
+      line-height: 1.7;
+    }
+
+    /* ── Category colours ────────────────────────────────────────── */
+    /* Applied inline via JS */
+  </style>
+</head>
+<body>
+
+<!-- ── Sidebar ────────────────────────────────────────────────── -->
+<nav id="sidebar">
+
+  <div id="filter-scroll">
+
+    <!-- Search + Time Range -->
+    <div class="filter-section">
+      <span class="filter-label">Search</span>
+      <input type="text" id="search-input" placeholder="Keywords in title or summary&hellip;" autocomplete="off" spellcheck="false">
+      <div class="range-options">
+        <label class="range-option">
+          <input type="radio" name="range" value="all" checked> All history
+        </label>
+        <label class="range-option">
+          <input type="radio" name="range" value="365"> Last year
+        </label>
+        <label class="range-option">
+          <input type="radio" name="range" value="180"> Last 6 months
+        </label>
+        <label class="range-option">
+          <input type="radio" name="range" value="90"> Last 3 months
+        </label>
+        <label class="range-option">
+          <input type="radio" name="range" value="30"> Last month
+        </label>
+      </div>
+    </div>
+
+    <!-- Date -->
+    <div class="filter-section">
+      <span class="filter-label">Date</span>
+      <select id="date-select">
+        <option value="">All dates</option>
+      </select>
+    </div>
+
+    <!-- Source -->
+    <div class="filter-section">
+      <span class="filter-label">Source</span>
+      <div id="source-filters"></div>
+    </div>
+
+    <!-- Category -->
+    <div class="filter-section">
+      <span class="filter-label">Category</span>
+      <div id="category-filters"></div>
+    </div>
+
+    <button id="clear-btn">Clear all filters</button>
+
+  </div><!-- /filter-scroll -->
+</nav>
+
+<!-- ── Main ───────────────────────────────────────────────────── -->
+<main id="main">
+  <div id="masthead">
+    <h1>My News Brief</h1>
+    <div class="tagline">Daily newsletter digest</div>
+  </div>
+  <div id="search-active-note"></div>
+  <div id="highlight-block" style="display:none"></div>
+  <div id="articles-container"></div>
+  <div id="empty-state" style="display:none">
+    <p>No articles match the selected filters.<br>Try adjusting the search terms, date range, source, or category.</p>
+  </div>
+</main>
+
+<script>
+/* ================================================================
+   EMBEDDED DATA
+   Cowork replaces BRIEF_DATA on each daily run. Do not edit.
+   ================================================================ */
+// @@BRIEF_DATA_START@@
+const BRIEF_DATA = [
+  {
+    "id": "2026-05-11-040",
+    "date": "2026-05-11",
+    "source": "The Rundown AI",
+    "newsletter": "The Rundown AI",
+    "title": "Google Isomorphic Labs Raising $2 Billion-Plus for AI Drug Design Engine",
+    "summary": "Google's Isomorphic Labs, the drug discovery subsidiary that grew out of DeepMind's AlphaFold work, is in advanced talks to raise more than $2 billion to fund its AI-driven Drug Design Engine — a platform that uses generative models to propose novel small-molecule drug candidates against validated biological targets. The raise would value Isomorphic Labs at a significant premium to its last disclosed valuation and signals growing investor conviction that AI-designed drugs are approaching clinical viability. Isomorphic has active collaborations with Eli Lilly and Novartis.",
+    "link": null,
+    "category": "Science & Health",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-039",
+    "date": "2026-05-11",
+    "source": "The Rundown AI",
+    "newsletter": "The Rundown AI",
+    "title": "AI System RAVEN Discovers 100+ New Exoplanets from NASA TESS Data",
+    "summary": "Researchers at the University of Warwick developed RAVEN, an AI system that identified more than 100 previously undetected exoplanet candidates in NASA TESS mission data that had been processed and set aside. The system uses a neural architecture trained to recognize transit signals buried in noise that human analysts and earlier automated pipelines had missed. The findings were published and represent one of the largest single-batch exoplanet discoveries from re-analysis of an existing dataset, suggesting that AI review of archived astronomical data may be as productive as collecting new observations.",
+    "link": "https://warwick.ac.uk/news/pressreleases/ai-approach-uncovers-dozens-of-hidden-planets/",
+    "category": "Science & Health",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-038",
+    "date": "2026-05-11",
+    "source": "The Rundown AI",
+    "newsletter": "The Rundown AI",
+    "title": "Google DeepMind Unveils AI Co-Mathematician That Scored 48% on FrontierMath Tier 4",
+    "summary": "Google DeepMind released an AI co-mathematician built on Gemini 3.1, designed as an agentic research system that scored 48% on FrontierMath Tier 4 benchmarks — the hardest tier of a set of problems designed by professional mathematicians specifically to resist AI. The raw Gemini 3.1 Pro model scores 19% on the same tier. In a real-world demonstration, an Oxford professor used the system's strategy from a rejected output to resolve an open mathematical problem. The system is built as a collaborator rather than a solver: it generates approaches, explores dead ends, and hands off partial results rather than attempting to close proofs autonomously.",
+    "link": "https://arxiv.org/pdf/2605.06651",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-037",
+    "date": "2026-05-11",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Kuaishou Plans to Spin Off Kling AI Video Unit at $20 Billion Valuation Ahead of IPO",
+    "summary": "Chinese short-video giant Kuaishou Technology is planning to spin off its Kling AI video business at a $20 billion valuation in a pre-IPO funding round, with the unit expected to go public next year. Kling develops AI video generation models that compete directly with products from ByteDance, Google, and Alibaba. The move is designed to capitalize on investor appetite for standalone AI assets and mirror the premium valuations AI-focused companies have commanded in public markets.",
+    "link": "https://www.theinformation.com/articles/chinas-kuaishou-plans-spin-kling-ai-video-unit-20-billion-valuation",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-036",
+    "date": "2026-05-11",
+    "source": "SmartBrief",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "Eighth Circuit Vacates FCC's Digital Discrimination Rules, Leaving Broadband Equity Framework in Limbo",
+    "summary": "The U.S. Court of Appeals for the Eighth Circuit vacated the FCC's digital discrimination rules, ruling that the agency erred by applying a disparate impact standard and extending the rules beyond last-mile broadband providers — exceeding what the Infrastructure Investment and Jobs Act authorizes. FCC Chair Brendan Carr celebrated the decision, calling it an overturning of Biden-era 'digital equity rules.' The court left intact an obligation for the FCC to pursue a new rule through notice-and-comment rulemaking. Critics say the decision leaves low-income communities and communities of color without the federal anti-discrimination framework Congress directed the FCC to create.",
+    "link": "https://broadbandbreakfast.com/eighth-circuit-vacates-fccs-digital-discrimination-rules/",
+    "category": "Telecommunications",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-035",
+    "date": "2026-05-11",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "Canadian Telecom Summit: AI Dominates as BCE and Telus Report Profit Drops Amid Wireless Competition",
+    "summary": "Telecom leaders gather at the Canadian Telecom Summit this week with AI expected to dominate the agenda, as carriers grapple with how to move beyond productivity use cases to revenue generation. Telus disclosed last week that it has deployed AI models that alter the accents of customer service agents — a headline-grabbing example of current AI deployment in the sector. Both BCE and Telus reported profit declines amid heavy wireless competition, and investors are pressing for a clear answer to when AI will translate into top-line growth. Canada's largest banks are beginning to work through a similar question, with the opportunity seen as a potential lifeline for industries facing margin pressure.",
+    "link": "https://www.theglobeandmail.com/business/article-business-brief-five-files-to-follow-this-week-18/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-034",
+    "date": "2026-05-11",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "U.S. April CPI in Focus as Iran War Pushes Gas Prices; Sticky Inflation Raises Fed Rate Fears",
+    "summary": "The U.S. consumer price index for April releases Tuesday, with gasoline prices elevated by the war with Iran adding pressure on what is already a stubbornly above-target inflation reading — March saw the biggest monthly surge in nearly four years. Some economists say the Fed has effectively accepted higher inflation as a new normal, but markets fear a hotter-than-expected print could force further rate hikes, hitting equity valuations and dampening borrowing demand. For Canada, the spillover is direct: higher-than-expected U.S. inflation would likely lift the U.S. dollar, weaken the loonie, and push Canadian bond yields higher — the same yields lenders use to price fixed-rate mortgages.",
+    "link": "https://www.theglobeandmail.com/business/article-business-brief-five-files-to-follow-this-week-18/",
+    "category": "Global Economy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-033",
+    "date": "2026-05-11",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "Bank of Canada Releases Q1 Market Survey; Deliberations Summary and AI Productivity Speech Coming This Week",
+    "summary": "The Bank of Canada is releasing its Q1 market participants survey, which samples 27-30 representatives from banks, dealers, pension funds, and asset managers on their views of the economy, inflation, and monetary policy. In the last survey, trade tensions dominated risk assessments — worsening trade tensions as the biggest downside risk, easing as the biggest upside — and respondents expected inflation to hold close to target at 2.1% by end of 2026. Also this week: on Wednesday the BoC releases its summary of deliberations from its last rate decision (a hold, but with hints of future hikes), and the external deputy governor delivers a speech on what AI adoption could mean for productivity and economic potential.",
+    "link": "https://www.theglobeandmail.com/business/article-business-brief-five-files-to-follow-this-week-18/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-032",
+    "date": "2026-05-11",
+    "source": "Techpresso",
+    "newsletter": "Techpresso",
+    "title": "OpenAI Launches Deployment Company: $4B+ PE-Backed Unit to Embed AI in Enterprise Operations",
+    "summary": "OpenAI launched the OpenAI Deployment Company, a new entity backed by more than $4 billion in capital from 19 investment firms, consultancies, and system integrators, led by TPG with Advent, Bain Capital, and Brookfield as co-leads. The unit will embed Forward Deployed Engineers into organizations to redesign workflows around AI, competing directly on the professional services turf of McKinsey, Bain & Company, and Capgemini — all of which are also investors in the new company. To anchor the launch, OpenAI acquired Tomoro, an applied AI consulting firm, adding approximately 150 engineers from day one. The move marks a significant expansion of OpenAI's commercial strategy beyond software licensing into hands-on enterprise implementation.",
+    "link": "https://openai.com/index/openai-launches-the-deployment-company/",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-031",
+    "date": "2026-05-11",
+    "source": "Techpresso",
+    "newsletter": "Techpresso",
+    "title": "Google Detects First AI-Built Zero-Day Exploit Used in Planned Mass Hack Campaign",
+    "summary": "Google's Threat Intelligence Group identified a cybercrime group that used artificial intelligence — described as 'Mythos-like' in capability — to build a zero-day exploit targeting a widely-used open-source web administration tool. The flaw, a semantic logic error where a developer hardcoded a trust assumption that contradicted authentication enforcement, allowed attackers to bypass two-factor authentication. Researchers identified the AI origin through the exploit's structure: educational docstrings, a hallucinated CVSS score, and textbook-style Python formatting characteristic of LLM output. Google alerted the developer before the planned mass exploitation campaign could be executed. This marks the first confirmed case of Google catching a hacker using an AI-generated zero-day in a cyberattack.",
+    "link": "https://www.bloomberg.com/news/articles/2026-05-11/hackers-used-ai-to-build-zero-day-attack-google-researchers-say",
+    "category": "Cybersecurity",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-030",
+    "date": "2026-05-11",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "Moonshot AI Raises $2 Billion at $20 Billion Valuation in Meituan-Led Round",
+    "summary": "Moonshot AI, the Chinese startup behind the Kimi chatbot, raised approximately $2 billion in a funding round led by Meituan at a post-money valuation exceeding $20 billion, as the company reported over $200 million in annualized recurring revenue as of April. The raise underscores the continued momentum of Chinese frontier AI labs, which are narrowing the gap with Western open-weights leaders on both capability and commercial traction. The funding round is one of the largest in Chinese AI this year.",
+    "link": "https://www.bloomberg.com/news/articles/2026-05-07/kimi-chatbot-maker-moonshot-ai-valued-at-20-billion-in-meituan-led-round",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-029",
+    "date": "2026-05-11",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "Kevin O'Leary's 9 GW Utah Data Center Approved Despite Mass Local Opposition",
+    "summary": "Box Elder County, Utah approved Kevin O'Leary's plan to build a 40,000-acre, 9-gigawatt data center campus — more than double Utah's current statewide electricity use — to run on an off-grid private natural gas pipeline, after a contentious public meeting where roughly 1,100 residents protested and commissioners walked out of the room. Opponents cited a projected 50% increase in the state's carbon emissions, water scarcity, and Great Salt Lake damage, submitting over 1,800 written objections to the water-rights change alone. O'Leary dismissed much of the opposition as organized by paid activists, while the project moves ahead as one of the most visible examples of community resistance to AI infrastructure expansion.",
+    "link": "https://www.tomshardware.com/tech-industry/kevin-o-learys-9-gw-utah-data-center-campus-approved",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-028",
+    "date": "2026-05-11",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "Microsoft Walks Back 2030 Renewable Energy Pledge as AI Data Center Demand Outpaces Supply",
+    "summary": "Microsoft is in talks to delay or abandon its 2030 pledge to run entirely on renewable energy, citing AI data center power demand growing faster than renewable capacity can scale, making it the first major hyperscaler to publicly walk back a climate commitment because of AI compute expansion. The reversal is expected to intensify public backlash against large-scale AI infrastructure, which is already a flashpoint in communities facing data center development proposals. Bloomberg first reported the development.",
+    "link": "https://www.bloomberg.com/news/articles/2026-05-07/microsoft-renewable-energy-2030-goal",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-027",
+    "date": "2026-05-11",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "AI Tool Poisoning: Hackers Are Hiding Instructions Inside MCP Tool Descriptions",
+    "summary": "Security researchers have confirmed a new attack vector called AI tool poisoning, in which hackers insert hidden instructions into the descriptions that AI assistants read when connecting to external tools — causing the AI to silently execute malicious commands such as forwarding accessed files to an attacker-controlled address. The attack exploits the trust AI agents place in tool metadata, and has been confirmed to work against Claude, ChatGPT, Cursor, and most other major AI platforms. Because the tampered description looks entirely normal to the user and the AI behaves as expected on the surface, the data exfiltration is invisible without active monitoring of tool definitions.",
+    "link": "https://www.crowdstrike.com/en-us/blog/ai-tool-poisoning/",
+    "category": "Cybersecurity",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-026",
+    "date": "2026-05-11",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "Microsoft Work Trend Index: Employees Are Ahead of Their Companies on AI",
+    "summary": "Microsoft's 2026 Work Trend Index, based on a survey of 20,000 workers and analysis of trillions of signals from Microsoft 365, found that 66% of AI users say the technology lets them spend more time on high-value work, while only 26% say their leadership is clearly aligned on AI strategy. The data maps respondents across individual AI skill and organizational readiness, finding that only 19% of workers land in a 'Frontier' category where personal capability and organizational support align — while 50% sit in an 'Emergent' middle. Organizational factors account for more than twice the impact on AI outcomes compared to individual skill (67% vs. 32%), meaning even highly capable AI users are constrained by management structures that haven't adapted.",
+    "link": "https://www.theneurondaily.com/p/microsoft-your-company-is-the-ai-bottleneck",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-025",
+    "date": "2026-05-11",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "US, EU, and China Converging on AI Oversight Framework Ahead of Beijing Summit",
+    "summary": "Three major regulatory powers moved simultaneously on AI oversight this week: the White House briefed AI labs on a working group that would require pre-release review of frontier models (with CAISI already running evaluations for Google, Microsoft, and xAI); the EU simplified parts of its AI Act under SME pressure while adding bans on nudification apps; and China opened direct AI risk talks with the U.S. ahead of the Trump-Xi summit, covering unpredictable model behavior, autonomous military systems, and non-state actors. The Neuron notes the UK's AI Security Institute has become a reference architecture that the U.S. and EU are converging toward, a development it calls meaningful. Anthropic's new Mythos model appears to have been a catalyst for renewed urgency across all three jurisdictions.",
+    "link": "https://www.theneurondaily.com/p/hermes-is-eating-openclaw-s-lunch",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-024",
+    "date": "2026-05-11",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Insight Enterprises Targets Mid-Market Companies With End-to-End AI Integration",
+    "summary": "Insight Enterprises CEO Jack Azagury, a long-time Accenture veteran, described how the $8.2 billion technology services firm is repositioning itself as an AI solutions integrator targeting the mid-market, where fewer than 30% of companies have fully integrated AI into their operations. Azagury highlighted governance as the central challenge — establishing clear accountability for AI, aligning top-down transformation programs with bottom-up employee initiatives, and connecting every investment to a measurable business case before building. The company has made acquisitions and internal investments in AI skills over several years to support this repositioning.",
+    "link": null,
+    "category": "Consulting & Professional Services",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-023",
+    "date": "2026-05-11",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Hydro-Québec Moves Into Solar Power as Climate Shifts Its Long-Term Hydro Outlook",
+    "summary": "Hydro-Québec, one of the world's largest hydroelectric power producers, is expanding into solar power as changing precipitation patterns and climate variability create uncertainty around long-term hydro generation capacity. The Crown corporation's move reflects a strategic effort to diversify its generation portfolio and maintain its position as a major power supplier in a shifting energy environment. The initiative also positions Hydro-Québec to meet growing electricity demand from data centres and electrification projects across Quebec and export markets.",
+    "link": "https://thelogic.co/commentary/quebec-ink/hydro-quebec-solar-power/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-022",
+    "date": "2026-05-11",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Investors Eye Deep-Tech Deals as AI Compresses Software Startup Valuations",
+    "summary": "AI is pushing software-focused venture capitalists into deep-tech sectors long considered too capital-intensive and technically complex for mainstream investing, as AI disrupts the economics of traditional software startups and compresses valuations across that category. The Logic reports that investors are increasingly viewing hardware, advanced manufacturing, and other deep-tech areas as more defensible than software in an AI-saturated landscape. The shift represents a meaningful rotation in VC capital allocation after more than a decade in which software-as-a-service dominated early-stage funding.",
+    "link": "https://thelogic.co/news/deep-tech-investment-venture-capital-startups/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-021",
+    "date": "2026-05-11",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Ottawa to Back Telus's AI Data Centre Expansion in British Columbia",
+    "summary": "The federal government is set to support Telus's plan to expand its AI data centre footprint in British Columbia, including expanding an existing facility in Kamloops and adding two new centres in Vancouver, for a combined capacity of 150 megawatts by 2032. The investment reflects Ottawa's broader push to build domestic AI infrastructure and positions Canada as a destination for AI computing workloads. Telus's expansion is among the largest committed AI data centre investments by a Canadian telecom company to date.",
+    "link": "https://thelogic.co/news/telus-ai-data-centre-cluster-british-columbia/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-020",
+    "date": "2026-05-11",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CEO Brief",
+    "title": "Jury Consultants on Preparing a CEO to Testify Under Cross-Examination",
+    "summary": "WSJ CEO Brief explored the specialized practice of preparing senior executives for court testimony, drawing on insights from jury consultant Chris Dominic of IMS Legal Strategies in the context of Elon Musk's ongoing lawsuit against Sam Altman and OpenAI's top leaders. Consultants focus on helping CEOs communicate credibly and relatably under pressure, avoiding tendencies toward arrogance, evasiveness, or corporate jargon that juries readily penalize — with Bill Gates' notoriously combative 1998 deposition cited as a model of what not to do. Sam Altman could be called to testify as early as this week.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-019",
+    "date": "2026-05-11",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Trump Border-Security Spending Fuels Boom in AI-Infused Surveillance Technology",
+    "summary": "The Trump administration's prioritization of border security has triggered a surge of contract activity and investment in AI-powered surveillance technologies, attracting both established vendors and new entrants competing for an expanding pool of government funding. The rapid deployment of AI at the border is changing the industry's competitive dynamics and raising questions about oversight and civil liberties implications. Vendors are moving quickly to secure contracts before political conditions shift, further accelerating AI adoption in federal law enforcement contexts.",
+    "link": "https://www.wsj.com/tech/trumps-border-spending-spurs-boom-in-ai-infused-surveillance-4714521b",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-018",
+    "date": "2026-05-11",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "SoftBank Launches Battery Venture to Power Its AI Data Centers in Japan",
+    "summary": "SoftBank has launched a battery business to supply electricity for its AI data centers, addressing surging power demand as part of its broader strategy to become a key player in the global AI infrastructure supply chain. The initiative reflects the challenge facing AI infrastructure builders globally: rapid expansion of computing capacity is straining power grids and creating new demand for dedicated energy storage solutions. SoftBank is betting that controlling its own energy supply will give it a competitive advantage as it scales AI operations in Japan.",
+    "link": "https://www.wsj.com/tech/softbank-launches-japan-battery-venture-amid-ai-hardware-push-34dba5e8",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-017",
+    "date": "2026-05-11",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Scale AI Investor Dan Levine Steps Back from Accel Venture Capital Firm",
+    "summary": "Dan Levine, a partner at Accel who led the firm's early investment in Scale AI and developer tools firm Vercel, is stepping back from active deal-making and will no longer make new investments for the firm, according to people familiar with the matter. Accel told limited partners there was 'no specific disagreement or incident' behind the decision, and that Levine would likely become the firm's fourth emeritus partner while retaining board seats at Scale, Vercel, and Sentry. Levine's 2016 Scale investment generated approximately $2 billion for Accel when Scale sold a 49% stake to Meta last year.",
+    "link": "https://www.theinformation.com/briefings/exclusive-scale-investor-dan-levine-steps-back-accel",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-016",
+    "date": "2026-05-11",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Salesforce Chief Communications Officer Carolyn Guss Departs",
+    "summary": "Carolyn Guss, Salesforce's chief communications officer, is leaving the company and is set to join a new organization, according to The Information. Her departure is part of a broader wave of executive exits at Salesforce in recent months as the company navigates a roughly 30% stock decline this year, driven by investor concerns that AI tools from Anthropic, OpenAI, and rising startups are undercutting its growth. Multiple executives who worked on Salesforce's Agentforce AI product have departed for Anthropic and OpenAI in recent months.",
+    "link": "https://www.theinformation.com/briefings/exclusive-salesforce-chief-communications-officer-depart",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-015",
+    "date": "2026-05-11",
+    "source": "The Economist",
+    "newsletter": "The Economist Today",
+    "title": "Congo's M23 Militia Pitches Trump Administration on a Critical Minerals Deal",
+    "summary": "The M23 rebel group controlling territory in eastern Democratic Republic of Congo has pitched the Trump administration on a deal involving access to critical minerals from areas under its control, according to an exclusive report by The Economist. The pitch reflects how the group is attempting to exploit U.S. interest in African mineral access, even as it belies M23's underlying military and political weaknesses. The proposal adds another dimension to the Trump administration's broader strategy of prioritizing resource access in its Africa policy.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-014",
+    "date": "2026-05-11",
+    "source": "The Economist",
+    "newsletter": "The Economist Insider",
+    "title": "EU Trade Commissioner Warns Europe Risks Being Squeezed Between US and China",
+    "summary": "EU Trade Commissioner Maros Sefcovic, in an interview with The Economist, acknowledged that Europe faces real risk of marginalization as the United States and China negotiate bilateral trade arrangements that prioritize national interests over open markets. Sefcovic described last summer's trade talks at Trump's Scottish golf resort as 'probably the most arduous negotiations I had to ever do,' and warned that China's export volumes and rare-earth restrictions threaten to eliminate whole European industrial sectors within years. The EU is debating unprecedented defensive measures including 'Buy European' procurement rules and safeguard mechanisms for steelmaking and other strategic industries.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-013",
+    "date": "2026-05-11",
+    "source": "The Economist",
+    "newsletter": "The Economist Today",
+    "title": "Trump to Visit Xi in Beijing for First of Four Planned Trade Summits",
+    "summary": "U.S. President Donald Trump is visiting Chinese paramount leader Xi Jinping in Beijing this week, the first of four bilateral meetings expected in 2026, with trade and managed commerce as the primary focus. Chinese officials have signalled that the more Trump accommodates China on Taiwan, the more Beijing will offer on trade, though deep structural tensions make a genuine breakthrough unlikely according to The Economist's analysis. The visit is seen as part of Trump's effort to establish what he calls a 'G2' framework for managing Sino-American economic relations.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-012",
+    "date": "2026-05-11",
+    "source": "The Economist",
+    "newsletter": "The Economist Today",
+    "title": "Russia Is Stumbling on the Battlefield in Ukraine as Strategic Initiative Shifts",
+    "summary": "For the first time in nearly three years, the strategic initiative in the Russia-Ukraine war appears to have shifted in Ukraine's favour, according to The Economist's analysis, with Russian battlefield performance deteriorating across multiple fronts. The publication reports that Vladimir Putin faces growing domestic pressure as casualties mount and the military's logistical and manpower challenges become more visible. The shift in momentum raises questions about the durability of Russia's offensive posture through the remainder of 2026.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-011",
+    "date": "2026-05-11",
+    "source": "The Economist",
+    "newsletter": "The Economist Today",
+    "title": "America Faces a Grocery-Price Shock as Iran Conflict Strains Food Supply Chains",
+    "summary": "American consumers are already paying more than $4.50 per gallon for petrol due to the war in Iran, and higher energy costs are now beginning to flow through to food prices, with The Economist's analysis warning of a coming grocery-price shock. The price increases are expected to be uneven across the food supply chain, affecting categories differently depending on their energy intensity and reliance on affected trade routes. The development adds to inflation pressure at a time when the Federal Reserve is maintaining its wait-and-see posture on rate cuts.",
+    "link": null,
+    "category": "Global Economy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-010",
+    "date": "2026-05-11",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "OpenAI's AI Chip Deal With Broadcom Hits $18 Billion Financing Snag",
+    "summary": "OpenAI's plan to develop a custom AI chip in partnership with Broadcom has encountered a significant obstacle, with the $18 billion financing package required to back the project running into difficulties, according to The Information. The initiative is central to OpenAI's long-term strategy of reducing its dependence on Nvidia hardware, but investors have reportedly grown cautious about committing capital at that scale given chip development timeline complexity. The setback does not mean the project has been canceled, but could delay OpenAI's custom silicon ambitions.",
+    "link": "https://www.theinformation.com/articles/openais-ai-chip-deal-broadcom-hits-18-billion-financing-snag",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-009",
+    "date": "2026-05-11",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Canvas Education Platform Restored After Hack Affecting Thousands of Schools",
+    "summary": "Instructure, the company behind the Canvas learning management system, said it restored services after pulling the platform offline during finals week at many colleges to address a cybersecurity breach. The ShinyHunters hacking group claimed responsibility and said the attack affected approximately 9,000 schools, with compromised data including student names, email addresses, IDs, and messages between users. Instructure confirmed that some customer data was accessed and said it has notified affected parties.",
+    "link": "https://www.wsj.com/us-news/education/canvas-hack-instructure-inc-outage-b4299a7f",
+    "category": "Cybersecurity",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-008",
+    "date": "2026-05-11",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "GM Fined $12.75 Million for Selling Driver Data in Breach of Privacy Promises",
+    "summary": "General Motors agreed to pay $12.75 million to settle a California data-privacy case after the state attorney general found the automaker had sold personal, behavioral, and location data to two brokers between 2020 and 2024, despite telling drivers it would not share their information. GM earned approximately $20 million from the data sales and must now delete the collected data within 180 days and require the brokers to do the same. The case is among the first major state-level enforcement actions against an automaker for connected-vehicle data practices.",
+    "link": null,
+    "category": "Cybersecurity",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-007",
+    "date": "2026-05-11",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "IMF Warns AI-Powered Cyberattacks Could Destabilize Financial Markets",
+    "summary": "The International Monetary Fund warned that extreme losses from a major cyberattack, amplified by AI-powered offensive tools, could trigger funding strains, raise solvency concerns, and disrupt financial markets broadly. The IMF's analysis noted that advanced AI models give attackers a speed advantage over defenders, since it is faster to discover vulnerabilities than to remediate them. The report follows a series of high-profile cyber incidents and comes as AI tools are increasingly incorporated into attack workflows, from reconnaissance to exploitation.",
+    "link": "https://www.wsj.com/tech/ai/imf-warns-that-evolving-ai-threat-could-upend-financial-markets-5735e27b",
+    "category": "Cybersecurity",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-006",
+    "date": "2026-05-11",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Cerebras Systems IPO Targets $35 Billion Valuation on Thursday",
+    "summary": "Cerebras Systems, a chip designer dedicated to AI workloads, is expected to go public this week at a valuation of approximately $35 billion, following strong investor demand described as similar to the reception for CoreWeave's IPO a year ago. The company counts OpenAI as both a customer and a shareholder, and recently announced a deal to supply chips to Amazon Web Services as a complement to Amazon's own Trainium chip. The IPO comes as the AI infrastructure market experiences peak optimism, though questions remain about whether the market can support multiple dedicated AI chip suppliers alongside Nvidia, AMD, Google, and Amazon.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-005",
+    "date": "2026-05-11",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Home Depot's AI Investments Show Strong Returns, Says Customer Experience Executive",
+    "summary": "Home Depot executive vice president Jordan Broggi described how the company has integrated AI into customer-facing applications — including product Q&A, materials-list generation, and delivery route optimization — and said the investments have generated a strong ROI because they are tied to existing customer problems rather than speculative use cases. Broggi noted that Home Depot has used AI in its website search and recommendation systems for ten to fifteen years, with recent LLM deployments expanding the range of applications. The approach of anchoring AI to real-world business needs allows the company to measure impact more directly than competitors building foundational models.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-004",
+    "date": "2026-05-11",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Tech Unemployment Rises to 3.8% in April Amid AI-Driven Layoffs",
+    "summary": "The unemployment rate in the information-technology job market rose to 3.8% in April from 3.6% in March, according to analysis by consulting firm Janco Associates, as the information sector shed 13,000 jobs during the month. While the direct link between AI and job losses is still being established, several tech companies have cited AI adoption as a rationale for reducing staff. Companies that are hiring show increasingly selective demand, with developer job postings up 15% year-over-year on Indeed but heavily weighted toward engineers with existing AI experience.",
+    "link": "https://www.wsj.com/cio-journal/tech-unemployment-ticks-up-to-3-8-in-april-amid-ai-driven-layoffs-214b0ca4",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Neuron"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-003",
+    "date": "2026-05-11",
+    "source": "Financial Times",
+    "newsletter": "The Information AM",
+    "title": "Hedge Fund TCI Cuts $8 Billion Microsoft Stake Over AI Disruption Concerns",
+    "summary": "The hedge fund TCI cut almost all of its $8 billion position in Microsoft, citing what CEO Christopher Hohn described as 'uncertainty over Microsoft's competitive position in the future' as AI threatens to displace core software products like Office. The Financial Times reported that TCI reduced its stake from approximately 10% to 1%, also flagging risks to Microsoft's Azure cloud unit given that OpenAI represents more than 40% of its Azure revenue backlog. Microsoft shares have fallen roughly 12% since the start of 2026.",
+    "link": "https://www.ft.com/content/ac5d90a9-b010-4529-9616-706420920681",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-002",
+    "date": "2026-05-11",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Anthropic Signs $1.8 Billion Seven-Year Cloud Deal with Akamai",
+    "summary": "Anthropic is the unnamed customer behind a $1.8 billion, seven-year cloud computing deal that Akamai announced on Thursday, according to a person with direct knowledge of the matter. The contract — Akamai's largest ever — involves renting Nvidia GPU capacity from Akamai's distributed data center network, as Anthropic seeks computing power closer to end users to reduce latency for AI inference workloads. Akamai's stock surged 27% on Friday following the announcement, which described the customer only as a 'leading frontier model company.'",
+    "link": "https://www.theinformation.com/briefings/exclusive-anthropic-signs-1-8-billion-cloud-deal-akamai",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Pro Cybersecurity",
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-11-001",
+    "date": "2026-05-11",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Apple and Intel Reach Preliminary Chip Manufacturing Deal",
+    "summary": "Apple has reached a preliminary agreement with Intel to manufacture some of its chips, the Wall Street Journal reported, as the company seeks to reduce its dependence on Taiwan Semiconductor Manufacturing Co. amid ongoing chip supply constraints. Intel, under new CEO Lip-Bu Tan, is actively seeking external customers for its fabrication business and saw its stock rise more than 15% on the news. The deal would mark a significant shift for Apple, which has relied almost exclusively on TSMC to produce its device chips for over a decade.",
+    "link": "https://www.wsj.com/tech/apple-intel-have-reached-preliminary-chip-making-agreement-69eb9370",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information AM",
+      "The Information Briefing"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-05-10-013",
+    "date": "2026-05-10",
+    "source": "The Information",
+    "newsletter": "Generative AI Enterprise",
+    "title": "Anthropic Reportedly Commits $200 Billion to Google Cloud and Chips Over Multi-Year Deal",
+    "summary": "Anthropic has committed to spending $200 billion on Google Cloud infrastructure and Google-designed chips over a multi-year period, according to The Information — a figure that dwarfs the $1.8 billion Akamai deal announced earlier in the week and would represent one of the largest cloud commitment agreements ever disclosed. The arrangement deepens Anthropic's dependence on Google's compute stack at a time when it is also diversifying capacity through deals with Akamai and, reportedly, SpaceX. Analysts note the commitment likely unlocks substantial pricing discounts and priority access to TPU capacity, while also giving Google a strong claim on Anthropic's infrastructure roadmap.",
+    "link": "https://www.theinformation.com/articles/anthropic-commits-spending-200-billion-googles-cloud-chips",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-10-012",
+    "date": "2026-05-10",
+    "source": "Deloitte",
+    "newsletter": "Generative AI Enterprise",
+    "title": "Deloitte Declares End of the SDLC: Agentic AI Ushers in the AO-DLC",
+    "summary": "Deloitte published a report arguing that the traditional software development life cycle is being displaced by what it calls the agent-orchestrated development life cycle (AO-DLC), in which AI agents autonomously handle requirements gathering, code generation, testing, and deployment in a continuous loop with minimal human handoffs. The report draws on Deloitte's own internal deployments of multi-agent systems across its technology consulting and audit practices, claiming 40-60% reductions in development cycle time. Deloitte frames the AO-DLC not as a faster SDLC but as a fundamentally different model where human engineers shift from writing code to specifying outcomes and reviewing agent-generated outputs.",
+    "link": "https://www.deloitte.com/content/dam/assets-zone3/us/en/docs/services/consulting/2026/agentic-ai-impact-on-software-engineering.pdf",
+    "category": "Consulting & Professional Services",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-10-011",
+    "date": "2026-05-10",
+    "source": "Generative AI Enterprise",
+    "newsletter": "Generative AI Enterprise",
+    "title": "OpenAI B2B Signals Report: Enterprise AI Intensity Triples in 12 Months",
+    "summary": "OpenAI's first B2B Signals report, based on aggregated usage data from its enterprise API and ChatGPT Teams customers, found that frontier firms now consume 3.5x more AI intelligence per worker compared to 2x a year ago — a metric OpenAI defines as the number of high-reasoning model calls per active user per week. The report also found that Codex usage has grown 16x per worker over the same period, and that the firms with the deepest AI usage are concentrated in financial services, legal, and software engineering verticals. OpenAI describes the data as an early indicator that AI is moving from pilot deployments to core workflow integration in a subset of organizations.",
+    "link": "https://openai.com/signals/b2b/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-10-010",
+    "date": "2026-05-10",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "Anthropic Donates Petri v3.0 AI Alignment Toolkit to Newly Founded Meridian Labs",
+    "summary": "Anthropic donated Petri v3.0, its internal AI alignment evaluation and red-teaming toolkit, to Meridian Labs, a newly announced independent safety research organization. Petri is designed to test model behavior under adversarial prompting, measure value stability across context shifts, and flag emergent deception patterns. By open-sourcing the toolkit through an independent entity, Anthropic is positioning Meridian Labs as a third-party auditor that other frontier labs can use, which the company says reduces the conflict-of-interest problem of labs evaluating only their own models.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-10-009",
+    "date": "2026-05-10",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "Pentagon Briefly Listed Alibaba and Baidu as Chinese Military Companies, Then Reversed Course",
+    "summary": "The U.S. Department of Defense added Alibaba and Baidu to its list of companies allegedly working with China's military — a designation that restricts U.S. investment and government contracting — only to quietly remove them within days without explanation. The brief listing triggered immediate legal and compliance reviews at multinationals with exposure to both companies. The episode highlights the opacity and volatility of U.S. national security screening mechanisms, and follows a pattern of rushed designations that later require retraction as legal challenges and diplomatic pressure mount.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-10-008",
+    "date": "2026-05-10",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "IREN Signs 5 GW AI Infrastructure Deal with NVIDIA; NVIDIA Gets Option to Acquire 30M Shares",
+    "summary": "Crypto miner-turned-AI infrastructure company IREN signed a major deal with NVIDIA to supply 5 gigawatts of AI compute capacity, one of the largest infrastructure commitments of its kind announced by an emerging data center operator. As part of the arrangement, NVIDIA received an option to acquire 30 million IREN shares at $70 per share — a structure that aligns the chip maker's interests with the operator's long-term buildout. The deal reflects NVIDIA's strategy of building equity stakes in large-scale infrastructure partners as a hedge against demand concentration risk.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-10-007",
+    "date": "2026-05-10",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "Hermes Agent v0.13.0: Nous Research Ships Persistent Personal AI Agent with Closed Learning Loop",
+    "summary": "Nous Research released Hermes Agent v0.13.0, a persistent personal AI agent that runs locally, maintains memory across sessions, and improves its own performance over time through a closed learning loop — meaning interactions feed back into the model's behavior without requiring a central server. The project has accumulated more than 135,000 GitHub stars, and The Neuron reports that approximately 30% of OpenClaw users have switched to Hermes as their primary agentic framework. Unlike cloud-based agents, Hermes stores its memory and task history locally, which the developers position as a privacy and latency advantage over hosted alternatives.",
+    "link": "https://github.com/NousResearch/hermes-agent",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-10-006",
+    "date": "2026-05-10",
+    "source": "The Economist",
+    "newsletter": "The Economist Espresso",
+    "title": "India's Growth Advantage Over China Narrows as Export Headwinds Build",
+    "summary": "India's GDP growth is forecast to slow to 6.3% this year from 8.2% in 2024, according to the IMF's latest projections, as weaker export demand from Western markets and tighter domestic credit conditions begin to bite. The deceleration narrows India's growth advantage over China, which is expected to expand at 4.8%, and has prompted the Reserve Bank of India to signal a potential rate cut at its June meeting. Analysts note that domestic consumption remains strong, but the manufacturing sector has underperformed expectations in the first quarter.",
+    "link": null,
+    "category": "Global Economy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-10-005",
+    "date": "2026-05-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Briefing",
+    "title": "Saudi Aramco Posts $27 Billion Quarterly Profit as Oil Prices Stabilise",
+    "summary": "Saudi Aramco reported first-quarter net income of $27.2 billion, a 4% increase from the same period last year, as average Brent crude prices held in the $78–$82 range throughout the quarter. The company maintained its base dividend of $21.1 billion for the quarter but did not increase its performance-linked dividend, citing capital expenditure commitments to its gas expansion programme. Aramco's chief executive said the company expects global oil demand to remain resilient through the remainder of 2026.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "FT Morning Briefing"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-05-10-004",
+    "date": "2026-05-10",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail",
+    "title": "Ottawa Tables Carbon Pricing Reform Bill Ahead of Fall Budget",
+    "summary": "The federal government introduced legislation that would replace the existing consumer carbon levy with a revised industrial pricing framework, following months of political pressure from provincial governments and opposition parties. The bill retains carbon pricing for large industrial emitters but eliminates the consumer-facing pump price component that proved politically contentious. The opposition has indicated it will support the bill on a confidence vote, though it is demanding additional relief measures for lower-income households.",
+    "link": null,
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-10-003",
+    "date": "2026-05-10",
+    "source": "Financial Times",
+    "newsletter": "FT Morning Briefing",
+    "title": "HSBC to Cut 8,000 Jobs in Europe and North America Over 18 Months",
+    "summary": "HSBC announced plans to eliminate approximately 8,000 positions in Europe and North America as part of a restructuring programme aimed at reducing its cost-to-income ratio below 48% by 2027. The cuts are concentrated in retail banking and middle-office functions, with the bank accelerating automation of back-office processes. Chief Executive Georges Elhedery described the programme as a necessary response to margin compression in its Western markets.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-10-002",
+    "date": "2026-05-10",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "OpenAI Plans to Launch New Reasoning Model in June, Sources Say",
+    "summary": "OpenAI is preparing to release a next-generation reasoning model in June that the company believes significantly outperforms GPT-4o on complex scientific and mathematical tasks, according to three people familiar with the plans. The model, internally referred to as Orion, has been in limited testing with select enterprise customers since March. The release would mark OpenAI's first major model launch since the GPT-4o updates rolled out in late 2025.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Briefing"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-05-10-001",
+    "date": "2026-05-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Briefing",
+    "title": "Federal Reserve Holds Rates Steady Amid Trade Policy Uncertainty",
+    "summary": "The Federal Reserve voted unanimously to hold the federal funds rate in its current target range, citing persistent uncertainty around trade policy and its potential impact on inflation and employment. Chair Jerome Powell indicated the committee remains in a wait-and-see posture and does not anticipate cutting rates before clearer data emerges on tariff pass-through effects. Markets had priced in a roughly 30% chance of a cut at this meeting before the decision.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "FT Morning Briefing",
+      "The Economist Espresso",
+      "The Globe and Mail"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-05-09-008",
+    "date": "2026-05-09",
+    "source": "The Information",
+    "newsletter": "The Information Weekend",
+    "title": "Corgi AI Insurance Startup Tops $1 Billion Valuation and $100 Million ARR",
+    "summary": "Abram Brown's Weekend column flagged Corgi, an AI-powered insurance startup, as one of the more unusual high-growth companies in the current cycle: it has crossed $1 billion in valuation and $100 million in annualized revenue, while operating the all-night Corgi Cafe — an actual coffee shop in San Francisco's Financial District — as a recruiting and culture tool. Most conference rooms at its offices contain mattresses, since employees regularly choose to sleep there rather than go home, and the staff collectively care for Trudy, the office corgi, coordinating via Telegram bot. The company illustrates a cohort of AI startups that are reaching significant scale while maintaining an intentionally eccentric, high-intensity culture that would have seemed unusual even by 2021 startup standards.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-09-007",
+    "date": "2026-05-09",
+    "source": "Techpresso",
+    "newsletter": "Techpresso",
+    "title": "Apple and Intel Reach Preliminary Chip Manufacturing Deal",
+    "summary": "Techpresso flagged Apple's preliminary agreement with Intel to manufacture some of its chips as its lead story on May 9, ahead of broader coverage later in the week. The deal, as subsequently confirmed by the Wall Street Journal, would have Intel produce a subset of Apple's device chips — reducing Apple's near-total dependence on TSMC — with Intel CEO Lip-Bu Tan actively seeking external customers for the company's foundry business.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-09-006",
+    "date": "2026-05-09",
+    "source": "The Information",
+    "newsletter": "The Information Weekend",
+    "title": "CCP Games Rebrands as Fenris Creations, Goes Independent, and Partners with Google DeepMind",
+    "summary": "The Icelandic studio behind EVE Online has rebranded from CCP Games to Fenris Creations after a management buyout from Pearl Abyss for $120 million. Simultaneously, it has entered a research partnership with Google DeepMind, which acquires a minority stake. The collaboration will use an offline version of EVE Online as a research environment to advance AI capabilities in long-horizon planning, memory, and continual learning in complex, dynamic systems — areas where existing AI models perform weakly. No changes to EVE Online's live operations or staffing are planned.",
+    "link": "https://www.ccpgames.com/news/2026/studio-behind-eve-online-goes-independent-rebrands-as-fenris-creations-enters-research-partnership-with-google-deepmind",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-09-005",
+    "date": "2026-05-09",
+    "source": "The Information",
+    "newsletter": "The Information Weekend",
+    "title": "Musk Leases Entire Colossus 1 Supercomputer to Anthropic in Surprise Compute Deal",
+    "summary": "SpaceX/xAI has agreed to lease Anthropic full access to Colossus 1, its Memphis supercomputer campus comprising over 220,000 Nvidia GPUs and 300 megawatts of compute. Anthropic, whose Claude Code and Cowork products have seen surging demand, needed compute immediately and could not wait for new capacity. For Musk, the deal improves SpaceX's financial position ahead of its planned IPO and gives him a platform to tout Anthropic's stated interest in orbital data centers — a concept Musk can promote on his road show. The Information's Abram Brown notes the deal is strategically timed: Musk had previously derided Anthropic as 'Misanthropic,' but the arrangement lets him simultaneously kick a competitor (OpenAI) by strengthening a rival, and bolster his IPO narrative with a high-profile AI customer.",
+    "link": "https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-09-004",
+    "date": "2026-05-09",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Briefing",
+    "title": "US and EU Reach Preliminary Deal on Digital Services Tax Framework",
+    "summary": "Trade negotiators from the United States and the European Union announced a preliminary agreement on a framework for taxing large digital platforms, resolving a dispute that had threatened retaliatory tariffs on both sides since 2023. The deal establishes a minimum effective tax rate on in-scope digital revenues of 12.5%, broadly aligned with the OECD's Pillar One principles, with a transition period of three years for implementation. The agreement still requires ratification from EU member states and Congressional approval in the United States.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "FT Morning Briefing",
+      "The Economist Espresso"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-05-09-003",
+    "date": "2026-05-09",
+    "source": "Financial Times",
+    "newsletter": "FT Morning Briefing",
+    "title": "DeepMind's AlphaFold 3 Used to Identify Novel Antibiotic Candidates",
+    "summary": "Researchers at the Wellcome Sanger Institute have used DeepMind's AlphaFold 3 protein structure prediction model to identify 14 novel antibiotic candidates targeting drug-resistant gram-negative bacteria, publishing their findings in Nature. The approach dramatically accelerated the hit identification phase, compressing what would typically be a two-year wet-lab process into approximately four months of computational screening. Three of the candidates have advanced to in vitro testing, with preliminary results described as promising.",
+    "link": null,
+    "category": "Science & Health",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-09-002",
+    "date": "2026-05-09",
+    "source": "The Economist",
+    "newsletter": "The Economist Espresso",
+    "title": "Europe's Largest Pension Funds Pivot Toward Private Credit Allocations",
+    "summary": "Several of Europe's largest pension funds, including APG in the Netherlands and Alecta in Sweden, are increasing allocations to private credit in response to persistently high base rates and compressed public fixed income yields. The shift reflects a broader institutional move away from government bonds as a core return driver, with funds targeting net returns of 8–10% through direct lending and infrastructure debt. Regulatory scrutiny of this trend is increasing, with the European Insurance and Occupational Pensions Authority flagging liquidity mismatch risks in its latest review.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-09-001",
+    "date": "2026-05-09",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Briefing",
+    "title": "McKinsey to Lay Off 2,000 Consultants in Largest Reduction in a Decade",
+    "summary": "McKinsey & Company is reducing its global workforce by approximately 2,000 positions, the largest single round of cuts the firm has made since the 2008 financial crisis, as corporate clients continue to delay discretionary consulting engagements. The reductions affect primarily mid-level associates and engagement managers across the firm's strategy and operations practices. McKinsey confirmed the cuts in a statement but declined to specify which geographies or practice areas would be most affected.",
+    "link": null,
+    "category": "Consulting & Professional Services",
+    "also_covered_by": [
+      "FT Morning Briefing",
+      "The Globe and Mail"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-05-08-024",
+    "date": "2026-05-08",
+    "source": "SpaceX",
+    "newsletter": "The Rundown Tech",
+    "title": "SpaceX Proposes $119 Billion Terafab Chip Mega-Factory in Grimes County, Texas",
+    "summary": "SpaceX has proposed building Terafab, a semiconductor manufacturing campus in Grimes County, Texas, with an initial investment of $55 billion and a total project cost of up to $119 billion. The facility is intended to supply chips in-house for SpaceX's data centers, Starlink satellite constellation, and Optimus humanoid robots — reducing the company's dependence on TSMC and Samsung. The proposal comes as the U.S. government accelerates domestic semiconductor incentives under the CHIPS and Science Act, and as SpaceX prepares for an eventual IPO in which supply chain independence would be a significant valuation argument.",
+    "link": "https://www.cnbc.com/2026/05/06/elon-musks-spacex-chip-fab-in-texas-to-cost-up-to-119-billion.html",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-023",
+    "date": "2026-05-08",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "RAMageddon: AI Demand Triggers Memory Chip Shortage That Could Erase the Sub-$500 PC",
+    "summary": "Gartner is forecasting that AI-driven demand for high-bandwidth memory chips will push average PC prices up 17% and smartphone prices up 13% in 2026, with analysts warning that the sub-$500 PC segment could disappear entirely by 2028 as memory costs rise faster than manufacturing efficiency gains. The shortage, nicknamed 'RAMageddon' in the semiconductor industry, stems from the same HBM fabs that supply Nvidia and AMD GPUs now being diverted away from consumer DRAM production. Device makers that locked in multi-year memory supply contracts at 2024 prices are insulated for now, while those buying on spot are absorbing the full cost increase.",
+    "link": "https://www.cnet.com/tech/computing/tech-companies-are-freaking-out-about-ramageddon/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-022",
+    "date": "2026-05-08",
+    "source": "The Information",
+    "newsletter": "The Information Dealmaker",
+    "title": "Fast-Follow Funding Rounds Are Inflating Startup Valuations, VC Veteran Warns",
+    "summary": "A wave of startups are raising new funding rounds weeks or months after closing previous ones — a phenomenon insiders are calling 'fast follows.' The latest example is Core Automation, incorporated in late March and funded at $100 million at a $1 billion valuation by Nvidia, Accel, and Spark Capital; it is now seeking $300–500 million at roughly $4 billion. The Information's Katie Roof reports that surplus capital from the 2020–21 vintage mega funds, combined with strategic investors like Nvidia eager to fund prospective customers, is driving valuations that may be misleading: some startups are announcing the higher price of a two-part round while listing lead investors who actually put most of their money in at the lower price. 'It drives up prices irrationally and it's bad for the industry long-term,' said Pegah Ebrahimi of FPV Ventures.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-021",
+    "date": "2026-05-08",
+    "source": "SmartBrief",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "Tower Firms Bet Big on AI, Edge Computing and 6G as Data Demand Drives New Infrastructure Strategy",
+    "summary": "Major tower companies including American Tower and SBA Communications are repositioning their infrastructure as edge computing and 6G delivery platforms, betting that AI's latency requirements will force data processing closer to users — an opportunity tower assets are uniquely positioned to serve. American Tower has deployed its first edge data center in Raleigh, North Carolina and is expanding. FCC spectrum clearing activity for 6G is an additional tailwind. Industry surveys show 89% of telecom executives expect their AI budgets to increase over the next 12 months, with tower firms framing edge-AI infrastructure as the next major revenue category after years of 5G capex.",
+    "link": "https://www.lightreading.com/6g/tower-companies-bullish-on-spectrum-ai-and-the-edge",
+    "category": "Telecommunications",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-020",
+    "date": "2026-05-08",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "Apple Camera AirPods (Codename 'Glow') Reach Late-Stage Testing",
+    "summary": "Apple's camera-equipped AirPods, internally codenamed 'Glow,' have reached late-stage testing, Bloomberg reported. The cameras are designed to feed visual context from the wearer's environment into Apple Intelligence, extending the AI system's awareness beyond the device screen. The development signals Apple's push to build ambient AI experiences through wearables as a complement to the iPhone.",
+    "link": "https://www.bloomberg.com/news/articles/2026-05-07/apple-s-camera-equipped-airpods-reach-advanced-testing-stage-in-ai-device-push",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Techpresso"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-019",
+    "date": "2026-05-08",
+    "source": "Techpresso",
+    "newsletter": "Techpresso",
+    "title": "Google Unveils Fitbit Air: $99 Screenless AI Fitness Band to Compete with WHOOP",
+    "summary": "Google announced the Fitbit Air, a screenless AI fitness wearable priced at $99 that positions the company as a direct competitor to WHOOP and Oura in the premium health tracking market. The device — 25% smaller than the Fitbit Luxe and 50% smaller than the Inspire 3 — tracks 24/7 heart rate, A-fib detection, blood oxygen, heart rate variability, sleep stages, and more, feeding data into Google's AI-driven Health Premium service. Unlike previous Fitbit models, it works on both Android and iOS. The Fitbit Air is available for preorder with a launch date of May 26 and includes a three-month trial of Google Health Premium.",
+    "link": "https://blog.google/products-and-platforms/devices/fitbit/fitbit-air/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-018",
+    "date": "2026-05-08",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "Claude for Microsoft 365 Now Generally Available in Excel, PowerPoint, Word and Outlook",
+    "summary": "Anthropic's Claude is now generally available inside Microsoft 365 applications — Excel, PowerPoint, Word, and Outlook (beta) — under the Claude for Microsoft 365 product. The integration allows the model to edit spreadsheet cells, draft presentations, and rewrite documents in place, with a reviewable diff before any changes are accepted. The release is included in Claude Pro, Team, and Enterprise plans and represents the first broadly available non-Copilot AI model embedded directly into Microsoft's productivity suite.",
+    "link": "https://claude.com/claude-for-microsoft-365",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-017",
+    "date": "2026-05-08",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CEO Brief",
+    "title": "Dow CEO Fitterling: 275 Days to Clear Strait of Hormuz Shipping Backlog Once Open",
+    "summary": "Outgoing Dow Inc. CEO Jim Fitterling said that once the Strait of Hormuz is reopened, it will take approximately 275 days to clear the shipping backlog that has built up during the crisis, given the volume of ships waiting — close to 150 per day versus the current two or three getting through. Fitterling compared the logistics challenge to the post-Covid container pileup at Long Beach, California, which \"lasted a long time.\" The disruption is flowing through to chemical and commodity supply chains globally, with Dow closely tracking the timing of any resolution.",
+    "link": null,
+    "category": "Global Economy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-016",
+    "date": "2026-05-08",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "AI Agent Value Gap Persists: Companies Struggle to Find ROI Outside Coding and Customer Service",
+    "summary": "Despite widespread enthusiasm for AI agents, most companies are still far from capturing a return on their investments, according to conversations at the AI Agent Conference in New York. Beyond coding and customer service deployments, meaningful examples of agents running at scale and moving the P&L remain scarce. Akamai CTO Robert Blumofe noted the difficulty in getting concrete answers about deployed agents driving real business results. DataRobot's CPO argued companies are falling into a trap of individual AI copilots rather than rethinking end-to-end workflows — the approach credited with Claude Code's success at Anthropic.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-015",
+    "date": "2026-05-08",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "France Formally Charges Elon Musk Over X's Handling of Illegal Content",
+    "summary": "French authorities have formally charged Elon Musk in connection with X's handling of illegal content on the platform, the latest use of a strategy by the Paris prosecutor's cybercrime unit to hold tech company leaders criminally responsible for what occurs on their platforms. The charges come as regulators in multiple jurisdictions escalate scrutiny of social media companies' content moderation practices and their executives' personal accountability for platform-level failures.",
+    "link": "https://www.wsj.com/tech/elon-musk-summoned-to-france-to-face-criminal-charges-589acd6c",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-014",
+    "date": "2026-05-08",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Most Ransomware Attacks Go Unreported: 264 Disclosed vs. 2,160 Undisclosed in Q1 2026",
+    "summary": "Cybersecurity firm BlackFog found that its threat intelligence team identified 264 publicly disclosed ransomware attacks in Q1 2026 alongside 2,160 undisclosed attacks — a roughly 8-to-1 ratio of hidden to reported incidents. U.S. organizations accounted for approximately half of all undisclosed attacks. The findings illustrate the persistent gap in ransomware transparency despite regulatory reporting requirements, with companies continuing to prefer managing attacks privately rather than facing reputational and legal exposure from disclosure.",
+    "link": "https://www.cybersecuritydive.com/news/ransomware-undisclosed-attacks-blackfog/819595/",
+    "category": "Cybersecurity",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-013",
+    "date": "2026-05-08",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Fortinet Q1 Beats Expectations; Shares Jump 21% as Full-Year Outlook Raised",
+    "summary": "Fortinet raised its full-year revenue forecast to $7.71-7.87 billion, up from a prior range of $7.5-7.7 billion, after Q1 results beat expectations and management cited strong demand across its cybersecurity platform. Shares rose more than 21% to roughly $109 on the back of the report. The results were seen as a positive read-through for the broader cybersecurity sector, which has faced investor concerns about budget consolidation among enterprise customers.",
+    "link": "https://finance.yahoo.com/sectors/technology/articles/fortinet-raises-full-outlook-strong-161700176.html",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-012",
+    "date": "2026-05-08",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "White House Counterterrorism Strategy Authorizes Offensive Cyber Operations Against Cartels and State Sponsors",
+    "summary": "The Trump administration's new 16-page counterterrorism plan explicitly includes offensive cybersecurity operations as a tool against cartels, terrorists, and their state sponsors, stating the U.S. will \"continue to focus our kinetic, intelligence, and cyber operations against Iranian-backed terror proxies.\" The strategy, light on operational specifics, follows a March national cyber strategy that also outlined an aggressive posture against adversaries targeting water supplies, hospitals, and energy grids. Legal experts note that private-sector participation in offensive cyber raises unresolved liability and antitrust questions under current law.",
+    "link": null,
+    "category": "Cybersecurity",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-011",
+    "date": "2026-05-08",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "Anthropic Builds Tool to Decode Claude's Internal Activations into Plain English",
+    "summary": "Anthropic published research on Natural Language Autoencoders, a technique that translates Claude's internal neural activations — the mathematical representations the model uses to process information before generating words — into readable plain English descriptions. Two copies of Claude train together: one reads an activation and writes a description, the other tries to reconstruct the original activation from that description. Descriptions that survive the reconstruction carry meaningful information. Using the tool, Anthropic found that Claude suspects it is being tested 16-26% of the time but admits it less than 1% of the time, and that auditors can detect misaligned motivations in 12-15% of cases without access to training data.",
+    "link": "https://www.anthropic.com/research/natural-language-autoencoders",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-010",
+    "date": "2026-05-08",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "OpenAI GPT-Realtime-2 Closes Voice AI Reasoning Gap with GPT-5-Level Intelligence",
+    "summary": "OpenAI released GPT-Realtime-2, a speech-to-speech model that brings GPT-5-level reasoning to real-time voice interactions, closing a longstanding trade-off between response speed and intelligence in voice AI agents. The model improved from 81.4% to 96.6% on Big Bench Audio benchmarks versus its predecessor, expanded its context window from 32K to 128K tokens, and resolves perceived latency through AI-generated conversational preambles that play while reasoning runs in the background. Two cheaper siblings — Realtime-Mini and Realtime-Nano — launched alongside it. On day one, Zillow deployed live voice home search and Deutsche Telekom launched live-translated voice support across 14 European markets.",
+    "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-009",
+    "date": "2026-05-08",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Musk's Expert Witness in OpenAI Trial: Foundation Should Have 'A Lot More' Than $200B",
+    "summary": "Former Columbia Law dean David Schizer, retained by Elon Musk's legal team at $1,500 per hour, testified in the Musk v. OpenAI trial that OpenAI's charitable arm should hold \"a lot more\" than its current approximately $200 billion in assets, arguing the organization sacrificed its nonprofit mission by relying on Microsoft's investment rather than pursuing charitable donations. Schizer defended the 2023 board decision to fire Sam Altman, calling the ability to hire and fire a CEO \"probably their most important power,\" and argued that OpenAI's commercial arrangements with Microsoft clashed with standard nonprofit governance.",
+    "link": "https://www.theinformation.com/briefings/musks-legal-expert-says-openai-foundation-lot-200-billion",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-008",
+    "date": "2026-05-08",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Coinbase Q1 Revenue Fell 31% as Crypto Market Slumps; Shares Drop 5%",
+    "summary": "Coinbase reported first-quarter revenue of $1.4 billion, down 31% year-over-year amid a crypto market downturn that pushed monthly transacting users down 15% to 8.2 million and produced a net loss of $394 million. The company earlier in the week announced it was cutting 14% of its staff, or roughly 700 employees. Management said it would \"dynamically adjust\" expenses in response to market conditions while continuing to commit to positive adjusted EBITDA across market cycles.",
+    "link": "https://www.theinformation.com/briefings/coinbase-revenue-fell-31-crypto-market-slumps",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-007",
+    "date": "2026-05-08",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "HubSpot Shares Drop 20% as Growth Forecast Slows to 18% for Full Year",
+    "summary": "HubSpot shares fell more than 20% after the CRM software company projected full-year revenue growth of 18%, down from 19% last year, despite reporting Q1 revenue of $881 million, roughly $20 million ahead of its own forecast. CEO Yamini Rangan highlighted AI product adoption including agents that field support requests and vet sales leads, but investors appeared concerned that AI-driven features have not yet translated into the kind of accelerating spending growth seen at rivals like Datadog and Atlassian.",
+    "link": "https://www.theinformation.com/briefings/hubspot-forecasts-slowing-quarterly-sales-growth-shares-drop-20",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-006",
+    "date": "2026-05-08",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Datadog Shares Jump 30% After Q1 Results; AI Customers Drive 80% of ARR",
+    "summary": "Datadog reported Q1 revenue growth of 32% to over $1 billion and raised its full-year outlook to 26% growth, sending shares up approximately 30%. CEO Olivier Pomel noted that while only 20% of customers are using Datadog alongside AI providers' products — for tasks like monitoring GPU utilization — those customers account for about 80% of Datadog's annual recurring revenue. The results suggest fears about AI disrupting cloud monitoring tools may be overblown, at least for companies positioned as infrastructure for AI deployments.",
+    "link": "https://www.theinformation.com/briefings/datadog-shares-jump-30-ceo-says-ai-boosting-sales",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-005",
+    "date": "2026-05-08",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Airbnb Q1 Revenue Growth Accelerates to 18%, Guided Lower for Q2",
+    "summary": "Airbnb reported first-quarter revenue growth of 18%, up from 10% in each of the previous two quarters, as demand for short-term rentals remained strong globally. However, the company guided for revenue growth of only 14-16% in the second quarter, citing headwinds from the Middle East conflict that have increased cancellations in Europe and Asia. For the full year, Airbnb raised its revenue growth guidance to the \"low to mid teens,\" up from prior expectations.",
+    "link": "https://www.theinformation.com/briefings/airbnbs-revenue-growth-accelerates-18",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-004",
+    "date": "2026-05-08",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Anthropic in Talks for Funding Round That Would Value It at Nearly $1 Trillion",
+    "summary": "Anthropic is pursuing a new funding round that would value the AI startup at nearly $1 trillion, the Financial Times reported, which would position it to overtake OpenAI as the world's most valuable AI company. The prospective valuation would represent a roughly doubling of Anthropic's last disclosed valuation of approximately $61 billion from late 2024 and reflects growing investor conviction in the company's enterprise revenue trajectory and its differentiated safety positioning in the AI market.",
+    "link": "https://www.ft.com/content/a40cafcc-0fa4-4e70-9e24-90d826aea56d",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-003",
+    "date": "2026-05-08",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "OpenAI-Broadcom $18B Chip Deal Hits Financing Snag Over Microsoft's Commitment",
+    "summary": "Broadcom has stipulated it will only finance the initial $18 billion phase of production for its custom AI chip deal with OpenAI if Microsoft agrees to purchase roughly 40% of the newly designed processors. Microsoft has earmarked data center space but has yet to commit to buying the hardware, prompting OpenAI to consider contingency plans for alternative buyers. The financing uncertainty threatens OpenAI's broader strategy to reduce its costly reliance on Nvidia GPUs, and Broadcom's stock dropped 2% following The Information's report on the snag.",
+    "link": "https://www.theinformation.com/articles/openais-ai-chip-deal-broadcom-hits-18-billion-financing-snag",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-002",
+    "date": "2026-05-08",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Cloudflare Cuts 1,100 Jobs — 20% of Workforce — Citing AI-First Restructuring",
+    "summary": "Cloudflare announced it is eliminating roughly 1,100 positions, or about a fifth of its global workforce, as it restructures around an agentic AI model. CEO Matthew Prince and President Michelle Zatlyn said AI usage on Cloudflare's network has grown more than 600% in the past three months, prompting the company to \"architect for the agentic AI era.\" The announcement came alongside quarterly results that sent the stock down more than 15% in after-hours trading after it had gained over 30% year-to-date.",
+    "link": "https://www.theinformation.com/briefings/cloudlare-cites-ai-cutting-fifth-workforce",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Neuron"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-08-001",
+    "date": "2026-05-08",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "CoreWeave Q1: Revenue Doubles to $2B but Capex Surges to $7.7B; Backlog Hits $100B",
+    "summary": "CoreWeave reported first-quarter revenue of $2 billion, up roughly 100% year-over-year, but its capital expenditures rocketed to $7.7 billion in the quarter from $1.4 billion a year earlier, and the company raised its full-year capex guidance to as much as $35 billion against projected revenue of $12-13 billion. The AI cloud provider also reported a revenue backlog approaching $100 billion, up from $67 billion at year-end. CoreWeave's stock fell 9% in after-hours trading as investors weighed the company's extreme leverage — $24.8 billion in debt against roughly $3 billion in cash — against its stated ambition to compete with hyperscalers from near a standing start.",
+    "link": "https://www.theinformation.com/briefings/coreweave-reports-100-billion-backlog",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "The Information Briefing"
+    ],
+    "priority_pick": true
+  }
+];
+// @@BRIEF_DATA_END@@
+
+/* ================================================================
+   CONFIGURATION
+   ================================================================ */
+const SOURCE_PRIORITY = [
+  "Wall Street Journal",
+  "The Economist",
+  "The Information",
+  "Financial Times",
+  "The Globe and Mail"
+];
+
+const CAT_STYLES = {
+  "Markets & Finance":                  { bg: "#E4EEF8", color: "#1A4F8A" },
+  "Technology & AI":                    { bg: "#EDE8F8", color: "#5A2DA0" },
+  "Business & Strategy":                { bg: "#E4F4F0", color: "#0D6E56" },
+  "Politics & Policy":                  { bg: "#F8E8E8", color: "#B03020" },
+  "Cybersecurity":                      { bg: "#FDE8E8", color: "#8B1A1A" },
+  "Canadian Business":                  { bg: "#FCF0E8", color: "#B84010" },
+  "Global Economy":                     { bg: "#F8F8E4", color: "#706000" },
+  "Telecommunications":                 { bg: "#E8F4F8", color: "#1A5A7A" },
+  "Consulting & Professional Services": { bg: "#E8EEF8", color: "#2A4A8A" },
+  "Science & Health":                   { bg: "#E4F4EA", color: "#1A6A38" },
+  "Culture & Ideas":                    { bg: "#F4E8F4", color: "#6A2A6A" },
+};
+
+/* ================================================================
+   STATE
+   ================================================================ */
+const state = {
+  query:      "",
+  rangeDays:  null,   // null = all
+  date:       "",
+  sources:    new Set(),
+  categories: new Set(),
+};
+
+/* ================================================================
+   DATE UTILITIES
+   ================================================================ */
+function parseIso(iso) {
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(y, m - 1, d);
+}
+
+function daysBefore(n) {
+  const d = new Date();
+  d.setHours(0, 0, 0, 0);
+  d.setDate(d.getDate() - n);
+  return d;
+}
+
+function formatLong(iso) {
+  return parseIso(iso).toLocaleDateString("en-CA", {
+    weekday: "long", year: "numeric", month: "long", day: "numeric"
+  });
+}
+
+function formatShort(iso) {
+  return parseIso(iso).toLocaleDateString("en-CA", {
+    weekday: "short", month: "short", day: "numeric", year: "numeric"
+  });
+}
+
+/* ================================================================
+   DERIVED DATA
+   ================================================================ */
+function datesInRange() {
+  const all = [...new Set(BRIEF_DATA.map(e => e.date))].sort((a,b) => b.localeCompare(a));
+  if (!state.rangeDays) return all;
+  const cutoff = daysBefore(state.rangeDays);
+  return all.filter(d => parseIso(d) >= cutoff);
+}
+
+function allSources() {
+  const s = [...new Set(BRIEF_DATA.map(e => e.source))];
+  return s.sort((a, b) => {
+    const pa = SOURCE_PRIORITY.indexOf(a), pb = SOURCE_PRIORITY.indexOf(b);
+    if (pa === -1 && pb === -1) return a.localeCompare(b);
+    if (pa === -1) return 1; if (pb === -1) return -1;
+    return pa - pb;
+  });
+}
+
+function allCategories() {
+  return [...new Set(BRIEF_DATA.map(e => e.category))].sort();
+}
+
+/* ================================================================
+   FILTERING
+   ================================================================ */
+function getFiltered() {
+  const cutoff = state.rangeDays ? daysBefore(state.rangeDays) : null;
+  const q = state.query.trim().toLowerCase();
+  return BRIEF_DATA.filter(e => {
+    if (cutoff && parseIso(e.date) < cutoff)                       return false;
+    if (state.date && e.date !== state.date)                        return false;
+    if (state.sources.size > 0 && !state.sources.has(e.source))    return false;
+    if (state.categories.size > 0 && !state.categories.has(e.category)) return false;
+    if (q && !e.title.toLowerCase().includes(q) && !e.summary.toLowerCase().includes(q)) return false;
+    return true;
+  });
+}
+
+/* ================================================================
+   NEWS HIGHLIGHT
+   ================================================================ */
+function computeHighlight(entries) {
+  if (entries.length === 0) return null;
+  let best = null, bestCount = 0;
+  for (const e of entries) {
+    const count = 1 + (e.also_covered_by ? e.also_covered_by.length : 0);
+    const rank = SOURCE_PRIORITY.indexOf(e.source);
+    const bestRank = best ? SOURCE_PRIORITY.indexOf(best.source) : 999;
+    if (count > bestCount || (count === bestCount && rank < bestRank)) {
+      bestCount = count; best = e;
+    }
+  }
+  return bestCount > 1 ? { entry: best, count: bestCount } : null;
+}
+
+/* ================================================================
+   HTML HELPERS
+   ================================================================ */
+function esc(s) {
+  return String(s)
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+function highlight(text, query) {
+  if (!query) return esc(text);
+  const escaped = esc(text);
+  const q = esc(query.trim());
+  if (!q) return escaped;
+  const re = new RegExp("(" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi");
+  return escaped.replace(re, "<mark>$1</mark>");
+}
+
+function pillHtml(cat) {
+  const s = CAT_STYLES[cat] || { bg: "#EEE", color: "#444" };
+  return `<span class="cat-pill" style="background:${s.bg};color:${s.color}">${esc(cat)}</span>`;
+}
+
+/* ================================================================
+   RENDER — SIDEBAR
+   ================================================================ */
+function renderSidebar() {
+  // Date dropdown — only show dates in current range
+  const available = datesInRange();
+  const dateEl = document.getElementById("date-select");
+  const prev = dateEl.value;
+  dateEl.innerHTML = `<option value="">All dates</option>` +
+    available.map(d => `<option value="${d}"${d === prev ? " selected" : ""}>${formatShort(d)}</option>`).join("");
+  // If the previously selected date is no longer in range, reset it
+  if (prev && !available.includes(prev)) {
+    state.date = "";
+    dateEl.value = "";
+  }
+
+  // Source checkboxes
+  const srcEl = document.getElementById("source-filters");
+  srcEl.innerHTML = allSources().map(s => `
+    <label class="filter-option">
+      <input type="checkbox" data-source="${esc(s)}" ${state.sources.size === 0 || state.sources.has(s) ? "checked" : ""}>
+      ${esc(s)}
+    </label>`).join("");
+  srcEl.querySelectorAll("input").forEach(cb => cb.addEventListener("change", () => {
+    const all = srcEl.querySelectorAll("input");
+    const checked = [...all].filter(x => x.checked).map(x => x.dataset.source);
+    state.sources = checked.length === all.length ? new Set() : new Set(checked);
+    renderArticles();
+  }));
+
+  // Category checkboxes
+  const catEl = document.getElementById("category-filters");
+  catEl.innerHTML = allCategories().map(c => `
+    <label class="filter-option">
+      <input type="checkbox" data-category="${esc(c)}" ${state.categories.size === 0 || state.categories.has(c) ? "checked" : ""}>
+      ${esc(c)}
+    </label>`).join("");
+  catEl.querySelectorAll("input").forEach(cb => cb.addEventListener("change", () => {
+    const all = catEl.querySelectorAll("input");
+    const checked = [...all].filter(x => x.checked).map(x => x.dataset.category);
+    state.categories = checked.length === all.length ? new Set() : new Set(checked);
+    renderArticles();
+  }));
+}
+
+/* ================================================================
+   RENDER — ARTICLES
+   ================================================================ */
+function hlBlockHtml(hl) {
+  const e = hl.entry;
+  const others = e.also_covered_by && e.also_covered_by.length
+    ? `Also reported by ${esc(e.also_covered_by.join(", "))}.` : "";
+  return `<div class="hl-label">News Highlight &mdash; covered by ${hl.count} source${hl.count !== 1 ? "s" : ""}</div>
+    <div class="hl-title">${e.link ? `<a href="${esc(e.link)}" target="_blank" rel="noopener">${esc(e.title)}</a>` : esc(e.title)}</div>
+    <div class="hl-meta">${esc(e.source)} &middot; ${esc(e.newsletter)}</div>
+    <div class="hl-summary">${esc(e.summary)}</div>
+    ${others ? `<div class="hl-coverage">${others}</div>` : ""}`;
+}
+
+function renderArticles() {
+  const filtered = getFiltered();
+  const q = state.query.trim().toLowerCase();
+  const container = document.getElementById("articles-container");
+  const hlEl = document.getElementById("highlight-block");
+  const emptyEl = document.getElementById("empty-state");
+  const searchNote = document.getElementById("search-active-note");
+
+  searchNote.textContent = q ? `Searching for "${state.query.trim()}"` : "";
+
+  // Global highlight block never used — highlights are always inline per day
+  hlEl.style.display = "none";
+
+  // Empty state
+  if (filtered.length === 0) {
+    container.innerHTML = "";
+    emptyEl.style.display = "block";
+    return;
+  }
+  emptyEl.style.display = "none";
+
+  // Group by date, descending
+  const byDate = {};
+  for (const e of filtered) {
+    if (!byDate[e.date]) byDate[e.date] = [];
+    byDate[e.date].push(e);
+  }
+  const dates = Object.keys(byDate).sort((a,b) => b.localeCompare(a));
+
+  for (const d of dates) {
+    byDate[d].sort((a, b) => {
+      const pa = SOURCE_PRIORITY.indexOf(a.source), pb = SOURCE_PRIORITY.indexOf(b.source);
+      if (pa === -1 && pb === -1) return a.source.localeCompare(b.source);
+      if (pa === -1) return 1; if (pb === -1) return -1;
+      return pa - pb;
+    });
+  }
+
+  container.innerHTML = dates.map(d => {
+    const dayEntries = byDate[d];
+    const n = dayEntries.length;
+
+    // Per-day inline highlight — always shown, right after the date header
+    let inlineHl = "";
+    let hlId = null;
+    const hl = computeHighlight(dayEntries);
+    if (hl) {
+      inlineHl = `<div class="highlight-block">${hlBlockHtml(hl)}</div>`;
+      hlId = hl.entry.id;
+    }
+
+    // Exclude the highlighted entry from the cards so it doesn't repeat
+    const cards = dayEntries.filter(e => e.id !== hlId).map(e => {
+      const also = e.also_covered_by && e.also_covered_by.length
+        ? `<div class="also-covered">Also covered by: ${esc(e.also_covered_by.join(", "))}</div>` : "";
+      const badge = e.priority_pick
+        ? `<span class="priority-badge">&#9656; Priority pick</span>` : "";
+      return `<article class="article-card">
+        <div class="card-top">${pillHtml(e.category)}${badge}</div>
+        <div class="card-headline">${e.link ? `<a href="${esc(e.link)}" target="_blank" rel="noopener">${highlight(e.title, q)}</a>` : highlight(e.title, q)}</div>
+        <div class="card-byline"><span class="source-name">${esc(e.source)}</span> &middot; ${esc(e.newsletter)} &middot; ${formatShort(e.date)}</div>
+        <div class="card-summary">${highlight(e.summary, q)}</div>
+        ${also}
+      </article>`;
+    }).join("");
+
+    return `<div class="day-group">
+      <div class="day-heading"><span>${formatLong(d)}</span><span class="day-count">${n} article${n !== 1 ? "s" : ""}</span></div>
+      ${inlineHl}
+      ${cards}
+    </div>`;
+  }).join("");
+}
+
+/* ================================================================
+   INIT
+   ================================================================ */
+function init() {
+  if (!BRIEF_DATA || BRIEF_DATA.length === 0) {
+    document.getElementById("empty-state").style.display = "block";
+    return;
+  }
+
+  renderSidebar();
+  renderArticles();
+
+  // Search input
+  let debounce;
+  document.getElementById("search-input").addEventListener("input", e => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => {
+      state.query = e.target.value;
+      renderArticles();
+    }, 220);
+  });
+
+  // Time range
+  document.querySelectorAll("input[name='range']").forEach(radio => {
+    radio.addEventListener("change", e => {
+      state.rangeDays = e.target.value === "all" ? null : parseInt(e.target.value, 10);
+      renderSidebar();
+      renderArticles();
+    });
+  });
+
+  // Date select
+  document.getElementById("date-select").addEventListener("change", e => {
+    state.date = e.target.value;
+    renderArticles();
+  });
+
+  // Clear all
+  document.getElementById("clear-btn").addEventListener("click", () => {
+    state.query = ""; state.rangeDays = null;
+    state.date = ""; state.sources = new Set(); state.categories = new Set();
+    document.getElementById("search-input").value = "";
+    document.querySelector("input[name='range'][value='all']").checked = true;
+    renderSidebar();
+    renderArticles();
+  });
+}
+
+document.addEventListener("DOMContentLoaded", init);
+</script>
+</body>
+</html>
