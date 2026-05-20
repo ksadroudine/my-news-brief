@@ -1,0 +1,201 @@
+{
+  "priority_sources": [
+    {
+      "rank": 1,
+      "name": "Wall Street Journal",
+      "newsletter_name": "WSJ Morning Briefing",
+      "domain": "wsj.com"
+    },
+    {
+      "rank": 2,
+      "name": "The Economist",
+      "newsletter_name": "The Economist Espresso",
+      "domain": "economist.com"
+    },
+    {
+      "rank": 3,
+      "name": "The Information",
+      "newsletter_name": "The Information",
+      "domain": "theinformation.com"
+    },
+    {
+      "rank": 4,
+      "name": "Financial Times",
+      "newsletter_name": "FT Morning Briefing",
+      "domain": "ft.com"
+    },
+    {
+      "rank": 5,
+      "name": "The Logic",
+      "newsletter_name": "The Logic",
+      "domain": "thelogic.co"
+    }
+  ],
+  "other_sources": [
+    {
+      "rank": 6,
+      "name": "The Globe and Mail",
+      "newsletter_name": "The Globe and Mail",
+      "domain": "theglobeandmail.com",
+      "extraction": "html_only",
+      "note": "HTML-only email, no plaintextBody. Use WebSearch to find the weekly Business Brief article on theglobeandmail.com. Site is paywalled \u2014 rely on WebSearch snippets for story details. See PIPELINE_NOTES.md."
+    },
+    {
+      "rank": 7,
+      "name": "Techpresso",
+      "newsletter_name": "Techpresso",
+      "domain": "dupple.com",
+      "extraction": "url_only",
+      "archive_pattern": "https://archive.techpresso.co/p/[slug]",
+      "note": "Plaintext body contains only the archive URL, no article content. Use WebSearch on the slug or subject line to surface the URL, then web_fetch. If archive not indexed, search for each topic from the subject/snippet individually. See PIPELINE_NOTES.md."
+    },
+    {
+      "rank": 8,
+      "name": "The Neuron",
+      "newsletter_name": "The Neuron",
+      "domain": "theneurondaily.com"
+    },
+    {
+      "rank": 9,
+      "name": "SmartBrief",
+      "newsletter_name": "SmartBrief on Connectivity",
+      "domain": "smartbrief.com",
+      "sender": "connectivity@b2b.smartbrief.com",
+      "extraction": "headlines_only",
+      "note": "Email body contains a headline list only \u2014 no summaries. Full summaries are on a web page behind a tracking URL (r.smartbrief.com/...). Use WebSearch on each headline to find and summarize the underlying story. Focus on stories unique to this newsletter; skip anything already covered by higher-priority sources. See PIPELINE_NOTES.md."
+    },
+    {
+      "rank": 10,
+      "name": "The Rundown Tech",
+      "newsletter_name": "The Rundown Tech",
+      "sender": "crew@technews.therundown.ai",
+      "domain": "therundown.ai",
+      "note": "Full plaintext body. Covers consumer tech, hardware, and AI product news. Extract 2-3 most substantive stories per issue; skip soft-feature items. See PIPELINE_NOTES.md."
+    },
+    {
+      "rank": 11,
+      "name": "The Rundown AI",
+      "newsletter_name": "The Rundown AI",
+      "sender": "news@daily.therundown.ai",
+      "domain": "therundown.ai",
+      "note": "Full plaintext body. Covers frontier AI research, model releases, and applied AI. Extract 2-3 most substantive stories per issue. Distinct from The Rundown Tech despite shared brand. See PIPELINE_NOTES.md."
+    },
+    {
+      "rank": 12,
+      "name": "Enterprise AI Executive",
+      "newsletter_name": "Enterprise AI Executive",
+      "sender": "generativeaienterprise@mail.beehiiv.com",
+      "domain": "enterpriseaiexecutive.ai",
+      "note": "Beehiiv-hosted. Formerly named 'Generative AI Enterprise'. Full plaintext body. Focus is enterprise AI adoption, agentic workflows, and AI-in-consulting. Extract 2-3 stories per issue; prioritize those not already covered by WSJ or The Information. See PIPELINE_NOTES.md."
+    },
+    {
+      "rank": 13,
+      "name": "Ben Evans",
+      "newsletter_name": "Benedict's Newsletter",
+      "sender": "list@ben-evans.com",
+      "domain": "ben-evans.com",
+      "note": "Weekly tech analysis newsletter from independent analyst Benedict Evans. Full plaintext body. Focus is macro tech strategy, AI deployment, and business model shifts. Extract 3-4 most substantive stories per issue. See PIPELINE_NOTES.md."
+    },
+    {
+      "rank": 14,
+      "name": "McKinsey & Company",
+      "newsletter_name": "McKinsey Insights",
+      "sender": "publishing@email.mckinsey.com",
+      "domain": "mckinsey.com",
+      "note": "McKinsey thought leadership newsletter. Email body not fully extracted (snippet only). Covers strategy, technology, and business management research."
+    },
+    {
+      "rank": 15,
+      "name": "The Economist Today",
+      "newsletter_name": "The Economist Today",
+      "auto_discovered": true
+    },
+    {
+      "rank": 16,
+      "name": "The Bottom Line",
+      "newsletter_name": "The Bottom Line",
+      "auto_discovered": true
+    },
+    {
+      "rank": 17,
+      "name": "The Economist This Weekend",
+      "newsletter_name": "The Economist This Weekend",
+      "auto_discovered": true
+    },
+    {
+      "rank": 18,
+      "name": "The Information Weekend",
+      "newsletter_name": "The Information Weekend",
+      "auto_discovered": true
+    },
+    {
+      "rank": 19,
+      "name": "The Morning Download",
+      "newsletter_name": "The Morning Download",
+      "auto_discovered": true
+    },
+    {
+      "rank": 20,
+      "name": "WSJ Weekend",
+      "newsletter_name": "WSJ Weekend",
+      "auto_discovered": true
+    },
+    {
+      "rank": 21,
+      "name": "The Economist",
+      "newsletter_name": "The Economist Well Informed",
+      "domain": "economist.com",
+      "auto_discovered": true,
+      "note": "Weekly health and wellness newsletter from The Economist. Auto-discovered 2026-05-17."
+    },
+    {
+      "rank": 22,
+      "name": "Mobile World Live",
+      "newsletter_name": "Mobile World Live",
+      "domain": "mobileworldlive.com",
+      "note": "Telecom and mobile industry news from GSMA's editorial team. Covers connectivity, spectrum, network infrastructure, and mobile technology trends. Extract 2-3 most substantive stories per issue; skip event promotional content. Added 2026-05-18."
+    },
+    {
+      "rank": 23,
+      "newsletter_name": "WSJ AI Alert",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-05-18.",
+      "name": "Wall Street Journal",
+      "domain": "wsj.com"
+    },
+    {
+      "rank": 24,
+      "newsletter_name": "WSJ Pro Cybersecurity",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-05-18.",
+      "name": "Wall Street Journal",
+      "domain": "wsj.com"
+    },
+    {
+      "rank": 25,
+      "newsletter_name": "The Information AM",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-05-18.",
+      "name": "The Information",
+      "domain": "theinformation.com"
+    },
+    {
+      "rank": 26,
+      "newsletter_name": "The Economist Inside Tech",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-05-18.",
+      "name": "The Economist",
+      "domain": "economist.com"
+    },
+    {
+      "rank": 27,
+      "newsletter_name": "WSJ AI & Business",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-05-19. WSJ digest newsletter covering AI business strategy; distinct from WSJ AI Alert (individual article notifications). Sender: access@interactive.wsj.com.",
+      "name": "Wall Street Journal",
+      "domain": "wsj.com"
+    }
+  ],
+  "last_updated": "2026-05-19",
+  "notes": "Sources below rank 5 are auto-discovered from the inbox. New sources are appended to other_sources with a rank of 6+ and trigger a post-run review prompt. The Logic (rank 5) is prioritized over The Globe and Mail (rank 6) per user preference set 2026-05-13."
+}
