@@ -38,7 +38,7 @@
       "newsletter_name": "The Globe and Mail",
       "domain": "theglobeandmail.com",
       "extraction": "html_only",
-      "note": "HTML-only email, no plaintextBody. Use WebSearch to find the weekly Business Brief article on theglobeandmail.com. Site is paywalled \u2014 rely on WebSearch snippets for story details. See PIPELINE_NOTES.md."
+      "note": "HTML-only email, no plaintextBody. Use WebSearch to find the weekly Business Brief article on theglobeandmail.com. Site is paywalled — rely on WebSearch snippets for story details. See PIPELINE_NOTES.md."
     },
     {
       "rank": 7,
@@ -62,7 +62,7 @@
       "domain": "smartbrief.com",
       "sender": "connectivity@b2b.smartbrief.com",
       "extraction": "headlines_only",
-      "note": "Email body contains a headline list only \u2014 no summaries. Full summaries are on a web page behind a tracking URL (r.smartbrief.com/...). Use WebSearch on each headline to find and summarize the underlying story. Focus on stories unique to this newsletter; skip anything already covered by higher-priority sources. See PIPELINE_NOTES.md."
+      "note": "Email body contains a headline list only — no summaries. Full summaries are on a web page behind a tracking URL (r.smartbrief.com/...). Use WebSearch on each headline to find and summarize the underlying story. Focus on stories unique to this newsletter; skip anything already covered by higher-priority sources. See PIPELINE_NOTES.md."
     },
     {
       "rank": 10,
@@ -194,8 +194,24 @@
       "note": "Auto-discovered 2026-05-19. WSJ digest newsletter covering AI business strategy; distinct from WSJ AI Alert (individual article notifications). Sender: access@interactive.wsj.com.",
       "name": "Wall Street Journal",
       "domain": "wsj.com"
+    },
+    {
+      "rank": 28,
+      "name": "Wall Street Journal",
+      "newsletter_name": "WSJ CIO Journal",
+      "domain": "wsj.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-05-22. WSJ newsletter: WSJ CIO Journal. Sender: access@interactive.wsj.com."
+    },
+    {
+      "rank": 29,
+      "name": "Wall Street Journal",
+      "newsletter_name": "WSJ CEO Brief",
+      "domain": "wsj.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-05-22. WSJ newsletter: WSJ CEO Brief. Sender: access@interactive.wsj.com."
     }
   ],
-  "last_updated": "2026-05-19",
+  "last_updated": "2026-05-22",
   "notes": "Sources below rank 5 are auto-discovered from the inbox. New sources are appended to other_sources with a rank of 6+ and trigger a post-run review prompt. The Logic (rank 5) is prioritized over The Globe and Mail (rank 6) per user preference set 2026-05-13."
 }
