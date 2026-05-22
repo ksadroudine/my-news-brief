@@ -1105,7 +1105,11 @@ function computeHighlight(entries) {
       bestCount = count; best = e;
     }
   }
-  return bestCount > 1 ? { entry: best, count: bestCount } : null;
+  // Prefer cross-source coverage; fall back to priority_pick flag; final fallback: best source
+  if (bestCount > 1) return { entry: best, count: bestCount };
+  const pp = entries.find(e => e.priority_pick);
+  if (pp) return { entry: pp, count: 1 };
+  return { entry: best, count: 1 };
 }
 
 /* ================================================================
