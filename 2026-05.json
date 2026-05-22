@@ -3689,5 +3689,41 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-05-21-023",
+    "date": "2026-05-21",
+    "source": "Wall Street Journal",
+    "newsletter": "The Morning Download",
+    "title": "The AI Flywheel Speeds Up: How Self-Reinforcing Momentum Is Accelerating the AI Era",
+    "summary": "WSJ Morning Download columnist Steven Rosenbush argues the AI market is best understood as a flywheel: each element feeds the next in a self-reinforcing cycle. Nvidia CEO Jensen Huang, who has long used the flywheel concept to describe his company, credits CUDA's installed base as the engine — attracting developers, enabling algorithmic breakthroughs, creating new markets, and drawing in more participants. That flywheel is now visible across the entire tech ecosystem: Nvidia's record quarterly earnings, Anthropic's imminent first operating profit, the simultaneous IPO filings of OpenAI and SpaceX, CoreWeave's investment-grade financing, and a recovery in software stocks including ServiceNow and Adobe. The open question is whether enterprise software companies — the end-users whose spending ultimately underpins the capital cycle — will be drawn in. Rosenbush notes a flywheel can slow or stop, but sees the current pace of scientific and technological innovation as strong evidence of continued acceleration.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-21-024",
+    "date": "2026-05-21",
+    "source": "Wall Street Journal",
+    "newsletter": "The Morning Download",
+    "title": "Trump Administration Awards  Billion in Quantum Computing Grants to Nine Firms, Including B to IBM",
+    "summary": "The Trump administration is awarding  billion in grants to nine quantum computing companies under the 2022 CHIPS and Science Act, now administered by Commerce Secretary Howard Lutnick. IBM is slated to receive  billion — the largest single allocation. Other recipients include publicly traded firms D-Wave Quantum, Rigetti Computing, and Infleqtion, as well as GlobalFoundries. In exchange, the federal government will receive a minority equity stake in each company. The grants represent the most significant direct U.S. government investment in quantum computing to date and come as the sector attracts growing attention for its potential to supercharge — and disrupt — industries from pharmaceuticals to financial modelling.",
+    "link": "https://www.wsj.com/tech/quantum-computing-grants-ibm-rigetti-globalfoundries-7382e6be",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-21-025",
+    "date": "2026-05-21",
+    "source": "Wall Street Journal",
+    "newsletter": "The Morning Download",
+    "title": "Intuit Plans to Lay Off 17% of Workforce as It Redirects Savings into AI",
+    "summary": "Intuit announced plans to lay off approximately 3,100 employees — 17% of its global workforce — and invest the resulting savings into what it calls \"big bets\" on AI. The cuts target project managers, business operations staff, and mid- and lower-level managers. The restructuring positions AI as the centerpiece of Intuit's product and operational strategy going forward. The announcement follows a broader pattern among enterprise software companies of using AI efficiency as justification for workforce reductions while simultaneously increasing AI capital investment.",
+    "link": "https://www.wsj.com/business/earnings/intuit-to-cut-staff-invest-savings-into-big-bets-de705f7b",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
