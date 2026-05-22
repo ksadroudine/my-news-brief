@@ -3749,5 +3749,29 @@
     "category": "Business & Strategy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-05-21-028",
+    "date": "2026-05-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CMO Today",
+    "title": "Google Pushes AI-Generated Ads Further Into Search Results",
+    "summary": "Google has begun testing new AI-generated ad formats in both standard search results and AI Mode. AI-generated ads for brands and products will now appear below responses to some prompts in AI Mode, while Google's existing \"direct offers\" ads will expand from AI Mode to standard search results — though neither format will appear in Gemini. The ads are built almost entirely from brand's own content by Google's AI, which raises a recurring concern among marketers: they cannot directly control the final output. Google offers a guardrail tool to address this but warns that too many restrictions will produce weaker ads. \"In a world where AI provides a direct and conversational response, will users still find value in ads? Our answer is, it's definitely yes, but you have to rethink how to approach ads and what an ad is,\" said Shashi Thakur, VP and GM of Google search ads. WSJ reporter Patrick Coffee notes that brands who spent the past two years optimizing their content for LLM crawlers are likely well-positioned for the new formats.",
+    "link": "https://www.wsj.com/cmo-today/google-pushes-ai-generated-ads-further-into-search-results-6b478d83",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-21-029",
+    "date": "2026-05-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CMO Today",
+    "title": "James Murdoch Acquires Vox Media Assets Including New York Magazine for Approximately 00 Million",
+    "summary": "James Murdoch has agreed to pay approximately 00 million for a package of Vox Media assets: New York magazine, the Vox news site, and the Vox Media Podcast Network. Assets not included in the deal are Eater, Popsugar, SB Nation, and The Verge, which remain with Vox Media. The acquisition marks a significant consolidation in the digital media landscape and a major bet by Murdoch on legacy editorial brands at a time when digital advertising economics continue to pressure independent publishers.",
+    "link": "https://www.wsj.com/business/media/vox-media-selling-new-york-magazine-podcast-network-to-james-murdoch-7f48edfc",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
