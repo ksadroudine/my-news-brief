@@ -8,6 +8,25 @@ This file documents special handling rules, known quirks, and source-specific ex
 
 The Gmail `get_thread` tool returns `plaintextBody` and a short `snippet`. For most newsletters, the plaintext body contains the full article content and is sufficient for extraction.
 
+### Substantive Stories Only
+
+Extract only stories that meet at least one of the following criteria:
+- Contains a quantified claim (revenue figures, user counts, deal sizes, growth rates, headcount numbers, etc.)
+- Represents a significant strategic, policy, or market development (IPO filing, executive change, regulatory ruling, major product launch, M&A deal, etc.)
+- Offers analysis or perspective not available from a primary news headline alone (column pieces, editorial takes, expert commentary with substance)
+
+Skip the following regardless of newsletter:
+- Brief "keep reading" bullets or one-line items without enough detail for a standalone summary
+- Pure brand campaign announcements or product marketing
+- Conference invitations, event promotions, or sponsored content
+- Earnings data bullets that merely restate a number already covered by a higher-priority source
+- Entertainment, lifestyle, or cultural items with no business or technology relevance
+- Sponsor callouts, upgrade pitches, and subscription promotions
+
+When a newsletter contains a mix of substantive and non-substantive items — which most do — extract 1–3 stories and leave the rest. Erring toward fewer, higher-quality entries is always preferable to padding the database with marginal items.
+
+---
+
 **Never skip a newsletter solely because it has no outbound hyperlink to a published article.** If `plaintextBody` contains full narrative prose (column text, analysis, multi-paragraph summaries), extract content directly from the email body. The absence of a clickable link is not a reason to skip — it is simply a reason to set `"link": null` on the resulting entries.
 
 The three cases to distinguish:
@@ -192,4 +211,4 @@ When in doubt, set `link` to null. The index.html rendering treats null links as
 
 ---
 
-*Last updated: 2026-05-22 (WSJ CMO Today, Applied AI, WSJ Future of Everything, and WSJ Heard on the Street added to scope; conference/event-marketing newsletters skip rule preserved; digest/recap skip rule clarified)*
+*Last updated: 2026-05-22 (WSJ CMO Today, Applied AI, WSJ Future of Everything, and WSJ Heard on the Street added to scope; substantive-stories-only general rule added; conference/event-marketing newsletters skip rule preserved; digest/recap skip rule clarified)*
