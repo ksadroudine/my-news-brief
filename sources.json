@@ -37,8 +37,9 @@
       "name": "The Globe and Mail",
       "newsletter_name": "The Globe and Mail",
       "domain": "theglobeandmail.com",
+      "sender": "noreply@globeandmailnewsletters.com",
       "extraction": "html_only",
-      "note": "HTML-only email, no plaintextBody. Use WebSearch to find the weekly Business Brief article on theglobeandmail.com. Site is paywalled — rely on WebSearch snippets for story details. See PIPELINE_NOTES.md."
+      "note": "HTML-only email, no plaintextBody. Sender is noreply@globeandmailnewsletters.com (not theglobeandmail.com). Use WebSearch to find the weekly Business Brief article on theglobeandmail.com. Site is paywalled — rely on WebSearch snippets for story details. See PIPELINE_NOTES.md."
     },
     {
       "rank": 7,
