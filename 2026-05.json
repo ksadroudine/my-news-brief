@@ -4005,5 +4005,53 @@
     "category": "Canadian Business",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-05-22-020",
+    "date": "2026-05-22",
+    "source": "SmartBrief on Connectivity",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "Global Memory Crunch Derails Telecom AI Modernization Plans",
+    "summary": "A global shortage of memory chips is disrupting telecom carriers' plans to modernize their IT infrastructure for the AI era. Demand from large cloud providers for High-Bandwidth Memory has crowded out conventional DRAM supply, extending lead times to 40+ weeks, with DRAM prices up more than 200% compared with 2025. The shortage is expected to persist into 2027, forcing carriers to delay or scale back AI deployment and network modernization timelines.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-22-021",
+    "date": "2026-05-22",
+    "source": "SmartBrief on Connectivity",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "Verizon DBIR 2026: Vulnerability Exploitation Surges as Top Breach Entry Point",
+    "summary": "Verizon's 2026 Data Breach Investigations Report finds that exploitation of software vulnerabilities has overtaken stolen credentials as the leading initial access vector, now accounting for 31% of breaches, up from 20% the previous year. Only 26% of critical vulnerabilities in CISA's Known Exploited Vulnerabilities catalog were fully remediated in 2025, with median patching time worsening from 32 to 43 days. AI-assisted attacks are compressing the window between vulnerability disclosure and active exploitation to hours.",
+    "link": "https://www.bankinfosecurity.com/verizon-breach-report-vulnerability-exploitation-surges-a-31719",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-22-022",
+    "date": "2026-05-22",
+    "source": "SmartBrief on Connectivity",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "Nokia Launches AI Networking Innovation Lab in Silicon Valley",
+    "summary": "Nokia opened a new AI Networking Innovation Lab in Sunnyvale, California on May 21, aimed at co-developing next-generation data center networking architectures for large-scale AI training and inference. The facility will validate AI-native designs with early partners including AMD, Lenovo, Supermicro, and Keysight, testing new protocols, switching silicon, and real-time telemetry. Nokia is targeting the fast-growing AI infrastructure market as carriers and hyperscalers race to build out AI-ready network fabrics.",
+    "link": "https://www.nokia.com/newsroom/nokia-launches-ai-networking-lab-to-drive-co-innovation-with-partners-and-accelerate-next-era-of-ai-native-data-center-networking/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-22-023",
+    "date": "2026-05-22",
+    "source": "SmartBrief on Connectivity",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "FCC Opens Proceeding on High-Cost Fund's Future in AI Era",
+    "summary": "The FCC unanimously launched a Notice of Proposed Rulemaking to reshape its Universal Service Fund high-cost programs for an all-IP, AI-enabled future, including a possible extension of the A-CAM broadband subsidy program through 2028. The proceeding asks how satellite broadband should factor into universal service support, with commissioners emphasizing that qualifying services must reliably support AI workloads, telehealth, and precision agriculture. It marks the commission's first comprehensive reassessment of universal service mechanisms since AI applications became a central planning consideration for rural connectivity.",
+    "link": "https://www.telecompetitor.com/fcc-proposes-usf-high-cost-fund-updates-addresses-broadband-maps-and-robocalls/",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
