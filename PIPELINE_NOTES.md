@@ -90,6 +90,7 @@ There is no article content in the email body.
 - **WSJ Pro Cybersecurity** — daily cybersecurity newsletter. Full plaintext body.
 - **WSJ CEO Brief** — daily leadership newsletter. Extract 1–2 stories max; focus on macro or operational insights (e.g. shipping disruptions, CEO strategy).
 - **WSJ Future of Everything** — in scope. Covers science, technology, health, and society through a forward-looking lens. Full plaintext body. Extract 1–2 stories per issue; prioritize stories with quantified claims or meaningful implications for business or technology strategy. Set `source` to "Wall Street Journal" and `newsletter` to "WSJ Future of Everything". Category is typically "Technology & AI" or "Business & Strategy" depending on the story.
+- **WSJ Heard on the Street** — in scope when available. Financial analysis and market commentary column covering public companies, earnings, valuations, and capital markets. Full plaintext body. Extract 1–2 stories per issue; focus on stories with material financial insight or strategic implications (e.g. earnings surprises, valuation shifts, M&A analysis). Skip brief market-data summaries with no analytical content. Set `source` to "Wall Street Journal" and `newsletter` to "WSJ Heard on the Street". Category is typically "Business & Strategy".
 - **WSJ conference / event-marketing newsletters** — skip. Identify by subject patterns referencing specific WSJ Live events, conference invitations, or attendee promotions (e.g. "WSJ Tech Live," "WSJ CEO Council," "Join us at..."). These contain no original reporting.
 - **WSJ CMO Today** — in scope. Daily marketing and advertising newsletter covering brand strategy, marketing technology, AI in advertising, consumer behavior, and media industry trends. Full plaintext body. Extract 1–2 stories per issue; prioritize stories with quantified claims, strategic business implications, or AI/technology angles. Skip pure brand campaign announcements and editorial calendar reminders. Set `source` to "Wall Street Journal" and `newsletter` to "WSJ CMO Today". Category is typically "Business & Strategy" or "Technology & AI" depending on the story angle.
 
@@ -191,4 +192,4 @@ When in doubt, set `link` to null. The index.html rendering treats null links as
 
 ---
 
-*Last updated: 2026-05-22 (WSJ CMO Today, Applied AI, and WSJ Future of Everything added to scope; conference/event-marketing newsletters skip rule preserved; digest/recap skip rule clarified)*
+*Last updated: 2026-05-22 (WSJ CMO Today, Applied AI, WSJ Future of Everything, and WSJ Heard on the Street added to scope; conference/event-marketing newsletters skip rule preserved; digest/recap skip rule clarified)*
