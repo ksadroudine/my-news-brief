@@ -54,7 +54,8 @@
       "rank": 8,
       "name": "The Neuron",
       "newsletter_name": "The Neuron",
-      "domain": "theneurondaily.com"
+      "domain": "theneurondaily.com",
+      "sender": "theneuron@newsletter.theneurondaily.com"
     },
     {
       "rank": 9,

@@ -4523,5 +4523,41 @@
     "category": "Culture & Ideas",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-05-24-023",
+    "date": "2026-05-24",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "Cursor Hits $3B in Annual Recurring Revenue as SpaceX Eyes $60 Billion Acquisition",
+    "summary": "AI coding tool Cursor has crossed $3 billion in annual recurring revenue, cementing its position as one of the fastest-growing software companies in history. SpaceX has secured the contractual right to acquire Cursor for $60 billion later in 2026, or alternatively pay $10 billion for ongoing collaboration on coding and knowledge work AI. The deal reflects the intensifying competition to control the 'last mile' of AI deployment in software development.",
+    "link": "https://www.cnbc.com/2026/04/21/spacex-says-it-can-buy-cursor-later-this-year-for-60-billion-or-pay-10-billion-for-our-work-together.html",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-24-024",
+    "date": "2026-05-24",
+    "source": "Bloomberg",
+    "newsletter": "The Neuron",
+    "title": "Manus Founders Raise $1 Billion to Buy Back AI Startup from Meta After Beijing Blocks Deal",
+    "summary": "The founders of Chinese agentic AI startup Manus are raising approximately $1 billion to repurchase the company from Meta, after Chinese regulators blocked the original $2 billion acquisition in April 2026. The buyback would value Manus at least at the $2 billion Meta paid, with founders potentially contributing personal capital alongside outside investors. The reconstituted company is expected to be structured as a Chinese joint venture ahead of a potential Hong Kong IPO.",
+    "link": "https://www.bloomberg.com/news/articles/2026-05-21/manus-weighs-raising-1-billion-to-unwind-meta-takeover",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-24-025",
+    "date": "2026-05-24",
+    "source": "CNBC",
+    "newsletter": "The Neuron",
+    "title": "Starbucks Scraps AI Inventory Tool After Nine Months as System Repeatedly Confused Milk Types",
+    "summary": "Starbucks has shut down its AI-powered automated inventory counting system across North America after just nine months, citing persistent accuracy failures including an inability to distinguish between similar milk varieties. The system, built with technology firm NomadGo and using LIDAR and cameras, launched in September 2025 but frequently mislabeled or failed to detect products during stock counts. The failure is a high-profile example of AI deployment falling short of expectations in retail operations.",
+    "link": "https://www.cnbc.com/2026/05/21/starbucks-scraps-ai-inventory-tool-across-north-america.html",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
