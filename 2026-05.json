@@ -4559,5 +4559,29 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-05-24-026",
+    "date": "2026-05-24",
+    "source": "Enterprise AI Executive",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Survey of 467 Senior Executives Finds CEOs Systematically Underestimate AI-Driven Enterprise Risk",
+    "summary": "A survey of 467 senior executives finds that CEOs consistently underestimate the risk exposure their organizations face from AI deployment, including governance gaps, regulatory non-compliance, and operational failures. Research from BCG and Grant Thornton corroborates the pattern: while most CEOs express confidence in their AI strategies, operational leaders closer to implementation report significantly higher concern about oversight failures and audit readiness. The disconnect creates strategic risk as boards accelerate AI adoption without adequate governance frameworks in place.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-24-027",
+    "date": "2026-05-24",
+    "source": "Cognizant",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Cognizant Launches Skillspring AI Learning Platform to Accelerate Enterprise Workforce Transformation",
+    "summary": "Cognizant unveiled Skillspring, a multimodal AI-native learning platform designed to help enterprises build AI-ready workforces at scale, moving beyond static training to respond dynamically to changing roles and skill demands. The platform includes an AI Fluency Dashboard giving employees real-time visibility into their readiness scores and learning progress. Cognizant's accompanying 'New Work New World 2026' research found AI now capable of handling $4.5 trillion in U.S. work tasks, impacting up to 93% of jobs.",
+    "link": "https://news.cognizant.com/2026-04-21-Cognizant-Propels-AI-Workforce-Training-with-Cognizant-Skillspring-TM-New-Talent-Transformation-Platform-Designed-to-Accelerate-Clients-Workforce-AI-Readiness",
+    "category": "Professional Services",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
