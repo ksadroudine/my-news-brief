@@ -4740,6 +4740,227 @@
     "also_covered_by": [
       "The Information Dealmaker"
     ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-003",
+    "date": "2026-05-26",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Pope Leo XIV Warns AI Threatens Democracy and Human Dignity in First Major Encyclical",
+    "summary": "Pope Leo XIV released 'Magnifica humanitas,' calling for robust government and corporate regulation of AI and warning that the technology systematically amplifies the power of those who control data and economic resources, enabling elites to entrench inequality and shape democratic processes. Anthropic co-founder Chris Olah was invited to present alongside the document at the Vatican, signalling an unusual alignment between the Catholic Church and the AI safety community. The encyclical urges slowing the pace of AI development until adequate ethical and political oversight frameworks are in place.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "The Information AM",
+      "The Rundown AI"
+    ],
     "priority_pick": true
+  },
+  {
+    "id": "2026-05-26-004",
+    "date": "2026-05-26",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "White House and Anthropic Near Deal Allowing Spy Agencies to Use AI Models for Classified Work",
+    "summary": "The White House is finalizing an arrangement with Anthropic permitting the NSA and other intelligence agencies to use the company's AI models for classified operations, reversing a February directive that had ordered agencies to stop using Anthropic technology. The new contract includes a carve-out preventing the AI from being applied to Americans' data and omits earlier Pentagon language permitting 'any lawful use.' Separately, the White House cleared a $9 billion request to expand AI computing infrastructure for intelligence agencies using Nvidia's Grace Blackwell chips.",
+    "link": "https://www.theinformation.com/briefings/white-house-anthropic-near-deal-spy-agencies-use-ai",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-005",
+    "date": "2026-05-26",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Huawei Unveils Tau Scaling Architecture Targeting 1.4nm Chip Performance by 2031 Despite US Sanctions",
+    "summary": "Huawei announced a new semiconductor development principle called Tau Scaling, which prioritizes signal speed over transistor miniaturization, paired with a LogicFolding architecture that physically stacks logic circuits in a dual-layer framework to reduce internal wiring delay. The company claims the approach will deliver chips with transistor density equivalent to 1.4nm processes by 2031 — comparable to TSMC's planned leading-edge process at that time — though it provided no independent performance validation. The announcement signals Beijing's continued effort to engineer around US export controls blocking China's access to advanced chipmaking equipment.",
+    "link": "https://www.theinformation.com/briefings/huawei-moves-narrow-chip-gap-tsmc-despite-u-s-sanctions",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-006",
+    "date": "2026-05-26",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Congress Launches Insider Trading Investigation into Prediction Markets Kalshi and Polymarket",
+    "summary": "House Oversight Committee Chair James Comer announced investigations into insider trading on Kalshi and Polymarket, citing suspicious trades tied to elections and US military operations in Venezuela and Iran, including a case where a US soldier allegedly netted $400,000 by betting on Venezuelan leader Nicolás Maduro's ouster using classified information. The committee has given both platforms until June 5 to produce records on 80+ flagged accounts. Comer has signaled potential legislation to bar members of Congress and government officials from participating in prediction markets.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-007",
+    "date": "2026-05-26",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ AI Alert",
+    "title": "SpaceX S-1 Reveals AI Infrastructure at Core of IPO Strategy, Plans Orbital Data Centers",
+    "summary": "SpaceX's S-1 filing — targeting a $1.75 trillion valuation in a potential mid-June IPO — frames the company as an AI-era infrastructure platform, estimating a $28.5 trillion total addressable market with 93% tied to AI. The filing disclosed SpaceX merged with Elon Musk's xAI in February and directed 76% of first-quarter capital expenditure ($7.72 billion) toward AI infrastructure and data center buildouts. The company outlined plans to use its Starship rocket to deploy orbital AI data centers, part of a strategy to offer space-based compute infrastructure for Grok and future AI models.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-008",
+    "date": "2026-05-26",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ AI Alert",
+    "title": "California Governor Signs Executive Order to Prepare Workers for AI-Driven Job Displacement",
+    "summary": "California Governor Gavin Newsom signed a first-in-the-nation executive order directing state agencies to develop policies covering severance, expanded unemployment insurance, and retraining for workers displaced by AI, and requiring a public dashboard tracking AI-related employment trends within 90 days. The order comes as more than 110,000 US tech workers have been laid off in 2026, with employers announcing 85,411 cuts in the first four months of the year, up 33% from the same period in 2025. A comprehensive review of the state's existing safety-net policies must be completed within 180 days to identify gaps in current support systems.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-009",
+    "date": "2026-05-26",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "AI Pushes Deeper Into the Legal Sector as Specialized Tools and Native Law Firms Proliferate",
+    "summary": "AI is transforming the legal profession through a combination of specialized platforms and AI-native law firms, with Harvey raising $200 million at an $11 billion valuation and Legora closing a $600 million Series D, both targeting the replacement of traditional billable-hour workflows. Anthropic's recently launched Claude for Legal adds specialized MCP connectors for specific practice areas, placing large language models at the center of legal document review, research, and drafting. The structural shift is reshaping talent pipelines at established firms, with Clifford Chance cutting headcount and others moving toward leaner, AI-first operating models with fewer junior staff.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-010",
+    "date": "2026-05-26",
+    "source": "The Neuron",
+    "newsletter": "The Neuron",
+    "title": "ClickUp Cuts 22% of Workforce and Deploys 3,000 AI Agents in Radical Restructuring",
+    "summary": "ClickUp CEO Zeb Evans laid off 290 employees — 22% of the company's 1,300-person workforce — and replaced much of their output with approximately 3,000 AI agents, creating a 3:1 ratio of agents to human employees. Evans called the new structure a '100x org,' arguing that AI has fundamentally changed the roles required to build and operate software, with senior engineers now directing AI agents rather than writing code directly. The company is introducing salary bands reaching $1 million per year in cash for employees who demonstrate outsized impact by creating or managing AI systems.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-011",
+    "date": "2026-05-26",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Uber COO Says AI Spending Lacks Measurable ROI Despite 70% AI-Generated Code",
+    "summary": "Uber COO Andrew Macdonald told The Information that the company cannot connect its high AI adoption rates to measurable productivity gains in consumer products, even with 95% of engineers using AI tools monthly and 70% of committed code now AI-generated. Uber's CTO separately noted the company had exceeded its entire 2026 AI budget within the first four months of the year. The gap between adoption and demonstrable business outcomes reflects a broader pattern at companies including Microsoft and Duolingo, where high usage metrics have not yet translated into legible return on investment.",
+    "link": "https://www.theinformation.com/newsletters/applied-ai/uber-coo-says-ai-lacks-roi",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-012",
+    "date": "2026-05-26",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "OpenAI Opens ChatGPT Ad Platform to Small Businesses, Removes $50,000 Minimum Spend",
+    "summary": "OpenAI is rolling out a self-serve Ads Manager tool in the US that removes the previous $50,000 minimum spend barrier, opening ChatGPT advertising to smaller businesses that could not previously afford direct platform access. Advertisers can now buy ads on a cost-per-click basis in addition to cost-per-impression, aligning spend with direct performance indicators. The expansion is part of OpenAI's plan to generate $2.5 billion in advertising revenue in 2026 and $100 billion by 2030.",
+    "link": "https://www.theinformation.com/articles/openais-next-ad-move-going-small-scale-big",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-013",
+    "date": "2026-05-26",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Canada's Counter-Tariffs on US Steel Are Penalizing Manufacturers Who Cannot Source Domestically",
+    "summary": "Canadian manufacturers are being forced to pay Canada's own 25% counter-tariffs on US steel imports even when no domestic equivalent exists, inflicting costs on firms like Tillsonburg, Ontario-based Wellmaster that make specialized industrial parts unavailable from Canadian suppliers. The federal government received 1,611 remission requests from March 2025 to April 2026 — an 'exponential increase' compared to the handful it processes in a typical year — highlighting the scale of unintended damage in Canada's retaliatory trade measures. The Canadian Manufacturers & Exporters association is calling for alignment between the counter-tariff regime and Canada's existing import rules to avoid taxing what the country cannot produce itself.",
+    "link": "https://thelogic.co/news/steel-quota-counter-tariff-alignment/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-014",
+    "date": "2026-05-26",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "BDC Warns Canadian Startups' Reliance on Foreign Capital Has Become a National Sovereignty Risk",
+    "summary": "The Business Development Bank of Canada's 2025 venture capital landscape report found that foreign investors provide 80% to 90% of capital in large deals worth $50 million or more, with Canadian investors contributing just 22% of growth-stage capital last year. BDC said the heavy dependence on foreign capital risks pushing ownership, intellectual property, and decision-making out of the country, framing the gap as 'no longer just a feature of the market' but a matter of national sovereignty. The bank identified the core problem not as a shortage of startup creation but as an inability to scale Canadian companies past early milestones using domestic capital.",
+    "link": "https://thelogic.co/news/bdc-canada-startups-foreign-capital/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-015",
+    "date": "2026-05-26",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Canadian Startups Join Big Tech in Opposing Digital Surveillance Bill C-22",
+    "summary": "Bill C-22, Canada's proposed Lawful Access Act introduced in March 2026, would require electronic service providers to collect and retain data that European privacy laws explicitly prohibit, forcing VPN providers, encrypted messaging apps, and security-focused services to choose between compliance and their product design. Signal and NordVPN have threatened to exit Canada entirely if the bill passes, while Apple and Meta have called for amendments, and Toronto-based Windscribe VPN said it would relocate its headquarters. Critics argue the bill has escalated from a privacy debate into a national competitiveness issue, threatening Canada's ability to attract AI, cloud, and cybersecurity investment.",
+    "link": "https://thelogic.co/news/startups-big-tech-bill-c22/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-016",
+    "date": "2026-05-26",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Purpose Investments and OSC Face Off in Canada's First Major Greenwashing Securities Case",
+    "summary": "Hearings have begun in the Ontario Securities Commission's enforcement case against Purpose Investments and founder Som Seif, alleging the firm claimed approximately 75% of its assets under management were operating under an ESG framework when OSC analysis found ESG-incorporated funds represented less than 35% of AUM at the time. The regulator has asked the Capital Markets Tribunal to consider temporarily or permanently banning Seif from securities trading and from serving as CEO of any investment fund. Purpose has characterized the allegations as involving 'interpretive questions about evolving ESG standards' rather than substantive breaches of securities rules.",
+    "link": "https://thelogic.co/news/greenwashing-allegations-purpose-investments-som-seif/",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-017",
+    "date": "2026-05-26",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "Ferrari Unveils Luce, Its First Electric Vehicle, Designed by Jony Ive's LoveFrom Studio",
+    "summary": "Ferrari revealed the Luce, its first fully electric car, commissioned from LoveFrom — the creative agency founded by former Apple chief designer Jony Ive — featuring smooth, convex surfaces with no sharp edges, a deliberate break from Ferrari's traditional design language. The car is priced starting at €550,000 in Italy, with US pricing not yet disclosed. Ferrari positioned the Luce as a vehicle aimed at a new customer demographic while preserving the brand's performance identity, though shares fell on the announcement.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-018",
+    "date": "2026-05-26",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "US Government Awards $2 Billion in CHIPS Act Quantum Computing Grants, Awards Not Yet Final",
+    "summary": "The US Department of Commerce issued letters of intent to provide just over $2 billion in CHIPS and Science Act grants to nine quantum computing companies in exchange for equity stakes, with IBM set to receive $1 billion and GlobalFoundries $375 million. The awards remain in a letter-of-intent stage and have not been formally committed, meaning the funding could still be revised or delayed. D-Wave, Rigetti, and Infleqtion are each expected to receive approximately $100 million under the program.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-019",
+    "date": "2026-05-26",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "SoftBank Advances 65 Billion Yen AI Data Center in Hokkaido as Japan Builds Domestic AI Infrastructure",
+    "summary": "SoftBank is constructing a 65 billion yen ($420 million) AI data center in Tomakomai, Hokkaido, scheduled to begin operations in fiscal 2026, equipped with Nvidia GB200 NVL72 systems as part of a broader AI GPU Cloud offering launching for Japanese enterprise customers in October 2026. The company is also developing battery manufacturing infrastructure at its GX Factory to supply energy storage for data centers, with cell production expected to start in 2028. The investment is part of Japan's broader effort to build sovereign AI compute capacity amid intensifying US-China competition over AI infrastructure.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-05-26-020",
+    "date": "2026-05-26",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CEO Brief",
+    "title": "CEOs and Boards Confront Whether AI Agents Should Have a Formal Governance Role",
+    "summary": "The WSJ CEO Brief examines the growing debate over whether AI should have a formal seat at the corporate governance table, as AI agents become more deeply embedded in strategy, risk management, and hiring decisions. Only 39% of Fortune 100 boards have any form of AI oversight mechanism, and just 13% of S&P 500 companies have at least one director with AI-related expertise, leaving significant governance gaps as AI accelerates across industries. Some executives are already informally using AI systems as unofficial advisors or strategic sounding boards in ways that blur the line between tool use and institutional authority.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
