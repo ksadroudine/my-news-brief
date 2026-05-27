@@ -39,7 +39,7 @@
       "domain": "theglobeandmail.com",
       "sender": "noreply@globeandmailnewsletters.com",
       "extraction": "html_only",
-      "note": "HTML-only email, no plaintextBody. Sender is noreply@globeandmailnewsletters.com (not theglobeandmail.com). Use WebSearch to find the weekly Business Brief article on theglobeandmail.com. Site is paywalled — rely on WebSearch snippets for story details. See PIPELINE_NOTES.md."
+      "note": "HTML-only email, no plaintextBody. Sender is noreply@globeandmailnewsletters.com (not theglobeandmail.com). Use WebSearch to find the weekly Business Brief article on theglobeandmail.com. Site is paywalled \u2014 rely on WebSearch snippets for story details. See PIPELINE_NOTES.md."
     },
     {
       "rank": 7,
@@ -54,8 +54,7 @@
       "rank": 8,
       "name": "The Neuron",
       "newsletter_name": "The Neuron",
-      "domain": "theneurondaily.com",
-      "sender": "theneuron@newsletter.theneurondaily.com"
+      "domain": "theneurondaily.com"
     },
     {
       "rank": 9,
@@ -64,7 +63,7 @@
       "domain": "smartbrief.com",
       "sender": "connectivity@b2b.smartbrief.com",
       "extraction": "headlines_only",
-      "note": "Email body contains a headline list only — no summaries. Full summaries are on a web page behind a tracking URL (r.smartbrief.com/...). Use WebSearch on each headline to find and summarize the underlying story. Focus on stories unique to this newsletter; skip anything already covered by higher-priority sources. See PIPELINE_NOTES.md."
+      "note": "Email body contains a headline list only \u2014 no summaries. Full summaries are on a web page behind a tracking URL (r.smartbrief.com/...). Use WebSearch on each headline to find and summarize the underlying story. Focus on stories unique to this newsletter; skip anything already covered by higher-priority sources. See PIPELINE_NOTES.md."
     },
     {
       "rank": 10,
@@ -215,14 +214,23 @@
     },
     {
       "rank": 30,
-      "name": "Wall Street Journal",
-      "newsletter_name": "WSJ Technology Newsletter",
-      "domain": "wsj.com",
-      "sender": "access@interactive.wsj.com",
+      "name": "The Information",
+      "newsletter_name": "The Information Briefing",
+      "domain": "theinformation.com",
+      "sender": "info@theinformation.com",
       "auto_discovered": true,
-      "note": "Auto-discovered 2026-05-24. Weekly tech digest from WSJ covering tech columns, big stories, and personal tech advice. Distinct from WSJ Morning Briefing (daily news) and WSJ AI & Business."
+      "note": "Auto-discovered 2026-05-26. Nightly column from info@theinformation.com. Per PIPELINE_NOTES: treat as supplementary; date entries to the dateline (prior day), not email arrival date."
+    },
+    {
+      "rank": 31,
+      "name": "The Information",
+      "newsletter_name": "The Information Dealmaker",
+      "domain": "theinformation.com",
+      "sender": "hello@theinformation.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-05-26. Weekly VC/funding column (subject: 'Dealmaker: ...'). Link = null. Date entries to email arrival date."
     }
   ],
-  "last_updated": "2026-05-24",
+  "last_updated": "2026-05-26",
   "notes": "Sources below rank 5 are auto-discovered from the inbox. New sources are appended to other_sources with a rank of 6+ and trigger a post-run review prompt. The Logic (rank 5) is prioritized over The Globe and Mail (rank 6) per user preference set 2026-05-13."
 }
