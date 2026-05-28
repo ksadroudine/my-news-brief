@@ -229,6 +229,26 @@
       "sender": "hello@theinformation.com",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-05-26. Weekly VC/funding column (subject: 'Dealmaker: ...'). Link = null. Date entries to email arrival date."
+    },
+    {
+      "newsletter_name": "WSJ | Latest in AI",
+      "rank": 32
+    },
+    {
+      "newsletter_name": "WSJ | Heard on the Street",
+      "rank": 33
+    },
+    {
+      "newsletter_name": "WSJ | The Morning Download",
+      "rank": 34
+    },
+    {
+      "newsletter_name": "WSJ | CMO Today",
+      "rank": 35
+    },
+    {
+      "newsletter_name": "WSJ | Pro Cybersecurity",
+      "rank": 36
     }
   ],
   "last_updated": "2026-05-26",
