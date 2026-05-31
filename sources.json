@@ -255,6 +255,14 @@
       "newsletter": "WSJ Latest in AI",
       "sender": "access@interactive.wsj.com",
       "notes": "WSJ section alert for AI stories \u2014 auto-added 2026-05-30"
+    },
+    {
+      "newsletter": "WSJ Latest in Artificial Intelligence",
+      "rank": 38
+    },
+    {
+      "newsletter": "WSJ Technology Newsletter",
+      "rank": 39
     }
   ],
   "last_updated": "2026-05-28",
