@@ -263,8 +263,17 @@
     {
       "newsletter": "WSJ Technology Newsletter",
       "rank": 39
+    },
+    {
+      "rank": 40,
+      "name": "The Information",
+      "newsletter_name": "Applied AI",
+      "domain": "theinformation.com",
+      "sender": "hello@theinformation.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-06-02. Sub-newsletter from The Information covering enterprise AI adoption and business model shifts. Subject pattern: 'Applied AI: ...'. See PIPELINE_NOTES.md."
     }
   ],
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-06-02",
   "notes": "Sources below rank 5 are auto-discovered from the inbox. New sources are appended to other_sources with a rank of 6+ and trigger a post-run review prompt. The Logic (rank 5) is prioritized over The Globe and Mail (rank 6) per user preference set 2026-05-13."
 }
