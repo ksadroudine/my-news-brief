@@ -198,5 +198,371 @@
     "category": "Canadian Business",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-001",
+    "date": "2026-06-03",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Trump Signs Scaled-Back AI Executive Order Requiring 30-Day Government Preview",
+    "summary": "President Trump signed a revised executive order Tuesday requiring AI companies to voluntarily give the U.S. government access to powerful frontier models up to 30 days before public release, down from the 90-day period in a previously shelved version. The order creates an AI cybersecurity clearinghouse between government agencies and AI companies and directs national security officials to address software vulnerabilities identified by AI models. The signing was conducted privately, and the administration has 60 days to develop a framework identifying which frontier models will be subject to the voluntary guidelines.",
+    "link": "https://www.wsj.com/tech/ai/trump-signs-ai-executive-order-to-increase-government-oversight-e78fb21f",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "The Information AM",
+      "The Information Briefing",
+      "Enterprise AI Executive"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-06-03-002",
+    "date": "2026-06-03",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Anthropic Launches Claude Partner Network of 100 Enterprise Resellers Amid IPO Plans",
+    "summary": "Anthropic formally launched its Claude Partner Network, a vetted program of approximately 100 third-party resellers including Accenture and Cognizant, days after filing confidentially for an IPO. The program introduces a tiered certification structure requiring partners to employ a minimum number of Anthropic-certified individuals, with 'select' partners needing at least 10 and 'global premier' partners needing at least 1,000. Anthropic plans to grow the current roster to multiple thousands as it seeks to build enterprise sales scale comparable to established tech giants.",
+    "link": "https://www.wsj.com/cio-journal/anthropic-bulks-up-its-enterprise-partner-program-amid-ipo-plans-560a9b82",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-003",
+    "date": "2026-06-03",
+    "source": "Anthropic",
+    "newsletter": "WSJ Morning Download",
+    "title": "Anthropic Expands Project Glasswing Cybersecurity Initiative to 150 Organizations Across 15 Countries",
+    "summary": "Anthropic expanded its Project Glasswing initiative to allow 150 new organizations across more than 15 countries — including NATO members, the Five Eyes intelligence alliance countries, payment platform Swift, Okta, and Samsung — to use its Claude Mythos model for finding and patching security vulnerabilities. The expansion quadruples Glasswing's reach from the roughly 50 organizations included at launch in April. Anthropic said the initiative targets organizations where a major cyberattack could affect more than 100 million people.",
+    "link": "https://www.ft.com/content/19ea9ed4-3dd0-43aa-9877-729d44e620e8",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information AM",
+      "Mobile World Live",
+      "Enterprise AI Executive"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-004",
+    "date": "2026-06-03",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Microsoft Unveils Homegrown AI Models, Scout Agentic Platform, and Developer Hardware at Build 2026",
+    "summary": "Microsoft unveiled seven new homegrown AI models at its Build 2026 conference, including a coding model for GitHub Copilot intended as a cheaper alternative to OpenAI and Anthropic models. The company also launched Microsoft Scout, an AI agent product that combines open-source OpenClaw software with corporate data from Teams and Outlook to autonomously execute long-running workplace tasks, and debuted the Surface RTX Spark Dev Box, a developer desktop powered by Nvidia's Arm-based chips offering 1 petaflop of local compute. Separately, Microsoft previewed a new operating system for wearable and desktop 'agent-first' internet-connected devices, targeting healthcare, retail, and construction professionals.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information AM",
+      "Enterprise AI Executive"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-005",
+    "date": "2026-06-03",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Meta Scales Back Employee AI Tracking Tool After Staff Backlash",
+    "summary": "Meta is rolling back elements of its Model Capability Initiative (MCI), an employee tracking tool launched in April to train AI models by capturing on-screen activity, following internal pushback from staff. Changes include strengthened privacy protections, an option for employees to pause the tracker for 30 minutes, and a process for requesting exemptions. Employees had raised concerns about battery life, personal data on work devices, and insufficient control over when screen data is collected.",
+    "link": "https://www.theinformation.com/articles/meta-rolls-back-parts-employee-tracking-tool-staff-backlash",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Pro Cybersecurity",
+      "The Logic Briefing",
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-006",
+    "date": "2026-06-03",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "OpenAI to Merge Codex into ChatGPT Within Weeks, Announces Enterprise-Focused Business Tools",
+    "summary": "OpenAI announced it will combine its Codex coding application into its core ChatGPT product 'in the next few weeks,' a move toward the 'superapp' model the company has long promised, as it positions itself to compete with Anthropic for enterprise customers ahead of a planned IPO. At a New York event, the company unveiled industry-specific plugins for tasks including equity trading and investment banking, and said Codex now has five million weekly active users — up 400% from the start of the year. Chief Revenue Officer Denise Dresser said enterprise-related revenue currently accounts for more than 40% of OpenAI's total revenue, with a target of 50% by year-end.",
+    "link": "https://www.theinformation.com/briefings/openai-says-will-combine-codex-chatgpt-soon-announces-business-tools",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-007",
+    "date": "2026-06-03",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "SpaceX Pushes IPO Banks to Accept Sub-0.75% Fee on $75B Offering",
+    "summary": "SpaceX is negotiating with the approximately two dozen banks working on its IPO — led by Goldman Sachs and Morgan Stanley — to pay a fee below 0.75% of capital raised, lower than the roughly 1% typically charged on mega-listings. Even at that reduced rate, banks would collectively earn around $500 million on a $75 billion raise, which would surpass any IPO in history. SpaceX publicly filed its IPO paperwork in late May and is due to begin trading as soon as June 12.",
+    "link": "https://www.bloomberg.com/news/articles/2026-06-02/spacex-ipo-spacex-wants-fee-cut-from-ipo-bankers-chasing-500-million-windfall",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Information Dealmaker",
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-008",
+    "date": "2026-06-03",
+    "source": "Shopify",
+    "newsletter": "The Information AM",
+    "title": "Shopify Expands Share Buyback to $5B Total as AI Uncertainty Batters Software Stocks",
+    "summary": "Shopify authorized an additional $3 billion in share repurchases, bringing its total buyback authorization to $5 billion, as AI disruption fears have driven the company's stock down more than 25% year-to-date. The Canadian e-commerce platform has already repurchased approximately $1.45 billion in shares under its current program as of June 1, with no expiry date on the new authorization. The move mirrors similar large-scale buybacks from Salesforce, ServiceNow, and Adobe in response to AI-related stock pressure on software firms.",
+    "link": "https://www.theinformation.com/briefings/shopify-becomes-latest-software-firm-buy-back-shares",
+    "category": "Canadian Business",
+    "also_covered_by": [
+      "The Logic Briefing",
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-009",
+    "date": "2026-06-03",
+    "source": "SK Hynix",
+    "newsletter": "The Information AM",
+    "title": "SK Hynix Plans to Double Memory Chip Capacity Within Five Years to Ease AI Supply Crunch",
+    "summary": "SK Hynix chairman Chey Tae-won said the company plans to double its memory chip wafer capacity within five years as AI demand continues to strain global supply, with the memory shortage potentially persisting until 2030. The expansion would ease a critical hardware bottleneck for AI data centers, as high-bandwidth memory — in which SK Hynix is a dominant supplier alongside Samsung and Micron — is one of the main limiting factors in AI accelerator production. The company's shares have risen more than 1,000% over the past year, pushing its market value above $1 trillion.",
+    "link": "https://www.bloomberg.com/news/articles/2026-06-02/sk-hynix-to-double-wafer-capacity-to-ease-memory-chip-crunch",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-010",
+    "date": "2026-06-03",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Zuckerberg Wants Meta's New AI Agents to Run Your Whole Business",
+    "summary": "Meta is developing AI agents capable of handling entire business operations autonomously, as the company pushes to expand beyond its core consumer social media business while aggressively investing in AI. The new agentic products represent a strategic push into the enterprise market where Anthropic and OpenAI have been competing most actively. Meta has said it plans to spend aggressively on AI infrastructure in 2026 to support this expanded ambition.",
+    "link": "https://www.wsj.com/tech/mark-zuckerberg-wants-metas-new-ai-agents-to-run-your-whole-business-6e2100e2",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-011",
+    "date": "2026-06-03",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "Tim Hortons Ending Loyalty Credit Card Partnership with Neo Financial on October 1",
+    "summary": "Tim Hortons and Calgary-based fintech Neo Financial confirmed they will discontinue the Tim's Mastercard loyalty credit card program on October 1, about three years after it launched. It is the second major branded credit card partnership Neo has lost in just over a year, following the end of its Hudson's Bay loyalty program in March 2025 when HBC filed for creditor protection. Neo co-founder Jeff Adamson said the Tim's program represented a 'relatively small' portion of Neo's business and that former HBC cardholders spent more with Neo after that partnership ended.",
+    "link": "https://thelogic.co/news/tim-hortons-neo-financial-end-loyalty-program/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-012",
+    "date": "2026-06-03",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "Canada's Culture Minister Orders CRTC to Restart Cancon Streaming Spending Rules",
+    "summary": "Culture Minister Marc Miller announced the government will issue new policy guidance directing the CRTC to restart its process for setting Canadian content spending requirements for streaming platforms, effectively killing a May ruling that would have required services like Netflix and Disney to direct 15% of their Canadian revenues toward Canadian productions. The CRTC decision had drawn criticism from streaming platforms and the U.S. envoy to Ottawa, who called it a trade barrier. Miller said the new guidance will emphasize keeping services affordable and maintaining flexibility for both streamers and Canadian broadcasters.",
+    "link": "https://thelogic.co/news/cancon-crtc-marc-miller/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-013",
+    "date": "2026-06-03",
+    "source": "Business Development Bank of Canada",
+    "newsletter": "The Logic Briefing",
+    "title": "BDC Report: Full AI Adoption Across Canadian Small Businesses Could Add $150B to GDP",
+    "summary": "A new Business Development Bank of Canada study finds that if all of Canada's small and medium-sized businesses used AI in their operations, it could grow the economy by roughly $150 billion, or about six percent. The report found AI-using businesses generated 24% higher sales per employee on average than non-adopters, but only 30% of SMEs are currently using generative AI tools. The findings were released ahead of the federal government's expected AI strategy announcement this week, with business adoption expected to be a central focus.",
+    "link": "https://thelogic.co/news/small-business-ai-canada-bdc/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-014",
+    "date": "2026-06-03",
+    "source": "Statistics Canada",
+    "newsletter": "The Logic Briefing",
+    "title": "Canadian Labour Productivity Falls 0.5% in Q1 2026, Third Decline in Four Quarters",
+    "summary": "Statistics Canada reported that output per hour worked fell 0.5% in the first quarter of 2026, following a 0.3% decline in Q4 2025, the third decline in four quarters. Average quarterly productivity growth since the end of 2021 is now zero, compared to 0.3% average growth in the 2016-to-end-of-2019 comparable period. The decline complicates the government's narrative on AI as a productivity driver, as Canada's productivity already ranks near the bottom of the G7, ahead of only Japan.",
+    "link": "https://thelogic.co/briefing/canadian-labour-productivity-is-falling-again/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-015",
+    "date": "2026-06-03",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "U.S. Threatens 10% Tariffs on Canada Over Forced Labour Import Enforcement Failures",
+    "summary": "U.S. Trade Representative Jamieson Greer recommended sweeping Section 301 tariffs on 59 countries and the EU late Tuesday, citing failures to prohibit forced labour imports; Canada was targeted specifically for failing to 'effectively enforce' its ban. The proposed tariffs would not apply to goods covered by CUSMA, which already requires Canada to prohibit forced-labour imports, and Trade Minister Dominic LeBlanc said legislation to strengthen Canada's ban further is coming this month. The recommendation was made hours after LeBlanc met with Greer in Washington, D.C.",
+    "link": "https://thelogic.co/briefing/canada-to-strengthen-forced-labour-ban-after-u-s-threatens-10-tariffs/",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-016",
+    "date": "2026-06-03",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "Mediator Finds Amazon \"Significantly Impaired\" Union Bargaining at BC Warehouse",
+    "summary": "A mediator appointed to assist contract negotiations between Amazon and Unifor at a Delta, B.C. warehouse found that Amazon's conduct 'materially contributed' to a bargaining standstill and that its positions effectively 'neuter the union from any input.' The mediator recommended the parties move to binding mediation-arbitration, a decision that will ultimately rest with the British Columbia Labour Relations Board. Amazon denied the characterizations, while Unifor called the tactics 'beyond the pale.'",
+    "link": "https://thelogic.co/news/amazon-union-british-columbia-mediator/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-017",
+    "date": "2026-06-03",
+    "source": "OpenAI",
+    "newsletter": "Mobile World Live",
+    "title": "ChatGPT Crosses 1 Billion Monthly Active Users, Becoming Fastest App to Reach the Mark",
+    "summary": "Research firm Sensor Tower estimates ChatGPT crossed 1 billion monthly active users on its app in May 2026, making it the fastest application in history to reach that milestone. The figure marks a significant acceleration in OpenAI's consumer reach and comes as the company is simultaneously pushing hard into enterprise markets. No other application has reached 1 billion monthly active users as quickly as ChatGPT.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-018",
+    "date": "2026-06-03",
+    "source": "Federal Communications Commission",
+    "newsletter": "Mobile World Live",
+    "title": "FCC Opens First Spectrum Auction in Four Years with SpaceX as Potential Bidder",
+    "summary": "The U.S. Federal Communications Commission opened its first spectrum auction in four years, putting 200 licenses on the block for bidders including AT&T, T-Mobile, Verizon, and potentially SpaceX. The auction represents a significant policy moment for spectrum allocation in the U.S., coming after years without new licensing activity. SpaceX's possible participation as a wildcard bidder adds a novel dynamic to an auction traditionally dominated by the major carriers.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "SmartBrief on Connectivity"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-019",
+    "date": "2026-06-03",
+    "source": "Deloitte",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Deloitte and Google Publish Framework for Scaling Agentic AI From Pilot to Enterprise",
+    "summary": "Deloitte AI Institute and Google Cloud published a 21-page framework identifying three core friction points blocking enterprises from scaling AI agents: technical fragility, process inertia, and trust deficits. The report recommends a 'pragmatic AI' mindset focused on value over velocity and specialized utility rather than AGI, and proposes a holistic architecture including an agentic operating system, developer workbench, and agent repository. The authors project that internal agent marketplaces will be standard at large enterprises within one to two years, with cross-enterprise agent collaboration — such as inventory agents negotiating with supplier shipping agents autonomously — emerging by 2028.",
+    "link": "https://www.deloitte.com/content/dam/assets-shared/docs/alliances/google/2026/scaling-agentic-ai-pov.pdf",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-020",
+    "date": "2026-06-03",
+    "source": "Bain & Company",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Bain Survey of 951 Companies: AI Budgets Growing But Returns Consistently Below Target",
+    "summary": "A Bain & Company survey of 951 global companies found that nearly 40% of organizations that measured AI cost savings landed below their 10% target, while 90% are raising their AI budgets again for the next cycle. Only 7% of firms are running fully autonomous AI agents in production, versus the full-automation assumptions embedded in most investment cases, and 44% are funding new AI initiatives from automation savings that have themselves missed targets. Bain identifies data access and integration as the most-cited barrier to AI progress, flagging it as a bigger obstacle than companies that missed their targets acknowledge.",
+    "link": "https://www.bain.com/insights/your-ai-budget-is-growing-your-returns-arent-heres-why/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-021",
+    "date": "2026-06-03",
+    "source": "DeepSeek",
+    "newsletter": "The Logic Briefing",
+    "title": "DeepSeek in Late-Stage Talks to Raise $7.4B in One of China's Largest-Ever Startup Rounds",
+    "summary": "Chinese AI developer DeepSeek is reportedly in late-stage talks to raise approximately $7.4 billion from investors including Tencent, which would make it one of the largest startup funding rounds in Chinese history. The raise would come after DeepSeek disrupted the AI industry in early 2025 by releasing a capable open-source model at dramatically lower cost than Western competitors. No timeline for closing the round has been disclosed.",
+    "link": "https://www.bloomberg.com/news/articles/2026-06-03/deepseek-close-to-sealing-7-billion-funding-in-historic-ai-deal",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-022",
+    "date": "2026-06-03",
+    "source": "Alphabet",
+    "newsletter": "The Logic Briefing",
+    "title": "Alphabet Upsizes Equity Offering to $84.75B to Fund AI Infrastructure",
+    "summary": "Alphabet increased the size of its upcoming equity offering from $80 billion to $84.75 billion to fund its AI infrastructure buildout, one of the largest equity raises in corporate history. The raise comes alongside approximately $85 billion in debt Alphabet has taken on in the past year and capital expenditure guidance of $180–190 billion for 2026, illustrating the enormous financing requirements of frontier AI development even for one of the world's most profitable companies. Alphabet shares fell 2% in after-hours trading on the announcement.",
+    "link": "https://www.reuters.com/legal/transactional/alphabet-raise-8475-billion-upsized-equity-offering-fund-ai-ambitions-2026-06-03/",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-023",
+    "date": "2026-06-03",
+    "source": "University of Toronto",
+    "newsletter": "The Logic Briefing",
+    "title": "U of T Researchers Use Freely Available AI Models to Build Self-Spreading Cyberattack Worm",
+    "summary": "University of Toronto researchers used only publicly available AI models in a controlled lab environment to build a prototype worm capable of spreading between interconnected devices without human intervention, demonstrating that sophisticated cyberattack tools no longer require proprietary or restricted AI. Their findings were published after sharing results with national science, security, and defence bodies, with key technical details redacted. The research follows Anthropic's decision not to release its Mythos model publicly due to its capability to identify and exploit security vulnerabilities.",
+    "link": "https://www.nytimes.com/2026/06/02/technology/scientists-find-way-to-supercharge-dangerous-computer-worms-with-ai.html",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-024",
+    "date": "2026-06-03",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "America's Data Center Build-Out Is Falling Way Behind Schedule",
+    "summary": "According to a JPMorgan analysis, more than 60% of data center capacity scheduled for completion in 2027 has not yet entered construction, with an additional 7% delayed, as supply-chain backlogs, permitting disputes, and power supply constraints mount. Nearly half of U.S. data centers planned for 2026 are at risk of delay or cancellation, a paradox given the record capital commitments flowing into AI infrastructure. The gap between capital raised and actual deployable capacity is widening even as companies like Alphabet announce tens of billions in new AI spending.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "SmartBrief on Connectivity"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-025",
+    "date": "2026-06-03",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "GitLab Cuts 14% of Workforce (350 Jobs) and Exits 22 Countries in AI-Era Restructuring",
+    "summary": "Software-development platform GitLab announced it is laying off approximately 350 employees, representing 14% of its total workforce, as part of a restructuring toward what CEO Bill Staples called an AI-era enterprise platform for software creation. The company also said it is exiting 22 countries as part of the reorganization. GitLab expects to record $30–35 million in pre-tax restructuring charges, mostly severance and retention costs, while its most recent quarterly revenue of $264 million represented 23% year-over-year growth.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-026",
+    "date": "2026-06-03",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Nvidia CEO Huang Says Marvell Technology Could Be Next Semiconductor Firm to Join Trillion-Dollar Club",
+    "summary": "Nvidia CEO Jensen Huang said Marvell Technology, which specializes in data infrastructure semiconductors and high-speed networking, could become the next chip company to reach a $1 trillion market capitalization. Huang made the comments at a trade show in Taipei, arguing that increasingly disaggregated and distributed AI computing systems require advanced connectivity capabilities in which Marvell is central. The statement follows SK Hynix's recent crossing of the $1 trillion market cap threshold.",
+    "link": "https://www.wsj.com/tech/ai/nvidias-huang-says-marvell-may-join-1-trillion-club-bf018449",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-027",
+    "date": "2026-06-03",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Palo Alto Networks Q3 Revenue Rises to $3B, Beating Estimates Amid AI-Driven Cyber Threat Growth",
+    "summary": "Palo Alto Networks reported third-quarter revenue of $3 billion, up from $2.29 billion a year prior, beating analyst estimates as customers continued to expand cybersecurity spending in response to heightened AI-driven threats. The company reported a net loss of $177 million for the quarter, compared to a profit of $262 million a year earlier, which it attributed as a one-time charge related to its CyberArk acquisition. The company raised its full-year outlook alongside the results.",
+    "link": "https://www.wsj.com/business/earnings/palo-alto-networks-revenue-rises-as-customers-beef-up-cyber-defenses-d80de2d7",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-03-028",
+    "date": "2026-06-03",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "Canada's AI Data Center Boom Set to Collide with Major Construction Labour Shortage",
+    "summary": "A Big Read investigation by The Logic finds that the surge in AI data center construction across Canada is on a collision course with a severe shortage of skilled construction workers, electricians, and engineers needed to build and operate the facilities. The labour crunch threatens to delay projects and drive up costs at a moment when the Canadian government is positioning AI infrastructure as a driver of economic growth. The shortage is compounding existing challenges including land access, power grid capacity, and permitting timelines.",
+    "link": "https://thelogic.co/news/the-big-read/ai-data-centres-canada-construction-labour-shortage/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]

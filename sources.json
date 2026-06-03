@@ -272,6 +272,21 @@
       "sender": "hello@theinformation.com",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-06-02. Sub-newsletter from The Information covering enterprise AI adoption and business model shifts. Subject pattern: 'Applied AI: ...'. See PIPELINE_NOTES.md."
+    },
+    {
+      "rank": 41,
+      "newsletter_name": "WSJ Morning Download",
+      "name": "WSJ Morning Download"
+    },
+    {
+      "rank": 42,
+      "newsletter_name": "WSJ Latest in Artificial Intelligence",
+      "name": "WSJ Latest in Artificial Intelligence"
+    },
+    {
+      "rank": 43,
+      "newsletter_name": "The Logic Briefing",
+      "name": "The Logic Briefing"
     }
   ],
   "last_updated": "2026-06-02",
