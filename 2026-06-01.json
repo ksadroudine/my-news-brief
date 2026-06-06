@@ -1063,5 +1063,319 @@
     "category": "Politics & Policy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-001",
+    "date": "2026-06-05",
+    "source": "Wall Street Journal",
+    "newsletter": "The Morning Download",
+    "title": "Anthropic Calls for Global Pause on AI Development, Citing Self-Improvement Risk",
+    "summary": "Anthropic published a blog post urging the world's leading AI labs to consider slowing or temporarily halting frontier AI development, warning that models may soon reach 'recursive self-improvement' — the ability to upgrade themselves without human intervention. The post, written by Marina Favaro and Jack Clark, proposed a verifiable global agreement for a potential development pause. Anthropic also disclosed that 80% of the code it merges into its codebase is now authored by Claude.",
+    "link": "https://www.wsj.com/tech/ai/anthropic-urges-global-pause-in-ai-development-flags-self-improvement-risk-99cefb73",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Pro Cybersecurity"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-06-05-002",
+    "date": "2026-06-05",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "U.S. Officials Discuss Taking Financial Stakes in AI Industry",
+    "summary": "Senior US government officials have held preliminary talks with major AI companies about the government acquiring equity stakes in their firms. OpenAI CEO Sam Altman has periodically pitched the idea to Trump administration officials, though Anthropic is not participating in such discussions. Any deal would blur the line between regulator, customer, and investor — and has precedent in the government's recent acquisition of stakes in chipmaker Intel.",
+    "link": "https://www.wsj.com/tech/ai/u-s-officials-discuss-taking-financial-stakes-in-ai-industry-b654d41a",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "The Information AM"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-003",
+    "date": "2026-06-05",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Apple's Plan for AI Dominance Rests on Fixing Its Much-Maligned Chatbot",
+    "summary": "Apple holds structural advantages in consumer AI — hardware integration, privacy architecture, and a massive installed base — but the company's path to AI leadership depends on whether it can fundamentally modernize Siri. WSJ reporting indicates Apple is preparing to unveil an upgraded Siri powered in part by Google's AI technology. Analysts believe Apple can still dominate the consumer AI era if it executes, despite its late start relative to OpenAI and Google.",
+    "link": "https://www.wsj.com/tech/ai/apples-plan-for-ai-dominance-rests-on-fixing-its-much-maligned-chatbot-9f2309cb",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-004",
+    "date": "2026-06-05",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Corporate Cyber Chiefs Largely Unmoved by Trump's AI Executive Order",
+    "summary": "Corporate cybersecurity leaders responded with skepticism to Trump's AI oversight executive order, calling it vague and voluntary, and saying it does little to address risks posed by frontier AI models including Anthropic's Mythos and OpenAI's GPT-5.5. The order requires no binding compliance and gives AI developers broad latitude. Some critics noted that Anthropic's simultaneous call for a development pause — while limiting access to Mythos — could be interpreted as a marketing move as much as a safety posture.",
+    "link": "https://www.wsj.com/pro/cybersecurity/security-chiefs-unfazed-by-federal-ai-oversight-c08dbef0",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-005",
+    "date": "2026-06-05",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "China Uses LinkedIn to Recruit Western Military and Government Personnel as Intelligence Assets",
+    "summary": "US intelligence agencies and allied partners issued a warning that Chinese operatives are posing as job recruiters on LinkedIn and other professional platforms to target Western military personnel, government employees, and holders of security clearances. Targets are asked to write 'trial reports' as a pretext for gathering sensitive information. The warning specifically flagged individuals who respond to online job ads as particularly vulnerable.",
+    "link": "https://www.wsj.com/world/china/china-uses-linkedin-to-lure-spy-recruits-in-west-u-s-and-allies-warn-556ab4d5",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-006",
+    "date": "2026-06-05",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Heard on the Street",
+    "title": "There's More to Space Stocks Than SpaceX",
+    "summary": "With SpaceX's mega-IPO drawing investor attention to the space economy, Rocket Lab offers a publicly traded alternative for investors seeking space exposure. Rocket Lab is developing a medium-lift rocket capable of carrying payloads up to 13 metric tons, targeting defense customers that prefer not to ride-share with SpaceX missions. The company is also exploring space data centers as a potential vertical-integration strategy.",
+    "link": "https://www.wsj.com/finance/stocks/theres-more-to-space-stocks-than-spacex-282c71f2",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-007",
+    "date": "2026-06-05",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Future of Everything",
+    "title": "Estonia Is Fighting 'Brain Rot' With Free ChatGPT for All Schoolchildren",
+    "summary": "Estonia has partnered with OpenAI to provide all schoolchildren with free ChatGPT accounts, choosing to integrate AI into classrooms rather than restrict it. The initiative represents one of the first large-scale national experiments in coordinated AI adoption, with researchers tracking its impact on students' reasoning, retention, and confidence. Teachers are using chatbots in creative exercises, including having students improve AI-written essays and recreate historical dinner-party conversations.",
+    "link": null,
+    "category": "Science & Health",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-008",
+    "date": "2026-06-05",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Exclusive: Nadella Rebukes Microsoft Executive's Plan to Make Users 'Addicted' to AI Agents",
+    "summary": "Microsoft CEO Satya Nadella publicly reprimanded CVP Omar Shahine after an internal memo surfaced that proposed developing the AI agent Scout through phases aimed at making users 'addicted' to the product. In a message to approximately 50 of Microsoft's top AI engineers, Nadella called dependency on AI an 'absolute non goal,' stating that Microsoft wants AI to 'empower' users rather than create compulsion. The episode underscores sensitivities around how AI companies frame engagement strategies as scrutiny of addictive design grows.",
+    "link": "https://www.theinformation.com/briefings/exclusive-nadella-rebukes-microsoft-executives-plan-make-users-addicted-ai-agents",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-009",
+    "date": "2026-06-05",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Data Center Developer Switch in Talks to Raise Billions at $50 Billion-Plus Valuation",
+    "summary": "Data center developer Switch is in early-stage talks to raise billions of dollars at a valuation of at least $50 billion, which would make it one of the most valuable privately held data center operators. Brookfield Asset Management, KKR, and other institutional investors are among the parties in discussions, though no deal is finalized. A successful fundraising round could set up Switch for an IPO as early as 2027, capitalizing on surging demand for AI infrastructure.",
+    "link": "https://www.theinformation.com/articles/data-center-developer-switch-talks-raise-billions-50-billion-plus-valuation",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "The Information AM"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-010",
+    "date": "2026-06-05",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "S&P 500 Decides Against Rule Change That Would Have Fast-Tracked SpaceX's Index Entry",
+    "summary": "S&P Dow Jones Indices announced it will not change its index eligibility rules to allow recently public mega-cap companies like SpaceX, Anthropic, and OpenAI to join the S&P 500 faster. The existing 12-month profitability and trading history requirements remain intact, meaning passive funds tied to the S&P 500 will not be forced to buy SpaceX shares immediately after its IPO. By contrast, Nasdaq has already loosened its rules to permit Nasdaq 100 entry after just 15 trading days.",
+    "link": "https://www.theinformation.com/briefings/s-p-500-make-change-fast-tracked-spacex",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-011",
+    "date": "2026-06-05",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "SpaceX's CFO Is the Quiet VIP of a Wild IPO",
+    "summary": "A new profile from The Information spotlights Bret Johnsen, SpaceX's low-profile CFO, who has played a central behind-the-scenes role in structuring and executing SpaceX's historic IPO. The offering is shaping up to be one of the largest public listings in history, and Johnsen's fingerprints are reportedly on the financial and investor relations strategy that has brought it to market. The article is reported by Theo Wayt and Valida Pau.",
+    "link": "https://www.theinformation.com/articles/spacexs-cfo-quiet-vip-wild-ipo",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-012",
+    "date": "2026-06-05",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Bipartisan AI Regulatory Framework Would Override State AI Development Rules for Three Years",
+    "summary": "Reps. Jay Obernolte (R-CA) and Lori Trahan (D-MA) released a 269-page discussion draft for a sweeping federal AI regulatory framework that would preempt state-level AI development regulations for a three-year period. The bill also calls for third-party audits of AI companies' plans for managing catastrophic risk. The draft is the latest Congressional attempt to build consensus ahead of November's midterms, but faces existing pushback from state lawmakers over the preemption language.",
+    "link": "https://www.theinformation.com/briefings/bipartisan-ai-regulatory-framework-released-override-state-rules",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-013",
+    "date": "2026-06-05",
+    "source": "The Information",
+    "newsletter": "The Information Dealmaker",
+    "title": "Benchmark Raises First Growth-Stage Fund of $1.25 Billion as VC Industry Shifts to Later-Stage Bets",
+    "summary": "Benchmark, a venerable early-stage VC firm known for disciplined fund sizes, is departing from tradition by raising its first growth-stage fund of $1.25 billion alongside a $750 million early-stage fund. The shift reflects an industry-wide trend: startups are staying private longer and raising at valuations previously unseen for pre-IPO companies, forcing established VC firms to write larger checks to remain competitive in their own portfolio companies. The column is authored by Laura Mandaro.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-014",
+    "date": "2026-06-05",
+    "source": "Wall Street Journal",
+    "newsletter": "The Morning Download",
+    "title": "Quantinuum Begins Trading, Joining Wave of Quantum Computing IPOs",
+    "summary": "Quantinuum became the latest in a series of quantum computing companies to go public, opening its first day of trading at $68 per share before settling to $60.38 for a 0.6% gain. CEO Rajeeb Hazra acknowledged the inherent uncertainty of long-range quantum forecasting, noting that the best the company can do is 'build the technology to the requirements that we see as most valuable.' Growing investor appetite for quantum exposure has fueled a string of quantum-sector listings.",
+    "link": "https://www.barrons.com/articles/quantinuum-ipo-stock-pricing-quantum-computing-915ac49d",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-015",
+    "date": "2026-06-05",
+    "source": "SDxCentral",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "Supreme Court Rules 8-1 to Uphold FCC's $104 Million Fines Against AT&T and Verizon for Selling Location Data",
+    "summary": "The Supreme Court voted 8-1 to uphold the FCC's authority to impose over $104 million in fines on AT&T and Verizon for selling customers' real-time location data to third parties without consent. Chief Justice Roberts, writing for the majority, characterized the FCC's forfeiture orders as functioning like indictments rather than final judgments, preserving carriers' right to contest them in court. Justice Thomas was the sole dissenter, and the ruling ends years of litigation stemming from a 2018 data-sharing scandal.",
+    "link": "https://www.sdxcentral.com/news/supreme-court-upholds-fcc-att-verizon-fines-over-location-data-misuse/",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-016",
+    "date": "2026-06-05",
+    "source": "StateScoop",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "FCC Proposes 120-Day Deadline for Broadband Permitting Approvals",
+    "summary": "The FCC is seeking comment on rules that would require state and local governments to process broadband infrastructure authorization requests within 120 days, aiming to reduce permitting delays that slow network expansion. The proposals would also prohibit governments from imposing additional deployment requirements on wireline telecom infrastructure. FCC Chairman Brendan Carr framed the initiative as addressing 'excessive fees and unnecessary delays' faced by American broadband builders.",
+    "link": "https://statescoop.com/fcc-congress-move-to-streamline-state-local-broadband-permitting/",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-017",
+    "date": "2026-06-05",
+    "source": "Google",
+    "newsletter": "The Rundown Tech",
+    "title": "Google Launches Claimable Search Profiles for Creators as Linktree-Like Hub",
+    "summary": "Google is rolling out claimable Search profiles for creators and publishers with at least 100,000 followers on Instagram, YouTube, or X (or 300,000 on TikTok), turning the top search result for their name into a self-curated content hub. Profiles integrate with Google Discover and can aggregate videos, articles, and posts, though all edits require Google's approval before going live. The move comes as Google's AI Overviews have contributed to a reported 61% drop in organic click-through rates for some publishers between mid-2024 and late-2025.",
+    "link": "https://blog.google/products-and-platforms/products/search/a-new-profile-to-help-publishers-and-creators-highlight-their-work-on-search/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-018",
+    "date": "2026-06-05",
+    "source": "23andMe",
+    "newsletter": "The Rundown Tech",
+    "title": "23andMe Returns from Bankruptcy as Nonprofit, Targets 100 Million Users with AI Health Research Push",
+    "summary": "23andMe exited bankruptcy as a nonprofit after founder Anne Wojcicki repurchased the company's assets — including its 13 million-person DNA database — for approximately $305 million in a court-approved auction. The company aims to expand its user base to 100 million, arguing that scale is essential for meaningful AI-driven medical discovery. A new partnership with HealthEx will allow users to integrate electronic medical records alongside genetic data, though approximately 2 million customers deleted their data during the bankruptcy proceedings.",
+    "link": "https://mediacenter.23andme.com/press-releases/23andme-partners-with-healthex-to-connect-medical-records-with-your-dna-for-the-future-of-personalized-medicine/",
+    "category": "Science & Health",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-019",
+    "date": "2026-06-05",
+    "source": "Block",
+    "newsletter": "The Rundown Tech",
+    "title": "Block Launches $25 NFC 'Wand' for Contactless Payments, First Drop Sells Out",
+    "summary": "Jack Dorsey's Block launched a $25 NFC keychain charm called 'The Wand' that allows Cash App users to make contactless payments by tapping at checkout terminals, competing in a market dominated by Apple Pay and Google Wallet. The pearlescent, star-shaped device is the first product in a planned 'Cash App Tags' hardware line that Block says will extend to clothing, jewelry, and other form factors. The initial drop reportedly sold out, and Block has indicated more NFC tags are coming soon.",
+    "link": "https://techcrunch.com/2026/06/04/cash-app-launches-a-wand-for-tap-and-pay/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-020",
+    "date": "2026-06-05",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "China Launches Regional 6G Pilot Programs to Identify Use Cases Ahead of Commercial Rollout",
+    "summary": "China stepped up its preparations for 6G by launching regional pilot programs aimed at identifying potential commercial use cases, according to state news agency Xinhua. The initiative is part of a broader effort to accelerate the country's path to eventual 6G commercial deployment. China is already the dominant force in 5G infrastructure globally, and these trials signal continued ambitions to lead the next generation of wireless technology.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-021",
+    "date": "2026-06-05",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Verizon CEO Says AI Will Replace a 'Large Percentage' of Customer Service Work",
+    "summary": "Verizon CEO Dan Schulman predicted that AI will displace a substantial share of work currently performed by customer service representatives, doubling down on public messaging around the technology's workforce implications. The remarks reflect growing telecom industry conviction that AI-driven automation will fundamentally reshape frontline service operations. Schulman did not specify a timeline or headcount figure.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-022",
+    "date": "2026-06-05",
+    "source": "Amazon",
+    "newsletter": "Mobile World Live",
+    "title": "Amazon Commits More Than €10 Billion to Upgrade European Facilities with Next-Generation Robotics",
+    "summary": "Amazon announced a commitment to invest more than €10 billion in upgrading its European facilities with next-generation robotics as part of a broader effort to modernize and expand its operations network across the continent. The investment targets automation infrastructure upgrades rather than new facility construction. The announcement signals Amazon's continued push to automate its logistics and fulfillment operations at scale.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-023",
+    "date": "2026-06-05",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "Canadian Fraud Losses Reach $704M as AI Supercharges the 'Scampocalypse'",
+    "summary": "Fraud victims in Canada reported $704 million in losses to the Canadian Anti-Fraud Centre last year, up from $645 million the year prior, with AI-enabled fraud campaigns driving the increase. The agency estimates only 5 to 10 per cent of fraud is actually reported, suggesting true losses are significantly higher. The article by Alexandra Posadzki, Erica Alini, and Mariya Postelnyak examines the transnational nature of modern scam operations and the challenges they pose for law enforcement.",
+    "link": "https://www.theglobeandmail.com/business/article-business-brief-the-scampocalypse/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-024",
+    "date": "2026-06-05",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Canada's 'AI for All' Strategy Pledges $2B+ Investment, Targets 250,000 Jobs by 2031",
+    "summary": "Prime Minister Mark Carney launched Canada's new national AI strategy, 'AI for All,' promising over $2 billion in new investment and a target of 250,000 jobs by 2031. The strategy establishes a Sovereign Technology Alliance to attract foreign investment and promote Canadian AI firms abroad, with the government committing to use its procurement power as a 'strategic anchor customer' for homegrown firms. Canadian AI executives told The Logic that being Canadian can be a competitive advantage when selling AI products internationally, particularly to countries seeking non-US or non-Chinese alternatives.",
+    "link": "https://thelogic.co/news/canada-ai-strategy-global-competition/",
+    "category": "Canadian Business",
+    "also_covered_by": [
+      "The Logic"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-05-025",
+    "date": "2026-06-05",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "How xAI Went From Chasing Anthropic to Powering It",
+    "summary": "A new investigation by The Information traces how Elon Musk's xAI shifted from positioning itself as a direct rival to Anthropic to becoming one of its infrastructure suppliers. The report by Grace Kay examines the evolving relationship between the two AI companies, including xAI's decision to lease computing infrastructure to Anthropic amid xAI's internal challenges. The piece offers insight into how the competitive dynamics among frontier AI labs are producing unexpected cross-company dependencies.",
+    "link": "https://www.theinformation.com/articles/xai-went-chasing-anthropic-powering",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]

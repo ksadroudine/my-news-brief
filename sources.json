@@ -287,6 +287,18 @@
       "rank": 43,
       "newsletter_name": "The Logic Briefing",
       "name": "The Logic Briefing"
+    },
+    {
+      "rank": 44,
+      "name": "WSJ Future of Everything",
+      "newsletter_name": "WSJ Future of Everything",
+      "auto_discovered": true
+    },
+    {
+      "rank": 45,
+      "name": "The Globe and Mail Business Brief",
+      "newsletter_name": "The Globe and Mail Business Brief",
+      "auto_discovered": true
     }
   ],
   "last_updated": "2026-06-02",
