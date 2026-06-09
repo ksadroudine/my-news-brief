@@ -8,7 +8,10 @@
     "summary": "Nvidia received the top spot in WSJ's inaugural Best Companies for the Future ranking, which evaluates companies on their capacity for future growth through R&D investment, talent development, and business model diversification. The ranking highlights Nvidia's dominant market position across AI infrastructure hardware and its ability to expand its platform across data center, cloud, and edge computing markets. WSJ described the list as a forward-looking assessment of competitive durability rather than historical financial performance.",
     "link": "https://www.wsj.com/lifestyle/careers/2026-best-companies-future-nvidia-f6744e03",
     "category": "Business & Strategy",
-    "also_covered_by": ["WSJ | CMO Today", "WSJ | CEO Brief"],
+    "also_covered_by": [
+      "WSJ | CMO Today",
+      "WSJ | CEO Brief"
+    ],
     "coverage_count": 3,
     "priority_pick": true
   },
@@ -21,7 +24,9 @@
     "summary": "Sriram Krishnan, the top White House artificial intelligence policy advisor, is departing his post, according to The Information. Krishnan had served as the administration's senior AI policy advisor and was a central figure in shaping the White House's approach to AI governance and industry engagement. His departure comes as the administration continues negotiations with major AI developers over financial and regulatory frameworks.",
     "link": "https://www.theinformation.com/articles/white-house-ai-policy-advisor-krishnan-leave-position",
     "category": "Politics & Policy",
-    "also_covered_by": ["The Information Briefing"],
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
     "coverage_count": 2,
     "priority_pick": false
   },
@@ -192,6 +197,247 @@
     "category": "Canadian Business",
     "also_covered_by": [],
     "coverage_count": 1,
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-08-016",
+    "date": "2026-06-08",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Meta Launches $115 Million 'Workforce Academy' to Train Data Center Workers",
+    "summary": "Meta announced a $115 million program called America's Workforce Academy, offering free five-week skilled trades training with guaranteed employment at Meta data center sites upon graduation. The program launches in Louisiana, Ohio, Indiana, and Texas, covering roles such as electrical work, HVAC, welding, and fibre-optic technology, developed in partnership with CBRE and the Associated Builders and Contractors. Graduates receive an industry-recognized NCCER credential along with scholarships, housing, and living stipends during the program.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-001",
+    "date": "2026-06-09",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "OpenAI Confidentially Files IPO Paperwork, Plans Separate Employee Share Sale",
+    "summary": "OpenAI announced it has filed draft IPO paperwork with the SEC, following rival Anthropic's similar filing a week earlier, though the company said it has not decided on timing and that 'it may be a while' before it goes public. The company plans a separate tender offer allowing employees to sell shares at OpenAI's March 2026 valuation of $852 billion, though employees have not yet been told how much they can sell or when the offer will take place. CEO Sam Altman described this as the start of AI's 'third phase,' in which the central challenge shifts from frontier research to making AI tools abundant and affordable for all.",
+    "link": "https://www.theinformation.com/briefings/openai-confidentially-files-ipo-paperwork-plans-separate-employee-share-sale",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "Mobile World Live",
+      "The Rundown Tech"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-06-09-002",
+    "date": "2026-06-09",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Apple Tries for Another Siri Reboot at WWDC 2026",
+    "summary": "Apple launched a new version of Siri at its annual developer conference, now called Siri AI and built on Google's Gemini models, featuring a dedicated app and the ability to review past conversations. Demonstrations showed relatively modest capabilities — looking up concert dates, setting reminders, playing songs — without the more autonomous, multi-step actions offered by rival chatbots from OpenAI and Anthropic; several seconds of latency were visible during the keynote. Apple's shares fell 4% following the announcement, and the most advanced on-device AI features will require iPhone 17 Pro or later, effectively requiring a hardware upgrade for full access.",
+    "link": "https://www.theinformation.com/briefings/apple-tries-another-siri-reboot",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "Mobile World Live",
+      "The Rundown Tech"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-003",
+    "date": "2026-06-09",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "U.S. Pentagon Adds Alibaba, Baidu, BYD and Others to Chinese Military Companies Blacklist",
+    "summary": "The U.S. Department of Defense added more than two dozen Chinese tech companies — including Alibaba, Baidu, BYD, NIO, and memory chip makers YMTC and CXMT — to its list of firms deemed to be acting on behalf of or controlled by the Chinese military. The designation blocks those listed from doing business with the DoD and carries reputational consequences, though it does not prevent U.S. investors from trading their stocks on exchanges. Alibaba, Baidu, and NIO all disputed the move and indicated they would pursue legal action to be removed, while Beijing called the list discriminatory.",
+    "link": "https://www.theinformation.com/briefings/u-s-accuses-alibaba-baidu-others-aiding-chinese-military-blacklist-move",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "The Rundown Tech"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-004",
+    "date": "2026-06-09",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Bending Spoons Files to Go Public in the U.S.",
+    "summary": "Italian conglomerate Bending Spoons, which has acquired a string of aging American internet businesses including AOL, Vimeo, and Eventbrite, filed IPO paperwork in the U.S. to raise capital for further acquisitions. The company's revenue doubled to $1.3 billion in 2025 and doubled again in Q1 2026 to $601 million, reflecting its acquisition pace, while operating profit turned positive at $120 million in Q1 compared to a $4.6 million loss in the prior year period. AOL alone generated $333.6 million in operating profits on $633 million of revenue in 2025, validating Bending Spoons' $1.45 billion acquisition price for the legacy internet brand.",
+    "link": "https://www.theinformation.com/briefings/bending-spoons-files-go-public",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-005",
+    "date": "2026-06-09",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Databricks in Talks to Raise New Round at Above $165 Billion Valuation",
+    "summary": "Databricks has held discussions with investors about a new funding round that could launch within the next month, with a target valuation of between $165 billion and $175 billion, according to people with direct knowledge of the conversations. The round would represent a significant jump from the $134 billion valuation set during its late 2025 fundraise, continuing a pattern of repeated private capital raises the 13-year-old company has used to delay going public. Final terms have not been set and it is unclear whether the new valuation would include the fresh funding in the calculation.",
+    "link": "https://www.theinformation.com/articles/databricks-talks-raise-165-billion-valuation",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-006",
+    "date": "2026-06-09",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Anthropic Releases New 'Mythos-Class' Model to General Public With Guardrails",
+    "summary": "Anthropic released its new Mythos-class AI model to the general public, a release that comes alongside a notable safety guardrail: queries touching on dangerous topics such as cybersecurity or bioweapons will be redirected to an older Opus model rather than the new system. The release marks Anthropic's push to broaden consumer access to its most capable models while maintaining constraints on high-risk use cases. The move comes as Anthropic, like OpenAI, has recently filed confidential IPO paperwork with the SEC.",
+    "link": "https://www.wsj.com/tech/ai/anthropic-releases-new-mythos-class-model-to-general-public-with-guardrails-f41fb5d7",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-007",
+    "date": "2026-06-09",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Federal Judge Strikes Down Trump Administration's $100,000 H-1B Visa Fee",
+    "summary": "A federal judge in Boston invalidated the Trump administration's $100,000 application fee for H-1B visa petitions, ruling that officials exceeded their authority when introducing the charge last fall through executive action. U.S. District Judge Leo Sorokin sided with 20 Democratic state attorneys general who argued the fee functioned as an unauthorized tax and that only Congress holds the power to impose such charges on immigration petitions. The ruling restores the H-1B program to its pre-proclamation cost structure and is expected to be appealed by the White House.",
+    "link": "https://www.wsj.com/politics/policy/judge-strikes-down-trump-administrations-100-000-h-1b-visa-fee-f167da26",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-008",
+    "date": "2026-06-09",
+    "source": "Samsung",
+    "newsletter": "Mobile World Live",
+    "title": "Samsung Group Unveils Sweeping AI-Driven Business Overhaul",
+    "summary": "Samsung Group announced plans for a company-wide AI transformation applying AI across eight core business processes — from procurement and manufacturing to marketing and logistics — framed internally as 'AX,' for AI Transformation. All 50 CEOs of Samsung affiliates will attend an intensive 'AX Bootcamp' executive training program this month, and the company plans to formally deploy external generative AI tools including Gemini, ChatGPT, and Claude across all affiliate companies in June. Samsung Electronics separately has set a target to transition all manufacturing into AI-driven factories by 2030.",
+    "link": "https://www.mobileworldlive.com/industry/samsung-goes-all-in-on-ai-for-internal-overhaul",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-009",
+    "date": "2026-06-09",
+    "source": "AT&T",
+    "newsletter": "Mobile World Live",
+    "title": "AT&T Scales Cloud RAN as Open RAN Network Swap Surpasses 50%",
+    "summary": "AT&T completed a controlled introduction phase of its cloud RAN deployment with roughly 25 sites running live traffic on Intel's Sapphire Rapids processors, and is now moving to aggressively scale the implementation. The operator's open RAN replacement of legacy equipment has passed the 50% threshold, making it one of the most advanced large-scale open RAN transitions underway in North America. AT&T's progress serves as a reference point for the broader industry's shift toward software-defined, cloud-native mobile infrastructure.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-010",
+    "date": "2026-06-09",
+    "source": "BT Group",
+    "newsletter": "Mobile World Live",
+    "title": "BT Becomes First UK Company to Join Anthropic's Project Glasswing",
+    "summary": "BT announced it is the first UK-based company to join Anthropic's Project Glasswing, a cybersecurity initiative that uses Anthropic's AI models to strengthen network defenses and improve threat detection. The partnership is aimed at protecting BT's networks against AI-enhanced threats and extending those protections to BT's enterprise customers. The move signals growing interest from major European telecoms in using frontier AI for active cybersecurity rather than passive monitoring.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-011",
+    "date": "2026-06-09",
+    "source": "Google",
+    "newsletter": "Mobile World Live",
+    "title": "Google Places Order With Intel for Over 3 Million Specialised AI Chips Targeting 2028 Delivery",
+    "summary": "Alphabet's Google has reportedly placed an order with Intel to manufacture more than 3 million of its specialised AI chips for delivery in 2028, a move that would meaningfully increase pressure on TSMC's dominance in advanced chip manufacturing. The order reflects Google's long-running effort to reduce dependence on a single semiconductor supplier and diversify its AI chip production base beyond custom TPUs made at TSMC. The volume — if confirmed — would rank among the largest single orders Intel has received for AI-specific semiconductor production.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-012",
+    "date": "2026-06-09",
+    "source": "UK Government",
+    "newsletter": "Mobile World Live",
+    "title": "UK Government Issues Three-Month Child Safety Ultimatum to Big Tech",
+    "summary": "The UK government gave major technology companies three months to activate device-level tools that block children from taking, sending, or viewing nude images, warning that regulatory action will follow if they fail to comply. The deadline is part of a broader push to hold platforms accountable for child safety features in operating systems and applications, rather than relying on self-regulation. The ultimatum applies across the major platform operators and comes as regulators in multiple jurisdictions are increasing pressure on tech firms over digital safety for minors.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-013",
+    "date": "2026-06-09",
+    "source": "Apple",
+    "newsletter": "The Rundown Tech",
+    "title": "Apple Releases iOS 27 With Speed Improvements and Walks Back Liquid Glass Design",
+    "summary": "Apple's iOS 27, announced at WWDC, extends software support back to the iPhone 11 and introduces performance gains including app launches up to 30% faster, photo loading 70% faster after capture, and AirDrop transfers 80% faster. The update also adds a transparency slider that lets users dial down the Liquid Glass aesthetic introduced last year, which had generated significant user backlash — an unusually quick design concession for Apple. The software update also opens iCloud Shared Albums to Android and Windows users and adds perimenopause tracking to the Health app.",
+    "link": "https://9to5mac.com/2026/06/08/ios-27-announcement/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-014",
+    "date": "2026-06-09",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Anthropic and OpenAI Drive Brisk Pace of VC Fund Formation",
+    "summary": "Venture capital firms are raising new funds at a faster pace than ever before, driven by the need to participate in record-setting funding rounds for AI companies like Anthropic and OpenAI, according to reporting by The Information. The dynamic reflects how mega-rounds at frontier AI labs — often in the tens of billions of dollars — are forcing VC managers to accelerate their own fundraising cycles to remain competitive investors in the sector. The trend is reshaping fund sizes, timelines, and the competitive dynamics among top-tier venture firms.",
+    "link": "https://www.theinformation.com/articles/anthropic-openai-stoke-brisk-pace-vc-fundraising",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-015",
+    "date": "2026-06-09",
+    "source": "Tools for Humanity",
+    "newsletter": "The Rundown Tech",
+    "title": "Sam Altman's Iris-Scanning Startup Tools for Humanity Cuts Staff Amid Revenue Struggles",
+    "summary": "Tools for Humanity, the company behind Sam Altman's Worldcoin iris-scanning Orb project, is cutting staff after failing to convert its biometrics-for-crypto pitch into meaningful revenue, according to Business Insider. The startup carries a $2.5 billion valuation backed by Andreessen Horowitz, Bain Capital, and Khosla Ventures, but has faced regulatory bans, fines, and privacy probes in multiple countries including South Korea for its practice of paying people around $50 in crypto to scan their eyes. The layoffs come at the same moment OpenAI — Altman's primary company — is moving toward a landmark IPO.",
+    "link": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-016",
+    "date": "2026-06-09",
+    "source": "Google",
+    "newsletter": "The Rundown Tech",
+    "title": "Google Agrees to Pay SpaceX $920 Million Per Month for AI Compute Capacity",
+    "summary": "Google has agreed to pay SpaceX approximately $920 million per month for access to roughly 110,000 Nvidia GPU-powered compute units hosted in SpaceX data centers, according to CNBC. The deal gives Google significant additional GPU capacity at a time when demand for AI infrastructure is outpacing available supply, and signals that non-traditional hyperscalers are becoming relevant compute providers for the largest technology companies. The arrangement expands SpaceX's role beyond launch and satellite operations into AI infrastructure, leveraging its growing data center footprint.",
+    "link": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-017",
+    "date": "2026-06-09",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Official Advised PM Carney That Banks Must Take Bigger Risks to Diversify Canada's Trade",
+    "summary": "A government official advised Prime Minister Mark Carney that Canadian banks need to take on greater risk exposure to help firms expand into non-U.S. markets, according to a memo obtained by The Logic covering Carney's meeting with CIBC chief executive Harry Culham. Helping companies make the leap into new international markets was described as a central theme of the meeting, suggesting the federal government is actively pushing major banks to underwrite trade diversification as a policy priority. The memo reveals the behind-the-scenes discussions shaping Canada's post-U.S. trade strategy.",
+    "link": "https://thelogic.co/news/diversify-trade-cibc-advise-carney/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-09-018",
+    "date": "2026-06-09",
+    "source": "Orange",
+    "newsletter": "Mobile World Live",
+    "title": "Orange Completes Buyout of MasOrange Spanish Joint Venture",
+    "summary": "Orange completed the acquisition of its partner's stake in MasOrange, the Spanish joint venture the company had operated alongside another telecom operator, consolidating full control of the business. The move follows another acquisition by Orange in the preceding days and signals a broader push to consolidate its Southern European footprint ahead of potential market restructuring. MasOrange is one of Spain's largest mobile operators, making the full buyout a significant step in Orange's Iberian strategy.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
     "priority_pick": false
   }
 ]

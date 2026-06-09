@@ -39,7 +39,7 @@
       "domain": "theglobeandmail.com",
       "sender": "noreply@globeandmailnewsletters.com",
       "extraction": "html_only",
-      "note": "HTML-only email, no plaintextBody. Sender is noreply@globeandmailnewsletters.com (not theglobeandmail.com). Use WebSearch to find the weekly Business Brief article on theglobeandmail.com. Site is paywalled \u2014 rely on WebSearch snippets for story details. See PIPELINE_NOTES.md."
+      "note": "HTML-only email, no plaintextBody. Sender is noreply@globeandmailnewsletters.com (not theglobeandmail.com). Use WebSearch to find the weekly Business Brief article on theglobeandmail.com. Site is paywalled — rely on WebSearch snippets for story details. See PIPELINE_NOTES.md."
     },
     {
       "rank": 7,
@@ -63,7 +63,7 @@
       "domain": "smartbrief.com",
       "sender": "connectivity@b2b.smartbrief.com",
       "extraction": "headlines_only",
-      "note": "Email body contains a headline list only \u2014 no summaries. Full summaries are on a web page behind a tracking URL (r.smartbrief.com/...). Use WebSearch on each headline to find and summarize the underlying story. Focus on stories unique to this newsletter; skip anything already covered by higher-priority sources. See PIPELINE_NOTES.md."
+      "note": "Email body contains a headline list only — no summaries. Full summaries are on a web page behind a tracking URL (r.smartbrief.com/...). Use WebSearch on each headline to find and summarize the underlying story. Focus on stories unique to this newsletter; skip anything already covered by higher-priority sources. See PIPELINE_NOTES.md."
     },
     {
       "rank": 10,
@@ -254,7 +254,7 @@
       "rank": 37,
       "newsletter": "WSJ Latest in AI",
       "sender": "access@interactive.wsj.com",
-      "notes": "WSJ section alert for AI stories \u2014 auto-added 2026-05-30"
+      "notes": "WSJ section alert for AI stories — auto-added 2026-05-30"
     },
     {
       "newsletter": "WSJ Latest in Artificial Intelligence",
@@ -299,8 +299,16 @@
       "name": "The Globe and Mail Business Brief",
       "newsletter_name": "The Globe and Mail Business Brief",
       "auto_discovered": true
+    },
+    {
+      "name": "The Information AM",
+      "rank": 44
+    },
+    {
+      "name": "The Information Briefing",
+      "rank": 45
     }
   ],
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-06-09",
   "notes": "Sources below rank 5 are auto-discovered from the inbox. New sources are appended to other_sources with a rank of 6+ and trigger a post-run review prompt. The Logic (rank 5) is prioritized over The Globe and Mail (rank 6) per user preference set 2026-05-13."
 }
