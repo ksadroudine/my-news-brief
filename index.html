@@ -199,6 +199,23 @@
     }
     #clear-btn:hover { color: var(--navy); }
 
+    /* Show all sources button — inside .filter-section, same style as #clear-btn */
+    #show-all-sources-btn {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 14px 0 0;
+      font-family: var(--font-sans);
+      font-size: 11px;
+      color: var(--salmon-dark);
+      cursor: pointer;
+      background: none;
+      border: none;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    #show-all-sources-btn:hover { color: var(--navy); }
+
     /* ── Main ────────────────────────────────────────────────────── */
     #main {
       flex: 1;
@@ -622,6 +639,7 @@
         <span class="filter-controls"><a id="src-all" href="#">all</a> &middot; <a id="src-none" href="#">none</a></span>
       </div>
       <div id="source-filters"></div>
+      <button id="show-all-sources-btn" style="display:none">Show all sources</button>
     </div>
 
     <!-- Category -->
@@ -8810,10 +8828,12 @@ function renderSidebar() {
     dateEl.value = "";
   }
 
-  // Source checkboxes
+  // Source checkboxes — top 10 visible, rest hidden until toggled
+  const SRC_TOP_N = 10;
+  const sources = allSources();
   const srcEl = document.getElementById("source-filters");
-  srcEl.innerHTML = allSources().map(s => `
-    <label class="filter-option">
+  srcEl.innerHTML = sources.map((s, i) => `
+    <label class="filter-option"${i >= SRC_TOP_N ? ' data-src-hidden="1" style="display:none"' : ''}>
       <input type="checkbox" data-source="${esc(s)}" ${state.sources === null || state.sources.has(s) ? "checked" : ""}>
       ${esc(s)}
     </label>`).join("");
@@ -8823,6 +8843,25 @@ function renderSidebar() {
     state.sources = checked.length === all.length ? null : new Set(checked);
     renderArticles();
   }));
+
+  // Show all sources toggle
+  const showAllBtn = document.getElementById("show-all-sources-btn");
+  if (sources.length > SRC_TOP_N) {
+    showAllBtn.style.display = "";
+    // Re-attach listener cleanly
+    const newBtn = showAllBtn.cloneNode(true);
+    showAllBtn.parentNode.replaceChild(newBtn, showAllBtn);
+    let srcExpanded = false;
+    newBtn.addEventListener("click", () => {
+      srcExpanded = !srcExpanded;
+      srcEl.querySelectorAll("[data-src-hidden]").forEach(el => {
+        el.style.display = srcExpanded ? "" : "none";
+      });
+      newBtn.textContent = srcExpanded ? "Show fewer sources" : "Show all sources";
+    });
+  } else {
+    showAllBtn.style.display = "none";
+  }
 
   // Category checkboxes
   const catEl = document.getElementById("category-filters");
