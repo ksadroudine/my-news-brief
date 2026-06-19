@@ -39,7 +39,7 @@
       "domain": "theglobeandmail.com",
       "sender": "noreply@globeandmailnewsletters.com",
       "extraction": "html_only",
-      "note": "HTML-only email, no plaintextBody. Sender is noreply@globeandmailnewsletters.com (not theglobeandmail.com). Use WebSearch to find the weekly Business Brief article on theglobeandmail.com. Site is paywalled \u2014 rely on WebSearch snippets for story details. See PIPELINE_NOTES.md."
+      "note": "HTML-only email, no plaintextBody. Sender is noreply@globeandmailnewsletters.com (not theglobeandmail.com). Use WebSearch to find the weekly Business Brief article on theglobeandmail.com. Site is paywalled — rely on WebSearch snippets for story details. See PIPELINE_NOTES.md."
     },
     {
       "rank": 7,
@@ -63,7 +63,7 @@
       "domain": "smartbrief.com",
       "sender": "connectivity@b2b.smartbrief.com",
       "extraction": "headlines_only",
-      "note": "Email body contains a headline list only \u2014 no summaries. Full summaries are on a web page behind a tracking URL (r.smartbrief.com/...). Use WebSearch on each headline to find and summarize the underlying story. Focus on stories unique to this newsletter; skip anything already covered by higher-priority sources. See PIPELINE_NOTES.md."
+      "note": "Email body contains a headline list only — no summaries. Full summaries are on a web page behind a tracking URL (r.smartbrief.com/...). Use WebSearch on each headline to find and summarize the underlying story. Focus on stories unique to this newsletter; skip anything already covered by higher-priority sources. See PIPELINE_NOTES.md."
     },
     {
       "rank": 10,
@@ -254,7 +254,7 @@
       "rank": 37,
       "newsletter": "WSJ Latest in AI",
       "sender": "access@interactive.wsj.com",
-      "notes": "WSJ section alert for AI stories \u2014 auto-added 2026-05-30"
+      "notes": "WSJ section alert for AI stories — auto-added 2026-05-30"
     },
     {
       "newsletter": "WSJ Latest in Artificial Intelligence",
@@ -307,8 +307,26 @@
     {
       "name": "The Information Briefing",
       "rank": 45
+    },
+    {
+      "rank": 46,
+      "name": "The Information",
+      "newsletter_name": "The Information (article alert)",
+      "domain": "theinformation.com",
+      "sender": "hello@theinformation.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-06-18. Single-article promotional emails from hello@theinformation.com where subject is the article headline. plaintextBody contains 1-3 paragraphs of article text plus a real article URL (theinformation.com/articles/[slug]). Per PIPELINE_NOTES.md."
+    },
+    {
+      "rank": 47,
+      "name": "Wall Street Journal",
+      "newsletter_name": "WSJ Heard on the Street",
+      "domain": "wsj.com",
+      "sender": "access@interactive.wsj.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-06-18. Financial analysis and market commentary column. In scope per PIPELINE_NOTES.md. Extract 1-2 stories per issue; focus on material financial insight or strategic implications."
     }
   ],
-  "last_updated": "2026-06-17",
+  "last_updated": "2026-06-18",
   "notes": "Sources below rank 5 are auto-discovered from the inbox. New sources are appended to other_sources with a rank of 6+ and trigger a post-run review prompt. The Logic (rank 5) is prioritized over The Globe and Mail (rank 6) per user preference set 2026-05-13."
 }
