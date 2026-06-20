@@ -746,5 +746,41 @@
     "category": "Business & Strategy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-06-20-001",
+    "date": "2026-06-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Market's AI Fanfare Is Running Into a Harsh Political Reality",
+    "summary": "AI companies' ambitions for major public offerings are increasingly tied to the political environment, with Anthropic's hoped-for blockbuster IPO said to depend as much on electoral and regulatory outcomes as on investor sentiment. The article examines how political uncertainty is creating headwinds for the AI sector's capital markets plans.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-06-20-002",
+    "date": "2026-06-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Why the Memory Crunch Is Almost Impossible to Solve",
+    "summary": "Consumer technology is facing a severe memory squeeze as global chip production falls short of demand while national security concerns restrict purchases from Chinese manufacturers. The combination of supply-side production shortfalls and geopolitical procurement limits makes the memory shortage structurally difficult to resolve.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-20-003",
+    "date": "2026-06-20",
+    "source": "McKinsey & Company",
+    "newsletter": "McKinsey Insights",
+    "title": "The Agentic Advertising Economy: From Attention to Action",
+    "summary": "McKinsey research finds that AI agents are fundamentally reshaping advertising, with more than 90% of advertisers already using AI to plan media, set budgets, optimize targeting, and generate creative content. Agentic commerce \u2014 in which AI systems mediate product discovery and purchase decisions \u2014 could orchestrate between $3 trillion and $5 trillion globally by 2030, though 42% of advertisers cite dependence on opaque AI optimization systems as a key risk.",
+    "link": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-agentic-advertising-economy-from-attention-to-action",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
