@@ -335,5 +335,310 @@
     "coverage_count": 1,
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-06-23-017",
+    "date": "2026-06-23",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Oracle Cuts 21,000 Jobs, Trimming Workforce by 13%",
+    "summary": "Oracle disclosed in a securities filing that it reduced its global headcount by 13%, or roughly 21,000 people, over the past year, bringing its workforce to 141,000. The cuts were heaviest in the hardware division, which shed a third of its staff, while the cloud and software unit lost around 10%. Oracle's revenue per employee remains well below larger rivals: Oracle generates about $478,000 per employee annually versus $1.2 million at Microsoft.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-001",
+    "date": "2026-06-24",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Agility Robotics to Go Public via SPAC at $2.5 Billion Valuation",
+    "summary": "Agility Robotics, maker of the Digit humanoid robot used in warehouses and manufacturing facilities, will go public through a merger with Churchill Capital Corp XI at a valuation of about $2.5 billion. Amazon, GXO, Schaeffler, and Toyota Motor Manufacturing Canada are among its customers. CEO Peggy Johnson cited retiring workers and Trump's reshoring push as demand drivers, with the Salem, Ore. factory eventually capable of 10,000 units annually. Germany's Neura Robotics separately secured up to $1.4 billion in funding backed by Amazon, Nvidia, and the European Investment Bank. Goldman Sachs forecasts the global humanoid robot market will reach $38 billion by 2035, up from about $6 billion.",
+    "link": "https://www.wsj.com/finance/agility-maker-of-humanlike-robots-to-go-public-in-2-5-billion-spac-deal-62c3cb32",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-002",
+    "date": "2026-06-24",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Heard on the Street",
+    "title": "Amazon Leads AI Power Race with 9 GW U.S. Capacity; Google Poised to Close Gap by 2030",
+    "summary": "Amazon's U.S. data centers consume up to roughly 9 gigawatts of power, giving it the largest energy footprint among AI hyperscalers, according to data from Aterio cited by the Wall Street Journal's Heard on the Street. Microsoft and Google each operate self-built data centers drawing about 5 gigawatts, while Meta's capacity stands at around 4 gigawatts. Aterio expects Amazon to add the most absolute U.S. capacity through 2030 but projects Google to expand fastest \u2014 once third-party leased capacity is included, Google will have significantly narrowed the gap with Amazon by 2030.",
+    "link": "https://www.wsj.com/business/energy-oil/as-ai-companies-race-for-power-amazon-and-google-have-the-lead-1d97af9a",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-06-24-003",
+    "date": "2026-06-24",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Alphabet Replaces Verizon in the Dow Jones Industrial Average",
+    "summary": "S&P Dow Jones Indices announced that Alphabet will replace Verizon in the Dow Jones Industrial Average effective next week. The index administrator cited Alphabet's larger market capitalization, higher share price, and exposure to AI, cloud infrastructure, and digital advertising. Verizon had represented just half a percentage point of the price-weighted index.",
+    "link": "https://www.wsj.com/finance/stocks/google-parent-alphabet-to-replace-verizon-in-dow-jones-industrial-average-d8dfe852",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "SmartBrief on Connectivity"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-004",
+    "date": "2026-06-24",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "China's LineShine Supercomputer Claims Top Spot on Global Top500 List",
+    "summary": "China's LineShine system has topped the Top500 ranking of the world's fastest supercomputers, displacing the previous U.S. leader. The result marks a significant shift in global supercomputing competition, with implications for AI training capacity and national security given the dual-use potential of these systems.",
+    "link": "https://www.wsj.com/tech/ai/chinese-supercomputer-overtakes-u-s-as-worlds-fastest-d0f8dbff",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-005",
+    "date": "2026-06-24",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Mirendil Raises $200M Seed Round Led by a16z and Kleiner Perkins",
+    "summary": "Mirendil, a San Francisco AI startup founded by former Anthropic researchers including Behnam Neyshabur and Harsh Mehta, has closed a $200 million seed round co-led by Andreessen Horowitz and Kleiner Perkins. The company is building autonomous AI systems designed to accelerate scientific research in biology and materials science, training frontier models that specialize in AI R&D and iterate over research and engineering problems without human intervention. The raise is among the largest on record for a pre-product AI company.",
+    "link": "https://a16z.com/announcement/investing-in-mirendil/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-006",
+    "date": "2026-06-24",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CMO Today",
+    "title": "56% of Marketers Now Using AI for Creative Ideation, Cannes Survey Finds",
+    "summary": "A Harris/Stagwell survey of more than 200 marketing leaders at Cannes Lions found that 56% are using artificial intelligence in the ideation stage of creative development. LinkedIn's CMO is pushing the platform toward video as a primary content format to match consumption trends, while consumer goods company Opella reported achieving 20 times its previous content output volume through AI-assisted production.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-007",
+    "date": "2026-06-24",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Five Eyes Warns Frontier AI Will Fundamentally Transform Offensive Hacking Within Months",
+    "summary": "The cybersecurity agencies of the U.S., UK, Canada, Australia, and New Zealand issued a joint warning that frontier AI models are poised to fundamentally transform offensive hacking capabilities within months. The statement urged corporate boards and executives to treat cyber resilience as a core strategic priority and take personal ownership of defense posture rather than delegating it as a purely technical problem. The advisory coincided with reports of hackers targeting Iranian banks following the Trump-brokered peace deal and a ransomware attack on India's Bajaj Auto.",
+    "link": "https://www.cyber.gov.au/about-us/view-all-content/news/five-eyes-cyber-security-agencies-statement",
+    "category": "Cybersecurity",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-008",
+    "date": "2026-06-24",
+    "source": "Ad Age",
+    "newsletter": "The Information AM",
+    "title": "OpenAI's Ad Chief: 20% of ChatGPT Queries Have Direct Commercial Intent",
+    "summary": "OpenAI's head of advertising Dave Dugan told Cannes Lions that roughly 20% of ChatGPT queries reflect direct commercial intent and an even larger share signals latent purchase interest. OpenAI has expanded from impression-based ads to cost-per-click and action-based campaigns, with travel, retail, health and beauty, and financial services performing best. Chief Revenue Officer Denise Dresser also presented Codex as a tool brands can use to build custom ad campaign applications.",
+    "link": "https://adage.com/events-awards/cannes-lions/aa-openai-chatgpt-ads-business-david-dugan/",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-009",
+    "date": "2026-06-24",
+    "source": "Meta",
+    "newsletter": "The Information AM",
+    "title": "Meta Launches Own-Brand Smart Glasses Starting at $299, Cutting Entry Price by $80",
+    "summary": "Meta Platforms unveiled a new line of glasses under its own 'Meta Glasses' branding for the first time, priced at $299 \u2014 $80 below the prior entry-level Ray-Ban Meta model. A Kylie Jenner co-designed edition (Meta Starfire) is priced at $399. The glasses include a camera and speakers running Meta's Muse Spark AI model but lack augmented reality. Meta said AI glasses sales tripled last year; EssilorLuxottica, the manufacturing partner, has sold 7 million AI glasses pairs to date. Meta plans four new glasses lines in 2026 ahead of expected competition from Apple and Google.",
+    "link": "https://www.meta.com/en-gb/blog/introducing-meta-glasses-a-range-of-new-styles-from-meta-and-essilorluxottica-starting-at-299/",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information Briefing",
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-010",
+    "date": "2026-06-24",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Alibaba Sues Pentagon to Be Removed From Military Blacklist",
+    "summary": "Alibaba Group filed a federal complaint in California seeking removal from the Pentagon's list of companies with alleged Chinese military ties, calling the designation baseless and procedurally improper. The Pentagon labeled Alibaba a 'Chinese military company' earlier this month, citing ties to China's Ministry of Industry and Information Technology. Alibaba said the designation could damage its reputation, raise borrowing costs, and restrict its ability to hire lobbyists. Chinese smartphone maker Xiaomi successfully sued to be removed from the same blacklist in 2022.",
+    "link": "https://www.theinformation.com/briefings/alibaba-sues-pentagon-military-blacklist",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "WSJ Pro Cybersecurity"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-011",
+    "date": "2026-06-24",
+    "source": "New York Times",
+    "newsletter": "The Information AM",
+    "title": "Meta Is Building a Prediction Markets App to Rival Polymarket and Kalshi",
+    "summary": "Meta Platforms is developing a prediction markets app internally named Arena through which users could wager on events using either a points system or real money, the New York Times reported. CEO Mark Zuckerberg has assigned a small team to the project. The effort is part of a broader plan Zuckerberg outlined in April to launch as many as 50 new apps; Meta already released Instants and Forum in May.",
+    "link": "https://www.nytimes.com/2026/06/23/technology/meta-prediction-markets-app.html",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-012",
+    "date": "2026-06-24",
+    "source": "Nvidia",
+    "newsletter": "The Information AM",
+    "title": "Nvidia Releases Open-Source BioNeMo Agent Toolkit for Life Sciences Research",
+    "summary": "Nvidia released its BioNeMo Agent Toolkit, open-source software enabling scientists and biotech firms to deploy AI agents for research without requiring coding experience. Built on Nvidia's NemoClaw framework, the tools enable agents that write code, edit files, and browse the web for complex research tasks. Dassault Syst\u00e8mes and AI startup Lila Sciences are among early adopters. The launch extends Nvidia's strategy of embedding its development ecosystem into the life sciences sector, which already heavily uses GPU-based AI for drug discovery.",
+    "link": "https://www.theinformation.com/briefings/nvidia-launches-open-source-software-life-sciences",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-013",
+    "date": "2026-06-24",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "300-Plus Local Bans and Moratoriums Are Threatening the U.S. Data Center Boom",
+    "summary": "More than 300 local bans and development moratoriums across the United States are blocking or delaying data center construction, threatening the infrastructure buildout underpinning AI development, according to an investigation by The Information. The restrictions span zoning prohibitions, utility capacity limits, and community opposition at the municipal and county level, creating a patchwork of constraints that hyperscalers and data center developers are struggling to navigate.",
+    "link": "https://www.theinformation.com/articles/300-plus-bans-moratoriums-threatening-u-s-data-center-boom",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-014",
+    "date": "2026-06-24",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "U.S.-Backed XLight Raising $350M to Challenge ASML's EUV Lithography Monopoly",
+    "summary": "XLight, a startup developing advanced laser technology for semiconductor manufacturing, is in talks to raise $350 million from two investment firms, weeks after receiving backing from the U.S. Department of Commerce. The company is developing an alternative to extreme ultraviolet lithography \u2014 the process ASML dominates \u2014 aiming to reduce the cost and time needed to produce advanced AI chips. XLight intends to sell its technology to ASML and is chaired by a former Intel CEO.",
+    "link": "https://www.theinformation.com/articles/u-s-backed-chipmaking-startup-chaired-former-intel-ceo-raising-350-million",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-015",
+    "date": "2026-06-24",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Alberta to Free Up 1.6 GW of Power to Attract Big Tech Data Centres",
+    "summary": "Alberta is moving to make 1.6 gigawatts of power available for large technology loads under a 'build your own grid' policy aimed at attracting hyperscale data centres. The province is positioning itself as a destination for energy-intensive compute infrastructure at a time when power availability has become the primary bottleneck for AI data centre expansion across North America.",
+    "link": "https://thelogic.co/news/alberta-byog-large-load-plan/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-016",
+    "date": "2026-06-24",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Canada's Smaller VCs Face $1.6B Fundraising Gap as Capital Concentrates at the Top",
+    "summary": "Five funds account for roughly 80% of all capital raised by Canadian venture firms, leaving smaller VCs facing a combined $1.6 billion fundraising shortfall, according to RBCx data cited by The Logic. The concentration is squeezing early-stage investors who back younger startups outside established tech clusters and risks reducing the pipeline of funded startups available to larger funds in subsequent rounds.",
+    "link": "https://thelogic.co/news/canada-venture-capital-startups-rbcx/",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-017",
+    "date": "2026-06-24",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "How Sheldon McCormick Brought Communitech Back From the Brink",
+    "summary": "The Logic profiles Sheldon McCormick, a former Uber executive and startup founder who took over Communitech \u2014 Waterloo's flagship tech hub \u2014 when it was struggling to stay relevant, and has since stabilized the organization. The piece examines his turnaround approach and argues it could serve as a template for how startup support organizations evolve in the age of AI, shifting from ecosystem boosterism toward targeted founder services.",
+    "link": "https://thelogic.co/news/the-big-read/communitech-sheldon-mccormick-interview-waterloo-startups/",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-018",
+    "date": "2026-06-24",
+    "source": "Palantir",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Palantir Publishes AI Agent Governance Framework for Enterprise Deployments",
+    "summary": "Palantir released a white paper outlining a governance framework for enterprise AI agents, drawing on its mission-critical software deployments. The framework organizes governance into two layers: controls (authorization, bounded execution, testing, evaluation, observability, fail-safe modes) and workflows (human-agentic collaboration and agent lifecycle management). Palantir argues that robust governance infrastructure is essential to ensuring agent performance, safety, and reliability as agentic AI moves into production.",
+    "link": "https://assets.ctfassets.net/xrfr7uokpv1b/5mrqbUZiSS4sqXwJYIGlkt/8b5288fb15bd175a694c700a49c330db/Agentic_Governance_White_Paper.pdf",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-019",
+    "date": "2026-06-24",
+    "source": "BCG",
+    "newsletter": "Enterprise AI Executive",
+    "title": "BCG: Cloud AI Procurement Is Now a Strategic Platform Decision, Not a Cost Exercise",
+    "summary": "Boston Consulting Group published analysis arguing that selecting a cloud service provider for AI workloads can no longer be treated as a straightforward procurement or cost-minimization exercise. BCG identifies three linked decisions enterprise leaders must make: which foundation models to use for priority tasks, whether to architect workloads as modular pipelines or integrated multimodal systems, and where to accept vendor lock-in on orchestration, memory, observability, and guardrails. Leaders who focus only on headline token pricing risk both overspending and under-governing AI deployments.",
+    "link": "https://www.bcg.com/publications/2026/cloud-ai-cost-beyond-token-pricing",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-020",
+    "date": "2026-06-24",
+    "source": "World Economic Forum",
+    "newsletter": "Enterprise AI Executive",
+    "title": "WEF and Kearney Publish 52-Page Blueprint for the AI-First Enterprise",
+    "summary": "The World Economic Forum, working with Kearney and insights from more than 50 organizations, published a 52-page report on how AI-first enterprises are rethinking business models, workflows, and decision-making. The report identifies five building blocks for success: intelligence engines, adaptive stacks, redesigned operations, human-AI teaming, and new value creation. Case studies from Indeed, Gamma, and Cognizant illustrate AI at scale. The authors recommend running parallel operating models \u2014 AI-first alongside existing \u2014 and measuring the difference to identify where intelligence creates real advantage.",
+    "link": "https://reports.weforum.org/docs/WEF_The_AI_First_Operating_System_A_Blueprint_for_Operating_and_Business_Model_Innovation_2026.pdf",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-021",
+    "date": "2026-06-24",
+    "source": "Broadband Breakfast",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "AT&T Asks FCC to Approve Copper Service Discontinuances on Damaged and Vandalized Lines",
+    "summary": "AT&T filed a 500-page petition with the FCC seeking approval to discontinue service on copper network segments damaged by equipment failure and copper theft rather than restore them. The company cited more than 500 outages in May 2026 alone and roughly 2,000 copper theft outages in California so far in 2026, arguing that repair costs are impractical on the affected lines. The filing is part of AT&T's broader copper retirement strategy; California has previously pushed back on related filings.",
+    "link": "https://broadbandbreakfast.com/at-t-asks-to-discontinue-service-on-damaged-vandalized-copper-lines-2/",
+    "category": "Telecom & Connectivity",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-022",
+    "date": "2026-06-24",
+    "source": "MoffettNathanson",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "Moffett: Cable Operators Hold the Strongest Hand in Fixed-Mobile Convergence",
+    "summary": "MoffettNathanson analyst Craig Moffett argues that U.S. cable operators hold a structurally stronger position than telcos and wireless carriers in the race for fixed-mobile convergence. Cable's combination of large broadband footprints, growing MVNO mobile businesses, and the ability to offload wireless traffic onto Wi-Fi and CBRS infrastructure gives Comcast and Charter a pricing and footprint advantage. Cable operators captured approximately 75% of U.S. mobile net adds in Q1 2026 and are expected to accelerate as Comcast pushes bundled packages and Charter advances its Cox merger.",
+    "link": "https://www.nexttv.com/news/cable-controlled-75-of-us-mobile-growth-in-q1-is-exploiting-convergence-advantage-over-wireless-analyst-says",
+    "category": "Telecom & Connectivity",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-023",
+    "date": "2026-06-24",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "FCC Closes AWS-3 Re-Auction with $3.5B in Bids \u2014 First U.S. Spectrum Sale in Four Years",
+    "summary": "The FCC closed an AWS-3 spectrum re-auction with gross winning bids exceeding $3.5 billion, the agency's first completed spectrum sale after a four-year lapse in activity. The auction re-offered AWS-3 licenses originally sold in 2015 that were later returned or cancelled, providing mobile operators with additional mid-band capacity for 5G deployments.",
+    "link": null,
+    "category": "Telecom & Connectivity",
+    "also_covered_by": [
+      "SmartBrief on Connectivity"
+    ],
+    "priority_pick": false
   }
 ]
