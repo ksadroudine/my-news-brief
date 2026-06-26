@@ -640,5 +640,218 @@
       "SmartBrief on Connectivity"
     ],
     "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-024",
+    "date": "2026-06-24",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Take-Two Announces Grand Theft Auto VI Pre-Orders at $80\u2013$100, November 19 Release",
+    "summary": "Take-Two Interactive announced Grand Theft Auto VI will be available for pre-order at midnight in $80 and $100 versions, with the game releasing November 19 and downloadable from November 12. The announcement follows GTA V, which sold over 230 million copies across 13 years. Competing publishers have cleared their release schedules around the title.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-24-025",
+    "date": "2026-06-24",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Qualcomm Agrees to Acquire Software Startup Modular for $3.9 Billion",
+    "summary": "Qualcomm agreed to pay approximately $3.9 billion in stock for Modular, a software startup that enables developers to write code that runs across different hardware platforms, reducing dependency on any single chip vendor.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-001",
+    "date": "2026-06-25",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Trump Administration Asks OpenAI to Stagger Release of New Model Over Security Concerns",
+    "summary": "The Trump administration asked OpenAI to delay the staggered rollout of a new AI model, citing national security concerns. The request represents an unusual case of the executive branch intervening directly in the release schedule of a commercial AI system.",
+    "link": "https://www.theinformation.com/articles/trump-administration-asks-openai-stagger-release-new-model-security-concerns",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "coverage_count": 2,
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-002",
+    "date": "2026-06-25",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Apple Raises Device Prices 15\u201325% Citing AI Data Center Demand for Memory",
+    "summary": "Apple raised prices across its device lineup by 15 to 25 percent, attributing the increases to surging demand for memory components driven by AI data center buildout. The price hikes affect multiple product categories and come as AI infrastructure spending continues to absorb a growing share of global semiconductor supply.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-003",
+    "date": "2026-06-25",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "OpenAI Said to Be Leaning Toward Delaying IPO Until 2027",
+    "summary": "OpenAI is leaning toward pushing its initial public offering back to 2027, according to people familiar with the matter. The company had previously been expected to pursue a public listing in 2026, but internal discussions have shifted toward a later timeline as it navigates restructuring and revenue growth targets.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-004",
+    "date": "2026-06-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Scaled Cognition Raises $100 Million at $750 Million Valuation to Build More Reliable AI",
+    "summary": "Scaled Cognition raised $100 million at a $750 million valuation, proposing an approach to AI development focused on reliability and predictability rather than raw capability benchmarks. The funding round positions the startup among a growing cohort targeting enterprise customers who prioritize consistent AI behavior over frontier model performance.",
+    "link": "https://www.wsj.com/tech/ai/scaled-cognition-proposes-a-more-reliable-approach-to-ai-6d55c6c2",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Latest in Artificial Intelligence"
+    ],
+    "coverage_count": 2,
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-005",
+    "date": "2026-06-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Kyndryl Report: Only 23% of Organizations Say Workforces Are Fully Ready for AI",
+    "summary": "Kyndryl's second annual People Readiness Report, based on surveys of 1,100 leaders across eight countries, found that only 23 percent say their organizations' workforces are fully ready for AI \u2014 down six points from 2025 \u2014 even as 57 percent report AI is now embedded in core business processes. The study identified a top-performing 9 percent cohort that redesigns roles alongside AI adoption and links stronger governance and training to higher AI-related revenue growth.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-006",
+    "date": "2026-06-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Employers and State Governments Form Coalition to Prepare Workers for AI Disruption",
+    "summary": "A coalition of major employers and state governments launched a coordinated effort to retrain workers facing displacement from AI automation. The initiative focuses on the millions of employees in roles most exposed to AI substitution and involves curriculum partnerships with community colleges and workforce development agencies.",
+    "link": "https://www.wsj.com/lifestyle/careers/the-new-push-to-ready-millions-for-ai-career-upheaval-dfb04cc5",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-007",
+    "date": "2026-06-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CMO Today",
+    "title": "Marriott CEO: AI Agents Will Route Travelers Directly to Hotel Brands, Threatening OTAs",
+    "summary": "Marriott CEO Anthony Capuano said at Cannes Lions that AI agents represent an opportunity to redefine how travelers book hotels, potentially routing customers directly to brand websites and bypassing online travel agencies such as Expedia and Booking.com. Capuano described AI as an early but strategically significant shift in the customer acquisition model that has governed the hospitality industry for decades.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-008",
+    "date": "2026-06-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Data-Center Boom Is Sparking a Third Wave of Inflation",
+    "summary": "The AI-driven data center construction boom is generating a new wave of inflationary pressure across the U.S. economy, straining supply chains for power equipment, specialized construction workers, and raw materials such as copper and concrete. Economists describe it as a third distinct inflationary wave following the pandemic-era goods shock and the subsequent services surge, with the buildout concentrated in a small number of metro areas that are seeing outsized local price increases.",
+    "link": "https://www.wsj.com/economy/the-data-center-boom-is-sparking-a-third-wave-of-inflation-926adc6e",
+    "category": "Global Economy",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "coverage_count": 2,
+    "priority_pick": true
+  },
+  {
+    "id": "2026-06-25-009",
+    "date": "2026-06-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "New Research Casts Doubt on AI's Ability to Beat the Stock Market Over Time",
+    "summary": "Academic research published this week found that AI-driven trading strategies show strong short-term performance in backtesting but fail to consistently outperform passive index strategies over longer horizons when accounting for transaction costs, market impact, and regime changes. The findings challenge claims from AI trading startups and raise questions about the durability of machine-learning edges in liquid public markets.",
+    "link": "https://www.wsj.com/tech/ai/ai-stock-market-trading-research-154eeb72",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-010",
+    "date": "2026-06-25",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Anthropic Accuses Alibaba of Setting Up 25,000 Fraudulent Accounts to Access Claude",
+    "summary": "Anthropic filed a legal complaint accusing Alibaba of creating approximately 25,000 fraudulent accounts to gain unauthorized access to Claude, Anthropic's AI model. The complaint alleges systematic circumvention of Anthropic's terms of service and access controls, marking one of the most significant publicly disclosed cases of alleged large-scale API abuse by a major technology company.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-011",
+    "date": "2026-06-25",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Qualcomm Expects AI-Ready 6G Pre-Commercial Devices by 2028",
+    "summary": "Qualcomm said it expects AI-integrated 6G pre-commercial devices to be available by 2028, with full commercial deployment following in the early 2030s. The company is positioning its modem and on-device AI chipsets as central to 6G architectures that natively support AI inference at the edge, reducing latency and network load compared to cloud-dependent designs.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-012",
+    "date": "2026-06-25",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "OpenAI Unveils Custom Inference Processor Built With Broadcom",
+    "summary": "OpenAI unveiled a custom AI inference chip developed in partnership with Broadcom, designed to reduce the cost and energy consumption of running large language models at scale. The chip is intended to complement OpenAI's existing reliance on Nvidia GPUs for training and give the company more control over its inference infrastructure as it scales ChatGPT and API services.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-013",
+    "date": "2026-06-25",
+    "source": "The Information",
+    "newsletter": "Applied AI",
+    "title": "Vaudit Finds $1.7 Million in Billing Overcharges Across $34 Million in AI Bills",
+    "summary": "Vaudit, an AI billing audit startup, reported finding $1.7 million in overcharges across $34 million in AI invoices it reviewed for enterprise clients. The findings highlight a growing problem as companies scale AI usage across multiple providers and models: billing complexity and inconsistency are creating material financial exposure that most finance teams lack the tooling to detect.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-014",
+    "date": "2026-06-25",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Google Takes Hard Line in AI Licensing Negotiations With News Publishers",
+    "summary": "Google has adopted a tough negotiating stance in licensing talks with news publishers over the use of their content to train AI systems, according to people familiar with the discussions. The company is pushing for broad usage rights at low per-article rates, resisting publisher demands for tiered pricing tied to model training scale and declining to provide detailed disclosure of how content is used.",
+    "link": "https://www.theinformation.com/articles/google-strikes-tough-negotiating-stance-publishers-ai-licensing",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-25-015",
+    "date": "2026-06-25",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Google Revamps AI Coding Strike Team in Bid to Catch Anthropic",
+    "summary": "Google has reorganized an internal AI coding team \u2014 described internally as a strike team \u2014 to accelerate its ability to compete with Anthropic's Claude in software development use cases. The move reflects internal concern that Google's AI coding tools have fallen behind Claude's capabilities among professional developers and enterprise customers, despite Google's broader AI investment.",
+    "link": "https://www.theinformation.com/articles/google-revamps-new-ai-coding-strike-team-amid-struggle-catch-anthropic",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
