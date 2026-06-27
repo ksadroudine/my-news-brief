@@ -343,6 +343,10 @@
       "sender": "hello@theinformation.com",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-06-26. Weekly analysis column from The Information (subject: 'The Takeaway: ...'). Full prose in plaintextBody; link = null. Date entries to email arrival date."
+    },
+    {
+      "name": "WSJ Latest in Personal Technology",
+      "rank": 50
     }
   ],
   "last_updated": "2026-06-26",
