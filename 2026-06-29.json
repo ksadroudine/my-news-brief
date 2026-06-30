@@ -5,7 +5,7 @@
     "source": "Wall Street Journal",
     "newsletter": "WSJ Morning Download",
     "title": "No Quick Fix For Memory Chip Shortage",
-    "summary": "Only three companies — Samsung Electronics, SK Hynix, and Micron Technology — dominate global memory chip production, and building new factories takes years, making any near-term fix for the current shortage unlikely. AI data centers are absorbing a growing share of memory output, squeezing consumer-electronics companies including Apple. China-based chipmakers represent the closest alternative but remain largely off-limits to U.S. companies due to national-security export rules.",
+    "summary": "Only three companies \u2014 Samsung Electronics, SK Hynix, and Micron Technology \u2014 dominate global memory chip production, and building new factories takes years, making any near-term fix for the current shortage unlikely. AI data centers are absorbing a growing share of memory output, squeezing consumer-electronics companies including Apple. China-based chipmakers represent the closest alternative but remain largely off-limits to U.S. companies due to national-security export rules.",
     "link": "https://www.wsj.com/tech/why-the-memory-crunch-is-almost-impossible-to-solve-4023cb40",
     "category": "Technology & AI",
     "also_covered_by": [],
@@ -20,7 +20,9 @@
     "summary": "China's Zhipu AI released GLM-5.2, an open-weight model that researchers say can match Anthropic's Claude Mythos in finding software security vulnerabilities, a development that is raising alarms about the effectiveness of U.S. AI export controls. Unlike Anthropic's restricted models, GLM-5.2 can be freely downloaded and modified by anyone worldwide, including potential adversaries. The White House is now under pressure to reconcile its approach of restricting U.S. model exports while permitting chip sales that enable China to develop equivalent capabilities.",
     "link": null,
     "category": "Technology & AI",
-    "also_covered_by": ["WSJ Morning Download"],
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
     "priority_pick": true
   },
   {
@@ -53,7 +55,7 @@
     "source": "The Information",
     "newsletter": "The Information",
     "title": "Exclusive: Sen. Mark Warner to Introduce Bill That Regulates AI Agents",
-    "summary": "Sen. Mark Warner (D-VA) plans to introduce a legislative discussion draft establishing rules for how AI agents can access services and handle user data across the web, addressing concerns that large platforms could block or throttle third-party agents. The bill would protect users' ability to authorize agents to act on their behalf — for example, purchasing items on Facebook Marketplace — and builds on Warner's earlier Access Act, which sought interoperability across social media platforms. The legislation would be one of the first federal frameworks specifically targeting agentic AI systems rather than traditional chatbots.",
+    "summary": "Sen. Mark Warner (D-VA) plans to introduce a legislative discussion draft establishing rules for how AI agents can access services and handle user data across the web, addressing concerns that large platforms could block or throttle third-party agents. The bill would protect users' ability to authorize agents to act on their behalf \u2014 for example, purchasing items on Facebook Marketplace \u2014 and builds on Warner's earlier Access Act, which sought interoperability across social media platforms. The legislation would be one of the first federal frameworks specifically targeting agentic AI systems rather than traditional chatbots.",
     "link": "https://www.theinformation.com/articles/sen-mark-warner-unveil-ai-agent-bill",
     "category": "Politics & Policy",
     "also_covered_by": [],
@@ -80,7 +82,9 @@
     "summary": "BT Group and Verizon Communications announced a 50:50 joint venture that merges their international enterprise connectivity businesses, creating a platform with approximately $4 billion in combined annual revenue serving more than 3,000 multinational customers across 180 countries. Verizon will pay BT an equalization payment of $625 million to balance the ownership split, with Martijn Blanken designated as the new entity's chief executive. The transaction is expected to close in 2027 subject to regulatory clearances.",
     "link": "https://newsroom.bt.com/bt-group-and-verizon-to-form-joint-venture-creating-a-scaled-international-connectivity-platform-for-multinational-customers/",
     "category": "Business & Strategy",
-    "also_covered_by": ["SmartBrief on Connectivity"],
+    "also_covered_by": [
+      "SmartBrief on Connectivity"
+    ],
     "priority_pick": false
   },
   {
@@ -89,7 +93,7 @@
     "source": "Mobile World Live",
     "newsletter": "Mobile World Live",
     "title": "Rocket Lab Agrees $8 Billion Iridium Takeover",
-    "summary": "Rocket Lab announced it will acquire satellite communications provider Iridium Communications for approximately $8 billion in a cash-and-stock transaction, offering shareholders $54 per share — a 24.1% premium — with closing expected in mid-2027 pending regulatory and shareholder approval. The deal combines Rocket Lab's launch and satellite manufacturing capabilities with Iridium's global L-band spectrum network and 2.55 million subscribers, creating a vertically integrated commercial space company positioned as a direct competitor to SpaceX's Starlink. Iridium brings $872 million in revenue and $495 million in EBITDA to the combined entity.",
+    "summary": "Rocket Lab announced it will acquire satellite communications provider Iridium Communications for approximately $8 billion in a cash-and-stock transaction, offering shareholders $54 per share \u2014 a 24.1% premium \u2014 with closing expected in mid-2027 pending regulatory and shareholder approval. The deal combines Rocket Lab's launch and satellite manufacturing capabilities with Iridium's global L-band spectrum network and 2.55 million subscribers, creating a vertically integrated commercial space company positioned as a direct competitor to SpaceX's Starlink. Iridium brings $872 million in revenue and $495 million in EBITDA to the combined entity.",
     "link": "https://www.cnbc.com/2026/06/29/rocket-lab-buys-iridium.html",
     "category": "Business & Strategy",
     "also_covered_by": [],
@@ -101,7 +105,7 @@
     "source": "Mobile World Live",
     "newsletter": "Mobile World Live",
     "title": "Verizon and T-Mobile Among AWS-3 Spectrum Auction Winners",
-    "summary": "The FCC's AWS-3 spectrum auction concluded with gross proceeds of $3.57 billion across 200 licenses in mid-band frequencies, with Verizon emerging as the dominant buyer after spending approximately $3.2 billion — 88.5% of total auction proceeds — to secure 82 licenses in key markets including New York, Chicago, and Boston. T-Mobile won the most licenses by count (102) for $277.8 million, while AT&T and SpaceX were smaller participants. The auction covered spectrum in the 1695–1710 MHz, 1755–1780 MHz, and 2155–2180 MHz bands.",
+    "summary": "The FCC's AWS-3 spectrum auction concluded with gross proceeds of $3.57 billion across 200 licenses in mid-band frequencies, with Verizon emerging as the dominant buyer after spending approximately $3.2 billion \u2014 88.5% of total auction proceeds \u2014 to secure 82 licenses in key markets including New York, Chicago, and Boston. T-Mobile won the most licenses by count (102) for $277.8 million, while AT&T and SpaceX were smaller participants. The auction covered spectrum in the 1695\u20131710 MHz, 1755\u20131780 MHz, and 2155\u20132180 MHz bands.",
     "link": "https://www.mobileworldlive.com/verizon/fcc-reveals-verizon-t-mobile-among-aws-3-auction-big-winners/",
     "category": "Politics & Policy",
     "also_covered_by": [],
@@ -112,7 +116,7 @@
     "date": "2026-06-29",
     "source": "Mobile World Live",
     "newsletter": "Mobile World Live",
-    "title": "Samsung and SK Hynix to Lead South Korea's $650B–$1.3T AI and Semiconductor Push",
+    "title": "Samsung and SK Hynix to Lead South Korea's $650B\u2013$1.3T AI and Semiconductor Push",
     "summary": "South Korea announced a national AI semiconductor investment drive anchored by Samsung Electronics and SK Hynix, with projected spending between 1,000 and 2,000 trillion won (roughly $650 billion to $1.3 trillion) over the next decade in chips, AI data centers, and robotics. Samsung Group alone committed approximately 1,000 trillion won ($649 billion), and both companies plan to build new semiconductor fabrication plants in South Korea's southwest as part of an 800 trillion won national semiconductor ecosystem project. SK Hynix, whose high-bandwidth memory chips have become essential for AI training hardware, reached a $1 trillion market capitalization in May 2026.",
     "link": "https://www.cnbc.com/2026/06/29/samsung-sk-hynix-reported-1point3-reported-trillion-spending-plans.html",
     "category": "Technology & AI",
@@ -125,7 +129,7 @@
     "source": "The Logic",
     "newsletter": "The Logic",
     "title": "What Happened When a VC Firm Let AI Do Almost Everything",
-    "summary": "Ripple Ventures, a Toronto-based early-stage VC firm, built an internal AI system called Ripple OS comprising approximately 15 agents that automates market research, deal sourcing, portfolio company recruiting, due diligence, term sheet drafting, and performance tracking. Managing partner Matt Cohen says the four-person team can now do the work of roughly 100 people, with quarterly reporting that previously took weeks now completed in hours. Cohen describes Ripple OS as a packageable system — a potential \"cheat code\" for other small VC firms looking to compete with larger, better-resourced investors.",
+    "summary": "Ripple Ventures, a Toronto-based early-stage VC firm, built an internal AI system called Ripple OS comprising approximately 15 agents that automates market research, deal sourcing, portfolio company recruiting, due diligence, term sheet drafting, and performance tracking. Managing partner Matt Cohen says the four-person team can now do the work of roughly 100 people, with quarterly reporting that previously took weeks now completed in hours. Cohen describes Ripple OS as a packageable system \u2014 a potential \"cheat code\" for other small VC firms looking to compete with larger, better-resourced investors.",
     "link": "https://thelogic.co/news/venture-capital-artificial-intelligence-ripple/",
     "category": "Technology & AI",
     "also_covered_by": [],
@@ -140,6 +144,119 @@
     "summary": "The Information identified more than 300 temporary and permanent bans on new data center development passed by state and local governments across the United States since 2023, with more than 75 additional measures pending, creating a significant and growing obstacle to AI infrastructure expansion. At the federal level, Sen. Warner's proposed AI agent legislation and ongoing White House policy deliberations represent a parallel regulatory front bearing on how AI systems are deployed and governed. Together, local infrastructure opposition and federal agent regulation are emerging as the two major near-term constraints on AI's continued buildout.",
     "link": null,
     "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-30-001",
+    "date": "2026-06-30",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Companies Race to Limit AI Token Costs",
+    "summary": "As AI agents proliferate in enterprise workflows, companies are facing runaway token consumption costs that have caught many off guard. Uber burned through its entire 2026 AI coding budget by April after deployment jumped to 84% of its 5,000-engineer organization, with monthly per-engineer API costs ranging from $500 to $2,000; Goldman Sachs projects AI agents will increase token consumption 24-fold over the next four years. Enterprises including Amazon, Uber, Meta, Walmart, and Cisco are now implementing token rationing and cost-tracking systems analogous to cloud bill management from the previous era.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Artificial Intelligence Alert"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-30-002",
+    "date": "2026-06-30",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Heard on the Street",
+    "title": "Comcast's Breakup Is Overdue. It Shouldn't Rush Into a New Marriage.",
+    "summary": "Comcast announced on June 29, 2026, a tax-free spinoff of NBCUniversal and Sky into a separate publicly traded company, ending a 15-year experiment in bundling cable distribution with media content. The breakup, which will split 65 million subscribers and redivide over $90 billion in debt across two firms, marks the structural endpoint of vertical integration in the streaming era; co-CEO Mike Cavanagh will lead the newly independent NBCUniversal. WSJ's Heard on the Street column argues the breakup is long overdue but that Comcast should not rush into new acquisitions, as tax rules will constrain further deals for at least two years after the split.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "WSJ CMO Today",
+      "Mobile World Live Daily Edition"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-06-30-003",
+    "date": "2026-06-30",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CMO Today",
+    "title": "Madison Avenue Is All In on AI",
+    "summary": "Major advertising holding companies have moved from AI experimentation to full deployment, with brands rapidly adopting AI tools to cut production costs and automate ad buying, according to WSJ's CMO Today. WPP CEO Mark Read announced his departure at year end while emphasizing AI's centrality to the firm's future; Omnicom and IPG are pursuing a $13 billion merger aimed at building a combined firm better equipped to compete in an AI-driven market. The shift signals what industry observers describe as a transition from an attention economy to an intelligence economy, where algorithmic decision-making displaces human media planning.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-30-004",
+    "date": "2026-06-30",
+    "source": "Wall Street Journal",
+    "newsletter": "Wall Street Journal",
+    "title": "BIS Warns AI Investment Boom Poses Systemic Risk to Global Financial Stability",
+    "summary": "The Bank for International Settlements' annual economic report, released June 28, 2026, identified the AI investment boom as a potential systemic threat, noting that the five largest hyperscalers are on track to spend more than $1 trillion on AI-related capital expenditure across 2025 and 2026 \u2014 a pace exceeding their earnings and free cash flow that is forcing some to borrow heavily. The BIS flagged opaque 'circular financing' arrangements in which hyperscalers take equity stakes in AI labs that then commit to multi-year compute purchases from those same hyperscalers, with risks that the same assets are pledged multiple times. A major repricing of AI-related stocks, the report warns, could produce sharper wealth effects and a more pronounced consumption pullback than past market corrections.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-30-005",
+    "date": "2026-06-30",
+    "source": "The Information",
+    "newsletter": "Applied AI",
+    "title": "Anthropic Preps Claude Agent in Microsoft Teams",
+    "summary": "Anthropic is preparing to deploy Claude as an embedded agent inside Microsoft Teams, building on the Slack-first launch of Claude Tag on June 23, 2026, according to The Information. Despite potential competitive concerns, both Salesforce and Microsoft are taking a conciliatory approach to Anthropic, whose AI capabilities threaten their core enterprise apps. The broader Microsoft-Anthropic partnership also includes Copilot Cowork for Microsoft 365, enabling Claude to perform tasks like building presentations, pulling data into Excel, and scheduling meetings on behalf of enterprise users.",
+    "link": "https://www.theinformation.com/newsletters/applied-ai/anthropic-preps-claude-agent-microsoft-teams",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-30-006",
+    "date": "2026-06-30",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "KKR, Nvidia and Kuwait Investment Authority Launch $10B Helix Digital Infrastructure",
+    "summary": "KKR, Nvidia, and the Kuwait Investment Authority jointly launched Helix Digital Infrastructure, an AI infrastructure company backed by more than $10 billion, to develop and operate data centers targeting enterprise AI demand. Former AWS CEO Adam Selipsky, now a KKR senior adviser, will serve as CEO of Helix, which will partner with cloud providers to design, own, and run its own data centers and power infrastructure. The venture addresses a critical bottleneck in AI buildout: only one-third of the roughly 12 gigawatts of data-center capacity planned for 2026 is currently under active construction, while more than $130 billion in new projects faced community opposition in the first quarter of 2026 alone.",
+    "link": "https://www.theinformation.com/articles/new-kkr-venture-hunts-deals-clear-data-center-logjam",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-30-007",
+    "date": "2026-06-30",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "AI Video Startup Higgsfield in Talks to Raise at $5 Billion Valuation",
+    "summary": "AI video generation startup Higgsfield is in talks to raise $300 million to $500 million at a pre-money valuation of $5 billion, according to The Information \u2014 nearly a four-fold increase from its January 2026 Series A extension at a $1.3 billion valuation led by Accel. The company, founded by Alex Mashrabov, former head of generative AI at Snap, reported approximately $400 million in annualized revenue as of May 2026 and is targeting $1 billion in annualized run-rate by year end. The talks are still ongoing, with no lead investor or deal structure publicly confirmed.",
+    "link": "https://www.theinformation.com/articles/ai-video-startup-talks-quadruple-valuation-5-billion",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-30-008",
+    "date": "2026-06-30",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live Daily Edition",
+    "title": "Skylo CEO on Direct-to-Device Satellite, EU Sovereignty, and the SpaceX IPO",
+    "summary": "Skylo CEO Parth Trivedi outlined the company's standards-based approach to direct-to-device satellite connectivity in a Mobile World Live podcast, arguing that carrier-grade, interoperable NTN protocols \u2014 rather than proprietary networks \u2014 provide the durable competitive edge in a market now reshaped by SpaceX's record $75 billion IPO in June 2026. Skylo recently partnered with UAE-based Space42 to extend D2D service across more than 37 countries via the Thuraya-4 satellite footprint, using the same SIM and identity framework for seamless device access. The conversation also covered EU data sovereignty concerns as European operators assess the risk of relying on US-controlled satellite networks for critical connectivity.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-06-30-009",
+    "date": "2026-06-30",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "A Niche White-Collar Role Is Becoming the AI Industry's Hot New Job",
+    "summary": "Tech companies are hiring specialists who bridge engineering and domain expertise to evaluate and train AI model outputs \u2014 a role that is rapidly gaining traction across law, medicine, and finance, according to The Logic. Platforms like Mercor, valued at $10 billion, have built contractor networks of 30,000 doctors, lawyers, and writers collectively earning over $1.5 million per day, with global demand for AI evaluators growing at 25\u201335% annually. Senior roles in the field carry salaries of $170,000\u2013$220,000, while the broader category is drawing professionals previously priced out of traditional software engineering careers.",
+    "link": null,
+    "category": "Professional Services",
     "also_covered_by": [],
     "priority_pick": false
   }
