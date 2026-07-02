@@ -194,5 +194,151 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-07-02-001",
+    "date": "2026-07-01",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Bending Spoons Stock Jumps 40% in Trading Debut",
+    "summary": "Bending Spoons, the Italian company known for acquiring and overhauling struggling digital brands such as AOL, Evernote and Vimeo, saw its shares jump 40% on their first day of trading as a public company. That compared with a more modest 4% first-day gain for scooter rental firm Lime, which also debuted the same week following SpaceX's high-profile public offering.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-02-002",
+    "date": "2026-07-02",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Anthropic Fable Ban Is Over. The Battle Over How to Tame AI Has Just Begun.",
+    "summary": "Washington has lifted its block on Anthropic's Fable AI model, but the reversal has intensified debate over how the U.S. should regulate increasingly capable AI systems. WSJ reporting notes that reasoning models and AI agents are evolving faster than regulators can track, making AI a much harder target to govern than industries like autos or air travel. A new Trump administration security-approval process now effectively determines when a frontier model is considered safe enough for release.",
+    "link": "https://www.wsj.com/tech/ai/the-anthropic-fable-ban-is-over-the-battle-over-how-to-tame-ai-has-just-begun-e93f51d6",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-07-02-003",
+    "date": "2026-07-02",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Read the Emails Revealing How Anthropic's Pentagon Relationship Fell Apart",
+    "summary": "Internal emails reviewed by the Wall Street Journal show Pentagon undersecretary Emil Michael and Anthropic CEO Dario Amodei exchanged messages for months over AI safety guardrails before the relationship deteriorated. The correspondence illustrates growing friction between Anthropic and the Defense Department over how the company's models can be used in national-security contexts.",
+    "link": "https://www.wsj.com/politics/national-security/read-the-emails-revealing-how-anthropics-pentagon-relationship-fell-apart-b1d123dd",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-02-004",
+    "date": "2026-07-02",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "U.S. Adds 57,000 Jobs in June, Missing Forecasts as Unemployment Rate Falls to 4.2%",
+    "summary": "The U.S. economy added 57,000 jobs in June, falling short of economists' expectations, the Labor Department reported. The unemployment rate nonetheless ticked down to 4.2%, better than the 4.3% rate economists had forecast.",
+    "link": "https://www.wsj.com/economy/consumers/june-jobs-report-unemployment-6c9540b6",
+    "category": "Global Economy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-02-005",
+    "date": "2026-07-02",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Tesla Caps Employee AI Spend at $200 per Week After Adoption Push",
+    "summary": "Tesla has capped how much individual employees can spend on AI tools at $200 per week, following a companywide push to expand AI adoption among staff. The cap reflects growing corporate scrutiny of AI tool costs as usage scales across large workforces.",
+    "link": "https://www.theinformation.com/articles/tesla-caps-employee-ai-spend-200-per-week-adoption-push",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-02-006",
+    "date": "2026-07-02",
+    "source": "The Information",
+    "newsletter": "Applied AI",
+    "title": "Palantir CEO: Some U.S. Government Customers Switched to Open Source AI",
+    "summary": "Palantir CEO Alex Karp said some U.S. government customers have shifted toward open-source AI models rather than working directly with OpenAI or Anthropic. Following a combative CNBC appearance in which he accused the two AI labs of overcharging customers and misusing their data, Karp positioned Palantir as a trusted intermediary between government agencies and AI vendors.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-02-007",
+    "date": "2026-07-02",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Microsoft Memo Details AI App Overhaul to 'Earn the Right to Exist'",
+    "summary": "An internal Microsoft memo reportedly says the company plans to consolidate and overhaul its various Copilot chatbot products, with executives telling teams their AI apps must 'earn the right to exist.' The memo points to a broader push at Microsoft to sharpen its consumer and enterprise AI product strategy amid intensifying competition.",
+    "link": "https://www.theinformation.com/articles/microsoft-memo-details-ai-app-overhaul-earn-right-exist",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-02-008",
+    "date": "2026-07-02",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "AI Data Centers Are Becoming Wall Street's Next Trade",
+    "summary": "The Information reports that AI data centers have shifted from being primarily a technology infrastructure story to a financial one, as investors increasingly treat the compute capacity, power contracts and financing structures behind frontier AI models as tradeable assets. The shift reflects the scale of capital now required to build and finance the infrastructure that AI model developers depend on.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-02-009",
+    "date": "2026-07-02",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Anthropic in Talks With Samsung to Manufacture Custom AI Chip",
+    "summary": "Anthropic has begun early-stage work on designing its own AI chip and has held talks with Samsung about manufacturing it, The Information reports. The move would follow other AI labs' efforts to reduce dependence on Nvidia by developing custom silicon for training and running their models.",
+    "link": "https://www.theinformation.com/articles/anthropic-talks-samsung-manufacture-custom-ai-chip",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-02-010",
+    "date": "2026-07-02",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Why Microsoft's Real Value Is Close to $3.8 Trillion, or $500 a Share",
+    "summary": "The Information estimates Microsoft's sum-of-the-parts value is closer to $3.8 trillion, or roughly $500 per share, when its major businesses are valued individually rather than as a single combined entity. The analysis suggests certain segments of Microsoft's business may be undervalued relative to comparable standalone companies.",
+    "link": "https://www.theinformation.com/articles/microsofts-real-value-close-3-8-trillion-500-share",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-02-011",
+    "date": "2026-07-02",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Nvidia Will Backstop Customers' GPUs, Take a Cut of Their Cloud Revenues",
+    "summary": "Nvidia is using its balance sheet to help more companies afford its expensive AI chips, agreeing to financially backstop young cloud providers that rent out its GPUs in exchange for a cut of those providers' cloud revenue. The arrangement is designed to support demand for Nvidia's chips while creating a new recurring revenue stream tied to how customers actually use them.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-02-012",
+    "date": "2026-07-02",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Zero Point Cryogenics Wants to Freeze the Quantum World",
+    "summary": "Edmonton-based Zero Point Cryogenics is building near-absolute-zero cryogenic freezers needed to operate quantum computers, positioning the company as a supplier to the growing quantum computing industry. The report highlights a small but expanding cluster of Canadian quantum hardware firms serving global quantum computing developers.",
+    "link": "https://thelogic.co/news/zero-point-edmonton-quantum/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
