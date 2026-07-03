@@ -340,5 +340,234 @@
     "category": "Canadian Business",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-001",
+    "date": "2026-07-03",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "AI Data Centers Use Far More Water Than Most Tech Giants Report",
+    "summary": "AI data centers consume substantially more water than most tech companies publicly disclose, largely because indirect water use at the power plants supplying their electricity is typically excluded from corporate reporting; only Meta currently discloses this indirect figure. A 2024 Lawrence Berkeley National Laboratory analysis found indirect water consumption for U.S. data centers has historically run about 12 times greater than their direct on-site use. Separately, climate consulting firm Carbon Direct estimates $170 billion of planned AI data-center capacity has been blocked, stalled, or canceled since 2024.",
+    "link": "https://www.wsj.com/tech/ai/ai-data-centers-water-use-901e2902",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-002",
+    "date": "2026-07-03",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Microsoft Commits $2.5 Billion to New Applied AI Consulting Effort",
+    "summary": "Microsoft commercial CEO Judson Althoff announced a new business unit, Microsoft Frontier Company, dedicated to helping large customers deploy and customize AI applications. The company is committing $2.5 billion and assigning 6,000 employees to the effort, which will be led by sales president Rodrigo Kede Lima. The move follows similar \"forward deployed engineer\" initiatives from Amazon, Google, Palantir, Meta, and OpenAI aimed at helping enterprise customers get better returns from AI spending.",
+    "link": "https://www.theinformation.com/briefings/microsoft-commits-2-5-billion-new-applied-ai-consulting-effort",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Briefing",
+      "Mobile World Live"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-07-03-003",
+    "date": "2026-07-03",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Google Loses Fight Against Record €4.1 Billion Android Antitrust Fine",
+    "summary": "The European Court of Justice dismissed Google's final appeal against a €4.1 billion ($4.7 billion) fine over its Android operating system, ending an eight-year antitrust battle that began with a 2018 European Commission ruling. Regulators found Google had required phone makers to pre-install Google Search and Chrome to access the Play Store and tied ad revenue sharing to exclusivity against rival search engines. The case is one of three antitrust actions in which the EU has fined Google more than $9 billion combined since 2017.",
+    "link": "https://www.theinformation.com/briefings/google-loses-fight-record-4-1-billion-android-antitrust-fine",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "The Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-004",
+    "date": "2026-07-03",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Alibaba Bans Employees From Using Claude",
+    "summary": "Alibaba Group has barred employees from using Anthropic's Claude Code and ordered the removal of Claude models from company computers, citing security concerns following a controversy over hidden code that could detect whether users were in China. The ban follows Anthropic's recent accusation that Alibaba illicitly used Claude models to train its own AI systems through distillation. Alibaba has separately sued the U.S. Department of Defense over its inclusion on a Pentagon blacklist of Chinese companies with alleged military ties.",
+    "link": "https://www.theinformation.com/briefings/alibaba-bans-employees-using-claude",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-005",
+    "date": "2026-07-03",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "SoftBank Plans to Rent AI Computing Capacity to U.S. Companies",
+    "summary": "SoftBank Group and its telecom unit SoftBank Corp announced plans to rent AI computing capacity to U.S. companies starting in April, through a new neocloud venture called SB Neo Inc. The venture aims to scale to 10 gigawatts of capacity to meet AI data center demand, putting SoftBank in direct competition with cloud providers such as CoreWeave and Nebius Group. SoftBank is borrowing heavily to invest across the AI supply chain, including chips, servers, data centers, and power.",
+    "link": "https://www.theinformation.com/briefings/softbank-plans-rent-ai-computing-capacity-u-s-companies",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-006",
+    "date": "2026-07-03",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Kuaishou Announces Kling AI Video Unit's Fundraising at $15 Billion Valuation",
+    "summary": "Kuaishou Technology said its Kling AI video unit has agreed to raise nearly $3 billion at a $15 billion pre-money valuation, with Kuaishou retaining a 68.33% stake after the round closes. The funding, led by Chinese investment firms CPE and Guofang Investment along with Tencent and Abu Dhabi-based BlueFive, values Kling below the $20 billion target Kuaishou had sought earlier this year. Kling's first-quarter revenue reportedly surged 300% year-over-year to an annualized run rate of about $500 million in March.",
+    "link": "https://www.theinformation.com/briefings/kuaishou-announces-kling-ai-video-units-fundraising-15-billion-valuation",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-007",
+    "date": "2026-07-03",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Nvidia's Longtime Sales Chief Retires",
+    "summary": "Jay Puri, Nvidia's top sales executive and a direct report to CEO Jensen Huang, stepped down from his day-to-day role after 21 years at the company; Microsoft sales executive Nicholas Parker was named as his successor, starting August 24. Puri, 71, is expected to remain as a senior adviser and is credited with helping transition Nvidia from a consumer gaming brand into an enterprise AI chip supplier.",
+    "link": "https://www.theinformation.com/briefings/nvidias-longtime-sales-chief-retires",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "The Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-008",
+    "date": "2026-07-03",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "OpenAI Has Discussed Size of Stake U.S. Government Could Take",
+    "summary": "OpenAI has held preliminary discussions with the U.S. government about the size of an equity stake it might take in the company, with the Financial Times earlier reporting a proposed 5% stake from OpenAI's CEO. The proposal follows an OpenAI white paper floating a public wealth fund seeded by AI company assets, an idea similar to a bill from Senator Bernie Sanders proposing a 50% government stake in top AI firms. Anthropic has made a similar public fund proposal but has not discussed a government stake directly with the administration.",
+    "link": "https://www.theinformation.com/briefings/openai-discussed-size-stake-u-s-government-take",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "The Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-009",
+    "date": "2026-07-03",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Tesla Vehicle Sales Rebounded 25% in Second Quarter",
+    "summary": "Tesla's global vehicle deliveries rose 25% year-over-year to 480,000 in the second quarter, with 468,000 of those being Model 3 or Model Y vehicles, following a sales slump in 2025. The company's energy storage business deployed 13.5 gigawatt-hours of batteries in the quarter, up 41% year-over-year, while Tesla shares fell 7% on the day of the announcement. Rising European gas prices tied to the Iran war have been credited with boosting electric vehicle demand broadly, including for Tesla and Chinese rivals such as BYD.",
+    "link": "https://www.theinformation.com/briefings/tesla-vehicle-sales-rebounded-25-second-quarter",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-010",
+    "date": "2026-07-02",
+    "source": "The Information",
+    "newsletter": "The Briefing",
+    "title": "Nvidia to Financially Backstop Younger Neocloud Firms Amid Funding Boom",
+    "summary": "Nvidia is offering to financially backstop smaller \"neocloud\" firms that rent out AI servers, in exchange for a share of their revenues, as competition intensifies among the growing number of companies entering the sector. The move comes as SoftBank launched a new U.S. neocloud venture and AI infrastructure startup Together AI raised $800 million, underscoring plentiful funding despite concerns about overbuilding. Analysts note Nvidia's backstopping could increase financial risk for smaller, less-established players relative to larger cloud providers like AWS, Google Cloud, and Microsoft Azure.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-011",
+    "date": "2026-07-02",
+    "source": "The Information",
+    "newsletter": "Dealmaker",
+    "title": "Freshfields Wins Role in Anthropic's IPO",
+    "summary": "British law firm Freshfields has been retained by Anthropic's bankers to work on the company's initial public offering, which is expected to raise tens of billions of dollars at a valuation exceeding $1 trillion. Freshfields, founded in 1743, opened its first Silicon Valley office in 2020 and has previously advised on deals including Google's $32 billion acquisition of Wiz and the European portion of SpaceX's $86 billion share offering. Rival law firms Cooley, Wachtell Lipton, and Latham & Watkins are advising OpenAI on its own competing IPO process.",
+    "link": null,
+    "category": "Professional Services",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-012",
+    "date": "2026-07-02",
+    "source": "The Information",
+    "newsletter": "Dealmaker",
+    "title": "Lime Goes Public at $1.6 Billion Valuation",
+    "summary": "Scooter and bike rental company Lime went public on the Nasdaq this week at a $1.6 billion valuation, generating returns for early investors including Andreessen Horowitz, which held a 5% stake at the time of listing. Lime's prospectus had warned the company faced possible bankruptcy without a public listing. CEO Wayne Ting framed the IPO as a bet on an \"AI-resilient\" physical-world business, comparable in positioning to companies like Oura, Reformation, and Jersey Mike's.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-013",
+    "date": "2026-07-03",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "Ottawa's Elusive AI Startup",
+    "summary": "Turbopuffer, a three-year-old Ottawa startup with a small team, has become an infrastructure provider for major AI companies including Anthropic and is on pace to generate roughly $100 million in revenue. Co-founders Simon Eskildsen, a former Shopify engineer, and Justine Li built a lower-cost method for AI systems to search stored data, and have deliberately avoided marketing and media attention despite the company's rapid growth.",
+    "link": "https://www.theglobeandmail.com/business/article-business-brief-ottawas-elusive-ai-startup/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-014",
+    "date": "2026-07-03",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "HCLTech Inks $1.1 Billion AI Deal With European Firm",
+    "summary": "Indian IT services company HCLTech secured a $1.1 billion contract with a major European company to deploy AI services and help manage its enterprise technology offerings. The deal adds to a wave of large AI services contracts among global IT consultancies as enterprises look for help implementing AI at scale.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-015",
+    "date": "2026-07-03",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Meta CEO Downbeat on AI Gains So Far",
+    "summary": "Meta CEO Mark Zuckerberg reportedly told employees that the company's AI agent strategy is progressing more slowly than expected and that its AI-driven reorganization earlier this year has yet to deliver anticipated gains. The comments add to a broader pattern of large enterprises, including Uber and Starbucks, expressing frustration over difficulty generating measurable returns from AI investment.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-016",
+    "date": "2026-07-03",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Amazon Leo Launches 29 More Satellites Ahead of Broadband Debut",
+    "summary": "Amazon is on track to launch its Leo broadband service later this year after a United Launch Alliance rocket successfully deployed 29 more satellites, bringing the constellation's total to 396. The launch keeps Amazon on pace to compete with SpaceX's Starlink in the satellite broadband market.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-017",
+    "date": "2026-07-03",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Anthropic in Talks With Samsung to Manufacture Custom AI Chip",
+    "summary": "Anthropic is reportedly in early-stage discussions with Samsung Electronics about serving as a manufacturing partner for a custom AI chip, according to people familiar with the matter. No agreement has been finalized, and the talks remain preliminary. A custom chip effort would align Anthropic with rivals such as OpenAI and Google, which have pursued their own dedicated silicon.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Dealmaker"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-03-018",
+    "date": "2026-07-03",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Apple to Debut Five New iPhones by 2027",
+    "summary": "Apple reportedly plans to launch at least five new iPhone models between the second half of 2026 and the first half of 2027, while also ramping up production of foldable devices. The expanded lineup suggests an acceleration in Apple's product cadence and a deeper push into new device categories.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
