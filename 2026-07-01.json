@@ -140,8 +140,8 @@
     "date": "2026-07-01",
     "source": "Mobile World Live",
     "newsletter": "Mobile World Live",
-    "title": "UK's CMA Fast-Tracks In-Depth Probe into £2B Fibre Deal",
-    "summary": "The UK Competition and Markets Authority launched an in-depth investigation into Nexfibre's proposed £2 billion takeover of rival broadband provider Netomnia. The probe introduces regulatory uncertainty for further consolidation in the UK fibre broadband market.",
+    "title": "UK's CMA Fast-Tracks In-Depth Probe into \u00a32B Fibre Deal",
+    "summary": "The UK Competition and Markets Authority launched an in-depth investigation into Nexfibre's proposed \u00a32 billion takeover of rival broadband provider Netomnia. The probe introduces regulatory uncertainty for further consolidation in the UK fibre broadband market.",
     "link": null,
     "category": "Markets & Finance",
     "also_covered_by": [],
@@ -373,8 +373,8 @@
     "date": "2026-07-03",
     "source": "The Information",
     "newsletter": "The Information AM",
-    "title": "Google Loses Fight Against Record €4.1 Billion Android Antitrust Fine",
-    "summary": "The European Court of Justice dismissed Google's final appeal against a €4.1 billion ($4.7 billion) fine over its Android operating system, ending an eight-year antitrust battle that began with a 2018 European Commission ruling. Regulators found Google had required phone makers to pre-install Google Search and Chrome to access the Play Store and tied ad revenue sharing to exclusivity against rival search engines. The case is one of three antitrust actions in which the EU has fined Google more than $9 billion combined since 2017.",
+    "title": "Google Loses Fight Against Record \u20ac4.1 Billion Android Antitrust Fine",
+    "summary": "The European Court of Justice dismissed Google's final appeal against a \u20ac4.1 billion ($4.7 billion) fine over its Android operating system, ending an eight-year antitrust battle that began with a 2018 European Commission ruling. Regulators found Google had required phone makers to pre-install Google Search and Chrome to access the Play Store and tied ad revenue sharing to exclusivity against rival search engines. The case is one of three antitrust actions in which the EU has fined Google more than $9 billion combined since 2017.",
     "link": "https://www.theinformation.com/briefings/google-loses-fight-record-4-1-billion-android-antitrust-fine",
     "category": "Politics & Policy",
     "also_covered_by": [
@@ -569,5 +569,17 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-07-04-001",
+    "date": "2026-07-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Quest to Make Humanoid Robots Safe Enough for Humans",
+    "summary": "The Wall Street Journal examines the safety engineering challenges facing humanoid robot makers after several viral incidents of robots malfunctioning around people. Manufacturers report no serious injuries or deaths to date, but growing concern centers on the robots approaching 200 pounds in weight, raising the stakes if a bipedal machine loses power near a person. Companies are responding with layered safeguards, including emergency stop buttons and chip-level safety systems, such as a new Nvidia system built on its Blackwell chips that can interpret sensor data and halt a robot when conditions become unsafe.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
   }
 ]
