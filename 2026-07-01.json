@@ -571,6 +571,18 @@
     "priority_pick": false
   },
   {
+    "id": "2026-07-04-001",
+    "date": "2026-07-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Quest to Make Humanoid Robots Safe Enough for Humans",
+    "summary": "The Wall Street Journal examines the safety engineering challenges facing humanoid robot makers after several viral incidents of robots malfunctioning around people. Manufacturers report no serious injuries or deaths to date, but growing concern centers on the robots approaching 200 pounds in weight, raising the stakes if a bipedal machine loses power near a person. Companies are responding with layered safeguards, including emergency stop buttons and chip-level safety systems, such as a new Nvidia system built on its Blackwell chips that can interpret sensor data and halt a robot when conditions become unsafe.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
     "id": "2026-07-05-001",
     "date": "2026-07-05",
     "source": "The Information",
@@ -628,18 +640,6 @@
     "title": "Palantir Publishes \"AI Sovereignty\" Manifesto, Criticizes Rivals' Token Pricing",
     "summary": "Palantir published a nine-point manifesto describing what it calls \"AI sovereignty,\" urging organizations to keep their data in-house, control their own model weights, and avoid token-based pricing for AI services. The manifesto criticizes what Palantir calls \"tokenmaxxing\" and implicitly challenges the business models of OpenAI and Anthropic. Palantir CEO Alex Karp separately called competitors' token-based pricing \"insane\" in a television interview shortly before the post.",
     "link": "https://thenextweb.com/news/palantir-ai-sovereignty-manifesto-tokenmaxxing",
-    "category": "Technology & AI",
-    "also_covered_by": [],
-    "priority_pick": false
-  },
-  {
-    "id": "2026-07-05-006",
-    "date": "2026-07-05",
-    "source": "Wall Street Journal",
-    "newsletter": "WSJ Latest in Artificial Intelligence",
-    "title": "The Quest to Make Humanoid Robots Safe Enough for Humans",
-    "summary": "The Wall Street Journal reports that a series of viral videos showing humanoid robots malfunctioning or causing accidents has intensified scrutiny of robot safety engineering. Robot makers are under growing pressure to design safeguards that prevent humanoid machines from injuring the people who work or live alongside them. The article examines the technical and regulatory challenges involved in certifying robots as safe for close human contact.",
-    "link": "https://www.wsj.com/tech/the-quest-to-make-humanoid-robots-safe-enough-for-humans-4887c123?mod=panda_wsj_section_alert",
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
