@@ -643,5 +643,139 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-07-06-001",
+    "date": "2026-07-06",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Big Tech Has Suddenly Flipped on the AI Jobs Wipeout Scenario",
+    "summary": "Major technology companies have quietly softened earlier warnings that artificial intelligence would trigger sweeping job losses, as public opinion toward AI has grown more negative. Executives including OpenAI's Sam Altman and Anthropic's Dario Amodei, who previously forecast substantial workforce disruption, are now emphasizing that AI will keep workers at the center of business operations. A survey cited in the report found the share of CEOs expecting AI to cause significant headcount reductions fell from about 46% in January 2025 to 20% in May 2026.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Latest in Artificial Intelligence"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-07-06-002",
+    "date": "2026-07-06",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "OpenAI's Biggest Backers Bet on Josh Kushner's AI Roll-Up Machine",
+    "summary": "Some of OpenAI's largest investors are reportedly putting capital behind Thrive Holdings, an AI-focused roll-up vehicle led by Thrive Capital founder Josh Kushner that buys and operates traditional services businesses. OpenAI itself has taken an ownership stake in Thrive Holdings and agreed to embed its researchers with the vehicle's portfolio companies to build customized AI models. The arrangement deepens financial ties between OpenAI's investor base and its commercial applications beyond its core chatbot business.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-06-003",
+    "date": "2026-07-06",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Smith and Ford revive push for a west-to-east oil pipeline",
+    "summary": "Alberta Premier Danielle Smith and Ontario Premier Doug Ford are reviving efforts to build a new oil pipeline running from the Alberta oilpatch to eastern Canada, according to The Logic. The push aims to reduce Canadian reliance on the U.S. market for oil exports and follows years of stalled interprovincial pipeline proposals. Jurisdictional disputes between federal and provincial governments have historically been the main obstacle to similar projects.",
+    "link": null,
+    "category": "Energy & Commodities",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-06-004",
+    "date": "2026-07-06",
+    "source": "CNBC",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "Apple's ambitious plans for 5 new iPhones by 2027",
+    "summary": "Apple is reportedly planning to launch at least five new iPhone models between late 2026 and the first half of 2027, including its first foldable device, a standard iPhone 18, and a new iPhone Air model, according to a Nikkei Asia report cited by CNBC. The company has raised its foldable iPhone production target to roughly 10 million units, up from an earlier forecast of 7 to 8 million, with the foldable expected to be priced around $2,500. Apple has also explored Chinese chip suppliers to address AI-driven memory component shortages.",
+    "link": "https://www.cnbc.com/2026/07/02/apple-foldable-iphone-production-memory-shortage-china-chipmakers-cxmt-ymtc.html",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-06-005",
+    "date": "2026-07-06",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "How Small Firms Use Claude to Quit Salesforce",
+    "summary": "Small and mid-sized firms are increasingly replacing Salesforce and other traditional enterprise software with custom workflows built on Anthropic's Claude, according to The Information. The trend reflects broader unease inside Salesforce about AI assistants encroaching on core CRM functions. It points to a potential shift in how smaller businesses procure and build software as AI models take on tasks once handled by dedicated enterprise applications.",
+    "link": "https://www.theinformation.com/articles/small-firms-use-claude-quit-salesforce",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-06-006",
+    "date": "2026-07-06",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "KT sets aside $12B to fuel AI platform ambition",
+    "summary": "South Korean telecom operator KT unveiled a roughly $12 billion (KRW18 trillion) five-year investment plan to transform into what it calls an AI platform company under its new CEO. The spending is allocated across network infrastructure, IT and security, data centers, and submarine cable capacity. KT said the plan aims to build capabilities in AI, cybersecurity, and next-generation connectivity including 6G.",
+    "link": "https://www.mobileworldlive.com/asia-pacific/kt-sets-aside-12b-to-fuel-ai-platform-ambition",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-06-007",
+    "date": "2026-07-06",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "SKT targets 15GW data centre capacity",
+    "summary": "SK Telecom outlined plans to build 15 gigawatts of AI-capable data center capacity in South Korea, starting with 5GW online from 2029 and an additional 10GW from 2035. The company is positioning itself as a regional AI infrastructure hub, with an initial site in Ulsan and planned clusters in the Gyeongsang and Jeolla regions, and cited McKinsey forecasts of 19-22% annual growth in data center demand. A single gigawatt-class AI data center is estimated to cost roughly KRW70 trillion, to be financed through company investment, partner capital, and project financing.",
+    "link": "https://www.mobileworldlive.com/asia-pacific/skt-targets-15gw-data-centre-capacity",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-06-008",
+    "date": "2026-07-06",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Tesla expands Robotaxi service to Miami",
+    "summary": "Tesla expanded its Robotaxi service to a section of western and central Miami, making Florida the first state outside Texas to host the fully autonomous service. Unlike Tesla's earlier Austin deployment, which used in-vehicle safety supervisors, the Miami service launched without human supervision from day one. Tesla has said it plans further expansions to Orlando, Tampa, Phoenix, and Las Vegas.",
+    "link": "https://www.theinformation.com/briefings/tesla-expands-robotaxi-service-miami",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-06-009",
+    "date": "2026-07-06",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Alibaba, Bytedance Halt Personalized AI Features as Regulations Tighten",
+    "summary": "ByteDance and Alibaba are shutting down personalized AI companion features on their Doubao and Qwen platforms ahead of new Chinese rules on anthropomorphic AI that take effect July 15. The regulations, issued by China's Cyberspace Administration and other agencies, require anti-addiction safeguards and periodic break reminders that conflict with how persistent-memory AI companions are designed. Affected users have until mid-October to export their data before it is deleted.",
+    "link": "https://www.theinformation.com/briefings/alibaba-bytedance-halt-personalized-ai-features-regulations-tighten",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-06-010",
+    "date": "2026-07-06",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Singapore Files New Charges in Nvidia Chip Fraud Case",
+    "summary": "Singapore prosecutors filed additional charges against four individuals and four companies accused of misrepresenting the end-users of servers containing restricted Nvidia AI chips. Authorities allege the hardware was routed through Singapore before being shipped onward to Malaysia or China in an effort to evade U.S. export controls. The case is one of several recent enforcement actions targeting alleged circumvention of chip export restrictions in Southeast Asia.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-06-011",
+    "date": "2026-07-06",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Quebec Ink: Quebec's era of endless, cheap electricity is coming to an end",
+    "summary": "A Quebec Ink column by Martin Patriquin argues that the province's decades-long era of abundant, low-cost electricity is ending as demand rises from data centers, electrification, and industrial growth. Quebec has long relied on inexpensive hydroelectric power as an economic advantage for households and industry. The column suggests the province will need to rebalance supply commitments and pricing as demand pressures mount.",
+    "link": null,
+    "category": "Energy & Commodities",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
