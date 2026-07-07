@@ -777,5 +777,261 @@
     "category": "Energy & Commodities",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-001",
+    "date": "2026-07-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Microsoft to Cut 4,800 Jobs, Mostly in Xbox and Sales",
+    "summary": "Microsoft is laying off about 4,800 employees, roughly 2% of its workforce, primarily in its sales organization and Xbox gaming division. Xbox will cut 1,600 roles immediately and sell at least four game studios, with CEO Asha Sharma telling staff the unit \"is not healthy\" and operates at margins 3-10x lower than comparable businesses.",
+    "link": "https://www.wsj.com/tech/microsoft-layoffs-xbox-59e7f6df",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "The Briefing",
+      "The Information AM",
+      "The Rundown Tech"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-07-07-002",
+    "date": "2026-07-07",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Broadcom and Apple Extend Tech Collaboration Through 2031",
+    "summary": "Broadcom and Apple agreed to extend their custom-chip collaboration through 2031 under new multiyear agreements disclosed in a securities filing. The deal reinforces Broadcom's role as a key networking-chip partner for Apple's AI server hardware, and sent Broadcom shares up 4% in premarket trading.",
+    "link": "https://www.theinformation.com/briefings/broadcom-apple-extend-tech-collaboration-2031",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Briefing",
+      "Mobile World Live",
+      "The Rundown Tech"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-003",
+    "date": "2026-07-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "AI Enters a New Stage of Financial Innovation as Debt Markets Swell",
+    "summary": "Research firm SemiAnalysis projects that AI debt financing will grow into a multi-trillion-dollar credit market, with more than $7 trillion outstanding by 2029, rivaling the US mortgage-backed securities market. The report argues hyperscalers' balance sheets alone cannot backstop that scale of borrowing, so neoclouds and AI labs need to broaden their customer base beyond a handful of large cloud providers to sustain data-center financing.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-004",
+    "date": "2026-07-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "AI Infrastructure Startup Nscale Secures $900 Million for Data-Center Buildout",
+    "summary": "Nvidia-backed AI infrastructure startup Nscale secured a $900 million line of credit to expand data-center capacity across Europe, the US, and Asia-Pacific. The company, also backed by Dell and Nokia, had raised $2 billion earlier this year at a $14.6 billion valuation.",
+    "link": "https://www.wsj.com/tech/ai/nvidia-backed-startup-nscale-locks-in-900-million-for-data-center-buildout-fd9820b3",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-005",
+    "date": "2026-07-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Samsung Forecasts Record Second-Quarter Operating Profit",
+    "summary": "Samsung Electronics projected a record second-quarter operating profit of about $58.47 billion, roughly 19 times higher year-over-year, driven by surging demand for AI memory chips and strong server DRAM pricing. The forecast comes amid broader market jitters over whether AI infrastructure spending is sustainable.",
+    "link": "https://www.wsj.com/tech/samsung-forecasts-record-second-quarter-operating-profit-8b95a398",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-006",
+    "date": "2026-07-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Heard on the Street",
+    "title": "Why SK Hynix Isn't as Cheap as It Looks",
+    "summary": "SK Hynix, which is preparing to raise about $28 billion in a US listing this week, has become one of the world's most profitable companies, with analysts projecting nearly $150 billion in net income this year, up from losses three years ago. Despite its stock more than tripling in 2026, the shares trade at a forward P/E of around 7, reflecting investor wariness that the memory industry's historically cyclical downturns will eventually follow the current AI-driven upturn.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-007",
+    "date": "2026-07-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Nokia's New Act: Supplying the AI Data Center Boom",
+    "summary": "Nokia shares have surged roughly 90% this year as the company pivots from its legacy handset business to become a major supplier of AI data-center infrastructure equipment.",
+    "link": "https://www.wsj.com/tech/ai/nokias-new-act-supplying-the-ai-data-center-boom-e03045c0",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-008",
+    "date": "2026-07-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Will Someone Finally Blink in the AI Spending War?",
+    "summary": "A Wall Street Journal analysis asks whether major tech companies have overbuilt AI computing capacity, noting that if Meta begins renting out its excess compute to other businesses, it could be an early signal that AI infrastructure investment has outpaced actual demand.",
+    "link": "https://www.wsj.com/tech/ai/will-someone-finally-blink-in-the-ai-spending-war-0f59aa60",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-009",
+    "date": "2026-07-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "AI Giants Are Handing Out Tons of Free Computing Power to Grab Startup Share",
+    "summary": "OpenAI, Anthropic, and other AI model developers are offering startups discounted or free cloud computing power, tokens, and early access to new models as they compete to lock in future enterprise customers. The push comes as AI labs seek durable revenue streams large enough to justify their capital-spending commitments.",
+    "link": "https://www.wsj.com/tech/ai/ai-giants-are-handing-out-tons-of-free-computing-power-to-grab-startup-share-c00a5c5c",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Pro Cybersecurity"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-010",
+    "date": "2026-07-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "New Cyber Incident Reporting Rules Coming in September",
+    "summary": "Four years after Congress passed the Cyber Incident Reporting for Critical Infrastructure Act, the Cybersecurity and Infrastructure Security Agency is expected to finalize rules in September requiring critical infrastructure operators to disclose cyberattacks. Industry groups have been lobbying CISA to align the new reporting deadlines and disclosure requirements with existing regulations.",
+    "link": "https://www.nextgov.com/cybersecurity/2026/07/cisa-expects-finalize-key-cyber-reporting-rule-september/414607/",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-011",
+    "date": "2026-07-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "US Cyber Agency Uses Anthropic's Mythos to Audit Government Code",
+    "summary": "The Cybersecurity and Infrastructure Security Agency is using Anthropic's Mythos AI model to scan federal technology systems for vulnerabilities, according to people familiar with the matter. The arrangement comes even as Anthropic has been at odds with the White House for months over how its models can be used by the US government.",
+    "link": "https://www.reuters.com/world/us-cyber-agency-is-using-anthropics-mythos-audit-government-code-sources-say-2026-07-06/",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-012",
+    "date": "2026-07-07",
+    "source": "The Information",
+    "newsletter": "Applied AI",
+    "title": "Facing a Revolt, HubSpot Reverses Its Decision to Use Customer Data For AI Feature",
+    "summary": "HubSpot reversed a July 1 plan to collect and potentially share customers' CRM data by default to power a new AI sales-lead feature, after customers objected publicly and threatened to switch providers. HubSpot's chief product and technology officer called the terms-of-service changes \"a mistake,\" in a reversal that echoes earlier customer-data backlashes faced by Slack and Zoom over AI training uses.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-013",
+    "date": "2026-07-07",
+    "source": "Reuters",
+    "newsletter": "The Information AM",
+    "title": "Beijing Considers Restricting Overseas Access to Top Chinese AI Models",
+    "summary": "Chinese officials, led by the Ministry of Commerce, have discussed restricting overseas access to China's most advanced AI models, including both closed- and open-source systems, according to people familiar with the discussions. The talks also touched on possible limits on who can invest in domestic AI startups, amid a broader US-China rivalry that has seen Washington impose and partly ease export controls on Anthropic's most advanced models.",
+    "link": "https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07/",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-014",
+    "date": "2026-07-07",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Mercor Hits Over $2 Billion in Gross Annualized Revenue",
+    "summary": "AI-focused talent marketplace Mercor surpassed a $2 billion gross annualized revenue run rate in June, double its pace earlier this year, driven by rising demand from AI app developers and Fortune 500 customers building or fine-tuning their own AI models. The company pays out 60-70% of that revenue to contractors and is profitable on a free-cash-flow basis.",
+    "link": "https://www.theinformation.com/briefings/exclusive-mercor-hit-2-billion-gross-annualized-revenue",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-015",
+    "date": "2026-07-07",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "TeraWulf Shares Soar on $19 Billion Anthropic Data Center Deal",
+    "summary": "Data-center developer TeraWulf signed a 20-year lease agreement to provide Anthropic a purpose-built AI campus in Hawesville, Kentucky, a deal expected to generate about $19 billion in contracted revenue. TeraWulf shares jumped as much as 19% intraday before closing up nearly 5%, and the company is also selling its stake in a separate joint venture.",
+    "link": "https://www.theinformation.com/briefings/terawulf-shares-soar-19-billion-anthropic-data-center-deal",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-016",
+    "date": "2026-07-07",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Micron Continues Automotive Drive With Ford Deal",
+    "summary": "Ford Motor Company and Micron Technology signed a long-term agreement for Micron to supply memory chips for next-generation vehicle production, a week after Micron announced a similar supply deal with General Motors.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-017",
+    "date": "2026-07-07",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Australia Social Media Age-Checks Fall Short",
+    "summary": "A new study reportedly found that major social media platforms are failing to consistently apply age-verification methods under Australia's landmark ban on social media accounts for under-16s, exposing early enforcement gaps in the law.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-018",
+    "date": "2026-07-07",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "The Anti-Meta Smart Glasses Just Became a Unicorn",
+    "summary": "Shenzhen-based smart-glasses startup Even Realities raised $150 million in a pre-Series B round led by Meituan and Tencent, reaching a $1 billion valuation. Founded by former Apple engineers, the company sells camera-free glasses with a heads-up display starting around $599, betting that privacy-focused hardware can differentiate it from Meta's and Snap's camera-equipped AI glasses.",
+    "link": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-019",
+    "date": "2026-07-07",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "Alibaba Fights the U.S. Blacklist, and Wins Round One",
+    "summary": "A federal judge temporarily blocked the Pentagon from enforcing a new rule barring it from contracting with firms whose lobbyists also represent companies on its list of alleged Chinese military companies, pending a ruling on Alibaba's constitutional challenge. Alibaba was added to the Pentagon's expanded 188-company list in June and sued on June 23 to be removed from it.",
+    "link": "https://www.bloomberg.com/news/articles/2026-07-05/alibaba-gets-reprieve-from-lobbying-ban-tied-to-pentagon-s-curbs",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-07-020",
+    "date": "2026-07-07",
+    "source": "Wall Street Journal",
+    "newsletter": "The Rundown Tech",
+    "title": "Big Tech Drastically Undercounts AI's Water Use",
+    "summary": "Microsoft, Google, and Amazon report only the water consumed directly for on-site cooling at their data centers, omitting the far larger volume evaporated at the power plants that supply their electricity, according to a Wall Street Journal analysis. Indirect water use has historically run about 12 times direct consumption, and in water-stressed Phoenix, data centers could account for more than 20% of city water use by 2031, up from about 3% today.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
