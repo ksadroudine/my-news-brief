@@ -388,5 +388,139 @@
     "category": "Canadian Business",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-07-10-001",
+    "date": "2026-07-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Apple Sues OpenAI, Alleging It Stole Trade Secrets",
+    "summary": "Apple has sued OpenAI, alleging that former Apple employees took confidential information with them to advance OpenAI's device efforts. The suit centers on claims that departing staff carried proprietary knowledge into their new roles at the AI company. The filing adds to escalating legal and competitive tension between Apple and OpenAI in AI-powered hardware.",
+    "link": "https://www.wsj.com/tech/apple-openai-lawsuit-f86bd58c?mod=panda_wsj_section_alert",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-10-002",
+    "date": "2026-07-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Record Companies Push to Label AI Songs on Streaming Platforms",
+    "summary": "An RIAA-led coalition representing record labels and artists is pushing streaming platforms to label songs that were created using AI. The group says listener surveys show fans want transparency about whether music was AI-generated. The push is part of a broader industry effort to establish disclosure standards for AI-generated content.",
+    "link": "https://www.wsj.com/tech/ai/record-companies-push-to-label-ai-songs-on-streaming-platforms-103aa392?mod=panda_wsj_section_alert",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-10-003",
+    "date": "2026-07-10",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "SK Hynix Raises $26.5 Billion in Record Nasdaq Debut",
+    "summary": "South Korean memory chip maker SK Hynix raised $26.5 billion in its Nasdaq debut on July 10, the largest-ever U.S. listing by a foreign company, pricing American depositary receipts at $149 each. Shares jumped roughly 13-14% on their first trading day, with investor demand reportedly running at more than seven times the shares on offer. The offering reflects intense investor appetite for suppliers of the memory chips used in AI hardware.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-07-10-004",
+    "date": "2026-07-10",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "OpenAI Unveils Claude Cowork Competitor, Desktop 'Superapp'",
+    "summary": "OpenAI launched ChatGPT Work, an agent that draws on corporate data to automate tasks like building spreadsheets and presentations, along with a new desktop application. The product directly targets Anthropic's Claude Cowork and Microsoft's Copilot Cowork, and is available across desktop, web and mobile. The launch underscores intensifying competition among AI labs for enterprise customers as both OpenAI and Anthropic weigh potential public offerings.",
+    "link": "https://www.theinformation.com/briefings/openai-unveils-claude-cowork-competitor-desktop-superapp",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-10-005",
+    "date": "2026-07-10",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Meta Courts Developers With New Muse Spark 1.1 Model",
+    "summary": "Meta released Muse Spark 1.1, an upgraded multimodal reasoning model from Meta Superintelligence Labs, and for the first time opened one of its in-house foundation models to outside developers through a new Meta Model API. The model shows notable gains in tool use, computer use and coding, and is priced at $1.25 per million input tokens and $4.25 per million output tokens. The move signals a shift in Meta's AI strategy toward selling model access rather than only releasing models openly.",
+    "link": "https://www.theinformation.com/briefings/meta-courts-developers-new-muse-spark-1-1-model",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-10-006",
+    "date": "2026-07-10",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Anthropic's Trust Names Former Fed Chair Bernanke as New Member",
+    "summary": "Anthropic appointed former Federal Reserve chair Ben Bernanke to its Long-Term Benefit Trust, the independent body that advises company leadership and appoints board members. Bernanke, a Nobel laureate in economics, becomes the trust's fourth member, joining a health-nonprofit CEO and two national-security and international-affairs experts. Trust members hold no equity in Anthropic and are meant to help the company weigh AI's broader economic and societal effects.",
+    "link": "https://www.theinformation.com/briefings/anthropics-trust-names-former-fed-chair-bernanke-new-member",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-10-007",
+    "date": "2026-07-10",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "E& offloads Vodafone stake to telecoms tycoon Niel",
+    "summary": "UAE telecom group e& agreed to sell its roughly 16% stake in Vodafone Group to French billionaire Xavier Niel for close to $6 billion (about £4.4 billion), making Niel Vodafone's largest shareholder. The deal prices Vodafone shares at 112.5 pence, a 15% premium to the prior close, and gives e& a net cash return of about $1.3 billion. The transaction still requires UK security clearance and extends Niel's history of telecoms consolidation deals in Europe.",
+    "link": "https://www.mobileworldlive.com/vodafone/telecoms-tycoon-niel-scoops-vodafone-stake/",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-10-008",
+    "date": "2026-07-10",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "Netflix's binge model is backfiring",
+    "summary": "Netflix is seeing steep viewer drop-off between seasons of shows released all at once, with titles like One Piece, Beef and The Night Agent losing 30-70% of their audience in later seasons. Analysts say the all-at-once release format, built to compete with linear TV, is less effective against short-form platforms like TikTok and YouTube because it lets subscribers binge a show and cancel within a month. Netflix is reportedly weighing weekly releases or a greater focus on limited series to improve retention.",
+    "link": "https://techcrunch.com/2026/07/06/netflix-invented-binge-watching-now-it-may-have-outgrown-it/",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-10-009",
+    "date": "2026-07-10",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Alberta wants to be a model for government AI and power Canada-wide adoption",
+    "summary": "Alberta's provincial government has spent 18 months building in-house tools on top of Anthropic's Claude models to scan its software systems for security vulnerabilities and flag applications that need upgrading. The province has published 21 white papers on its AI projects and open-sourced the underlying code so other governments and organizations can adapt the tools. The initiative positions Alberta as a potential model for AI adoption across Canada's public sector.",
+    "link": "https://thelogic.co/news/alberta-ai-model-government-adoption/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-10-010",
+    "date": "2026-07-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Anthropic's Political Risks Are Real, but OpenAI's Loom Even Larger",
+    "summary": "A Wall Street Journal analysis argues that while Anthropic faces genuine political risk in the U.S. -- including a Pentagon supply-chain risk listing after declining to let Claude power mass surveillance or autonomous weapons -- OpenAI's far larger consumer user base and government-linked stakes could expose it to even greater political scrutiny. The piece frames model access as an emerging factor in AI company valuations as both firms weigh potential public offerings. It adds to a wider debate over how political and regulatory risk should be priced into the AI sector.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-09-012",
+    "date": "2026-07-09",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Power Developer Behind OpenAI's Stargate Data Center Is In Talks to Sell Stake",
+    "summary": "Lancium, the power infrastructure developer behind OpenAI and Oracle's Stargate data center campus in Texas, is in talks with major technology companies to sell a minority stake, according to The Information. The discussions reflect strong investor interest in companies that supply power capacity for AI data centers amid a broader energy crunch tied to the AI buildout. Terms of a potential deal were not disclosed.",
+    "link": "https://www.theinformation.com/articles/power-developer-behind-openais-stargate-data-center-talks-sell-stake",
+    "category": "Energy & Commodities",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
