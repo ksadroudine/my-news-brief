@@ -522,5 +522,53 @@
     "category": "Energy & Commodities",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-07-11-001",
+    "date": "2026-07-11",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Alex Karp Is Saying What Every Angry CEO Is Thinking About AI",
+    "summary": "Palantir CEO Alex Karp said in a CNBC interview that many corporate executives privately share his frustration with the AI industry, accusing major AI labs of charging businesses steep fees for AI tools while using client data to improve their own models, calling it a kind of \"wealth tax.\" Karp argued that customers want to retain control over their own compute, models, data stack and competitive edge rather than ceding it to frontier AI labs.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-07-11-002",
+    "date": "2026-07-11",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "How Claude became Salesforce's newest threat",
+    "summary": "Small and mid-sized firms are increasingly using Anthropic's Claude to replace paid Salesforce and HubSpot seats, with one firm, Greenleaf Management, saving roughly $100,000 a year by dropping Salesforce's CRM software. What began as a cost-saving workaround is raising a broader question for the software industry about what happens to paid enterprise applications as AI models take over more of the work they were built to do.",
+    "link": "https://www.theinformation.com/articles/small-firms-use-claude-quit-salesforce",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-11-003",
+    "date": "2026-07-11",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Anthropic's partner problem",
+    "summary": "Anthropic's push into Slack with its new Claude Tag product, which acts as a persistent AI teammate inside Slack channels, has raised concerns inside Salesforce, which owns Slack and competes with its own Agentforce and Slackbot tools. Some of Anthropic's software partners have reportedly been caught off guard as the company rolls out features that overlap with products built on its models, even as Salesforce, which paid $27.7 billion for Slack in 2021, expects to spend roughly $300 million on Anthropic tokens this year and holds about a 1% stake in the AI company.",
+    "link": "https://www.theinformation.com/articles/salesforce-employees-worry-anthropics-invasion-slack",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-11-004",
+    "date": "2026-07-11",
+    "source": "The Information",
+    "newsletter": "The Information Weekend",
+    "title": "AI Researchers Are Having an Identity Crisis",
+    "summary": "At the International Conference on Machine Learning in Seoul, AI researchers grappled with anxiety over whether AI could eventually automate their own jobs. Princeton computer science professor Arvind Narayanan argued researchers shouldn't worry, saying AI still lacks the creativity for major research breakthroughs and that the researcher's role will shift toward generating hypotheses while AI runs the experiments, though other attendees voiced more unease, a tension that coincides with AI labs' aggressive hiring of academics from computer science, economics and philosophy departments.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
