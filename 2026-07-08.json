@@ -570,5 +570,65 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-07-12-001",
+    "date": "2026-07-12",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "The Hot Equity Trade Spreading Through the AI Boom",
+    "summary": "Public companies are increasingly turning to at-the-market equity offerings, a flexible share-sale mechanism popular when stock prices are rising, to help fund AI infrastructure buildouts. Cloud provider IREN has authorized billions of dollars in fresh share sales, while Alphabet drew attention last month with an ATM program of up to $40 billion. The approach lets companies capitalize on rallying share prices to raise capital, betting the rally lasts long enough to cash in.",
+    "link": "https://www.theinformation.com/articles/hot-equity-trade-spreading-ai-boom",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-07-12-002",
+    "date": "2026-07-12",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "How Wall Street Is Financing the AI Chip Boom—and Why It Matters",
+    "summary": "A fast-growing market of chip-backed debt, special-purpose vehicles, leasing deals and vendor guarantees is emerging as AI startups burn cash and struggle to secure traditional loans. Chipmakers Nvidia, AMD and Broadcom are moving beyond hardware sales to help finance their own customers, in some cases backstopping unused capacity or leasing back the chips they supplied. The Information's Deep Research team mapped the financing structures reshaping the AI buildout and their implications for hardware makers, neoclouds and AI labs.",
+    "link": "https://www.theinformation.com/articles/wall-street-takes-chip-financing",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-12-003",
+    "date": "2026-07-12",
+    "source": "Palantir",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Palantir's 15-Step AI Sovereignty Blueprint",
+    "summary": "Palantir published a 28-page report outlining 15 steps it says companies and governments should take to protect their sovereignty and build lasting competitive advantage as AI adoption accelerates. The blueprint covers foundational data practices, model- and compute-layer decisions, and control-layer governance including permissions, auditing and cybersecurity practices. Palantir argues that many enterprises underestimate how much agency they retain over how AI is deployed inside their organizations.",
+    "link": "https://www.palantir.com/assets/xrfr7uokpv1b/7BF74dqccPeVFMHRmy7FO3/2a33ff9b4f9e11ba904445e637095960/Palantir_-_Institutional_Sovereignty_in_the_Age_of_AI.pdf",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-12-004",
+    "date": "2026-07-12",
+    "source": "Boston Consulting Group",
+    "newsletter": "Enterprise AI Executive",
+    "title": "How AI Leaders Create Competitive Advantage",
+    "summary": "A BCG Institute analysis of more than 600 U.S. companies, using an outside-in measure of AI adoption rather than self-reported data, found that only 6% qualify as \"AI leaders,\" yet those firms outperform peers by 9 percentage points in shareholder returns, driven by revenue and margin growth rather than cost-cutting. The study identified talent development as the biggest differentiator between AI leaders and laggards, with leaders' AI-fluency scores nearly tripling as adoption moves from active use to full deployment across the organization.",
+    "link": "https://web-assets.bcg.com/pdf-src/prod-live/how-ai-leaders-create-competitive-advantage.pdf",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-12-005",
+    "date": "2026-07-12",
+    "source": "Uber",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Uber's Agentic Pods Spread Across Every Function",
+    "summary": "Uber's CTO said 99% of the company's engineers now use AI coding tools and more than 70% of pull requests originate from AI agents, with more than 2,500 agent skills built internally. To extend agentic AI beyond engineering, Uber created \"Agentic Pods\" pairing AI-proficient engineers with domain experts across the business; 16 pods ran across 16 functions in two months, in one case cutting a capital-allocation process from 15 hours to 30 minutes. Uber said the biggest surprise was how quickly engineers outside their usual domain found process improvements by rethinking workflows rather than automating isolated tasks.",
+    "link": "https://x.com/praveenTweets/status/2074605343439810922",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
