@@ -630,5 +630,117 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-07-13-001",
+    "date": "2026-07-13",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "AI Bond Market Strains as Hyperscalers Issue Record Debt",
+    "summary": "The investment-grade corporate bond market is struggling to absorb roughly $75 billion in new debt issued by Nvidia, SpaceX and Amazon, as six major tech hyperscalers have sold about $244 billion in bonds globally this year, more than double last year's $108 billion, the Wall Street Journal reports. The Information separately reported that AI developers are increasingly turning to private bond markets, leveraged loans, at-the-market stock programs and emerging compute-futures markets to fund the AI infrastructure buildout.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Information"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-07-13-002",
+    "date": "2026-07-13",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Data-Center Land Rush Nets Pennsylvania Families Hundreds of Millions",
+    "summary": "A group of 96 families in Salem Township, Pennsylvania sold roughly 1,700 acres of farmland to data-center developer QTS, an arm of Blackstone, for a combined $586 million, the Wall Street Journal reports. One couple, Marilee and David Kiliti, sold their 89-acre farm for more than $22 million, as demand for rural data-center sites intensifies amid the AI buildout.",
+    "link": null,
+    "category": "Real Estate",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-13-003",
+    "date": "2026-07-13",
+    "source": "Telecoms",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "AT&T, Ericsson Demonstrate 5G-Based Drone Detection at NFL Stadium",
+    "summary": "AT&T and Ericsson demonstrated a drone-detection system using Integrated Sensing and Communication (ISAC) technology over an existing 5G network during a major sporting event at AT&T Stadium in Arlington, Texas. The setup used standard cellular towers and massive MIMO radios to detect and track drones in real time without additional standalone sensors, pointing to a potential security application for large public venues.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-13-004",
+    "date": "2026-07-13",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Apple Sues OpenAI Over Alleged Trade Secret Theft",
+    "summary": "Apple filed a lawsuit in US federal court against OpenAI and two former Apple employees, alleging theft of trade secrets. The case adds to a growing list of legal disputes between major technology companies over AI talent and intellectual property.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-13-005",
+    "date": "2026-07-13",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Does the US Anthropic U-Turn Expose an AI Trust Problem?",
+    "summary": "After the United States reversed its earlier ban on Anthropic's AI models, analysts interviewed by Mobile World Live examined how the reversal could affect digital sovereignty, telecom security practices and the broader effort to regulate frontier AI. The episode underscores the volatility of US AI policy and its implications for companies that rely on American AI providers.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-13-006",
+    "date": "2026-07-13",
+    "source": "Wall Street Journal",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "Brightspeed Considers Capital Raise Amid $11 Billion Debt Burden",
+    "summary": "Broadband provider Brightspeed is facing significant financial strain from roughly $11 billion in debt accumulated during its rapid fiber-network expansion, the Wall Street Journal reports. Despite a 2024 distressed-debt exchange that eliminated more than $1 billion in obligations and extended maturities, the company remains highly leveraged and is pursuing new asset-backed financing while creditors explore restructuring options.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-13-007",
+    "date": "2026-07-13",
+    "source": "Light Reading",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "FCC Router Ban Drives Rush for Equipment Waivers",
+    "summary": "The FCC's ban on new foreign-made consumer routers has triggered a surge in vendor requests for conditional approvals and expedited waivers. Vantiva recently received conditional approval for a DOCSIS 3.1+ modem, while CTIA and Taiwan's WNC have filed for waivers to address component shortages, with additional waivers or approvals granted to Adtran, Calix, Netgear, Nokia and Verizon.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-13-008",
+    "date": "2026-07-13",
+    "source": "Fierce Network",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "Starlink Accelerates Broadband Spread in Rural Communities",
+    "summary": "Starlink continues to drive broadband adoption in rural America, with nearly half of its new subscribers coming from small rural providers or people who previously lacked broadband access. Data from Recon Analytics shows Starlink's share of new-to-broadband customer gross adds grew from 11% in 2023 to 17% in the first half of 2026.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-13-009",
+    "date": "2026-07-13",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Hackers Rebrand to Thwart Cyber Defenses",
+    "summary": "A growing number of cybercrime groups are rebranding under new names as AI-driven security tools help defenders spot patterns tied to well-known hacker groups, prompting attackers to periodically reinvent themselves to evade detection, the Wall Street Journal reports. Ransomware and data-extortion attacks worldwide rose to 1,885 over the past three months, up from 1,363 in the same period a year earlier, according to cybersecurity firm ZeroFox.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
