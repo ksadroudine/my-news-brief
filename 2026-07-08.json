@@ -469,7 +469,7 @@
     "source": "Mobile World Live",
     "newsletter": "Mobile World Live",
     "title": "E& offloads Vodafone stake to telecoms tycoon Niel",
-    "summary": "UAE telecom group e& agreed to sell its roughly 16% stake in Vodafone Group to French billionaire Xavier Niel for close to $6 billion (about \u00a34.4 billion), making Niel Vodafone's largest shareholder. The deal prices Vodafone shares at 112.5 pence, a 15% premium to the prior close, and gives e& a net cash return of about $1.3 billion. The transaction still requires UK security clearance and extends Niel's history of telecoms consolidation deals in Europe.",
+    "summary": "UAE telecom group e& agreed to sell its roughly 16% stake in Vodafone Group to French billionaire Xavier Niel for close to $6 billion (about £4.4 billion), making Niel Vodafone's largest shareholder. The deal prices Vodafone shares at 112.5 pence, a 15% premium to the prior close, and gives e& a net cash return of about $1.3 billion. The transaction still requires UK security clearance and extends Niel's history of telecoms consolidation deals in Europe.",
     "link": "https://www.mobileworldlive.com/vodafone/telecoms-tycoon-niel-scoops-vodafone-stake/",
     "category": "Business & Strategy",
     "also_covered_by": [],
@@ -588,7 +588,7 @@
     "date": "2026-07-12",
     "source": "The Information",
     "newsletter": "The Information",
-    "title": "How Wall Street Is Financing the AI Chip Boom\u2014and Why It Matters",
+    "title": "How Wall Street Is Financing the AI Chip Boom—and Why It Matters",
     "summary": "A fast-growing market of chip-backed debt, special-purpose vehicles, leasing deals and vendor guarantees is emerging as AI startups burn cash and struggle to secure traditional loans. Chipmakers Nvidia, AMD and Broadcom are moving beyond hardware sales to help finance their own customers, in some cases backstopping unused capacity or leasing back the chips they supplied. The Information's Deep Research team mapped the financing structures reshaping the AI buildout and their implications for hardware makers, neoclouds and AI labs.",
     "link": "https://www.theinformation.com/articles/wall-street-takes-chip-financing",
     "category": "Markets & Finance",
@@ -887,6 +887,18 @@
     "summary": "Growing local opposition to AI data centre projects in Alberta and Saskatchewan reflects broader public pushback against AI infrastructure in Canada. Meta's proposed $13-billion data centre in Sturgeon County, Alberta, would require energy equal to nearly three-quarters of Edmonton's total consumption, raising concerns about electricity costs and environmental impact even as it promises jobs and utility revenue.",
     "link": "https://www.theglobeandmail.com/business/article-business-brief-canadas-ai-clash/",
     "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-14-013",
+    "date": "2026-07-14",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "The Briefing: Hassabis' AI Standards",
+    "summary": "Google DeepMind CEO Demis Hassabis called for the U.S. to lead creation of an independent AI standards body, modeled on FINRA, that would review frontier models before release and could eventually gain authority to pause deployments found unsafe. Hassabis has spent months briefing the Trump administration, other lab leaders and European officials, and wants the body operational before year-end, following a period in which an export-control action froze Anthropic's models with no established review process in place.",
+    "link": null,
+    "category": "Politics & Policy",
     "also_covered_by": [],
     "priority_pick": false
   }

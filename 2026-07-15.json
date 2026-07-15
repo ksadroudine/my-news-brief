@@ -1,0 +1,176 @@
+[
+  {
+    "id": "2026-07-15-001",
+    "date": "2026-07-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Mira Murati's AI Startup Releases First Model in Bid to Loosen AI Giants' Grip",
+    "summary": "Thinking Machines Lab, the AI startup led by former OpenAI CTO Mira Murati, released its first model, betting that more customizable AI systems can chip away at the dominance of frontier labs like OpenAI and Anthropic. The launch marks the company's first public product since it was founded and raised a large funding round to compete in the foundation-model race.",
+    "link": "https://www.wsj.com/tech/ai/mira-muratis-ai-startup-releases-first-model-in-bid-to-loosen-ai-giants-grip-e042bb2b",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-15-002",
+    "date": "2026-07-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Personal Technology",
+    "title": "AT&T and Verizon Look Beyond the Family Plan",
+    "summary": "AT&T and Verizon are rolling out new wireless service options designed to move beyond the traditional multiline family plan, aiming to capture long-term customers through more flexible offerings. The shift reflects carriers' efforts to differentiate in a wireless market where the family-plan model has become commoditized.",
+    "link": "https://www.wsj.com/tech/personal-tech/at-t-and-verizon-look-beyond-the-family-plan-4fcaf4b9",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-15-003",
+    "date": "2026-07-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Meta Workers Accuse It of Using AI to Conduct Discriminatory Layoffs",
+    "summary": "A lawsuit filed against Meta alleges the company used AI tools to help conduct layoffs that disproportionately targeted employees with disabilities and those on medical or parental leave. The suit adds to a growing set of legal challenges over employers' use of AI in workforce-reduction decisions.",
+    "link": "https://www.wsj.com/tech/ai/meta-workers-accuse-it-of-using-ai-to-conduct-discriminatory-layoffs-bbb59963",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-15-004",
+    "date": "2026-07-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "U.A.E. Rewarded With Coveted AI Chips for Supporting U.S. War in Iran",
+    "summary": "The United Arab Emirates has secured expanded access to advanced U.S. AI chips after backing American military action in Iran, with its flagship AI firm now able to freely purchase the hardware. The arrangement is tied to the UAE firm's plan to restructure as a U.S. company, underscoring how chip export policy is increasingly linked to geopolitical alignment.",
+    "link": "https://www.wsj.com/world/middle-east/uae-ai-chips-iran-war-26c10d77",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-15-005",
+    "date": "2026-07-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "IBM Loses $69 Billion of Market Value in One Day in Latest AI-Fueled Selloff",
+    "summary": "IBM shares plunged 25% after preliminary second-quarter results showed weakness in its software and infrastructure business, as customers redirected spending toward AI infrastructure such as memory chips instead of traditional enterprise IT. The one-day, $69 billion market-value loss illustrated a widening divide between companies benefiting directly from AI infrastructure buildout, such as chip-equipment maker ASML, which raised its full-year guidance the same day, and legacy technology vendors being squeezed by the shift.",
+    "link": "https://www.wsj.com/tech/ai/ibm-stock-profit-warning-earnings-software-8652c06e",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-07-15-006",
+    "date": "2026-07-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "China's DeepSeek Prepares to List Shares in Shanghai Next Year",
+    "summary": "Chinese AI developer DeepSeek is preparing to list its shares in Shanghai next year as it seeks additional funding to sustain costly research in its race against Anthropic and other U.S. AI labs. The Information separately reported DeepSeek's annualized revenue is nearing $500 million, a figure the company is citing to support its fundraising and IPO plans.",
+    "link": "https://www.wsj.com/tech/ai/chinas-deepseek-prepares-to-list-shares-in-shanghai-next-year-a85bf00f",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Information AM"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-15-007",
+    "date": "2026-07-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "White House Launches Platform to Share AI Cyber Threats, Fixes",
+    "summary": "The White House launched Gold Eagle, a clearinghouse joining federal agencies, AI developers and critical-infrastructure companies to coordinate discovery and patching of software vulnerabilities identified by AI systems. Built with Carnegie Mellon's Software Engineering Institute, the platform is a joint effort across Treasury, the Department of Homeland Security and the Pentagon, and has already begun processing vulnerability reports.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "The Information AM"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-15-008",
+    "date": "2026-07-15",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Microsoft's New Security Chief Replaces Top Execs to Force an AI Overhaul",
+    "summary": "Microsoft's new security chief has replaced several top executives as part of an effort to overhaul the company's security business in response to AI-powered hacking threats. The leadership shakeup follows the executive's appointment earlier this year to lead Microsoft's security unit.",
+    "link": "https://www.theinformation.com/articles/microsofts-new-security-chief-replaces-top-execs-force-ai-overhaul",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-15-009",
+    "date": "2026-07-15",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Cursor Is Reinventing Itself as SpaceX Deal Looms",
+    "summary": "Coding startup Cursor is restructuring its business as it heads toward a planned $60 billion acquisition by SpaceX, with CEO Michael Truell outlining a major transformation to staff. The deal, expected to close roughly 30 days after SpaceX's IPO, would rank among the largest acquisitions of a venture-backed startup in history.",
+    "link": "https://www.theinformation.com/articles/cursor-reinventing-spacex-deal-looms",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-15-010",
+    "date": "2026-07-15",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "Amazon Gives Electrovaya a Jolt",
+    "summary": "Ontario-based battery maker Electrovaya announced a commercial agreement with Amazon covering deployment of its Infinity lithium-ion battery technology in material handling operations, with potential expansion into robotics and energy storage. Amazon received warrants for up to roughly 21% of Electrovaya's shares, vesting as purchases under the deal reach $280 million, and the stock jumped nearly 50% on the news.",
+    "link": null,
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-15-011",
+    "date": "2026-07-15",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "The Small Team in Montreal Trying to Save the World From AI",
+    "summary": "LawZero, the Montreal nonprofit founded by AI pioneer Yoshua Bengio to build safer alternatives to commercial AI systems, is launching a fundraising campaign to grow its team past 200 staff after raising an initial $30 million from donors and winning support from the Gates Foundation. The federal government has signed a letter of intent to back LawZero, whose 'Scientist AI' approach aims to be explanatory and epistemically honest rather than pursuing autonomous, goal-driven systems.",
+    "link": "https://thelogic.co/news/the-big-read/the-small-team-in-montreal-trying-to-save-the-world-from-ai/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-15-012",
+    "date": "2026-07-15",
+    "source": "BCG",
+    "newsletter": "Enterprise AI Executive",
+    "title": "BCG's Four CIO Pillars for Scaling Agentic AI",
+    "summary": "Boston Consulting Group outlined four pillars for CIOs scaling agentic AI: optimizing existing technology, reshaping business functions, inventing new business opportunities, and reimagining entire organizations. BCG found that success with agentic AI is roughly 70% dependent on people and change management rather than algorithms, that only about 5% of companies are currently 'agent-first,' and that leading enterprises are cutting costs 15-20% across functions through graduated-autonomy deployment models.",
+    "link": "https://www.bcg.com/publications/2026/agentic-ai-strategy-cio-cto",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-15-013",
+    "date": "2026-07-15",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Nokia Asserts AI-RAN Leadership",
+    "summary": "Nokia launched a new AI-RAN platform aimed at boosting mobile network capacity and efficiency, built on an AI-native network architecture and leveraging Nvidia's accelerated computing technology. The move is part of a broader reorganization at Nokia around AI-driven network and data-center opportunities.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-15-014",
+    "date": "2026-07-15",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "New York Puts Mega Data Centres on Ice",
+    "summary": "New York became the first U.S. state to halt construction of large new data centers, imposing a one-year moratorium amid concerns over power demand and grid capacity. The pause highlights growing friction between AI-driven data-center growth and local energy infrastructure constraints.",
+    "link": "https://www.mobileworldlive.com/north-america/new-york-puts-mega-data-centres-on-ice",
+    "category": "Energy & Commodities",
+    "also_covered_by": [],
+    "priority_pick": false
+  }
+]
