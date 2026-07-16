@@ -172,5 +172,145 @@
     "category": "Energy & Commodities",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-07-16-001",
+    "date": "2026-07-16",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "TSMC Plans Another $100 Billion U.S. Investment as AI Demand Surges",
+    "summary": "Taiwan Semiconductor Manufacturing Co. said it will invest another $100 billion in Arizona chipmaking and advanced-packaging capacity, bringing its committed U.S. investment to roughly $165 billion, after posting second-quarter revenue of about $39.6 billion (up 36% year-over-year) and raising its 2026 capital-spending forecast to $60-64 billion. CEO C.C. Wei said AI chip demand from cloud providers continues to outstrip supply, though AI-linked stocks broadly failed to rally on the results as investors questioned whether hyperscaler capital spending will pay off.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information AM",
+      "Mobile World Live"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-07-16-002",
+    "date": "2026-07-16",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The AI Backlash Has Tech Executives Fearing for Their Lives",
+    "summary": "Violent threats against AI companies and their executives have surged, prompting some tech leaders to travel with armed guards or avoid discussing AI publicly. Incidents include an April break-in at Anthropic's San Francisco lobby in which an intruder left a written death threat naming a senior executive, five days after an attempted firebombing of OpenAI CEO Sam Altman's home. Threat-monitoring firm Liferaft found digital threats against AI executives and data centers grew sevenfold between late February and May.",
+    "link": "https://www.wsj.com/us-news/the-ai-backlash-has-tech-executives-fearing-for-their-lives-30c43972",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ CEO Brief",
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-16-003",
+    "date": "2026-07-16",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Thirst for AI Pushes Cyber M&A Toward a Record Year",
+    "summary": "Cybersecurity M&A hit a record 219 deals worth $9.1 billion in the first half of 2026, driven partly by demand for tools that defend AI agents and large-language-model data. June produced the year's first billion-dollar-plus deal, Accenture's $4.175 billion purchase of Dragos, NetRise and runZero, following Alphabet's $32 billion Wiz acquisition in March, the largest pure-play cybersecurity deal on record.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-16-004",
+    "date": "2026-07-16",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Hackers Claim Data Theft From India's Largest Nuclear Plant",
+    "summary": "A ransomware group calling itself World Leaks posted roughly 19,000 files, totaling 14.3 gigabytes, allegedly from India's Kudankulam Nuclear Power Plant, including engineering blueprints, supplier records and inspection reports tied to two reactor units. Contractor Reliance Group confirmed a partial breach of data hosted with a third-party provider, while India's Nuclear Power Corporation said no nuclear-safety or security systems were affected; the plant was previously linked to a 2019 North Korean malware incident.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-16-005",
+    "date": "2026-07-16",
+    "source": "The Information",
+    "newsletter": "Applied AI",
+    "title": "Nobody Is Immune From the GPU Crunch",
+    "summary": "Startups are increasingly shifting workloads away from Amazon Web Services and other established cloud providers toward smaller challengers such as Nebius as a shortage of AI computing capacity intensifies. The Information separately reported that Microsoft and other large cloud providers are hoarding GPUs, creating a bottleneck that is squeezing AI startups' access to compute just as demand for training and inference capacity keeps climbing.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information AM"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-16-006",
+    "date": "2026-07-16",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Cursor Is Developing an AI Agent to Compete With Claude Cowork",
+    "summary": "Cursor, the AI coding startup, is building a general-purpose AI agent intended to compete with Anthropic's Claude Cowork, part of a broader push to expand beyond coding tools. The company's CEO told staff in a May all-hands meeting that Cursor aims to become a top-tier AI model developer in its own right, a push that coincides with reported takeover interest from SpaceX valuing the company near $60 billion.",
+    "link": "https://www.theinformation.com/articles/cursor-developing-ai-agent-compete-claude-cowork",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-16-007",
+    "date": "2026-07-16",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Microsoft Memo Details AI App Overhaul to 'Earn the Right to Exist'",
+    "summary": "An internal Microsoft memo outlines plans to merge the company's consumer and enterprise Copilot applications and cut underused features, as executives push AI products to prove their value to users. The overhaul reflects pressure inside Microsoft to consolidate its sprawling AI product lineup amid intensifying competition for enterprise AI spending.",
+    "link": "https://www.theinformation.com/articles/microsoft-memo-details-ai-app-overhaul-earn-right-exist",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-16-008",
+    "date": "2026-07-16",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Stripe, Advent Made Joint Offer to Buy PayPal",
+    "summary": "Stripe and private-equity firm Advent International submitted an unsolicited joint offer to acquire PayPal for $60.50 a share, valuing the payments company at more than $53 billion, a roughly 28% premium to its prior closing price. The bid includes about $50 billion in committed financing, with PayPal's board expected to review the offer as soon as July 20.",
+    "link": "https://www.theinformation.com/briefings/stripe-advent-made-joint-offer-buy-paypal",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-16-009",
+    "date": "2026-07-16",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Citi Sees Canada Heating Up in Global Capital Shift",
+    "summary": "Citi Canada is expanding its local workforce by about 1,000 additional roles after already growing headcount by some 1,500 employees in recent years, according to CEO Raymond Gatcliffe, who cited the country's shifting role in trade, resources and defence. The bank purchased its Mississauga office campus in June after leasing the site since 2007; the location now employs about 3,500 people, roughly 75-80% of them in technology roles.",
+    "link": "https://thelogic.co/news/citi-canada-global-capital-shift/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-16-010",
+    "date": "2026-07-16",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "EU Hands SFR Carve-Up Antitrust Review to France",
+    "summary": "The European Commission referred its review of Iliad's portion of the three-way breakup of Altice France's SFR to France's Autorite de la concurrence, part of a EUR20.35 billion carve-up in which Bouygues Telecom, Iliad and Orange are splitting SFR's assets and subscribers. The French regulator's review is expected to take at least 18 months given the deal would cut France's mobile operators from four to three, a structure EU regulators have historically resisted.",
+    "link": "https://www.autoritedelaconcurrence.fr/en/article/telecoms-sfr-autorite-de-la-concurrence-review-acquisition-sfr-altice-france",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-16-011",
+    "date": "2026-07-16",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "TikTok in Ofcom Crosshairs Over Child Safety",
+    "summary": "UK regulator Ofcom opened a formal investigation into TikTok on July 16 over concerns that its age-inference methods are failing to reliably identify child users, potentially exposing them to harmful content under the Online Safety Act. The probe, expected to take at least three months with an update due in October, could result in fines of up to £18 million or 10% of TikTok's global revenue if breaches are found.",
+    "link": "https://deadline.com/2026/07/ofcom-investigating-tiktok-over-child-safety-concerns-1236983773/",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
