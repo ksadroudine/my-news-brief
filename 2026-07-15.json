@@ -482,5 +482,89 @@
     "category": "Canadian Business",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-07-18-001",
+    "date": "2026-07-18",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "From CLOs to ATMs, Wall Street Finds More Ways to Fund AI",
+    "summary": "Wall Street is expanding beyond traditional debt to finance the AI data-center buildout, turning to collateralized loan obligations, asset-backed securities and other structured finance tools as capital needs scale into the trillions of dollars. The shift reflects growing appetite among banks and investors to package AI infrastructure debt into a wider range of instruments as funding needs outpace conventional lending capacity.",
+    "link": "https://www.theinformation.com/articles/clos-atms-wall-street-finds-ways-fund-ai",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-18-002",
+    "date": "2026-07-18",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Cursor Is Reinventing Itself as SpaceX Deal Looms",
+    "summary": "Cursor, the AI coding startup reportedly in talks to be acquired by SpaceX, is building a general-purpose AI agent meant to compete with tools like Anthropic's Claude, expanding beyond its core coding-assistant product. The push follows Cursor's move to begin leasing compute from SpaceX's AI unit and comes as the two companies work toward a jointly developed AI model.",
+    "link": "https://www.theinformation.com/articles/cursor-reinventing-spacex-deal-looms",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-18-003",
+    "date": "2026-07-18",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "AWS Is Overloaded, Cloud Startups Are Picking Up the Slack",
+    "summary": "Amazon Web Services is struggling to meet demand for AI computing capacity, pushing some customers toward smaller cloud rivals; one startup, Arcee, committed to spend $8 million over three years with AWS but still could not secure enough Nvidia-powered servers to run its workloads. The capacity crunch reflects a broader GPU shortage across major cloud providers as AI compute demand continues to outstrip supply.",
+    "link": "https://www.theinformation.com/articles/startups-try-new-cloud-companies-aws-faces-heavy-demand",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-18-004",
+    "date": "2026-07-18",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Microsoft's New Security Chief Replaces Top Execs to Force an AI Overhaul",
+    "summary": "Microsoft, the world's largest seller of cybersecurity software, is overhauling that business to capitalize on corporate anxiety about AI-powered hacking, with security chief Hayete Gallot replacing top executives since taking over the unit in February. The restructuring is aimed at positioning Microsoft to capture rising enterprise spending on AI-related cyber defense.",
+    "link": "https://www.theinformation.com/articles/microsofts-new-security-chief-replaces-top-execs-force-ai-overhaul",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-18-005",
+    "date": "2026-07-18",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "What to Know About the Chinese AI Models Rattling U.S. Stocks",
+    "summary": "The emergence of low-cost, high-performing Chinese AI models, such as Moonshot's Kimi K3, is raising fresh doubts about the durability of the U.S. AI investment boom and has contributed to volatility in American tech stocks. The article examines how these Chinese models compare with leading U.S. offerings and what their rise could mean for the competitive balance in AI development.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-07-18-006",
+    "date": "2026-07-18",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "IBM CEO Arvind Krishna Has Nowhere to Hide From AI",
+    "summary": "IBM's position in the current technology cycle has grown increasingly precarious as the company struggles to demonstrate it can capitalize on the AI boom the way rival tech firms have, putting pressure on CEO Arvind Krishna's strategy. The piece examines how IBM's legacy business model is being tested by the broader industry shift toward AI-native computing.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-18-007",
+    "date": "2026-07-18",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Investors With a New Way to Win in Silicon Valley",
+    "summary": "Venture-capital firms are adopting new tactics to gain access to the most sought-after AI startups amid a historic, once-in-a-lifetime IPO boom, rewriting long-standing conventions around deal structuring and founder access. The shift reflects intensifying competition among investors for stakes in a small number of dominant AI companies.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
