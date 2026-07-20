@@ -626,5 +626,139 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-07-20-001",
+    "date": "2026-07-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "China's Top AI Event Delivers Message to the U.S.: We're Coming for You",
+    "summary": "At the World Artificial Intelligence Conference in Shanghai, Chinese firms showcased AI progress that undercuts any lingering hope of a clear U.S. lead in the technology. Alibaba underscored the shift by previewing Qwen3.8-Max, a 2.4-trillion-parameter model it says trails only Anthropic's flagship system among frontier AI, sending Alibaba shares up as much as 5.4%.",
+    "link": "https://www.wsj.com/tech/ai/chinas-top-ai-event-delivers-message-to-the-u-s-were-coming-for-you-560d246b",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-07-20-002",
+    "date": "2026-07-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Massive Supply Deals Feeding the AI Frenzy Are No Sure Thing",
+    "summary": "Long-term chip and memory supply agreements underpinning the AI buildout, including those touted by suppliers like SK Hynix, are less secure than markets assume, raising the risk that the current pace of AI infrastructure investment could be disrupted.",
+    "link": "https://www.wsj.com/finance/the-massive-supply-deals-feeding-the-ai-frenzy-are-no-sure-thing-3a89ec09",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-20-003",
+    "date": "2026-07-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "These AI-Native Companies Have Tiny Staffs and Fewer Bosses",
+    "summary": "Startups built from the outset around AI tools are operating with far leaner headcounts and flatter management structures than earlier generations of technology companies, reshaping assumptions about how much staff a growing company needs.",
+    "link": "https://www.wsj.com/tech/ai/ai-companies-staffing-c9029343",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-20-004",
+    "date": "2026-07-20",
+    "source": "Wall Street Journal",
+    "newsletter": "Wall Street Journal",
+    "title": "Neo Emerges From Stealth With $100 Million to Secure Enterprise AI Agents",
+    "summary": "Cybersecurity startup Neo, founded by former SentinelOne, Wiz and Palo Alto Networks executives, emerged from stealth with $100 million in funding, including a $75 million round led by Andreessen Horowitz and Bessemer Venture Partners. The company is building a control layer meant to govern AI agents and AI-enabled software across enterprise environments.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-20-005",
+    "date": "2026-07-20",
+    "source": "Wall Street Journal",
+    "newsletter": "Wall Street Journal",
+    "title": "Coca-Cola Suspends U.S. Fairlife Production After Ransomware Attack",
+    "summary": "Coca-Cola disclosed that its Fairlife dairy subsidiary detected unauthorized third-party access to its systems, including production systems, in a ransomware event that forced a temporary suspension of U.S. manufacturing. Fairlife, an estimated $4 billion brand, said Canadian production was unaffected and that product quality and safety were not compromised.",
+    "link": "https://www.sec.gov/Archives/edgar/data/0000021344/000162828026048466/ko-20260716.htm",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-20-006",
+    "date": "2026-07-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CEO Brief",
+    "title": "The Real Difference in the AI Era",
+    "summary": "Bausch + Lomb CEO Brent Saunders has made AI training mandatory and tied it to employee pay, arguing the central risk of the AI era is not that AI replaces workers but that employees who don't adopt it will be replaced by those who do. The company partnered with Coursera to run an AI academy for roughly 8,000 employees.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-20-007",
+    "date": "2026-07-20",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Samsung Is the New Memory Chip Underdog—for Now",
+    "summary": "A sell-off this month in memory chip stocks—Samsung, SK Hynix and Micron—has left the sector trading at a discount, giving investors a fresh entry point into a business that continues to benefit from AI-driven demand growth.",
+    "link": "https://www.theinformation.com/articles/samsung-new-memory-chip-underdog-now",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-20-008",
+    "date": "2026-07-20",
+    "source": "SmartBrief",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "FCC Eyes Overhaul of USF Management and Oversight",
+    "summary": "FCC Chairman Brendan Carr proposed a rulemaking seeking comment on how the Universal Service Fund is administered, including the role of the Universal Service Administrative Company, its board, and its operating costs. A full commission vote is expected August 6 and would mark the first structural review of USF administration since USAC was first selected.",
+    "link": "https://www.telecompetitor.com/fcc-will-consider-usf-administration-at-august-meeting/",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-20-009",
+    "date": "2026-07-20",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "TIM Takeover Bid Goes Live After Board Backing",
+    "summary": "Italy's Poste Italiane launched its formal tender offer for Telecom Italia, a cash-and-share deal worth roughly €10.8 billion, after securing TIM board support. The offer requires regulatory approval, with Poste Italiane targeting completion by the end of 2026.",
+    "link": "https://mobileworldlive.com/europe/tim-takeover-bid-goes-live-after-board-backing",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-20-010",
+    "date": "2026-07-20",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Meta in Early Talks to Lease AI Compute to Anthropic",
+    "summary": "Meta is in preliminary talks to lease AI computing capacity to Anthropic in a deal reported to be worth about $10 billion, with Anthropic paying in monthly installments over two years. The talks are notable because Meta's Llama models compete directly with Anthropic's Claude, meaning Meta could become both a rival and a critical infrastructure supplier.",
+    "link": "https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-20-011",
+    "date": "2026-07-20",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "The Canadian Companies Trying to Break Palantir's Grip on Intelligence Software",
+    "summary": "Canadian firms Anvil and Caseway are building intelligence and data-analysis software positioned to compete with Palantir, which holds significant Canadian government and law-enforcement contracts, including past deals with the Department of National Defence and the Ontario Provincial Police.",
+    "link": null,
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
