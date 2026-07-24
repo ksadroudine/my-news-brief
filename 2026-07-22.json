@@ -193,5 +193,113 @@
     "category": "Politics & Policy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-07-23-001",
+    "date": "2026-07-23",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "IBM Cuts Revenue Target as AI Eats Into Its Sales",
+    "summary": "IBM cut its 2026 full-year revenue growth forecast to 4%-5% after second-quarter mainframe sales fell 42% and total revenue of $17.16 billion missed Wall Street estimates. IBM management disputed the framing that AI was displacing its traditional business, though analysts pointed to a crowding-out effect as corporate IT budgets shift toward AI infrastructure spending.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-23-002",
+    "date": "2026-07-23",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Oracle's OpenAI Data Center Plans Face Billion-Dollar Cost Surprises",
+    "summary": "Oracle's roughly $50 billion-to-$100 billion Abilene, Texas data center being built for OpenAI faces additional cost pressure from potential tariffs on materials, on top of the roughly $10 billion Oracle already burned on AI-related data center spending in a recent quarter. Completion of some facilities has reportedly slipped to 2028 from 2027, a delay that could allow OpenAI to walk away from the arrangement at significant cost to Oracle.",
+    "link": "https://www.theinformation.com/newsletters/ai-infrastructure/exclusive-oracle-data-centers-face-multibillion-dollar-cost-surprises",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-23-003",
+    "date": "2026-07-23",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Anthropic Considers Unusual Plan for Employee Stock Sales After It Goes Public",
+    "summary": "Anthropic is weighing a plan to require rank-and-file employees to sell shares on rigid trading schedules after a public listing, to avoid insider-trading complications. The arrangement follows a recent employee share sale valuing the company at $380 billion, in which current and former staff were able to sell up to $6 billion in stock.",
+    "link": "https://www.theinformation.com/articles/anthropic-considers-unusual-plan-employee-stock-sales-goes-public",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-23-004",
+    "date": "2026-07-23",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Google Study Says AI Is Helping Workers, Not Replacing Them",
+    "summary": "New research from Google, creator of the Gemini AI model, found that artificial intelligence is largely augmenting workers' output rather than displacing them from their jobs. The study arrives amid heightened public and policy concern over AI's potential impact on the labor market.",
+    "link": "https://www.wsj.com/tech/ai/google-study-says-ai-is-helping-workers-not-replacing-them-4b7bba39",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-07-23-005",
+    "date": "2026-07-23",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CEO Brief",
+    "title": "The AI Question That's Open for Debate",
+    "summary": "WSJ's CEO Brief examined the growing capability of open-source AI models, including Chinese systems, as a flashpoint for US technology leaders. Nvidia CEO Jensen Huang said this week that Chinese open-source models are \"excellent\" and should be embraced rather than restricted, a stance that runs counter to some Washington security concerns.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-23-006",
+    "date": "2026-07-23",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Nokia Clocks AI Gains as Revamp Takes Shape",
+    "summary": "Nokia's AI and cloud order intake more than doubled year over year to €2.8 billion, with AI and cloud customer revenue up 105%, as its restructuring plan progresses. The company also launched what it calls the industry's first commercial AI-RAN platform and agreed to buy NXP's Chandler, Arizona semiconductor fabrication plant to support optical component production, part of a planned €800 million restructuring spend in 2026.",
+    "link": "https://www.mobileworldlive.com/nokia/nokia-clocks-ai-gains-as-revamp-takes-shape",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-23-007",
+    "date": "2026-07-23",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "High Risk Vendor Rip Out Could Cost EU Up to €40B",
+    "summary": "GSMA Intelligence estimates that removing high-risk vendor equipment, such as Huawei and ZTE gear, from European telecom networks could cost between €30 billion and €40 billion, based on data from operators representing nearly half the market. Mobile network replacement alone is estimated at €16-22 billion, with additional costs for fixed and transport network equipment, as the European Commission moves to mandate de-risking under revisions to its Cybersecurity Act.",
+    "link": "https://www.mobileworldlive.com/network-tech/high-risk-vendor-rip-out-could-cost-eu-up-to-e40b",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-23-008",
+    "date": "2026-07-23",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Samsung Unveils 3 New Foldables Packed with AI",
+    "summary": "Samsung introduced three new foldable smartphones, the Galaxy Z Fold8 Ultra, Z Fold8 and Z Flip8, at a Galaxy Unpacked event in London, with the Fold8 Ultra marking Samsung's thinnest foldable to date at 4.1mm unfolded. All three devices feature expanded Galaxy AI tools, including a Gemini-powered notebook for document summarization and a proactive assistant feature called Now Nudge.",
+    "link": "https://www.mobileworldlive.com/old_latest-stories/samsung-unveils-3-new-foldables-packed-with-ai",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-07-23-009",
+    "date": "2026-07-23",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Canada Needs an Investment 'Hub' as Carney Steps Up Push for Foreign Money, Says Federal Agency",
+    "summary": "A federal agency report argues Canada needs to establish a dedicated investment hub to better convert foreign investor interest into capital, as Prime Minister Mark Carney continues to court international money managers and businesses. The push comes as Ottawa prepares to court foreign capital for priority sectors including AI, critical minerals, energy and infrastructure.",
+    "link": null,
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
