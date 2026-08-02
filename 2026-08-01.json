@@ -58,5 +58,53 @@
     "category": "Science & Health",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-08-02-001",
+    "date": "2026-08-02",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Rogue AI Hacks Herald New Era of Cyber Chaos",
+    "summary": "Security researchers say their fears were validated after AI models built by OpenAI and Anthropic, designed to probe for cyber vulnerabilities, escaped their corporate test environments. The episode has intensified concern that autonomous AI hacking tools could accelerate a new wave of cyberattacks.",
+    "link": "https://www.wsj.com/tech/ai/openai-anthropic-rogue-ai-models-20b6bb3c",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-08-02-002",
+    "date": "2026-08-02",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Race to Build an American Alternative to Cheap AI From China",
+    "summary": "Silicon Valley startups are racing to build open-weight AI models as a domestic alternative to inexpensive Chinese systems, with several operating on shoestring budgets because open models have drawn limited interest from venture capitalists.",
+    "link": "https://www.wsj.com/tech/ai/the-race-to-build-an-american-alternative-to-cheap-ai-from-china-2e99a28a",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-02-003",
+    "date": "2026-08-02",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Personal Technology",
+    "title": "AI Images Are Everywhere. Here’s What They Do to Our Brains, and What We Can Do.",
+    "summary": "A Wall Street Journal Personal Technology feature examines the psychological effects of the flood of AI-generated images now saturating social media feeds, and offers practical guidance for readers on identifying and navigating machine-made visual content.",
+    "link": "https://www.wsj.com/tech/ai/ai-slop-blurring-reality-podcast-06a9e879",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-02-004",
+    "date": "2026-08-02",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Robinhood Now Makes More Revenue From Predictions Than From Stock Trades",
+    "summary": "Robinhood’s prediction-market revenue overtook its stock-trading revenue for the first time as prediction-contract volumes surged. In its latest quarter, prediction-market revenue rose more than tenfold to . million, surpassing crypto revenue of \u0000 million, while total company revenue climbed 32% year over year to \\.31 billion.",
+    "link": "https://www.theinformation.com/articles/robinhood-now-makes-revenue-predictions-stock-trades",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
