@@ -777,5 +777,342 @@
     "category": "Markets & Finance",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-001",
+    "date": "2026-08-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "OpenAI's First Hardware Device Is a Doughnut-Shaped Smart Speaker",
+    "summary": "OpenAI is developing its first hardware device, a doughnut-shaped, screenless smart speaker priced between $300 and $400, with cameras, microphones, sensors and a light indicating when it is listening, people familiar with the matter told Bloomberg. The device, designed with Jony Ive's LoveFrom studio, is targeted for a 2027 release and would put OpenAI in competition with Amazon's Alexa and Apple's forthcoming home hub.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information AM",
+      "The Information Briefing",
+      "The Rundown Tech"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-002",
+    "date": "2026-08-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CMO Today",
+    "title": "Meta Ordered to Pay $942 Million Total in New Mexico Child-Safety Case",
+    "summary": "A New Mexico judge ordered Meta to pay $567 million into an abatement fund, on top of a March jury verdict of $375 million, bringing total penalties in the case to $942 million for harming teens' mental health, and ordered the company to impose screen-time limits and hide 'like' counts from underage users by default. Meta said it disagrees with the verdict and plans to keep defending itself; the company faces similar child-safety suits from more than 40 state attorneys general.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "The Information AM",
+      "The Rundown Tech"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-08-07-003",
+    "date": "2026-08-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Facing AI 'Apocalypse,' Once-Hot Software Companies Race to Reinvent Themselves",
+    "summary": "Generative AI is upending the software-as-a-service industry, forcing vendors to rebuild their businesses to survive, the Journal reports. SaaStr founder Jason Lemkin said the industry has split between companies embracing AI and growing and those that haven't and are struggling, illustrated by sales-automation startup Rattle, which cut headcount from 70 to 15 to rebuild around AI before recently reaching $1 million in annualized recurring revenue under a new AI-native product. Tech-sector layoffs account for more than 30% of all U.S. job cuts so far in 2026, according to data cited by the Journal.",
+    "link": "https://www.wsj.com/tech/ai/saas-software-as-a-service-apocalypse-ai-b9b6da99",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "WSJ CMO Today"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-004",
+    "date": "2026-08-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Latest Scary-Sounding AI Milestone: A Brand-New Virus",
+    "summary": "Stanford researchers and collaborators used AI to design a set of synthetic viruses not found in nature, according to a study published in Science, adding to concerns that AI could aid bioweapons development. The researchers said the viruses infect only bacteria and pose no threat to humans, and that similar techniques could eventually help design viruses capable of eliminating drug-resistant bacteria.",
+    "link": "https://www.wsj.com/tech/ai/the-latest-scary-sounding-ai-milestone-a-brand-new-virus-6080b1db",
+    "category": "Science & Health",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-005",
+    "date": "2026-08-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CMO Today",
+    "title": "VideoAmp Cuts ~20% of Staff as It Repositions Around AI",
+    "summary": "Ad-measurement platform VideoAmp laid off between 50 and 60 employees, about 20% of its staff, including its chief technology officer, as it responds to the rise of AI, a spokeswoman confirmed to the WSJ Leadership Institute. The company said it will not refill the CTO role and framed the cuts as part of a long-standing strategy of investing in agentic software development to become an AI-powered media performance platform.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-006",
+    "date": "2026-08-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Inside Amazon's AI Security Playbook",
+    "summary": "Amazon Chief Security Officer Stephen Schmidt said the company gets its best AI results when skilled engineers ask specific, well-informed questions of models, and that smaller, carefully chosen models are often more cost-effective and higher-performing than larger ones, he told the WSJ's Dow Jones Risk Journal podcast. His comments reflect Amazon's approach to balancing AI capability against the real costs of running the technology at scale.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-007",
+    "date": "2026-08-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Beijing Launches Cybersecurity Review of Palo Alto Networks' Products",
+    "summary": "China's Cyberspace Administration announced a formal cybersecurity review of Palo Alto Networks products sold in the country, citing potential national security risks, a day after Beijing unveiled other countermeasures against recent U.S. trade restrictions. The probe follows a January report that Chinese authorities had told domestic firms to stop using cybersecurity software from more than a dozen U.S. and Israeli companies, including Palo Alto Networks.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information AM"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-008",
+    "date": "2026-08-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Hackers Target Private-Equity Giants With Voice-Phishing Campaign",
+    "summary": "Google's threat-intelligence group found hackers using voice-phishing calls to steal sensitive data from financial-sector employees, with Blackstone, Bain Capital and KKR among the intended targets. The attackers built 72 malicious websites to support the scheme, aimed at stealing account credentials and data from software-as-a-service applications used by financial services, private equity and professional-services firms.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-009",
+    "date": "2026-08-07",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Amazon Data Center Approved in Gilroy, Calif. Without Public Vote",
+    "summary": "Amazon is building a 438,500-square-foot data center in Gilroy, California — the self-styled 'Garlic Capital of the World' — after the project was approved with a single signature from the town's community-development director and without public meetings or a council vote, the Journal reports. Some residents have objected to the approval process, part of a broader wave of AI-driven data center construction facing local pushback over water use and other impacts.",
+    "link": null,
+    "category": "Real Estate",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-010",
+    "date": "2026-08-07",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "OpenAI Asks Judge to Dismiss Apple's Trade-Secrets Lawsuit",
+    "summary": "OpenAI moved to dismiss Apple's trade-secret lawsuit, calling the case \"rotten to its core\" and arguing Apple never identified specific trade secrets, instead citing broad categories like \"hardware engineering.\" OpenAI also argued Apple mischaracterized ordinary employee conduct as theft, noting a named ex-Apple engineer continued accessing old files only because Apple itself kept contacting him during a work transition.",
+    "link": "https://www.theinformation.com/briefings/openai-asks-judge-dismiss-apple-lawsuit",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-011",
+    "date": "2026-08-07",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Stripe in Exclusive Talks to Buy OpenRouter for Around $10 Billion",
+    "summary": "Stripe has entered exclusive talks to acquire AI model-routing startup OpenRouter in a cash-and-stock deal valuing it at close to $10 billion, more than 70 times OpenRouter's roughly $140 million in annualized revenue, according to people familiar with the discussions. OpenRouter, last valued at $1.3 billion, had been fielding interest from other large tech companies before entering exclusivity with Stripe, which already uses OpenRouter for payment processing.",
+    "link": "https://www.theinformation.com/briefings/exclusive-stripe-exclusive-talks-buy-startup-openrouter-around-10-billion",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-012",
+    "date": "2026-08-07",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Alphabet Draws Strong Demand for $25 Billion Debt Sale With Higher Yields",
+    "summary": "Alphabet raised $25 billion in a new bond sale after attracting more than $115 billion of investor demand, offering higher yields than some of its existing debt, according to Bloomberg. The sale adds to more than $50 billion Alphabet has raised in debt so far this year and an $85 billion equity raise, as underwriters said the company now plans to sell debt twice a year to help fund its AI infrastructure buildout.",
+    "link": "https://www.bloomberg.com/news/articles/2026-08-06/alphabet-returns-to-bond-market-amid-ai-spending-worries",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-013",
+    "date": "2026-08-07",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "SoftBank Borrows $10 Billion Against Its OpenAI Stake",
+    "summary": "SoftBank borrowed $10 billion using its OpenAI shareholding as collateral, a month after investing another $10 billion in the AI company, continuing to finance its roughly $54.6 billion total OpenAI commitment largely through debt and asset sales. SoftBank has now put in $20 billion of a planned $30 billion second investment and is due to invest a final $10 billion in October, when it expects to hold about a 13% stake; it valued its OpenAI stake at $89.6 billion, reflecting a $45 billion unrealized gain.",
+    "link": "https://www.theinformation.com/briefings/softbank-borrows-openai-stake-invests",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-014",
+    "date": "2026-08-07",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Salesforce to Lay Off 133 Employees in Washington and California",
+    "summary": "Salesforce told state officials it plans to permanently lay off 133 employees starting in October — 74 in San Francisco and 59 in the Seattle/Bellevue area — its fourth round of cuts in just over a year. The reductions come as Salesforce battles investor concerns that AI threatens its core software business, with its stock down about 30% this year and several senior executives, including its engineering chief, departing.",
+    "link": "https://www.theinformation.com/briefings/salesforce-plans-133-layoffs-washington-california",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-015",
+    "date": "2026-08-07",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "SK Hynix to Build Two New Chip Fabs Worth $38 Billion",
+    "summary": "SK Hynix said it will start construction next year on two new memory-chip fabs as part of a board-approved plan to invest about 54 trillion won ($38 billion), amid surging demand for high-bandwidth memory driven by the AI boom. Its Y2 fab in Yongin and M17 fab in Cheongju are both part of a longer-term 700-trillion-won manufacturing expansion tied to booming AI chip demand.",
+    "link": "https://www.theinformation.com/briefings/sk-hynix-start-building-two-new-chip-fabs-next-year",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-016",
+    "date": "2026-08-07",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Datadog Shares Drop 19% After Largest Customer Cuts Spending",
+    "summary": "Datadog shares fell more than 19% after the software company forecast slower revenue growth for its current quarter, citing reduced spending from its largest customer, which CEO Olivier Pomel declined to name. The company otherwise posted solid June-quarter results, with revenue up 36% to $1.12 billion, even as it guided to about 29% growth for the current quarter.",
+    "link": "https://www.theinformation.com/briefings/datadog-says-largest-customer-reduced-spending-shares-drop-19",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-017",
+    "date": "2026-08-07",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Legal AI Startup Harvey in Talks to Raise Funding at $15.5 Billion Valuation",
+    "summary": "Harvey, a legal AI startup, is in talks to raise funding at a $15.5 billion valuation, which would give it more resources to develop its own AI models, The Information reported. The talks underscore continued investor appetite for well-capitalized AI startups targeting professional-services verticals such as law.",
+    "link": "https://www.theinformation.com/articles/harvey-talks-raise-funding-15-5-billion-valuation",
+    "category": "Professional Services",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-018",
+    "date": "2026-08-07",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Why U.S. Robotics Startups Are Stuffing Parts From China in Luggage",
+    "summary": "U.S. robotics startups have resorted to having employees carry components from China in personal luggage to get parts quickly, The Information reported, as trade friction and supply-chain constraints slow official shipping channels. The workaround highlights how dependent American robotics firms remain on Chinese manufacturing even as geopolitical tension over hardware supply chains intensifies.",
+    "link": "https://www.theinformation.com/articles/u-s-robotics-startups-stuffing-parts-china-luggage",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-019",
+    "date": "2026-08-07",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "AWS Tells Engineers to Cut CPU Waste Amid Capacity Crunch",
+    "summary": "AWS leadership has directed engineering teams to identify and cut wasted CPU capacity across the company's infrastructure, aiming to free up compute for customers amid tight supply, The Information reported. The push underscores how stretched cloud capacity has become as AI workloads drive surging demand across major cloud providers.",
+    "link": "https://www.theinformation.com/articles/aws-tells-engineers-cut-cpu-waste-amid-crunch",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-020",
+    "date": "2026-08-07",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Canva and Figma Show the Cost of Building AI Features In-House",
+    "summary": "Canva warned investors its annual revenue growth would slow to 20% as it pulled back a planned AI rollout after demand proved more expensive to serve than expected, while Figma said revenue growth would slow to 36% from 48% as it continues investing in AI tools still in beta. Both companies said part of the fix is shifting workloads to their own in-house AI models, which are cheaper to run than frontier models from outside labs, though Figma shares still fell about 15% on the news.",
+    "link": "https://www.theinformation.com/articles/canva-hits-ai-speedbump-costs-chatgpt-competition",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "Applied AI"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-021",
+    "date": "2026-08-07",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Tesla and SpaceX to Build $16.8 Billion 'Terafab' Chip Complex in Texas",
+    "summary": "Tesla and SpaceX plan to invest an initial $16.8 billion to build \"Terafab,\" a roughly 100-million-square-foot advanced chip-manufacturing complex in Grimes County, Texas, Elon Musk said. Mobile World Live separately reported SpaceX had outlined the project as a way to meet growing demand for AI chips across its satellite and space operations.",
+    "link": "https://x.com/elonmusk/status/2085377974396752305",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Rundown Tech"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-022",
+    "date": "2026-08-07",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "EU Operator Chiefs Press for Powers to Block Child Sexual Abuse Material",
+    "summary": "Chief executives of some of Europe's largest telecom operator groups warned that large volumes of child sexual abuse material are still exchanged online each year and called on regulators to give them authority to block such content. The appeal adds pressure on EU policymakers to expand operators' legal powers to intervene against CSAM distributed over their networks.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-023",
+    "date": "2026-08-07",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Hispasat Named Lead Contractor for EU's €1.6 Billion IRIS2 Satellite Project",
+    "summary": "The European Commission and European Space Agency named Spain's Hispasat as lead contractor for the IRIS2 secure satellite constellation project, with a budget of more than €1.6 billion. The award gives Hispasat a central role in Europe's effort to build sovereign satellite connectivity independent of non-European providers.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-024",
+    "date": "2026-08-07",
+    "source": "The Rundown",
+    "newsletter": "The Rundown Tech",
+    "title": "A SpaceX Rocket Crashes Into the Moon",
+    "summary": "A SpaceX Falcon 9 upper stage that had drifted in an unstable lunar orbit for about 18 months struck the moon this week at roughly 5,400 mph near Einstein Crater, prompting orbiters to search for the resulting impact site. NASA expects the impact left a crater roughly 60 feet wide and 12 feet deep; South Korea's Danuri orbiter returned before-and-after images, and NASA says dumping spent rocket stages on the lunar surface remains technically safe even as lunar traffic increases.",
+    "link": "https://www.space.com/astronomy/moon/spacex-rockets-impact-crater-on-the-moon-spied-by-korean-lunar-orbiter-photos",
+    "category": "Science & Health",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-025",
+    "date": "2026-08-07",
+    "source": "The Rundown",
+    "newsletter": "The Rundown Tech",
+    "title": "FDA Approves First mRNA Flu Vaccine",
+    "summary": "The FDA approved Moderna's mFlusiva, the first mRNA-based flu vaccine in the U.S., for adults 50 and older. A Phase 3 trial of more than 40,800 adults across 11 countries found the vaccine reduced confirmed flu-like illness by 26.6% relative to a standard-dose comparator, though side effects such as injection-site pain and fatigue were more common than with the comparator.",
+    "link": "https://www.engadget.com/2231390/fda-approves-modernas-mrna-flusiva-vaccine/",
+    "category": "Science & Health",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-07-026",
+    "date": "2026-08-07",
+    "source": "The Rundown",
+    "newsletter": "The Rundown Tech",
+    "title": "Ford Unveils Fathom, a Sub-$30,000 Electric Pickup",
+    "summary": "Ford named its long-promised affordable electric pickup the Fathom, setting a starting price of $28,350 ($29,945 with destination fees) for the first vehicle built on its new Universal EV Platform. The midsize truck is scheduled to reach customers in fall 2027 and is built using a modular manufacturing process Ford calls unicasting, which the company says must help its EV business break even by 2029.",
+    "link": "https://techcrunch.com/2026/08/06/fords-new-electric-truck-fathom-starts-at-28350/",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
