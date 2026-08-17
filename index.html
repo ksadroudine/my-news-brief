@@ -375,16 +375,6 @@
       flex-shrink: 0;
     }
 
-    .priority-badge {
-      font-family: var(--font-sans);
-      font-size: 10px;
-      color: var(--salmon-dark);
-      letter-spacing: 0.03em;
-      white-space: nowrap;
-      flex-shrink: 0;
-      opacity: 0.8;
-    }
-
     .card-headline {
       font-family: var(--font-serif);
       font-size: 17px;
@@ -19336,10 +19326,8 @@ function renderArticles() {
     const cards = dayEntries.filter(e => e.id !== hlId).map(e => {
       const also = e.also_covered_by && e.also_covered_by.length
         ? `<div class="also-covered">Also covered by: ${esc(e.also_covered_by.join(", "))}</div>` : "";
-      const badge = e.priority_pick
-        ? `<span class="priority-badge">&#9656; Priority pick</span>` : "";
       return `<article class="article-card">
-        <div class="card-top">${pillHtml(e.category)}${badge}</div>
+        <div class="card-top">${pillHtml(e.category)}</div>
         <div class="card-headline">${e.link ? `<a href="${esc(e.link)}" target="_blank" rel="noopener">${highlight(e.title, q)}</a>` : highlight(e.title, q)}</div>
         <div class="card-byline"><span class="source-name">${esc(e.source)}</span> &middot; ${esc(e.newsletter)} &middot; ${formatShort(e.date)}</div>
         <div class="card-summary">${highlight(e.summary, q)}</div>
