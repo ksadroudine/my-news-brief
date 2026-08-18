@@ -468,5 +468,302 @@
     "category": "Politics & Policy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-08-17-021",
+    "date": "2026-08-17",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Nvidia's Mixed Messages on Old vs. New AI Chips",
+    "summary": "Nvidia is simultaneously pushing customers to adopt its newest, priciest AI chips while promoting the idea that older-generation GPUs retain long-term value, a seemingly contradictory strategy driven by ongoing compute scarcity. The approach could hedge against future oversupply and make GPUs more attractive as loan collateral, even though most companies still depreciate chips on a five-to-six-year linear schedule. CEO Jensen Huang recently said Nvidia's 2020-era Ampere chips could remain \"mission-capable\" through 2029.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-17-022",
+    "date": "2026-08-17",
+    "source": "Wall Street Journal",
+    "newsletter": "Latest in Artificial Intelligence",
+    "title": "How Wall Street Sussed Out That Situational Awareness Was On the Ropes",
+    "summary": "Wall Street traders picked up early signals, including whispers of an Anthropic stake sale and unusual options activity, that pointed to trouble before it became public, and moved quickly to reposition, the Journal reports.",
+    "link": "https://www.wsj.com/finance/investing/how-wall-street-sussed-out-that-situational-awareness-was-on-the-ropes-6aa8b39d",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-001",
+    "date": "2026-08-18",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ AI & Business",
+    "title": "Nvidia, OpenAI and SoftBank Finalize $105 Billion Ohio Data Center Deal",
+    "summary": "Nvidia, OpenAI and SoftBank's SB Energy finalized a deal for a 10-gigawatt AI data center campus in Pike County, Ohio, of which OpenAI will lease 8 gigawatts of capacity over a 20-year term. Nvidia is providing residual-value credit support capped at $105 billion to backstop the lease and investing $1.5 billion directly in SB Energy. CEO Jensen Huang said the project could generate $150 billion to $200 billion in Nvidia revenue per hardware generation, as OpenAI has now committed to roughly $600 billion of Nvidia compute through 2030 across this and other projects.",
+    "link": "https://www.wsj.com/articles/openai-locks-in-lease-for-huge-data-center-in-ohio-with-backing-from-nvidia-7474bb9c",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "The Information"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-08-18-002",
+    "date": "2026-08-18",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Meta Faces $1.4 Trillion Youth Safety Trial",
+    "summary": "Opening arguments began Tuesday in an Oakland federal trial in which attorneys general from California, Kentucky, Colorado and New Jersey allege Meta designed Instagram and Facebook to maximize screen time among young users, causing addiction and mental-health harm. The states are seeking up to $1.4 trillion, a figure Meta calls \"vastly disproportionate,\" while an eight-person advisory jury will inform Judge Yvonne Gonzalez Rogers' ruling over the six-week trial. Meta has already lost two related youth-harm cases this year, including a $942 million judgment in New Mexico.",
+    "link": "https://www.theinformation.com/briefings/meta-social-media-addiction-trial-begin",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "The Rundown Tech"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-003",
+    "date": "2026-08-18",
+    "source": "Bloomberg",
+    "newsletter": "The Information",
+    "title": "DOJ Opens Antitrust Probe Into Andreessen Horowitz Board Seats",
+    "summary": "The U.S. Department of Justice has spent nearly a year investigating whether Andreessen Horowitz partners improperly hold board seats at competing AI and data companies, Bloomberg reported. The probe reportedly began around the same time as regulatory review of Fivetran's acquisition of dbt Labs; a16z partner Martin Casado sat on both dbt Labs' and Fivetran's boards, while co-founder Ben Horowitz sits on the board of competitor Databricks.",
+    "link": "https://www.bloomberg.com/news/articles/2026-08-17/andreessen-horowitz-focus-of-doj-probe-over-board-directors",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-004",
+    "date": "2026-08-18",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Alibaba's Small On-Device AI Model Gains Rapid Traction",
+    "summary": "Alibaba's new 27-billion-parameter open-source model, Qwen3.8-27B, has been downloaded more than 1 million times within days of release and can run locally on personal computers rather than requiring paid cloud API access. Early benchmarks put its performance on par with OpenAI's cheapest GPT-5.6 variant, prompting one coding-agent startup to call it the first locally run model to hit \"frontier level capability.\"",
+    "link": "https://www.theinformation.com/briefings/alibabas-small-device-model-gains-traction",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-005",
+    "date": "2026-08-18",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Google Outbids Mercor for Spirit Airlines' Corporate Data",
+    "summary": "Google won a bankruptcy auction for bankrupt Spirit Airlines' internal business data and software code, bidding $10 million to beat a $7.5 million offer from AI-training data supplier Mercor. Google said the employee emails, Slack messages and other internal records, which exclude customer and payment data, will be used to help train its AI models after being scrubbed of personal information by an independent third party.",
+    "link": "https://www.theinformation.com/briefings/google-outbids-mercor-spirit-airlines-corporate-data",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Rundown Tech"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-006",
+    "date": "2026-08-18",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "LinkedIn Data Shows Gen Z Leading the AI Hiring Boom",
+    "summary": "LinkedIn data shows hiring for AI-related roles remains robust even as overall hiring cools, with Gen Z capturing the bulk of new positions: 69% of AI engineer hires and 68% of forward-deployed engineer hires in 2025 went to Gen Z workers, while millennials took 60% of \"head of AI\" hires. LinkedIn's head of Americas economics noted the trend comes with access gaps, as 90% of AI-related hires hold a bachelor's degree and women made up just 26% of 2025 AI hires.",
+    "link": "https://www.wsj.com/cio-journal/the-bright-side-of-ais-impact-on-the-labor-market-190287fc",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-007",
+    "date": "2026-08-18",
+    "source": "Bloomberg",
+    "newsletter": "WSJ Morning Download",
+    "title": "Anthropic's Annualized Revenue Run Rate Hits $65 Billion",
+    "summary": "Anthropic's annualized revenue run rate reached $65 billion at the end of July, a sevenfold increase from a year earlier, Bloomberg reported, as the AI company prepares for an anticipated IPO. Rival OpenAI's annualized revenue run rate recently hit $40 billion, according to a separate CNBC report.",
+    "link": "https://www.bloomberg.com/news/articles/2026-08-17/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-008",
+    "date": "2026-08-18",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "AI Chip Startup Etched Lands Jane Street as First Customer, Nears $21 Billion Valuation",
+    "summary": "AI inference chip startup Etched signed Wall Street quantitative trading firm Jane Street as its first customer, which is also leading a new $700 million funding round valuing the company at roughly $21 billion. The deal underscores growing demand for specialized inference hardware from customers outside traditional AI labs and cloud providers.",
+    "link": "https://www.wsj.com/tech/ai/a-21-billion-kids-in-chips-startup-is-scooping-up-nvidia-talent-4d099f12",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-009",
+    "date": "2026-08-18",
+    "source": "Wall Street Journal",
+    "newsletter": "Latest in Artificial Intelligence",
+    "title": "Harvey Remakes Its AI Legal Platform by Adding Memory",
+    "summary": "AI legal platform Harvey has added memory capabilities that let its system remember individual users' preferences and work context across sessions, with organization-wide memory planned as a longer-term goal.",
+    "link": "https://www.wsj.com/cio-journal/harvey-remakes-its-ai-legal-platform-by-adding-memory-cf3f6563",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-010",
+    "date": "2026-08-18",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ AI & Business",
+    "title": "New Jobs for Old AI Chips",
+    "summary": "Cloud-computing firm CoreWeave signed a deal renting out Nvidia's six-year-old A100 chips at what it called an \"attractive price\" through 2029, reviving debate over how long AI chips retain financial value. Because companies typically depreciate GPUs over four to six years, extending a chip's useful life past that point could boost margins and make chips more viable as loan collateral, though risks like hardware failure rates (estimated near 9% annually in one Meta report) and the power-efficiency gap with newer chips complicate the picture.",
+    "link": "https://www.wsj.com/tech/ai/new-jobs-for-old-ai-chips-662bd533",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-011",
+    "date": "2026-08-18",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "OpenAI Makes Gains Against Anthropic Among OpenRouter Customers",
+    "summary": "OpenAI is discounting its top models on developer marketplace OpenRouter in an effort to win business away from Anthropic, and the strategy appears to be gaining traction among developers choosing between the two companies' models.",
+    "link": "https://www.theinformation.com/articles/openai-makes-gains-anthropic-among-openrouter-customers",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-012",
+    "date": "2026-08-18",
+    "source": "The Information",
+    "newsletter": "Applied AI",
+    "title": "Google Says Its AI Can Do the Work of Forward Deployed Engineers",
+    "summary": "Google Cloud is automating work traditionally done by \"forward deployed engineers,\" specialists who manually organize corporate data so AI systems can use it, arguing that hiring enough people to do this manually can't scale to activate all of a company's enterprise data. Google's AI agents already helped British telecom firm Virgin Media O2 connect 20,000 separate datasets, a task Google says would have taken thousands of hours manually, though a Google Cloud executive said human staff still need to vet the AI's work for now.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-013",
+    "date": "2026-08-18",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Anthropic Prepares Supervoting Power for Dario Amodei, Other Founders",
+    "summary": "Anthropic is preparing to grant CEO Dario Amodei and other company founders supervoting shares designed to insulate them from outside shareholder pressure, as the AI company readies for a widely anticipated mega-IPO.",
+    "link": "https://www.theinformation.com/articles/anthropic-prepares-supervoting-power-founders-readies-mega-ipo",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-014",
+    "date": "2026-08-18",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Trump's Privateer Hacking Plan Brings High Risk to Companies Taking Part",
+    "summary": "The Trump administration is asking cybersecurity and tech companies to take on offensive roles attacking foreign cybercriminals under a new \"privateer\" hacking initiative, but the plan offers few protections against risks such as retaliation, the cost of running offensive operations, or the danger of striking the wrong targets.",
+    "link": "https://www.wsj.com/pro/cybersecurity/trumps-privateer-hacking-plan-brings-high-risk-to-companies-taking-part-0a7e735f",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-015",
+    "date": "2026-08-18",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Amgen, Baylor Genetics Warn Patients of Data Breaches",
+    "summary": "Amgen has begun notifying patients about a breach of personal and health data tied to a July 2 cyberattack affecting both its own systems and a third-party cloud provider. Separately, genetic testing lab Baylor Genetics disclosed that a hacker accessed internal systems for six days in June, exposing an unspecified number of patients' medical testing results along with current and former employees' Social Security numbers and financial data.",
+    "link": "https://www.baylorgenetics.com/securityupdate/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-016",
+    "date": "2026-08-18",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Neocloud Iren Goes Big on U.S. Data Centres as Canadian Expansion Slows",
+    "summary": "Australian cloud computing firm Iren, which operates three data centres in British Columbia, is planning gigawatts of new data center capacity globally, with a heavier focus on U.S. expansion, as demand from AI developers continues to surge even as its Canadian growth slows.",
+    "link": "https://thelogic.co/news/iren-ai-data-centres-canada-us/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-017",
+    "date": "2026-08-18",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "Apple's Camera-Equipped AirPods Leak Ahead of September Event",
+    "summary": "A video buried inside a macOS Tahoe 26.7 update appears to preview camera-equipped AirPods that use Visual Intelligence to identify and remember what the wearer is looking at, according to MacRumors. The earbuds reportedly look nearly identical to current AirPods Pro aside from a slightly thicker stem, with the device potentially arriving as soon as Apple's September hardware event.",
+    "link": "https://www.macrumors.com/2026/08/17/camera-equipped-airpods-macos-26-7/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-018",
+    "date": "2026-08-18",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "Vivodyne Builds AI Data Center Powered by Living Human Tissue",
+    "summary": "Biotech startup Vivodyne is running 12 robotic labs capable of more than 3 million tests a year on lab-grown human tissue, aiming to predict how drugs behave in people before clinical trials and reduce reliance on animal testing. The company says eight major pharmaceutical companies have already paid for early access to the system, which uses AI to design and analyze experiments in a continuous feedback loop.",
+    "link": "https://www.fastcompany.com/91589344/the-worlds-largest-biological-datacenter-could-help-make-animal-testing-obsolete",
+    "category": "Science & Health",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-019",
+    "date": "2026-08-18",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "Reddit Tests Turning Text Threads Into AI-Narrated Videos",
+    "summary": "Reddit is testing a feature that converts selected text posts and comment threads into short videos and audio clips narrated by AI voices, rolling out now on web, iOS and Android with a \"Read/Play\" toggle. The company is manually selecting a small batch of English-language threads for the initial test, borrowing a format already popular on TikTok and Instagram Reels.",
+    "link": "https://techcrunch.com/2026/08/17/reddit-begins-testing-a-new-audio-and-video-experience-similar-to-popular-tiktok-videos/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-020",
+    "date": "2026-08-18",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Google to Pull Pixel Production From China",
+    "summary": "Google reportedly plans to move manufacturing of its Pixel smartphones, watches and wireless earbuds out of China by 2027, shifting production to Vietnam and India amid ongoing geopolitical tensions.",
+    "link": "https://www.mobileworldlive.com/google/google-to-pull-pixel-production-from-china",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-021",
+    "date": "2026-08-18",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Groq Valuation Halves to $3.5 Billion in New Funding Round",
+    "summary": "AI inference chip company Groq raised $350 million in a new funding round valuing it at $3.5 billion, roughly half its $6.9 billion valuation from 2025, after Nvidia struck a licensing deal with Groq and hired away much of its senior engineering talent.",
+    "link": "https://www.mobileworldlive.com/ai-cloud/groq-valuation-halves-to-3-5b-in-new-funding-round",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-18-022",
+    "date": "2026-08-18",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "T-Mobile Polska Bulks Up on Fibre",
+    "summary": "Deutsche Telekom arranged roughly €1 billion in acquisitions to expand its fibre holdings in Poland, where fibre is the dominant fixed-line broadband technology, in order to strengthen its T-Mobile Polska unit's convergence strategy.",
+    "link": "https://www.mobileworldlive.com/deutsche-telekom/t-mobile-polska-bulks-up-on-fibre",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
