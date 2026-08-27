@@ -355,6 +355,24 @@
       "domain": "wsj.com",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-07-20. Generic WSJ alert used as fallback label when the specific sub-newsletter type could not be confirmed (get_thread token-limit fallback; subject line did not match a known WSJ sub-newsletter pattern)."
+    },
+    {
+      "rank": 52,
+      "name": "Wall Street Journal",
+      "newsletter_name": "WSJ CMO Today",
+      "domain": "wsj.com",
+      "sender": "access@interactive.wsj.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-08-27. Daily marketing and advertising newsletter covering brand strategy, marketing technology, AI in advertising, consumer behavior, and media industry trends. In scope per PIPELINE_NOTES.md."
+    },
+    {
+      "rank": 53,
+      "name": "Wall Street Journal",
+      "newsletter_name": "WSJ Latest in Personal Technology",
+      "domain": "wsj.com",
+      "sender": "access@interactive.wsj.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-08-27. Single-story WSJ alert covering consumer technology and personal-tech topics."
     }
   ],
   "last_updated": "2026-07-20",
