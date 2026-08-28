@@ -1173,5 +1173,223 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-001",
+    "date": "2026-08-28",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Judge Rules Trump Administration Violated Anthropic's First Amendment Rights",
+    "summary": "A federal judge ruled Thursday that the Trump administration violated Anthropic's First Amendment rights by designating the AI company a national-security supply-chain risk. U.S. District Judge Rita Lin found the Pentagon's action constituted unlawful retaliation against Anthropic for criticizing the administration's AI policies, calling the government's national-security justification \"empty\" and ordering the designation rescinded. The ruling removes a regulatory overhang for Anthropic as it prepares for a potential IPO valued as high as $1.5 trillion.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "WSJ Latest in Artificial Intelligence",
+      "The Information AM"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-08-28-002",
+    "date": "2026-08-28",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Nvidia's Blowout Earnings Fuel Expanded AWS Partnership Amid Financing Scrutiny",
+    "summary": "Nvidia shares surged 8.7% Thursday, adding $442 billion in market value in its steepest one-day gain since April 2025, after posting stronger-than-expected fiscal second-quarter results. Alongside the earnings, Nvidia and Amazon Web Services announced an expanded partnership under which AWS will deploy two million additional Nvidia GPUs through fiscal 2029, deepening collaboration across AI factories, networking and robotics. Nvidia executives also defended the company's practice of extending financial guarantees and equity investments to chip customers, arguing its sales \"flywheel\" can sustainably fund the support it gives frontier AI labs and data-center developers.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-003",
+    "date": "2026-08-28",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Nvidia Pauses Revenue-Sharing Deals With AI Cloud Companies",
+    "summary": "Nvidia has paused some deals under a financing program that offered credit support to AI cloud providers in exchange for a share of their cloud revenue, less than two months after announcing the initiative. Some Nvidia employees reportedly expressed concern to customers that the arrangement could draw antitrust scrutiny given the extent of control the chip maker sought over how customers rent out capacity. Nvidia could still revamp or fold the program into another initiative.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-004",
+    "date": "2026-08-28",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "AI Is Putting Pressure on the Corporate IT Budget",
+    "summary": "Gartner projects global IT spending will reach $6.37 trillion in 2026, up 14.2% from 2025, driven largely by AI infrastructure investment, but CIOs say the growth masks a more constrained enterprise budget environment overall. Executives at FICO, Grant Thornton and TIAA told WSJ that companies are cutting costs in traditional IT services and hardware refreshes to fund AI infrastructure, even as many still cannot clearly demonstrate a return on those AI investments nearly four years into the AI boom.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-005",
+    "date": "2026-08-28",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Andreessen Horowitz Launches 'Machine Age' Fund to Tackle AI Supply Bottlenecks",
+    "summary": "Andreessen Horowitz, the venture firm behind SpaceX and Anduril investments, raised roughly $1.1 billion for a new \"Machine Age\" fund dedicated to AI processors, memory chips, networking equipment, data storage and robotics. The firm says every layer of the AI hardware stack is now capacity-constrained, reflecting a broader shift among venture investors toward physical infrastructure bottlenecks as the primary constraint on AI scaling.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-006",
+    "date": "2026-08-28",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Blue-Collar Jobs Are the New Flashpoint in Data-Center Fight",
+    "summary": "Trade unions are emerging as a vocal counterweight to the public backlash against AI data-center construction, threatening to withhold political support from candidates who oppose new projects. Construction unions argue the buildout supports large numbers of high-paying jobs for electricians, pipe fitters and other skilled trades, putting them at odds with community and white-collar labor groups worried about electricity costs and AI's broader effect on employment.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-007",
+    "date": "2026-08-28",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "I Let Google's Personal Intelligence Access My Life—and It's a Huge Help",
+    "summary": "A WSJ review of Google's new Personal Intelligence products found that the AI personal-assistant concept has become significantly more accessible to mainstream users, no longer requiring technical expertise to set up or use effectively. The review frames Google's approach as a meaningful step toward making agentic AI assistants practical for everyday consumers rather than early adopters.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-008",
+    "date": "2026-08-28",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "South Korea's 'AI for All' Push Gives Free Access to Every Citizen",
+    "summary": "South Korea plans to give its entire population free access to AI services, becoming among the first major economies to treat AI access as a public utility. The program aims to connect citizens with domestically developed AI chatbots as part of Seoul's broader push for \"AI sovereignty\" and reduced reliance on foreign AI platforms.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-009",
+    "date": "2026-08-28",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "OpenAI Leads New Call for Cyberdefense of Critical Infrastructure",
+    "summary": "OpenAI published an open letter Thursday, signed by more than 100 companies across tech, finance and other industries — including Anthropic, Google, Citadel and Visa — calling for a coordinated industry effort to protect critical infrastructure such as hospitals and water systems from AI-driven cyberattacks. The letter argues AI companies should share models and training resources to support vulnerable infrastructure and calls for governments to play a stronger coordinating and funding role, though it stops short of binding commitments.",
+    "link": "https://www.theinformation.com/briefings/openai-leads-new-call-cyberdefense-critical-infrastructure",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "SmartBrief on Connectivity"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-010",
+    "date": "2026-08-28",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Z.ai's Latest Model Intensifies Competition for Low-Cost AI Offerings",
+    "summary": "Chinese AI firm Z.ai released GLM-5.3 Flash, an open-source model that ranks eighth on the Artificial Analysis Intelligence Index while pricing input tokens at just $0.15 and output tokens at $0.50 per million — undercutting rivals such as DeepSeek's V4-Flash. The release intensifies price competition among lightweight AI models designed to power autonomous agents at low cost.",
+    "link": "https://www.theinformation.com/briefings/z-ais-latest-model-intensifies-competition-low-cost-offerings",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-011",
+    "date": "2026-08-28",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Tencent's New Flagship AI Model Shows Major Progress",
+    "summary": "Tencent launched a preview of its new flagship open-source model, Hy4, which jumped to fifth place on Code Arena's WebDev agentic-coding benchmark from 31st for its predecessor, Hy3. The leap positions Tencent as a stronger competitor to Chinese AI rivals Moonshot AI, DeepSeek and Alibaba, under the leadership of former OpenAI researcher Yao Shunyu, who joined as head of model development last year.",
+    "link": "https://www.theinformation.com/briefings/tencents-new-flagship-ai-model-shows-major-progress",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-012",
+    "date": "2026-08-28",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Workday Revenue Growth Flattens But Executives Suggest AI-Related Boost Is Coming",
+    "summary": "Workday's subscription revenue grew 13.9% to about $2.5 billion in the July quarter, a slight deceleration from the prior quarter, while free cash flow fell 22% to $460 million year over year. Shares initially dropped 7% after hours before recovering as executives highlighted that annual recurring revenue from Workday's AI automation products grew more than 200% year over year to $600 million, with a larger revenue contribution expected in fiscal 2028.",
+    "link": "https://www.theinformation.com/briefings/workday-revenue-growth-flattens-execs-suggest-ai-related-boost-coming",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "The Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-013",
+    "date": "2026-08-28",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Trump Administration Working on AI Rule to Curb China's Remote Access to Chips",
+    "summary": "The Trump administration is developing a new AI policy aimed at curbing China's ability to remotely access advanced U.S. chips located in other countries. The rule would extend existing export-control efforts by targeting remote or cloud-based access channels rather than just physical chip shipments.",
+    "link": "https://www.theinformation.com/articles/trump-administration-working-ai-rule-curb-chinas-remote-access-chips",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-014",
+    "date": "2026-08-28",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Xanadu Gets $195M From Federal Government to Build Quantum Computer Factory in Toronto",
+    "summary": "Canadian quantum computing company Xanadu will receive $195 million from the federal government to build a packaging and assembly facility in a former soup plant in Toronto. The factory is intended to support Xanadu's efforts to scale up domestic manufacturing of its photonic quantum computing hardware.",
+    "link": "https://thelogic.co/news/xanadu-quantum-computer-factory-toronto/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-015",
+    "date": "2026-08-28",
+    "source": "Washington Technology",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "AT&T Gains FAA Contract to Build Telecom Backbone",
+    "summary": "The FAA awarded AT&T a $74.3 million initial task order to begin planning under the Enterprise Network Services program, a potential multibillion-dollar, 15-year contract to modernize the agency's primary telecommunications network. The modernization will connect more than 4,600 FAA facilities nationwide and support the Brand New Air Traffic Control System, with AT&T taking over the lead contractor role from Verizon, which remains involved in a supporting capacity.",
+    "link": "https://www.washingtontechnology.com/contracts/2026/08/faa-brings-t-network-modernization-program/415412/",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-016",
+    "date": "2026-08-28",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Alphabet Settles UK App Developer Lawsuit for £260 Million",
+    "summary": "Alphabet agreed to pay £260 million to settle a UK class-action lawsuit accusing the company of levying unfair charges against app developers on its Play Store. The settlement resolves one of several ongoing antitrust disputes facing Google over its app-marketplace practices in Europe.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-28-017",
+    "date": "2026-08-28",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "SK Telecom Preps AI Spin-off, Sells Stake in New Unit SK Horizon",
+    "summary": "SK Telecom unveiled plans to spin off assets from its broadband unit into a new business called SK Horizon and sell KRW3.1 trillion worth of equity in the new entity to investment partners. The move reflects South Korean telecom operators' efforts to attract external capital for AI and infrastructure investment by carving out specific business units.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
