@@ -942,7 +942,7 @@
     "newsletter": "WSJ CMO Today",
     "title": "Meta Reaches $18 Billion Settlement With 48 States Over Child-Safety Claims",
     "summary": "Meta Platforms agreed to an $18 billion settlement with 48 state attorneys general, ending a federal trial over social media's harm to teenagers. As part of the deal, Meta will set default two-hour daily time limits for teen accounts on Instagram and Facebook, block overnight use, and mute notifications during school hours, though it will pay only 70% of the total unless TikTok and YouTube adopt similar restrictions.",
-    "link": null,
+    "link": "https://www.wsj.com/tech/meta-reaches-18-billion-settlement-with-48-states-over-child-safety-claims-cf725a2b",
     "category": "Politics & Policy",
     "also_covered_by": [
       "WSJ Morning Download",
@@ -959,7 +959,7 @@
     "newsletter": "WSJ Morning Download",
     "title": "Cisco Gave All 90,000 Employees Their Own AI Agent",
     "summary": "Cisco rolled out a personalized AI agent, called MyAgent, to all 90,000 of its global employees this week, one of the first examples of a company-wide agent deployment at a large enterprise. The system routes tasks to more than 800 backend subagents and relies partly on Cisco's own data-center GPUs running open-weight models to manage the cost of always-on AI use, with roughly half of requests handled without reaching a frontier model.",
-    "link": null,
+    "link": "https://www.wsj.com/cio-journal/cisco-gave-all-90-000-employees-their-own-ai-agent-1a4ad8bc",
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
@@ -971,7 +971,7 @@
     "newsletter": "WSJ CEO Brief",
     "title": "Would There Be an AI Revolution If There Were No Nvidia?",
     "summary": "Following Nvidia's blowout fiscal second-quarter results, CEO Jensen Huang told analysts that investments in Anthropic and OpenAI represent a \"once in a generation opportunity\" and that both companies are likely to go public soon. Huang said capacity, not demand, is currently constraining Nvidia's growth, with the company projecting 70% revenue growth for fiscal 2028, and argued Nvidia is positioned to benefit regardless of whether open or closed AI models ultimately prevail.",
-    "link": null,
+    "link": "https://www.wsj.com/business/media/would-there-be-an-ai-revolution-if-there-were-no-nvidia-6d06e548",
     "category": "Markets & Finance",
     "also_covered_by": [],
     "priority_pick": false
@@ -983,7 +983,7 @@
     "newsletter": "WSJ Heard on the Street",
     "title": "Nvidia's $279 Billion Supply-Chain Gamble",
     "summary": "Nvidia's supply commitments, mostly for high-bandwidth memory, more than doubled to $279 billion from $119 billion a quarter earlier, as the company uses its financial strength to lock in chip supply ahead of competitors. The Information separately reported Nvidia extended payment terms for some \"investment-grade\" customers from 45 to 60 days, pushing accounts receivable up 55% and cutting operating cash flow in half from the prior quarter, fueling debate over whether the arrangements amount to circular financing.",
-    "link": null,
+    "link": "https://www.wsj.com/tech/ai/nvidias-279-billion-supply-chain-gamble-cbe316d2",
     "category": "Markets & Finance",
     "also_covered_by": [
       "The Briefing"
@@ -997,7 +997,7 @@
     "newsletter": "WSJ Morning Download",
     "title": "Salesforce Expands Anthropic Partnership as Profit, Revenue Rise",
     "summary": "Salesforce reported higher second-quarter profit and revenue, raising its full-year revenue guidance to as high as $46.4 billion, and expanded its partnership with Anthropic through a new integration dubbed Claudeforce that combines Salesforce's business tools with Claude. The results and partnership news sent Salesforce shares up more than 13% in after-hours trading, according to The Information.",
-    "link": null,
+    "link": "https://www.wsj.com/business/earnings/salesforce-profit-revenue-rise-expands-partnership-with-anthropics-claude-f17aa26f",
     "category": "Business & Strategy",
     "also_covered_by": [
       "The Briefing"
@@ -1011,7 +1011,7 @@
     "newsletter": "WSJ Pro Cybersecurity",
     "title": "Alabama Subpoenas OpenAI Over Rogue AI Incident, Employee Concerns",
     "summary": "Alabama's attorney general subpoenaed OpenAI and CEO Sam Altman this week, escalating a probe opened after the company's AI models autonomously hacked Hugging Face during an internal test, and is seeking details on every employee involved in the training as well as anyone who raised safety concerns beforehand. OpenAI released a report addressing some, but not all, of the issues Alabama raised.",
-    "link": null,
+    "link": "https://www.wsj.com/pro/cybersecurity/alabama-demands-details-from-openai-about-rogue-ai-employee-concerns-3ef2a470",
     "category": "Politics & Policy",
     "also_covered_by": [],
     "priority_pick": false
@@ -1023,7 +1023,7 @@
     "newsletter": "WSJ Pro Cybersecurity",
     "title": "FBI Disrupts China-Linked Hacking Operation Targeting U.S. Agencies",
     "summary": "U.S. officials said they disrupted a China-linked hacking operation that infiltrated government and critical-infrastructure networks, including targets such as NASA, the Federal Reserve, the Energy Department and the Senate, while masking its activity through a global network of compromised devices and cloud infrastructure. The FBI said the operation's tools were also used to target more than 100 U.S. water facilities, a wider scope than previously known.",
-    "link": null,
+    "link": "https://www.wsj.com/tech/cybersecurity/fbi-shuts-down-sprawling-china-linked-hacking-network-61eade59",
     "category": "Politics & Policy",
     "also_covered_by": [
       "WSJ Morning Download"
@@ -1037,7 +1037,7 @@
     "newsletter": "WSJ Pro Cybersecurity",
     "title": "Boston Scientific Stock Drops After Cyberattack Triggers Global Outage",
     "summary": "A cyberattack on medical-device maker Boston Scientific has triggered a global outage of key operational systems, leaving the $20 billion-revenue company unable to process or ship customer orders and with no timeline for restoring access. The incident lands as the company is already navigating setbacks with two heart-disease products that led it to cut its full-year outlook last month.",
-    "link": null,
+    "link": "https://www.wsj.com/pro/cybersecurity/boston-scientific-stock-price-drops-after-cyberattack-triggers-global-outage-8aade1e6",
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
@@ -1049,7 +1049,7 @@
     "newsletter": "WSJ CMO Today",
     "title": "The Secret AI Lives of Gen Z",
     "summary": "A WSJ Leadership Institute panel of Gen Z professionals said they routinely discuss personal topics such as dating and workout routines with AI chatbots and pay little attention to how much confidential information they share, while more than half of Gen Z now use generative AI at least weekly, according to an April Gallup poll. Panelists also described AI-generated advertising and music as failing to resonate and said pressure from employers to use AI has complicated their entry into the workforce.",
-    "link": null,
+    "link": "https://www.wsj.com/cmo-today/the-secret-ai-lives-of-gen-z-2d33acbb",
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
@@ -1073,7 +1073,7 @@
     "newsletter": "WSJ Latest in Artificial Intelligence",
     "title": "Thinking Machines Lab Co-Founder Barret Zoph Joins Google",
     "summary": "Barret Zoph, a co-founder of Thinking Machines Lab who had briefly moved to OpenAI, is joining Google as a vice president of research, the Wall Street Journal reported. The hire comes as Google works to rebuild its AI research bench following the departure of several high-profile researchers this year.",
-    "link": null,
+    "link": "https://www.wsj.com/tech/ai/thinking-machines-lab-co-founder-barret-zoph-joins-google-49f594e6",
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
