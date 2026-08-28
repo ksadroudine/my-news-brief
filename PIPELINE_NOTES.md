@@ -180,6 +180,29 @@ There is no article content in the email body.
 
 ---
 
+## Link Resolution Method (WSJ, The Economist, FT)
+
+As of 2026-08-27, resolving missing links for WSJ/Economist/FT entries (Step 7b) should use the **in-app Browser pane**, not the `WebSearch` tool. `WebSearch` was found to ignore `site:` filters and quoted-phrase matching unreliably (returning secondary-source results instead of the direct wsj.com/economist.com/ft.com URL, even when one clearly existed), while the in-app Browser hitting DuckDuckGo directly returned the correct canonical URL on the first try in every test case — **provided the query is built correctly (see below)**.
+
+**Correct query format (fixed 2026-08-28):** Use the `site:` operator, not the bare domain as plain text, and leave the title **unquoted**.
+
+- WORKS: `https://duckduckgo.com/html/?q=site%3Awsj.com+[title words joined with +, unquoted, URL-encoded]`
+- FAILS (returns "No results found"): `https://duckduckgo.com/html/?q=wsj.com+%22[exact article title]%22` — wrapping the title in a quoted exact phrase, or using `wsj.com` as bare text instead of `site:wsj.com`, causes DuckDuckGo's `/html/` endpoint to return zero results even when the article clearly exists and is indexed. This was misdiagnosed on 2026-08-28's run as a browser-access problem; it was actually a query-syntax problem. Verified working for all 8/8 test titles on 2026-08-28 using the `site:` + unquoted form.
+
+**Method:**
+1. Build the query as `site:wsj.com <title words>` (or `site:economist.com` / `site:ft.com`), all unquoted, `+`-joined, URL-encoded. Do not wrap the title in `%22...%22`.
+2. Use `mcp__Claude_Browser__navigate` (or `preview_start`) to load `https://duckduckgo.com/html/?q=` + the encoded query above.
+3. Use `mcp__Claude_Browser__get_page_text` to read the results.
+4. Take the URL from the first matching wsj.com/economist.com/ft.com result whose title closely matches. Cross-check the slug against any tracking-link fragment visible in the original `get_thread` body if possible (WSJ's `trk.wsj.com` click links are base64-encoded redirects to the real URL and often contain the same slug).
+5. Note: `wsj.com` itself is blocked by policy from being opened directly in the Browser pane (`navigate` will error). This does not block link resolution — the DuckDuckGo search snippet already contains the full URL text, and the article is paywalled anyway, so there's no need to load the page itself.
+6. If DuckDuckGo returns no matching wsj.com/economist.com/ft.com result even with the corrected query, leave `link` as null per the Link Integrity Rule. Do not force a match.
+
+Bing was also tested and found unreliable (ignored `site:` and quoted-phrase filters, returning unrelated generic results).
+
+**Browser-access note for unattended/scheduled runs:** On 2026-08-28, `navigate` to `duckduckgo.com` returned "navigation to https://duckduckgo.com was denied or failed" during the unattended scheduled run (no user present), but succeeded immediately once a user was active in the session. This looks like a one-time per-domain approval gate on the Browser pane rather than a permanent block — the Browser pane keeps a persistent profile across sessions, so once a domain has been approved interactively it should remain approved for later automated runs. `duckduckgo.com` was approved interactively on 2026-08-28. **If a future scheduled run again gets "navigation denied" for `duckduckgo.com`,** the persistent-approval assumption was wrong; do not keep retrying navigate in a loop. Instead: fall back to `WebSearch` using the corrected `site:` + unquoted query format above (untested against WebSearch specifically, but worth trying before giving up), and if that also fails, leave WSJ/Economist/FT links null and flag "Browser pane access to duckduckgo.com denied again — needs interactive re-approval" prominently in the completion report so Karim knows to run the task interactively once to re-approve.
+
+---
+
 ## Web Fetch Provenance Rule
 
 `web_fetch` can only retrieve URLs that appeared in:
