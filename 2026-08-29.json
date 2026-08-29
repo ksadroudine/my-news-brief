@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2026-08-29-001",
+    "date": "2026-08-29",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Weekend Reads",
+    "title": "An AI Oracle's Rise and Fall",
+    "summary": "Leopold Aschenbrenner, a former OpenAI researcher once hailed as a visionary and dubbed the \"Nostradamus of AI,\" saw his hedge fund unravel just two days before his wedding after it had grown to manage $45 billion in assets. Wall Street now views the episode as a cautionary tale about an inexperienced investor taking on outsized risk on AI-driven investment theses.",
+    "link": "https://www.wsj.com/tech/ai/situational-awareness-leopold-aschenbrenner-ai-fund-4dbb00a4",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-08-29-002",
+    "date": "2026-08-29",
+    "source": "Wall Street Journal",
+    "newsletter": "Latest in Artificial Intelligence",
+    "title": "Nvidia Wants to Run the World's Robots. China Is an Eager Customer.",
+    "summary": "Nvidia is pushing to power a growing wave of humanoid and industrial robots, and Chinese manufacturers are emerging as enthusiastic buyers of its chips and software for what the industry calls \"physical AI.\" Trade in this category remains open under current U.S. export rules, even as Washington restricts other categories of AI hardware sales to China.",
+    "link": "https://www.wsj.com/tech/ai/nvidia-wants-to-run-the-worlds-robots-china-is-an-eager-customer-bdf46169",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-29-003",
+    "date": "2026-08-29",
+    "source": "Wall Street Journal",
+    "newsletter": "Latest in Artificial Intelligence",
+    "title": "How Big Tech Blinded Itself to the Grassroots AI Revolt",
+    "summary": "Wall Street Journal reporting describes how major technology companies have become caught in their own echo chamber, causing their established AI strategy playbook to falter against a grassroots backlash. The piece argues the industry misjudged how quickly public and developer sentiment could turn against its approach to deploying AI.",
+    "link": "https://www.wsj.com/tech/ai/how-big-tech-blinded-itself-to-the-grassroots-ai-revolt-cb6f5715",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-29-004",
+    "date": "2026-08-29",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "SoftBank in Talks to Buy Majority Stake in Humanoid Maker 1X at $6 Billion Valuation",
+    "summary": "SoftBank is in talks to acquire a majority stake in humanoid robot maker 1X at a $6 billion valuation, marking another robotics bet by founder Masayoshi Son. 1X, which has backing from OpenAI, has yet to prove its technology works reliably at commercial scale.",
+    "link": "https://www.theinformation.com/articles/17722",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  }
+]

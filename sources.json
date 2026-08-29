@@ -373,6 +373,24 @@
       "sender": "access@interactive.wsj.com",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-08-27. Single-story WSJ alert covering consumer technology and personal-tech topics."
+    },
+    {
+      "rank": 54,
+      "name": "Wall Street Journal",
+      "newsletter_name": "WSJ Weekend Reads",
+      "domain": "wsj.com",
+      "sender": "access@interactive.wsj.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-08-29. Weekly weekend feature-story newsletter (lifestyle, culture, and long-form journalism), typically written by Cristina Lourosa-Ricardo or a guest editor. Mostly out-of-scope lifestyle content, but occasionally covers substantive business/tech feature stories (e.g. an AI-related hedge fund collapse) worth extracting per the substantive-stories-only rule."
+    },
+    {
+      "rank": 55,
+      "name": "The Information",
+      "newsletter_name": "The Information (Weekly Top Stories)",
+      "domain": "theinformation.com",
+      "sender": "hello@theinformation.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-08-29. Weekly promotional round-up email (subject pattern: '...: this week's top stories') listing 5 short teasers linking to paywalled articles, with heavy subscribe-now CTAs. Distinct from The Information AM/Weekend/Dealmaker/Applied AI/Takeaway/article-alert types. Individual teaser items should still be evaluated against the substantive-stories-only rule and cross-checked for duplicates against prior days' entries, since some stories may already have been extracted earlier in the week via other Information sub-newsletters."
     }
   ],
   "last_updated": "2026-07-20",
