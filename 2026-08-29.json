@@ -46,5 +46,89 @@
     "category": "Business & Strategy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-08-30-001",
+    "date": "2026-08-30",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Technology",
+    "title": "Meta Reaches $18 Billion Settlement Over Child Safety Claims",
+    "summary": "Meta Platforms agreed to an $18 billion settlement with a coalition of 48 states that had accused the company of misleading the public about the safety of Instagram and Facebook and contributing to child addiction to its apps. The company will make annual payments over the next decade and must limit users under 18 to two hours of daily use while blocking overnight feed scrolling within six months. Meta said it would pay the full amount only if TikTok and YouTube adopt similar daily time limits and matching payments; New Mexico had already won its own case against Meta, while Florida declined to join the settlement.",
+    "link": "https://www.wsj.com/tech/meta-reaches-18-billion-settlement-with-48-states-over-child-safety-claims-cf725a2b",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-08-30-002",
+    "date": "2026-08-30",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Technology",
+    "title": "Employers Are Making Job Candidates Jump Through Hoops to Prove They're Real",
+    "summary": "Amid rising AI-enabled cheating, deepfakes, and fraudulent remote workers, employers are adopting new interview screening tactics such as asking candidates to remove Zoom backgrounds or pan cameras around a room. The trend reflects growing employer concern about verifying that job candidates are who they claim to be and possess the skills they represent.",
+    "link": "https://www.wsj.com/lifestyle/careers/remote-job-interview-applications-fraud-c9022cbe",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-30-003",
+    "date": "2026-08-30",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "How Salesforce Is Overhauling the Way It Charges for AI",
+    "summary": "Salesforce is shifting how it charges for its Agentforce AI product, moving away from pure subscription pricing toward models tied to usage and outcomes. The company is negotiating custom contracts that charge businesses based on how much the AI grows revenue by helping close deals or cuts costs by automating customer service interactions, illustrating a broader software-industry shift toward outcome-based AI pricing.",
+    "link": "https://www.theinformation.com/articles/salesforce-overhauling-way-charges-ai",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-30-004",
+    "date": "2026-08-30",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "How Apple Stumbled Into AI Hardware Success With the Mac",
+    "summary": "Apple's Mac mini and Mac Studio computers have become unexpectedly popular, driven by demand from users running AI agents and developers training and running AI models locally to cut cloud computing costs. Mac sales grew nearly 29% year-over-year to $10.4 billion in the June quarter, outpacing every other Apple product segment.",
+    "link": "https://www.theinformation.com/articles/apple-stumbled-ai-hardware-success-mac",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-30-005",
+    "date": "2026-08-30",
+    "source": "McKinsey",
+    "newsletter": "Enterprise AI Executive",
+    "title": "McKinsey's 2026 State of AI",
+    "summary": "McKinsey's 2026 State of AI survey of 1,719 respondents across 97 countries found that 40% of large organizations (over $1 billion in revenue) now report scaling AI agents, up from 27% a year earlier, and about 31% of larger organizations are scaling software coding agents. Eighty percent of respondents said AI has improved their individual productivity, but only 37% attributed any EBIT impact to AI use, roughly flat from the prior year, pointing to a persistent gap between individual productivity gains and measurable business impact.",
+    "link": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai#/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-30-006",
+    "date": "2026-08-30",
+    "source": "McKinsey",
+    "newsletter": "Enterprise AI Executive",
+    "title": "From Enterprise AI POC to P&L",
+    "summary": "McKinsey published guidance on moving enterprise AI initiatives from proof-of-concept to measurable production impact, drawing on engagements with a global manufacturer and a large conglomerate scaling agentic AI. The firm argues the gap between AI's promise and production reality comes down to delivery practices rather than better models, citing redesigned workflows, measuring impact in P&L terms rather than accuracy, and dedicated production AI engineering staff as key differentiators.",
+    "link": "https://medium.com/quantumblack/escaping-ai-pilot-purgatory-from-poc-to-p-l-1216d30ec4d0",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-08-30-007",
+    "date": "2026-08-30",
+    "source": "The Information",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Nvidia Reportedly Agrees to Buy Hugging Face for $12.9 Billion",
+    "summary": "Nvidia is reportedly acquiring open-source model repository Hugging Face for $12.9 billion, as interest in open-source AI models continues to grow following gains by Chinese model developers. The deal would give Nvidia a significant stake in the infrastructure underlying open-source AI model distribution.",
+    "link": "https://www.theinformation.com/articles/nvidia-agrees-buy-open-source-model-repository-hugging-face-12-9-billion",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]

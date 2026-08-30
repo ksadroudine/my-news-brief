@@ -391,6 +391,15 @@
       "sender": "hello@theinformation.com",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-08-29. Weekly promotional round-up email (subject pattern: '...: this week's top stories') listing 5 short teasers linking to paywalled articles, with heavy subscribe-now CTAs. Distinct from The Information AM/Weekend/Dealmaker/Applied AI/Takeaway/article-alert types. Individual teaser items should still be evaluated against the substantive-stories-only rule and cross-checked for duplicates against prior days' entries, since some stories may already have been extracted earlier in the week via other Information sub-newsletters."
+    },
+    {
+      "rank": 56,
+      "name": "Wall Street Journal",
+      "newsletter_name": "WSJ Technology",
+      "domain": "wsj.com",
+      "sender": "access@interactive.wsj.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-08-30. Weekly digest newsletter of tech columns, big stories, and personal tech advice, written primarily by Meghan Bobrowsky. Distinct from WSJ Latest in Artificial Intelligence (single-story alerts) and WSJ Morning Download. Contains multiple sections (main story, columnists, Big Stories, Tech Ticker); apply substantive-stories-only rule, extract 1-3 items per issue."
     }
   ],
   "last_updated": "2026-07-20",
