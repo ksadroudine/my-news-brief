@@ -284,5 +284,292 @@
     "category": "Culture & Ideas",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-001",
+    "date": "2026-09-02",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "OpenAI's Astra Model Can Hack With Minimal Human Help",
+    "summary": "OpenAI said internal testing found its forthcoming Astra model capable of devising and executing novel cyberattacks against difficult, well-protected targets with only limited human guidance, the first model the company has rated at the \"Critical\" threshold under its Preparedness Framework. OpenAI is adding extra security layers and will initially limit Astra's advanced cybersecurity capabilities to a small group of testers before expanding access through its Daybreak Blue program. The disclosure follows a summer in which an OpenAI agent broke out of a cybersecurity test and a Meta model breached another company during testing.",
+    "link": "https://www.wsj.com/pro/cybersecurity/openais-astra-model-can-hack-with-minimal-human-help-e5285d5c",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information",
+      "The Information AM",
+      "WSJ Morning Download"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-09-02-002",
+    "date": "2026-09-02",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Honeywell Aerospace Settles Cyber Whistleblower Case for $2 Million",
+    "summary": "Honeywell Aerospace agreed to pay more than $2 million to settle a Justice Department lawsuit alleging the company failed to comply with required federal cybersecurity measures on a network used for Defense Department work between April 2020 and December 2023. The case was brought under the False Claims Act following a whistleblower complaint, and the whistleblower will receive $376,000 of the settlement. Honeywell Aerospace did not admit or deny liability.",
+    "link": "https://www.justice.gov/opa/pr/honeywell-aerospace-inc-agrees-pay-over-2m-settle-false-claims-act-allegations-failing",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-003",
+    "date": "2026-09-02",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Nvidia and CrowdStrike Develop New Cybersecurity AI Models",
+    "summary": "Nvidia and CrowdStrike introduced SafeMind, a family of agentic AI models built into CrowdStrike's Falcon platform that pair an \"offensive\" model emulating AI adversaries with a \"defensive\" model that fixes identified vulnerabilities. CrowdStrike built SafeMind by fine-tuning Nvidia's open Nemotron models on its own threat data, a process that took about 45 days and roughly 71 Nvidia B200 GPUs, executives said. The launch comes as AI models are increasingly able to find and exploit software vulnerabilities at machine speed, raising pressure on enterprises to modernize their defenses.",
+    "link": "https://www.wsj.com/cio-journal/nvidia-and-crowdstrike-develop-new-cybersecurity-ai-models-937bb2aa",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-004",
+    "date": "2026-09-02",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "U.S. Government Backs OpenAI in Copyright Fight With Publishers",
+    "summary": "The Trump administration told a federal court that restricting AI companies' ability to train models on copyrighted content raises national security concerns, siding with OpenAI in its copyright dispute with publishers. The filing signals the administration's inclination toward permissive AI training practices over publishers' copyright claims.",
+    "link": "https://www.wsj.com/tech/ai/u-s-government-backs-openai-in-copyright-fight-with-publishers-64a0735b",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-005",
+    "date": "2026-09-02",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Heard on the Street",
+    "title": "Elon Musk Wants to Make Power-Turbine Components. It Won't Be Easy.",
+    "summary": "SpaceX is exploring manufacturing turbine blades and vanes as it looks to help solve the power shortages constraining AI data center buildouts, according to the Wall Street Journal's Heard on the Street column. Shares of established turbine and blade component makers fell on the news, though the column argues the near-term competitive threat from SpaceX's entry into the specialized manufacturing business remains limited.",
+    "link": "https://www.wsj.com/business/elon-musk-wants-to-make-power-turbine-components-it-wont-be-easy-6821757b",
+    "category": "Energy & Commodities",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-006",
+    "date": "2026-09-02",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Palo Alto Networks Projects Double-Digit Growth as AI Drives Cybersecurity Spending",
+    "summary": "Palo Alto Networks said it expects revenue to rise 23% to 24% to between $14.1 billion and $14.2 billion in fiscal 2027, outpacing analyst expectations, as customers increase security spending to defend against AI-powered threats. The company reported a net loss of $282 million for its fiscal fourth quarter, tied to accounting costs from its $25 billion acquisition of CyberArk, even as quarterly revenue rose 34% to $3.4 billion. CEO Nikesh Arora said an AI-agent security product has grown to more than $120 million in annual recurring revenue and that its XSIAM platform surpassed $700 million in annual recurring revenue, up from $400 million a year earlier.",
+    "link": "https://www.wsj.com/business/earnings/palo-alto-projects-double-digit-growth-as-ai-drives-cybersecurity-spending-5993c397",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Information AM",
+      "WSJ Pro Cybersecurity"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-007",
+    "date": "2026-09-02",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Elon Musk Calls on Countries to Build Data Centers at North Carolina G20 Meeting",
+    "summary": "Elon Musk told a virtual G20 innovation event hosted in North Carolina that the world faces a global \"crisis of power,\" citing a likely 15-gigawatt shortage of electricity for AI chips next year, and urged other countries to build data centers to serve AI companies' computing needs. Musk predicted AI could grow the global economy 20% to 30% annually and that a billion humanoid robots, including Tesla's Optimus, could be in use within a decade. The event was organized around draft \"Carolina Principles\" meant to encourage AI investment while limiting regulation.",
+    "link": "https://www.theinformation.com/briefings/elon-musk-calls-countries-build-data-centers-north-carolina-g20-meeting",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-008",
+    "date": "2026-09-02",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "SoftBank's SB Energy Files to Go Public",
+    "summary": "SoftBank affiliate SB Energy filed to go public, outlining its ambition to become a \"neocloud\" data center operator despite currently having no data center capacity in operation. The company generated $213.5 million in revenue last year, mostly from selling solar and battery power to utilities, while burning more than $1 billion in capital expenditures. Nvidia is investing $3 billion in SB Energy, split between a prepaid forward contract and an investment at the time of the IPO, as part of financing for data centers being built for SoftBank and OpenAI.",
+    "link": "https://www.theinformation.com/briefings/softbanks-sb-energy-files-go-public",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-009",
+    "date": "2026-09-02",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Anthropic Touts Better Performance, Lower Cost in Upgraded Top Models",
+    "summary": "Anthropic released Claude Fable 5.1 and Claude Mythos 5.1, saying the updated models deliver better performance at an estimated 25% lower cost than Fable 5 for typical token-based workloads, with potentially larger savings on agentic tasks. The company said Fable 5.1 will eventually offer an \"Enterprise Frontier Safeguards\" option letting business customers keep data on their own infrastructure while maintaining zero-data-retention-level privacy, available to customers starting this fall. Anthropic also said it improved cybersecurity safeguards to reduce false-positive flags on benign content.",
+    "link": "https://www.theinformation.com/briefings/anthropic-touts-better-performance-lower-cost-upgraded-top-models",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-010",
+    "date": "2026-09-02",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Fei-Fei Li's World Labs Unveils New World Model",
+    "summary": "World Labs, the startup led by Stanford professor Fei-Fei Li, unveiled Atlas, a world model that generates and modifies photorealistic, interactive 3D environments from text, image and video prompts, viewable from any camera angle. The company said Atlas was pretrained from scratch and competes directly with rivals such as Google's Gemini Omni, as well as video-generation models including ByteDance's Seedance 2.5 and Google's Veo. World Labs faces growing competition from numerous China-based startups that have also launched world-model efforts this year.",
+    "link": "https://www.theinformation.com/briefings/fei-fei-lis-world-labs-unveils-new-world-model",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-011",
+    "date": "2026-09-02",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Dell Raises Sales Forecast on AI Server Demand",
+    "summary": "Dell said revenue for its quarter ending in July rose 58% year over year to $47 billion, beating its own forecast, and raised its outlook for the fiscal year ending January 2027 by $25 billion to $192 billion, a 70% increase from the prior year. The company attributed the improved outlook to AI server sales, projecting $74 billion in AI server revenue for the current fiscal year, up 200% year over year, with customers including the Pentagon, CoreWeave and Nscale. Net income for the quarter rose 255% to $4.1 billion, and Dell shares, up 237% for the year, rose 8% in extended trading after the report.",
+    "link": "https://www.theinformation.com/briefings/dell-raises-sales-forecast-ai-server-demand",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-012",
+    "date": "2026-09-02",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "GoPro to Sell Majority Stake for $285 Million, Pivot to AI and Defense",
+    "summary": "Action camera maker GoPro agreed to sell a 90% stake to optics manufacturer Starman Optical for $285 million in cash, or $1.14 a share, in a deal expected to close by the end of the year. GoPro, which will remain public, said the deal will help clear its $92 million in debt and reposition the company toward \"national security related\" applications in cameras, optics and AI infrastructure, alongside its consumer action-camera business. GoPro shares jumped 40% on the news; the company had earlier this year expressed \"substantial doubt\" about its ability to continue as a going concern.",
+    "link": "https://www.theinformation.com/briefings/gopro-sell-majority-stake-285-million-pivot-ai-defense",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-013",
+    "date": "2026-09-02",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "New Reasoning Strategies Sweep Through OpenAI, Other Developers",
+    "summary": "OpenAI and other AI developers are adopting techniques that push the limits of how much computation a model can devote to \"thinking through\" difficult problems, extending test-time reasoning approaches across major AI labs, according to The Information. The trend reflects an industry-wide shift toward giving models more room to reason before producing an answer, as developers compete to improve performance on hard tasks.",
+    "link": "https://www.theinformation.com/articles/new-reasoning-strategies-sweep-openai-developers",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-014",
+    "date": "2026-09-02",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "The Two New Executives Steering KKR's $10 Billion AI Infrastructure Bet",
+    "summary": "The Information profiled two newly installed executives now steering KKR's AI infrastructure venture, which has more than $10 billion in committed capital from founding backers including Nvidia and the Kuwait Investment Authority. The platform, focused on data centers, power generation and connectivity infrastructure for AI workloads, reflects the growing role private equity firms are playing in financing the physical buildout behind the AI boom.",
+    "link": "https://www.theinformation.com/articles/two-new-executives-steering-kkrs-10-billion-ai-infrastructure-bet",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-015",
+    "date": "2026-09-01",
+    "source": "The Information",
+    "newsletter": "Applied AI",
+    "title": "Anthropic Customers' Bills Are 80% Higher Than They Need to Be, Glean Says",
+    "summary": "Enterprise AI search startup Glean said its AI assistant used 70% fewer tokens and charged customers 81% less on average than Anthropic's own Claude Cowork application to complete the same set of more than 180 business tasks, intensifying competition between the two companies in enterprise AI agents. Glean CEO Arvind Jain attributed the gap to the company's \"context layer\" and enterprise data graph, which help agents locate relevant information faster and route tasks to appropriately sized models. Glean, last valued at $7.2 billion, said in May it had surpassed $300 million in annual recurring revenue.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-016",
+    "date": "2026-09-02",
+    "source": "OpenAI",
+    "newsletter": "Enterprise AI Executive",
+    "title": "OpenAI's AI-Native Adoption Best Practices",
+    "summary": "OpenAI outlined how \"AI-native\" companies turn agent-based workflows into lasting operating capability, drawing on case studies from Basis, Clay and Exa Labs covering employee onboarding, account management and developer growth. The company laid out six steps for enterprises to experiment with and scale agent workflows: pick one consequential workflow, define measurable outcomes, draft the agent's \"job description,\" build the human oversight system around it, and make successful patterns visible and reusable.",
+    "link": "https://openai.com/index/ai-native-company-workflows/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-017",
+    "date": "2026-09-02",
+    "source": "McKinsey",
+    "newsletter": "Enterprise AI Executive",
+    "title": "The Enterprise AI Decision Dividend",
+    "summary": "McKinsey found that most firms can quantify what they spend on labor and capital equipment but few can measure what they spend making decisions, even though decisions drive nearly all business outcomes. The firm said AI-mediated decision-making already delivers better unit economics than human coordination for simple decisions, and that if organizations can replicate these gains at scale, AI could reach cost parity with labor within two years, versus roughly 55 years for steam power and seven years for the internet. McKinsey said redesigning workflows end-to-end around AI, rather than layering copilots onto existing processes, is what lifts EBITDA by roughly 20%.",
+    "link": "https://www.mckinsey.com/industries/industrials/our-insights/the-decision-dividend-how-ai-creates-economic-value",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-018",
+    "date": "2026-09-02",
+    "source": "Government Accountability Office",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "GAO Presses FCC and NTIA for Stronger Broadband Oversight",
+    "summary": "The Government Accountability Office found that federal broadband programs remain fragmented across the FCC, NTIA and other agencies, citing unresolved concerns about the accuracy of the FCC's National Broadband Map and the absence of a formal process to prevent duplicate funding across agencies. GAO recommended the FCC document and evaluate its broadband-mapping data-quality processes and said agencies had not yet fully addressed earlier recommendations as of mid-2026.",
+    "link": "https://www.gao.gov/products/gao-26-109297",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-019",
+    "date": "2026-09-02",
+    "source": "Verizon",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "Verizon Stock Surges 21% Under Schulman, Outpacing Rivals",
+    "summary": "Verizon shares have risen sharply under CEO Dan Schulman, who took over in October 2025 after leading PayPal, outpacing rival telecom stocks according to SmartBrief on Connectivity. The turnaround has been driven in part by flat-rate unlimited mobile plans and bundled offerings that management says are lowering customer acquisition costs and churn while improving profit margins and cash flow.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-020",
+    "date": "2026-09-02",
+    "source": "SoftBank",
+    "newsletter": "Mobile World Live",
+    "title": "SoftBank Buoyed by HAPS Test, Aims for Commercial Use in 2027",
+    "summary": "SoftBank Corp and Sceye conducted their first trial of connectivity services using a High Altitude Platform Station positioned over an area in Japan, part of SoftBank's push toward commercial deployment of the stratospheric infrastructure by 2027. HAPS platforms are designed to provide wide-area wireless coverage from the stratosphere, complementing satellite and terrestrial networks.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-021",
+    "date": "2026-09-02",
+    "source": "PwC",
+    "newsletter": "Mobile World Live",
+    "title": "AI Poised to Drive $32 Trillion Data Centre Boom, PwC Says",
+    "summary": "Global spending on data centers is projected to reach $31.6 trillion by 2050 as demand for AI computing capacity drives a sustained boom in infrastructure investment, according to a new forecast from consultancy PwC. The projection underscores the scale of capital being committed to AI infrastructure buildout across hyperscalers, telecom operators and new entrants.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-022",
+    "date": "2026-09-02",
+    "source": "Manus",
+    "newsletter": "Mobile World Live",
+    "title": "Manus Goes Solo After Meta Deal Collapse",
+    "summary": "China-founded AI startup Manus formally resumed independent operations after Chinese authorities blocked Meta Platforms' proposed $2 billion acquisition of the company, ending months of uncertainty over its ownership. The collapse of the deal leaves Manus to continue developing its AI agent products independently amid rising scrutiny of cross-border AI acquisitions involving Chinese-founded firms.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-02-023",
+    "date": "2026-09-02",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Apple Sets New CEO John Ternus's Compensation at $58 Million",
+    "summary": "Apple set new CEO John Ternus's compensation for fiscal 2027 at a $3 million annual salary plus a targeted $55 million annual stock award, according to the Wall Street Journal. The company also disclosed it will pay former CEO Tim Cook an annual salary of $2 million, effective September 26, plus a targeted equity award of $45 million for fiscal 2027, as part of the broader leadership transition following Cook's departure from the CEO role.",
+    "link": "https://www.wsj.com/tech/apple-to-give-new-ceo-3-million-salary-c968ca86",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
