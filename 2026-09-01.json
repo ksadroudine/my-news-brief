@@ -864,5 +864,281 @@
       "The Briefing"
     ],
     "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-001",
+    "date": "2026-09-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The 'Deeply Nerdy' Founders Behind Nvidia's $13 Billion Bet on Hugging Face",
+    "summary": "Nvidia formally confirmed its roughly $13 billion acquisition of Hugging Face, the widely used open-source AI model repository, paying $11.9 billion in cash plus a $1 billion employee retention pool. Hugging Face CEO Clement Delangue said he approached Nvidia over the summer, framing the deal as a bet on keeping open-weight AI models competitive against closed models from OpenAI and Anthropic, while Nvidia said the platform will remain open.",
+    "link": "https://www.wsj.com/tech/ai/the-deeply-nerdy-founders-behind-nvidias-13-billion-bet-on-hugging-face-3a4b5227",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "The Information AM",
+      "The Information Briefing"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-09-04-002",
+    "date": "2026-09-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Yes, We're Entering the Era of Artificial General Intelligence",
+    "summary": "OpenAI began rolling out its GPT-6 Astra model, which the company and outside commentators suggested could mark the early stages of artificial general intelligence, citing top results on benchmarks including FrontierMath and ARC-AGI 3. OpenAI president Greg Brockman said the industry may look back on this period as AGI's starting point, though there is no consensus definition of the term; the model costs $10 per million input tokens and $50 per million output tokens, 2.5 times more than OpenAI's prior flagship.",
+    "link": "https://www.wsj.com/cio-journal/yes-were-entering-the-era-of-artificial-general-intelligence-d9b0920e",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Mobile World Live",
+      "The Information AM",
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-003",
+    "date": "2026-09-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Corporate America Is Axing the 'Micro-Team' Boss",
+    "summary": "Uber plans to cut about 3,300 jobs, roughly 10% of its staff, as part of a restructuring that will nearly halve its 'micro-team' managers and reduce its overall management ranks by 20%, following similar moves at Google, which cut small-team managers by 35% last year, and Axon Enterprise. Gartner projects that by the end of 2026 one in five organizations will use AI to flatten their management structures, eliminating more than half of current middle-management roles.",
+    "link": "https://www.wsj.com/business/corporate-america-is-axing-the-micro-team-boss-173d3e4e",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-004",
+    "date": "2026-09-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Adobe Names Anil Chakravarthy as Chief Executive Amid AI Transformation",
+    "summary": "Adobe named Anil Chakravarthy, who has led its customer-experience division and several AI products for six years, as CEO effective December 1, succeeding Shantanu Narayen after nearly two decades at the helm. Narayen will transition to executive chair; Chakravarthy previously spent five years as CEO of data-management firm Informatica, which Salesforce acquired for about $8 billion, and Adobe shares fell around 2% in after-hours trading following the announcement.",
+    "link": "https://www.wsj.com/tech/adobe-names-anil-chakravarthy-as-chief-executive-amid-ai-transformation-e5196c3e",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "The Information AM"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-005",
+    "date": "2026-09-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "DeepSeek Plans Big Huawei AI Chip Order to Power New Data Center",
+    "summary": "DeepSeek plans to deploy at least 160,000 of Huawei's Ascend 950DT chips at a new data center in Inner Mongolia, part of China's push to reduce reliance on Nvidia hardware, Bloomberg reported. The Chinese AI lab is separately seeking $7.4 billion in a second funding round and spent 11 billion yuan on AI infrastructure in the first seven months of 2026, up from 1.2 billion yuan in all of 2025, though Huawei's limited production capacity could delay full deployment by more than a year.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information AM"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-006",
+    "date": "2026-09-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Pentagon Says Anthropic Ban Is Still in Effect Despite Lutnick's Remarks",
+    "summary": "A day after Commerce Secretary Howard Lutnick said Anthropic had resolved its disputes with the Trump administration, Under Secretary of Defense Emil Michael confirmed the Pentagon's classification of the AI company as a supply-chain risk remains in effect, Bloomberg reported. The conflicting statements follow a federal judge's ruling last week that the administration violated Anthropic's First Amendment rights by blacklisting the company.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-007",
+    "date": "2026-09-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Tesla Cybercabs Hit Austin Streets in Expansion of Robotaxi Service",
+    "summary": "Tesla launched public rides for its steering-wheel-free Cybercab robotaxi in Austin, Texas, becoming the second U.S. company after Amazon's Zoox to offer purpose-built autonomous rides. Tesla has registered 45 of the two-seater vehicles for its autonomous ride-hailing service, part of a fleet of 420 vehicles registered across its Austin, Dallas and Houston robotaxi hubs.",
+    "link": "https://www.wsj.com/business/autos/tesla-cybercabs-hit-austin-streets-in-expansion-of-robotaxi-service-e9845a55",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information AM"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-008",
+    "date": "2026-09-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Thinking Machines Lab in Talks to Raise $5-6 Billion at Roughly $40 Billion Valuation",
+    "summary": "Mira Murati's Thinking Machines Lab is in talks to raise $5 billion to $6 billion at a pre-money valuation of at least $40 billion, with Nvidia expected to contribute roughly half the capital and venture firm Accel in discussions to lead the round, The Information reported. The valuation reflects a slight pullback from the $50 billion-plus figure the AI startup sought late last year, even as it generates hundreds of millions of dollars in annualized revenue.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information AM"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-009",
+    "date": "2026-09-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "OpenAI Commits $1 Billion to Protect Critical Infrastructure",
+    "summary": "OpenAI plans to provide $1 billion in subsidized access to its AI tools for electricity providers and other critical-infrastructure operators worldwide to strengthen their cybersecurity, as part of a program called Daybreak, Axios reported. The company will also work with the Multi-State Information Sharing and Analysis Center to train local governments on using AI for security.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "SmartBrief on Connectivity"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-010",
+    "date": "2026-09-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "U.S. Steps Up Civil Cyber-Fraud Cases",
+    "summary": "The Justice Department is urging whistleblowers to report companies that violate federal cybersecurity rules, after settling eight civil cyber-fraud cases against federal contractors last year with recoveries ranging from $293,771 to $11.25 million. Insiders who came forward included engineering and platform-management directors and cybersecurity team members, according to Dow Jones Risk Journal.",
+    "link": "https://www.wsj.com/pro/cybersecurity/u-s-steps-up-civil-cyber-fraud-cases-4174b061",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-011",
+    "date": "2026-09-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Zscaler Loss Narrows as Revenue Soars, Boosted by AI",
+    "summary": "Zscaler reported a narrower net loss of $3.37 million in its fiscal fourth quarter, down from a $17.6 million loss a year earlier, as revenue rose 25% on demand for its AI-driven cybersecurity offerings. The San Jose-based company said it would restructure and cut 3% of its workforce to reallocate resources toward AI and growth initiatives.",
+    "link": "https://www.wsj.com/business/earnings/zscaler-loss-narrows-as-revenue-soars-boosted-by-ai-8dceaf02",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-012",
+    "date": "2026-09-04",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Broadcom's Sell-Off Despite Ambitious AI Revenue Forecast",
+    "summary": "Broadcom shares fell 2.7% on Thursday, a day after CEO Hock Tan projected the company's AI-related revenue could reach $230 billion in fiscal 2028, up from $20 billion in fiscal 2025. Analysts including Baird's Tristan Gerra said their own estimates run below Broadcom's forecast to account for risks such as potential data-center power shortages delaying chip deployment, and noted Google has shifted some AI chip design work to MediaTek.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-013",
+    "date": "2026-09-04",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Oura Files to Go Public",
+    "summary": "Oura, the maker of health-tracking rings, disclosed in its IPO filing that it generated $262 million in free cash flow in the nine months ended June 30, with revenue up 74% to $1.2 billion over the same period. Ring shipments rose to 3.1 million units from 1.8 million a year earlier, while paying members with subscription add-ons doubled to five million.",
+    "link": "https://www.theinformation.com/briefings/oura-files-go-public",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-014",
+    "date": "2026-09-04",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "Saudi Firm Humain Unveils Arabic Language Model Developed With China's MiniMax",
+    "summary": "Humain, Saudi Arabia's state-owned AI company, unveiled an Arabic large language model built on Chinese AI firm MiniMax's open-source M3 model, pretrained on more than a trillion tokens of Arabic content. The project highlights the difficulty many countries face in building sovereign AI systems, since most must rely on American or Chinese foundation models rather than homegrown technology, according to Humain CEO Tareq Amin.",
+    "link": "https://www.theinformation.com/briefings/saudi-firm-humain-unveils-arabic-language-model-developed-chinas-minimax",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-015",
+    "date": "2026-09-04",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "ByteDance Secures $30 Billion Loan as AI Investments Grow",
+    "summary": "ByteDance is borrowing about $30 billion, its largest-ever loan and the second-largest dollar-denominated loan in Asia this year after a $40 billion SoftBank bridge loan, Bloomberg reported. The company, which originally sought $20 billion, is ramping up capital spending on AI infrastructure and expanding its cloud business as it races Chinese rivals Alibaba and Moonshot in large language models.",
+    "link": "https://www.theinformation.com/briefings/bytedance-secures-30-billion-loan-ai-investments-grow",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-016",
+    "date": "2026-09-04",
+    "source": "The Information",
+    "newsletter": "The Information AM",
+    "title": "TikTok Backed Out of House Meeting to Avoid Child-Safety Scrutiny",
+    "summary": "TikTok withdrew from a planned meeting with the U.S. House Select Committee on China meant to address national-security concerns about Chinese influence over its algorithm and data access. Committee chairman John Moolenaar said TikTok pulled out to avoid broader scrutiny of its child-safety practices, a day after Meta agreed to an $18 billion settlement with U.S. states over claims its platforms were designed to addict children.",
+    "link": "https://www.theinformation.com/briefings/tiktok-backed-house-meeting-avoid-child-safety-scrutiny",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-017",
+    "date": "2026-09-04",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Anthropic's In-House Payments Tech Push Could Chip Away at Stripe",
+    "summary": "Anthropic plans to build more payments infrastructure in-house as billing for AI usage grows more complex, a shift that could reduce its reliance on Stripe, The Information reported. The move reflects a broader trend of AI companies developing custom billing systems to handle novel pricing models such as usage-based and outcome-based charging.",
+    "link": "https://www.theinformation.com/articles/anthropics-house-payments-tech-push-chip-away-stripe",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-018",
+    "date": "2026-09-04",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Light Tech Pioneer pureLiFi Goes Bust",
+    "summary": "pureLiFi, a UK-based light-fidelity (Li-Fi) wireless technology specialist, entered administration after failing to raise further capital to fund its development, resulting in 42 job losses.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-019",
+    "date": "2026-09-04",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "T-Mobile US Designates Uhl as Next CFO",
+    "summary": "T-Mobile US named Jessica Uhl, a former Shell executive, as CFO Designate; she is set to succeed current finance chief Peter Osvaldik in February 2027.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "SmartBrief on Connectivity"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-020",
+    "date": "2026-09-04",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Ottawa Taps Patrick Pichette to Lead New Digital Transformation Agency",
+    "summary": "The Canadian government appointed venture capitalist and former Google CFO Patrick Pichette to lead a new federal office responsible for running and procuring technology across the government, The Logic reported.",
+    "link": "https://thelogic.co/news/patrick-pichette-ceo-digital-transformation-canada/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-04-021",
+    "date": "2026-09-04",
+    "source": "National Telecommunications and Information Administration",
+    "newsletter": "SmartBrief on Connectivity",
+    "title": "NTIA Repurposes $21B in BEAD Funds for Deployment",
+    "summary": "The NTIA released a Supplemental Deployment Policy Notice allowing states to access part of $21 billion in savings generated by the Commerce Department's 'Benefit of the Bargain' reforms to the Broadband Equity, Access and Deployment program, aimed at reaching locations left unserved due to provider defaults, misreporting, or FCC broadband map changes. The agency said guidance on non-deployment uses of the remaining savings will follow separately.",
+    "link": "https://www.ntia.gov/press-release/2026/statement-assistant-secretary-roth-ntia-s-approach-use-21-billion-bead-savings",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
