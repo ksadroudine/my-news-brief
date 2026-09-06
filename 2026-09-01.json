@@ -1140,5 +1140,101 @@
     "category": "Politics & Policy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-09-06-001",
+    "date": "2026-09-06",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Anthropic Considers Letting Shareholders Sell Stock Ahead of IPO",
+    "summary": "Anthropic is reportedly considering allowing some shareholders to sell stock ahead of a potential IPO, a move that would echo an approach taken by SpaceX. The company is also weighing a longer-than-usual lockup period following any public listing.",
+    "link": "https://www.theinformation.com/articles/anthropic-considers-letting-shareholders-sell-ipo-departing-spacex-playbook",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-06-002",
+    "date": "2026-09-06",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Cognition's Revenue Triples to $900 Million Annualized Pace Amid Heavy Cash Burn",
+    "summary": "AI coding startup Cognition's annualized revenue has reached $900 million, tripling so far this year, according to The Information. The company's cash burn could reach $800 million this year as it scales rapidly.",
+    "link": "https://www.theinformation.com/articles/inside-cognitions-booming-growth-high-cash-burn",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-06-003",
+    "date": "2026-09-06",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "SoftBank in Talks to Buy Majority Stake in Humanoid Robotics Startup 1X at $6 Billion Valuation",
+    "summary": "SoftBank is reportedly negotiating to acquire a majority stake in humanoid robotics startup 1X at a $6 billion valuation, according to The Information. The deal would deepen SoftBank's existing bet on humanoid robotics and AI hardware.",
+    "link": "https://www.theinformation.com/articles/softbank-talks-buy-majority-stake-humanoid-maker-1x-6-billion-valuation",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-06-004",
+    "date": "2026-09-06",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "How Anthropic Clinched $517 Billion in Compute Deals in 11 Months",
+    "summary": "Anthropic has entered agreements for at least 14.8 gigawatts of compute capacity since October, on top of 1-2 gigawatts secured earlier, as it races to meet surging demand for Claude Code and Cowork, according to The Information. The outlet estimates the cumulative value of those deals at $517 billion over 11 months as Anthropic prepares for a potential record-setting IPO.",
+    "link": "https://www.theinformation.com/articles/anthropic-clinched-517-billion-compute-deals-11-months",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-06-005",
+    "date": "2026-09-06",
+    "source": "PwC",
+    "newsletter": "Enterprise AI Executive",
+    "title": "PwC Projects $31.6 Trillion in Global Data Center Capex Through 2050",
+    "summary": "PwC projects $31.6 trillion in cumulative global data center capital expenditure through 2050 to build the compute capacity AI demands, modeled with Oxford Economics across 46 countries. The firm says spending could reach roughly $50 trillion under a faster AI-adoption scenario, with power availability and sovereignty rules shaping where capacity gets built.",
+    "link": "https://www.pwc.com/gx/en/1/services/consulting/technology/data-centre-outlook.html",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-06-006",
+    "date": "2026-09-06",
+    "source": "OpenAI",
+    "newsletter": "Enterprise AI Executive",
+    "title": "OpenAI Releases GPT-6 Astra",
+    "summary": "OpenAI introduced GPT-6 Astra, describing it as its most intelligent and aligned model to date, with pricing of $10/$50 per million tokens in the API, about 2.5 times the cost of GPT-5.6 Sol. The model scored 61 on the Artificial Analysis Intelligence Index, trailing several rival frontier models, and is rolling out across ChatGPT tiers, the API, Azure, and AWS Bedrock.",
+    "link": "https://openai.com/index/gpt-6-astra/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-06-007",
+    "date": "2026-09-06",
+    "source": "OpenAI",
+    "newsletter": "Enterprise AI Executive",
+    "title": "OpenAI Publishes Enterprise Agent Security Guide",
+    "summary": "OpenAI published a 30-page guide for enterprise security leaders on safely rolling out AI agents, outlining five core principles and a CISO action checklist. The guide covers assessing agentic risk, setting execution boundaries against attacks such as prompt injection, and establishing incident-response and logging practices.",
+    "link": "https://cdn.openai.com/pdf/6546a5a6-170a-41e8-bf2f-979ff3484db1/agent-security-enterprise.pdf",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-06-008",
+    "date": "2026-09-06",
+    "source": "Wall Street Journal",
+    "newsletter": "Wall Street Journal",
+    "title": "The AI Shift Turning Everyday Investors Into Mini Quant Funds",
+    "summary": "The Wall Street Journal reports that everyday retail investors are increasingly building their own algorithmic trading strategies using AI coding tools and handing portions of their stock portfolios over to AI agents. The trend reflects a broader shift toward casual, AI-assisted quant-style trading outside traditional hedge fund infrastructure.",
+    "link": "https://www.wsj.com/tech/ai/the-ai-shift-turning-everyday-investors-into-mini-quant-funds-ebe4d45f",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
   }
 ]
