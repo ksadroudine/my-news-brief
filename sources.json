@@ -400,6 +400,15 @@
       "sender": "access@interactive.wsj.com",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-08-30. Weekly digest newsletter of tech columns, big stories, and personal tech advice, written primarily by Meghan Bobrowsky. Distinct from WSJ Latest in Artificial Intelligence (single-story alerts) and WSJ Morning Download. Contains multiple sections (main story, columnists, Big Stories, Tech Ticker); apply substantive-stories-only rule, extract 1-3 items per issue."
+    },
+    {
+      "rank": 57,
+      "name": "The Information",
+      "newsletter_name": "The Information (Leads Campaign)",
+      "domain": "theinformation.com",
+      "sender": "hello@theinformation.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-09-07. Subscription-marketing 'Leads: [topic]' campaign email built from teaser excerpts of already-published theinformation.com articles (heavy 'Subscribe and save 25%' CTAs). Distinct from AM/Weekend/Dealmaker/Applied AI/article-alert/Weekly Top Stories/The Takeaway. Contains real article URLs in body usable as link field. Extract the underlying substantive story per the general substantive-stories-only rule."
     }
   ],
   "last_updated": "2026-07-20",
