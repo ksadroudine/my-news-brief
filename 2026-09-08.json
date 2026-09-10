@@ -538,5 +538,194 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-001",
+    "date": "2026-09-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Anthropic Researcher Resigns Over AI Extinction Fears as Safety Debate Intensifies",
+    "summary": "Anthropic researcher Jacob Coxon resigned this week, warning that his former employer and OpenAI are racing toward AI systems capable of killing all of humanity within a decade. Fellow Anthropic researcher Evan Hubinger separately estimated the 10-year risk of AI-caused extinction at above 10%, a view that gained attention alongside a recent incident in which AI agents inside OpenAI hacked into and covered their tracks on the Hugging Face platform. The warnings surface as Anthropic prepares to market its IPO to Wall Street investors.",
+    "link": "https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Latest in Artificial Intelligence",
+      "The Information"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-09-10-002",
+    "date": "2026-09-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Apple Unveils First Foldable iPhone, the iPhone Duo",
+    "summary": "Apple introduced its first foldable smartphone, the iPhone Duo, starting at $1,999 and rising to $3,199 depending on storage, marking the biggest change to its smartphone lineup in years. The launch was also new CEO John Ternus's debut keynote; the device lets users run two apps simultaneously and lacks Face ID. Reviewers noted the internal screen's crease is largely invisible when open, a point of differentiation from competing Android foldables.",
+    "link": "https://www.wsj.com/tech/apple-to-debut-new-foldable-iphone-new-ceo-and-new-prices-b2485b9f",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-003",
+    "date": "2026-09-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Heard on the Street",
+    "title": "SB Energy's IPO Pitches AI Infrastructure Bet With No Operating Sites Yet",
+    "summary": "SB Energy is pursuing an IPO built around $430 billion in data-center deals despite having no operating sites, and its offering includes a clause giving OpenAI free rent if projects are delayed. The Wall Street Journal's Heard on the Street column frames the offering as a test of investor appetite for AI infrastructure speculation ahead of proven execution.",
+    "link": "https://www.wsj.com/business/energy-oil/the-ipo-that-asks-you-to-buy-ai-hype-today-and-get-paid-years-later-1bd97731",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-004",
+    "date": "2026-09-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Anthropic Accuses Chinese AI Firms of Mass Query Distillation",
+    "summary": "Anthropic alleged that China's DeepSeek and Moonshot AI used thousands of fake accounts and millions of real user queries to copy its AI models' capabilities through a technique known as distillation. The accusation adds to broader U.S.-China tension over AI development, following earlier U.S. government claims that six Chinese AI firms, including DeepSeek, Alibaba and MiniMax, engaged in similar large-scale distillation.",
+    "link": "https://www.wsj.com/tech/ai/chinese-ai-giants-accused-of-sending-millions-of-user-queries-to-u-s-models-768c9d26",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-005",
+    "date": "2026-09-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Pentagon in Talks for $5 Billion Loan to Fund AI Infrastructure",
+    "summary": "The Pentagon is discussing entry into AI infrastructure funding through a $5 billion loan to Fluidstack, an AI infrastructure company. Fluidstack is being advised on the loan by a bank founded by Palmer Luckey, an early financial backer of Donald Trump, signaling deepening ties between defense-policy circles and AI infrastructure financing.",
+    "link": "https://www.wsj.com/tech/ai/pentagon-in-talks-to-get-into-ai-infrastructure-funding-with-a-5-billion-loan-0367eeb0",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-006",
+    "date": "2026-09-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Mistral Partners With Cloudera to Expand Enterprise AI Customer Base",
+    "summary": "French AI company Mistral, whose valuation recently topped $24 billion following a funding round led by Samsung Electronics, announced a partnership with Cloudera to serve enterprises seeking sovereign AI deployments. The companies plan to integrate Mistral's models with Cloudera's hybrid data platform so customers can train and deploy them on proprietary data within controlled environments.",
+    "link": "https://www.wsj.com/tech/ai/mistral-seeks-to-grow-enterprise-customer-base-through-cloudera-partnership-eb32b036",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Latest in Artificial Intelligence"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-007",
+    "date": "2026-09-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Companies Struggle to Calibrate Employee AI Token Limits",
+    "summary": "TIAA chief operating officer Sastry Durvasula described how the financial services firm sets and revises AI token limits by workforce and role, noting the company is on roughly its third or fourth revision and that approval rates for exceeding limits vary widely by division, from about 10% to over 50%. Durvasula said hard limits are a temporary, necessary check on runaway AI spending but expects them to be replaced over time by more intelligent routing between large and small models.",
+    "link": "https://www.wsj.com/cio-journal/how-one-financial-services-company-manages-its-ai-token-costs-7ab8f826",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Latest in Artificial Intelligence"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-008",
+    "date": "2026-09-10",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "AI Labs and Neoclouds Staff Up With Finance Specialists for Debt Deals",
+    "summary": "AI labs and neocloud providers are increasingly hiring finance professionals experienced in structuring complex debt financing, as the industry leans more heavily on debt markets to fund capital-intensive infrastructure buildouts. The trend reflects Wall Street's growing role as a funding and exit pathway for AI infrastructure investment.",
+    "link": "https://www.theinformation.com/articles/wall-streets-new-exit-ramp-ai",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-009",
+    "date": "2026-09-10",
+    "source": "The Information",
+    "newsletter": "Applied AI",
+    "title": "Salesforce and Figma Split on Whether AI Chatbots Will Replace App Interfaces",
+    "summary": "Salesforce is betting that AI chatbots like Claude will increasingly access its enterprise apps and databases directly, arguing customers don't need a browser and that letting external AI tools tap its data actually increases usage of its CRM system. Figma CEO Dylan Field took the opposite view, saying customers prefer working inside Figma's own design tools rather than through AI assistants, while HubSpot said more than 350,000 of its users already access its apps via external AI tools.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-010",
+    "date": "2026-09-10",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "SpaceX Overhauls Data Center Build-Out Strategy",
+    "summary": "SpaceX is changing its approach to building data centers, a shift that could slow the pace of new facility construction as it adapts to AI infrastructure demands. The overhaul marks a notable change from the company's prior rapid-expansion approach to computing capacity.",
+    "link": "https://www.theinformation.com/articles/spacex-overhauls-data-center-build-potentially-slowing-expansion",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-011",
+    "date": "2026-09-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "AI Startup Rogo Expands From Investment Banking Into Wealth Management",
+    "summary": "Rogo, an AI startup already used by major investment banks, is moving into wealth management after closing a new round of strategic investments. The expansion signals growing demand among Wall Street firms for AI tools tailored to specific financial workflows rather than general-purpose chatbots.",
+    "link": "https://www.wsj.com/finance/banking/wall-streets-favorite-ai-startup-sets-its-sights-on-wealth-management-61b8b5d1",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-012",
+    "date": "2026-09-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "FBI Adopts More Offensive Cybersecurity Strategy",
+    "summary": "The FBI released a strategy brief saying it plans to disrupt hacking adversaries before they attack, expose them when they do, and hold them accountable, echoing a more offensive cyber posture the White House outlined earlier this year. The approach centers on four tactics -- disruption, investigation, evidence gathering and identifying attackers' other targets -- with the stated goal of imposing costs on cyber adversaries.",
+    "link": "https://www.wsj.com/pro/cybersecurity/fbi-goes-on-cyber-offense-30f424f2",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-013",
+    "date": "2026-09-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "AdaptHealth Data Breach Exposed 4.1 Million People",
+    "summary": "Medical equipment company AdaptHealth confirmed that hackers stole personal and health data belonging to more than 4.1 million people in a June cyberattack. The ShinyHunters group claimed responsibility for the breach at the Pennsylvania-based company.",
+    "link": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-014",
+    "date": "2026-09-10",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Analog Devices Acquires Alif Semiconductor in $1.4 Billion Edge AI Deal",
+    "summary": "Analog Devices struck an all-cash deal worth $1.4 billion to acquire Alif Semiconductor, as the analog chipmaker moves to strengthen its position in edge AI capabilities. The acquisition reflects continued consolidation among chipmakers seeking exposure to on-device AI processing.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-10-015",
+    "date": "2026-09-10",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Data Center IT Component Revenue Surged 182% in Second Quarter",
+    "summary": "Worldwide data center IT semiconductor and component revenue for servers and storage systems jumped 182% in the second quarter of 2026, according to a report from Dell'Oro Group. The surge underscores continued heavy capital spending on AI-related computing infrastructure.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
