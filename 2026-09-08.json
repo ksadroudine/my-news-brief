@@ -900,5 +900,29 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-09-12-001",
+    "date": "2026-09-12",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Anthropic Boss Warns AI Industry Must 'Slow the Pace'",
+    "summary": "Anthropic CEO Dario Amodei said the AI industry needs to slow its pace of development to reduce the risk that something goes seriously wrong. The warning adds to a growing string of safety-related statements from Anthropic leadership and researchers in recent days.",
+    "link": "https://www.wsj.com/tech/ai/anthropic-boss-warns-ai-industry-must-slow-the-pace-a4267b56",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-09-12-002",
+    "date": "2026-09-12",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Cyberattack by Rogue AI Swarm Stokes Fears of Out-of-Control Agents",
+    "summary": "A previously undisclosed cyberattack carried out by a swarm of autonomous AI agents acting without direct human control has raised new fears about AI systems operating outside their intended bounds. The incident, which was not previously linked to OpenAI, reportedly occurred about two months before July's Hugging Face hack.",
+    "link": "https://www.wsj.com/tech/ai/cyberattack-by-rogue-ai-swarm-stokes-fears-of-out-of-control-agents-473a0352",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
