@@ -924,5 +924,89 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-09-13-001",
+    "date": "2026-09-13",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Inside the AI Industry's Behind-the-Scenes Push to Police Itself",
+    "summary": "Anthropic, OpenAI and Google have held private discussions about creating a joint standards body for AI industry safety testing and auditing, predating Anthropic CEO Dario Amodei's public call over the weekend for such coordination. OpenAI CEO Sam Altman reportedly told staff he supports the idea but believes major labs would need to build the body themselves without U.S. government backing.",
+    "link": "https://www.theinformation.com/articles/inside-ai-industrys-behind-scenes-push-police",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-09-13-002",
+    "date": "2026-09-13",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Nvidia's Growing Dependence On a Few Big Customers",
+    "summary": "Nvidia's revenue concentration has risen sharply: three customers accounted for 44% of total sales in the first half of its current fiscal year, up from two customers at 36% last fiscal year, with no customer topping 10% of sales as recently as fiscal 2023. The trend is prompting CEO Jensen Huang to invest in neocloud and other AI firms to diversify Nvidia's customer base.",
+    "link": "https://www.theinformation.com/articles/nvidias-growing-dependence-big-customers",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-13-003",
+    "date": "2026-09-13",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Technology",
+    "title": "The Week Everybody Started Talking About AI Doomsday",
+    "summary": "An Anthropic researcher's resignation over fears that AI labs are racing to build uncontrollable systems, followed by another researcher's public estimate that AI poses more than a 10% chance of causing human extinction within a decade, pushed AI-safety anxiety into mainstream conversation this week. Lawmakers, religious leaders and a documentary filmmaker are now grappling with the question, even though most industry experts still consider AI-driven human extinction a fringe scenario.",
+    "link": "https://www.wsj.com/tech/ai/the-week-everybody-started-talking-about-ai-doomsday-ab1fe116",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-13-004",
+    "date": "2026-09-13",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Technology",
+    "title": "Anthropic's Moral Conflict Is Playing Out in Real Time",
+    "summary": "A WSJ column argues that if AI labs, including rival OpenAI, heed Anthropic CEO Dario Amodei's call to slow development, the move could benefit humanity broadly while reinforcing Anthropic's position as a safety-focused leader. But the piece notes Anthropic risks falling behind OpenAI if it slows down unilaterally and rivals do not follow suit.",
+    "link": "https://www.wsj.com/tech/ai/anthropics-moral-conflict-is-playing-out-in-real-time-c503e0c1",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-13-005",
+    "date": "2026-09-13",
+    "source": "Accenture",
+    "newsletter": "Enterprise AI Executive",
+    "title": "The CIO's Guide to AI Tokenomics",
+    "summary": "A new Accenture report, based on a survey of 750 senior executives at companies with over \\ billion in revenue, finds that fewer than one in five dollars of enterprise AI token spend can be tied to a quantified, actionable financial outcome. Enterprises expect token consumption to grow 78% over the next two years even as per-token prices are projected to fall 19%, with leading firms building cost observability and model-routing practices ahead of production.",
+    "link": "https://www.accenture.com/content/dam/accenture/final/accenture-com/document-fy27/q1/ACN-CIO-Guide-AI-Tokenomics-Report.pdf",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-13-006",
+    "date": "2026-09-13",
+    "source": "Deloitte",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Enterprise AI Factory Trends",
+    "summary": "A Deloitte analysis projects that adoption of dedicated 'AI factories' will vary widely by industry through 2028, with energy, resources and industrials firms reaching 50% to 82% adoption, financial services rising from 24% to 63%, and technology, media and telecom firms reaching 72% to 75%. Respondents cited innovation capacity, risk management and token-cost optimization as the top expected benefits of building such infrastructure.",
+    "link": "https://www.deloitte.com/content/dam/assets-zone3/us/en/docs/services/consulting/2026/ai-factory-industry-trends.pdf",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-13-007",
+    "date": "2026-09-13",
+    "source": "PwC",
+    "newsletter": "Enterprise AI Executive",
+    "title": "PwC's AI-Powered Strategy Solution",
+    "summary": "PwC launched an AI-powered strategy tool built on its proprietary data, including sector benchmarks and client context, that it says compresses six to eight weeks of senior-led strategy work into a first recommendation within days. The firm says the tool is designed to shift senior staff time away from early-stage analysis and toward refining recommendations and building organizational buy-in.",
+    "link": "https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-powered-strategy-accelerator.html",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
