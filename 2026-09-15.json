@@ -1,0 +1,216 @@
+[
+  {
+    "id": "2026-09-15-001",
+    "date": "2026-09-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "AI Leaders Are Calling for a Slowdown, but Wall Street Keeps on Buying",
+    "summary": "Anthropic CEO Dario Amodei, OpenAI's Sam Altman and SpaceX's Elon Musk called over the weekend for slowing the pace of frontier AI development, citing safety risks from increasingly capable models. Despite the warnings, shares of Microsoft, Alphabet and Meta rose more than 2% on Monday as investors bet the companies would remain highly profitable even if AI investment slows, while cybersecurity stocks such as CrowdStrike also gained on fears of AI-driven cyberattacks. President Trump and Chinese officials both dismissed the safety concerns as overblown, while enterprise software stocks such as Salesforce and ServiceNow rallied on hopes a slowdown would ease competitive pressure from AI.",
+    "link": "https://www.wsj.com/finance/stocks/ai-leaders-are-calling-for-a-slowdown-but-wall-street-keeps-on-buying-7c671903",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "WSJ AI & Business",
+      "WSJ Morning Download",
+      "WSJ CEO Brief",
+      "WSJ Pro Cybersecurity",
+      "The Information Briefing"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-09-15-002",
+    "date": "2026-09-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Companies Maintain AI Deployments With a Focus on Governance",
+    "summary": "Executives at the WSJ Technology Council Summit in New York said companies are not slowing internal AI deployment even as AI developers debate pausing frontier research, with FedEx's Vishal Talwar and KKR's Ruchir Swarup describing efforts to operationalize AI budgeting and governance. Roughly half of attendees polled at the summit said they supported slowing frontier AI development, but speakers said deployment of already-tested internal models continues because it is generally well understood. Executives also described growing pressure on corporate boards to demonstrate AI governance and accountability.",
+    "link": "https://www.wsj.com/cio-journal/companies-maintain-ai-deployments-with-a-focus-on-governance-51310d2f",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "WSJ CEO Brief"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-003",
+    "date": "2026-09-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CEO Brief",
+    "title": "CVS Health's AI 'Digital Twins' Cut Research Time From Weeks to Minutes",
+    "summary": "CVS Health has built roughly 150,000 AI-driven \"digital twins\" that simulate consumer behavior for market research, cutting a research task that used to take six to eight weeks down to about 20 minutes, according to a company executive speaking at the WSJ Technology Council Summit. The digital twins are exposed to public media, news and policy information so they can mimic how real consumer preferences evolve over time. Simile CEO Joon Sung Park, whose company supplies the simulation tool, said future versions could let companies input a goal, such as a revenue target, and receive AI-generated strategic scenarios in response.",
+    "link": "https://www.wsj.com/video/how-cvs-health-is-recreating-human-behavior/9870BA5D-3DC0-466D-A249-7A5645874AC4",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-004",
+    "date": "2026-09-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Microsoft Publishes Provisional AI Code of Conduct",
+    "summary": "Microsoft published a provisional code of conduct governing how it will train future AI models, joining a growing list of companies setting voluntary limits on advanced AI systems. Under the code, Microsoft's models must refuse requests tied to weapons development, avoid generating violent or sexually explicit content, and decline to help acquire dangerous substances, among other restrictions. Mobile World Live separately reported that the code is intended to help ensure increasingly powerful AI systems remain under human control and do not resist correction, interruption or shutdown.",
+    "link": "https://www.wsj.com/tech/ai/altman-says-ais-rapid-progress-could-go-very-badly-1e840a6c",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-005",
+    "date": "2026-09-15",
+    "source": "The Information",
+    "newsletter": "Applied AI",
+    "title": "Why Anthropic's Data Policy Drama Is Good for OpenAI",
+    "summary": "Major Anthropic customers including Palantir and Booz Allen have restricted their use of Anthropic's Fable models in favor of OpenAI's Astra model because OpenAI offers \"zero data retention\" guarantees that Anthropic does not yet provide broadly. Anthropic said in June it would store customer data from Fable model usage for 30 days for security reasons, and plans to launch a program called Enterprise Frontier Safeguards this fall that would extend zero-data-retention terms to eligible customers. Palantir CEO Alex Karp has criticized AI labs for allegedly using customer data to compete with them, and the dispute is seen as giving OpenAI an opening to expand its enterprise business against Anthropic.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-006",
+    "date": "2026-09-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "AI Coding Startup Factory More Than Triples Valuation to $5 Billion",
+    "summary": "AI coding startup Factory more than tripled its valuation to $5 billion after raising $200 million from investors including Khosla Ventures, Blackstone and Marc Benioff. The round reflects continued investor appetite for AI coding tools even as broader AI valuations face increased scrutiny. Factory's rapid valuation growth places it among the more richly valued AI coding startups this year.",
+    "link": "https://www.wsj.com/tech/ai/ai-coding-startup-factory-more-than-triples-valuation-to-5-billion-871da697",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-007",
+    "date": "2026-09-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ AI & Business",
+    "title": "Z.AI Plans $5 Billion Fundraising to Fuel AI Expansion",
+    "summary": "China's Z.AI, a major developer of open-weight AI models, is seeking to raise more than $5 billion in a combination of equity and debt to fund its AI expansion. The fundraising would rank among the largest in China's AI sector and reflects intensifying competition among Chinese model developers for capital. Z.AI's plans come as Western regulators scrutinize the flow of AI compute and technology to Chinese firms.",
+    "link": "https://www.wsj.com/tech/ai/z-ai-plans-5-0-billion-fundraising-to-fuel-ai-expansion-56da16dc",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-008",
+    "date": "2026-09-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ AI & Business",
+    "title": "Forget Robot Workers: Foundation Future Industries Wants to Build Soldiers",
+    "summary": "San Francisco-based Foundation Future Industries, a startup building humanoid robots, secured a $24 million contract with the Pentagon, which is testing one of the company's battle robots. The company argues autonomous robots will play a significant role in future warfare, even though such systems remain years from deployment on any battlefield. The contract underscores growing US defense interest in AI-driven robotics as a complement to human soldiers.",
+    "link": "https://www.wsj.com/tech/forget-robot-workers-this-company-wants-to-build-soldiers-48266698",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-009",
+    "date": "2026-09-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Gulf's AI Nightmare Came Courtesy of an Iranian Drone",
+    "summary": "Amazon data centers in the United Arab Emirates and Bahrain remain offline months after being damaged in strikes during the Iran war, testing the Gulf region's multibillion-dollar ambitions to become an AI infrastructure hub. The prolonged outages highlight the vulnerability of data-center buildouts in a region still exposed to regional conflict risk. The disruption comes as Gulf states have pushed aggressively to attract AI compute investment from US technology companies.",
+    "link": "https://www.wsj.com/world/middle-east/the-gulfs-ai-nightmare-came-courtesy-of-an-iranian-drone-3f313cb3",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-010",
+    "date": "2026-09-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ AI & Business",
+    "title": "The Squishy Language Shaping the AI Debate",
+    "summary": "A WSJ analysis argued the debate over artificial general intelligence, or AGI, is clouded by imprecise language, noting that OpenAI's Greg Brockman and Nvidia's Jensen Huang have both suggested AGI has effectively arrived without citing clear evidence. The piece traced the AGI concept to Alan Turing's 1950 test for machine intelligence and said today's advanced models have passed Turing-style tests in some studies, but argued the path to AGI is likely to be gradual rather than marked by one breakthrough moment. Some AI labs, including Anthropic, have suggested recursive self-improvement—AI systems building their own successors—could arrive within one to two years, a concept the piece said is easier to define than AGI itself.",
+    "link": "https://www.wsj.com/tech/ai/the-squishy-language-shaping-the-ai-debate-8422c687",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-011",
+    "date": "2026-09-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Cyber Jobs Hold Steady, But Many Fear an Entry-Level Squeeze Is Coming",
+    "summary": "A closely watched cybersecurity jobs report showed overall headcount holding steady, but experts warned that AI is squeezing out entry-level roles as it automates the most basic tasks in security departments. Companies increasingly favor candidates who already have experience, technical skills and familiarity with AI tools, raising concerns that cybersecurity's traditional path for less-conventional entrants into the field is narrowing. Industry watchers say the trend could create longer-term talent-pipeline problems for a sector that has actively recruited nontraditional candidates in recent years.",
+    "link": "https://www.wsj.com/pro/cybersecurity/as-ai-filters-into-cybersecurity-companies-seek-out-seasoned-workers-408af3b3",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-012",
+    "date": "2026-09-15",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "ByteDance's First-Half Profit Drops to $20 Billion, Weighed Down by AI Spending",
+    "summary": "ByteDance's net profit fell to $20 billion in the first half of the year, weighed down by heavy AI spending. The decline illustrates the financial pressure AI infrastructure investment is placing on major technology companies even as revenue growth continues. ByteDance, TikTok's parent company, has been increasing capital expenditure on AI models and compute capacity.",
+    "link": "https://www.theinformation.com/articles/bytedances-first-half-profit-drops-20-billion-weighed-ai-spending",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-013",
+    "date": "2026-09-15",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Radical Ventures Raises Over US$1B to Back AI's Next Behemoths",
+    "summary": "Toronto-based venture capital firm Radical Ventures raised more than US$1 billion for a new fund aimed at backing leading AI companies, making it the largest venture fund ever raised in Canada. The fund reflects strong investor demand for exposure to top AI researchers and fast-growing AI firms. Radical Ventures has built a reputation for early bets on AI-focused startups and researchers.",
+    "link": "https://thelogic.co/news/radical-ventures-breakouts-fund-ai-giants/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-014",
+    "date": "2026-09-15",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Telenor Faces Charges Over Former Myanmar Unit",
+    "summary": "Norwegian authorities have opened an investigation into Telenor Group over its former operations in Myanmar, charging the telecom company on suspicion of breaching sanctions and other violations. The charges relate to Telenor's prior ownership of a Myanmar telecom unit before its exit from the country. The case adds to legal scrutiny facing multinational telecom operators over past dealings in sanctioned or high-risk markets.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-015",
+    "date": "2026-09-15",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Ciena Unveils $200M AI Fund",
+    "summary": "Networking equipment maker Ciena launched a new corporate venture capital program with an initial $200 million commitment to invest in early-stage companies and venture funds focused on AI-driven networking. The fund reflects growing interest among telecom infrastructure vendors in capturing value from AI-related network demand. Ciena joins a growing list of technology vendors establishing dedicated AI investment arms.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-016",
+    "date": "2026-09-15",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Developers Find Ways to Use Claude Code Without Anthropic Models",
+    "summary": "Some software developers are running Anthropic's Claude Code coding tool with AI models from other providers instead of Anthropic's own Claude models, in some cases to reduce costs. The trend highlights growing developer interest in decoupling coding tools from a single model provider, even for tools built and marketed by that provider. It also points to competitive pressure on Anthropic as rivals offer cheaper or differently priced model access.",
+    "link": "https://www.theinformation.com/articles/developers-find-ways-use-claude-code-without-anthropic-models",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-15-017",
+    "date": "2026-09-15",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "OpenAI's 'Top Priority' for AI Agents Is Automating AI Research, Says Noam Brown",
+    "summary": "OpenAI senior researcher Noam Brown said in an interview on The Information's AI Deep Dive that the company's top priority for AI agents is automating AI research itself, rather than deploying agents primarily for other consumer or enterprise tasks. The comment underscores an industry-wide push by leading AI labs to use AI systems to accelerate their own model development. Brown is one of OpenAI's key researchers focused on advancing agentic and reasoning capabilities.",
+    "link": "https://www.theinformation.com/articles/openais-top-priority-ai-agents-automating-ai-research-says-noam-brown",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  }
+]
