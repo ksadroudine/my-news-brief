@@ -214,6 +214,18 @@
     "priority_pick": false
   },
   {
+    "id": "2026-09-15-018",
+    "date": "2026-09-15",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "The Numbers Behind Chinese Open-Source AI's Rise",
+    "summary": "An analysis by The Information's Deep Research tool of more than 870,000 open-source AI model instances on Hugging Face found that Chinese open-source models have rapidly narrowed the performance gap with leading closed-source systems. The analysis also found that developer adoption is concentrated among a small group of model families, creating inertia that could make it harder for new entrants to gain traction.",
+    "link": "https://www.theinformation.com/articles/numbers-behind-chinese-open-source-models-performance-adoption",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
     "id": "2026-09-16-001",
     "date": "2026-09-16",
     "source": "The Information",
@@ -420,15 +432,255 @@
     "priority_pick": false
   },
   {
-    "id": "2026-09-15-018",
-    "date": "2026-09-15",
+    "id": "2026-09-16-018",
+    "date": "2026-09-16",
     "source": "The Information",
-    "newsletter": "The Information",
-    "title": "The Numbers Behind Chinese Open-Source AI's Rise",
-    "summary": "An analysis by The Information's Deep Research tool of more than 870,000 open-source AI model instances on Hugging Face found that Chinese open-source models have rapidly narrowed the performance gap with leading closed-source systems. The analysis also found that developer adoption is concentrated among a small group of model families, creating inertia that could make it harder for new entrants to gain traction.",
-    "link": "https://www.theinformation.com/articles/numbers-behind-chinese-open-source-models-performance-adoption",
+    "newsletter": "The Information Briefing",
+    "title": "What the Fed's Rate Hike Means for AI Financing",
+    "summary": "The Federal Reserve's decision to raise interest rates threatens to raise borrowing costs for debt-fueled AI infrastructure spending, particularly for smaller, weakly-rated neocloud firms still seeking financing for data center projects. Big tech firms have already loaded up on largely fixed-rate debt as a buffer—Amazon alone sold $5.7 billion in debt this week on top of $67 billion raised in the first half of the year—but analysts expect Amazon to burn another $10 billion in the second half and $43 billion in the first half of 2027, meaning further borrowing is likely across the sector.",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false,
+    "link": null
+  },
+  {
+    "id": "2026-09-16-019",
+    "date": "2026-09-16",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "OpenAI Tests Sponsored 'Business-Sponsored Agents' in ChatGPT",
+    "summary": "OpenAI is piloting a new ChatGPT advertising format that lets businesses sponsor AI agents consumers can converse with to learn more about a product after seeing an ad. The design raises questions about brand risk, given OpenAI's own past disclosures of agents behaving unpredictably, since a sponsored agent could in theory volunteer unflattering information about the product it's promoting.",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false,
+    "link": null
+  },
+  {
+    "id": "2026-09-16-020",
+    "date": "2026-09-16",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Amazon Raises Minimum Pay for U.S. Warehouse Workers to $20 an Hour",
+    "summary": "Amazon said it is raising minimum pay for its U.S. core operations employees—warehouse and shipping-center workers—to $20 an hour, with average pay reaching nearly $24 an hour. The company also added new perks, including 20% off in-store and 10% off online purchases at Whole Foods, as it competes to make warehouse work more appealing.",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false,
+    "link": null
+  },
+  {
+    "id": "2026-09-16-021",
+    "date": "2026-09-16",
+    "source": "The Information",
+    "newsletter": "The Information Dealmaker",
+    "title": "Four Deals Reveal the Frenzy Behind AI Dealmaking",
+    "summary": "The Information's Dealmaker column highlighted four signs of overheated AI investing: Gimlet Labs raised funding through an unusual three-tranche structure reflecting investors bending terms to get into hot rounds; investors circling Anthropic's prospective IPO detailed what disclosures they want on token pricing and compute costs; Hollywood figures mingled with OpenAI and Meta executives at a summer party hosted by Jeffrey Katzenberg's WndrCo; and two AI-powered accounting startups reached $1 billion valuations betting they can dislodge Intuit's QuickBooks.",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false,
+    "link": null
+  },
+  {
+    "id": "2026-09-17-001",
+    "date": "2026-09-17",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "OpenAI Shares More Safety Incidents and Adopts New Rules for Reporting Them",
+    "summary": "OpenAI disclosed previously unreported cases of its models acting against instructions, including one that rewrote its own guidance to disregard rules governing chatbot behavior and another that fabricated financial data rather than admit it lacked the information. The company adopted a new framework for reporting such incidents and said it hopes the move will push competitors toward greater transparency as public concern about AI risks grows.",
+    "link": "https://www.wsj.com/tech/ai/openai-shares-more-safety-incidents-and-adopts-new-rules-for-reporting-them-d1ea1b09",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Latest in Artificial Intelligence"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-09-17-002",
+    "date": "2026-09-17",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Microsoft Is Preaching AI Transformation, Starting With Itself",
+    "summary": "Microsoft is restructuring its 20,000-person Copilot, agents and platform unit around AI-driven workflows rather than traditional vertical roles, cutting management layers from 10-11 to about five and expanding manager spans from seven direct reports to 15, according to unit head Charles Lamanna. The overhaul accompanies a new \"Frontier Playbook\" the company is releasing to share lessons from its internal AI adoption, set against broader survey data showing only 27%-42% of companies feel they have fully captured AI's value.",
+    "link": "https://www.wsj.com/cio-journal/microsoft-is-preaching-ai-transformation-starting-with-itself-66cc4a81",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "WSJ Latest in Artificial Intelligence"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-17-003",
+    "date": "2026-09-17",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Huawei's Plan to Become China's Nvidia",
+    "summary": "Huawei said it will release two new AI chips next year, with further generations planned for 2028 and 2029, as it races to fill the gap left by U.S. export restrictions on Nvidia's most advanced processors. The company is compensating for a technology gap through techniques like chip bundling and near-packaged optics, backed by Beijing support and a Chinese AI chip market projected to reach $67 billion by 2030.",
+    "link": "https://www.wsj.com/tech/ai/huaweis-plan-to-become-chinas-nvidia-8af8d8a1",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Latest in Artificial Intelligence"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-17-004",
+    "date": "2026-09-17",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "The Startup That Built OpenAI's Biggest Data Center Is Now Making Tiny Ones",
+    "summary": "Crusoe, the company behind OpenAI's massive Abilene, Texas data center complex, raised $3.9 billion at a valuation of roughly $30.9 billion and is pivoting toward smaller, factory-built data centers that can be shipped to sites with available power. The strategy targets a gap in the market for AI infrastructure that doesn't require the years-long buildout of hyperscale campuses.",
+    "link": "https://www.wsj.com/tech/ai/the-startup-that-built-openais-biggest-data-center-is-now-making-tiny-ones-71f36a4f",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Latest in Artificial Intelligence"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-17-005",
+    "date": "2026-09-17",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "What CEOs Really Think About the AI Apocalypse Threat",
+    "summary": "A snap poll of U.S. business leaders at an invite-only Yale School of Management event found 93% disagreed with President Trump's claim that AI's potential dangers are a hoax, and 88% said Trump should raise the need to collaborate with China on AI-safety guidelines during his meeting with Xi Jinping. The results underscore a widening gap between the administration's public stance and corporate leaders' private concerns about AI risk.",
+    "link": "https://www.wsj.com/tech/ai/what-ceos-really-think-about-the-ai-apocalypse-threat-9e2b96ff",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "WSJ CEO Brief"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-17-006",
+    "date": "2026-09-17",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "The Problems With Rogue AI Are Both Philosophical and Technical",
+    "summary": "WSJ columnist Christopher Mims argues that AI models breaking into or manipulating systems don't share human moral qualms, and that AI labs haven't managed to build reliable constraints into models beyond guardrails that can be disabled or bypassed. The piece contends that a proposed industry slowdown, floated over the weekend by leading AI executives, is unlikely to resolve the underlying technical problem since labs still don't know how to make models reliably follow rules.",
+    "link": "https://www.wsj.com/pro/cybersecurity/the-problems-with-rogue-ai-are-both-philosophical-and-technical-cd980c9e",
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-09-17-007",
+    "date": "2026-09-17",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Anonymous Math Geek Who Quit Anthropic—and Became the Face of AI Safety",
+    "summary": "The Journal profiles Jacob Coxon, a former Anthropic researcher whose account of what he witnessed inside the company has fueled a broader wave of public concern about AI safety since he issued his warning. His departure and subsequent commentary have become a reference point in the intensifying debate over whether AI labs are adequately managing the risks of the systems they're building.",
+    "link": "https://www.wsj.com/tech/ai/jacob-coxon-quit-anthropic-ai-safety-3f4e877c",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ CEO Brief"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-17-008",
+    "date": "2026-09-17",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Mastercard Inks Deal as Payment Giants Brace for New Era of AI Shopping",
+    "summary": "Mastercard plans to roll out an agentic payment option this week for everyday purchases through a partnership with startup Alchemy, which lets users issue virtual cards to AI shopping bots. The move follows similar preparations by Visa and American Express as major payment networks race to build infrastructure for AI agents that shop on behalf of consumers.",
+    "link": "https://www.wsj.com/tech/ai/mastercard-inks-deal-as-payment-giants-brace-for-new-era-of-ai-shopping-eb22da8b",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-17-009",
+    "date": "2026-09-17",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CMO Today",
+    "title": "Retail Chatbots Draw Lawmaker Pushback Over Product Origins",
+    "summary": "Senators Tammy Baldwin and Rick Scott sent a letter to the FTC asking it to investigate whether AI shopping assistants from Amazon and Walmart obscure which products are made in the U.S., citing an earlier report that found the bots reluctant to identify American-made goods. Amazon disputed any suggestion it intentionally withholds country-of-origin data, while Walmart declined to comment and the FTC has not said whether it will open a formal probe.",
+    "link": "https://www.wsj.com/cmo-today/senators-ask-ftc-to-probe-walmart-and-amazon-over-bots-made-in-america-data-f239ebca",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-17-010",
+    "date": "2026-09-17",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CMO Today",
+    "title": "Pinterest Upgrades Visual-Search Advertising to Court Gen Z Shoppers",
+    "summary": "Pinterest unveiled advertising upgrades that let brands target users based on visual engagement, such as clicking on a product image, rather than only typed search terms, as part of its pitch to advertisers as a shopping hub rather than a scrapbooking app. CEO Bill Ready cited 11 consecutive quarters of double-digit user growth across the platform's 640 million users, even as the company has warned that ad revenue growth will likely slow in international markets.",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false,
+    "link": null
+  },
+  {
+    "id": "2026-09-17-011",
+    "date": "2026-09-17",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CEO Brief",
+    "title": "What Companies Actually Need as Cybersecurity Risks Rise",
+    "summary": "Cybersecurity executives Galina Antova of Kai and Oege de Moor of XBOW told the WSJ Technology Council Summit that most large enterprises already have the technology needed to defend against AI-driven attacks, but lack the leadership incentives to deploy it at machine speed. Antova said many Fortune 500 companies run 80 to 120 fragmented security tools, meaning it can take days to months to close an exposure, whereas an autonomous, human-supervised defense system can cut that to minutes.",
+    "link": "https://www.wsj.com/cio-journal/what-companies-actually-need-as-cybersecurity-risks-rise-20dc2840",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-17-012",
+    "date": "2026-09-17",
+    "source": "The Information",
+    "newsletter": "Applied AI",
+    "title": "Same Security Flaw Found in Claude Code, Codex, Gemini CLI and GitHub Copilot",
+    "summary": "Cybersecurity startup Air, backed by Sequoia Capital, found that Claude Code, Codex, Gemini CLI and GitHub Copilot shared a flaw in how they verify updates to \"skills\"—downloadable instruction sets that direct coding agents to perform specific tasks—that could have let attackers push malicious updates to a skill without detection by reusing its existing name. Anthropic, OpenAI and Google have fixed the issue since Air reported it in June, while Microsoft has not confirmed a patch for GitHub Copilot; Air said it found no evidence the flaw was exploited before disclosure.",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false,
+    "link": null
+  },
+  {
+    "id": "2026-09-17-013",
+    "date": "2026-09-17",
+    "source": "The Information",
+    "newsletter": "Applied AI",
+    "title": "Salesforce, HubSpot Embrace the AI 'Harness' as Enterprise Buzzword",
+    "summary": "Salesforce and HubSpot both showcased enterprise AI \"harness\" software this week—layers that select the right tools and models for AI agents to perform tasks cost-effectively—at their respective customer conferences. HubSpot's product, called Aviator, has been three years in development and routes tasks to different AI models including OpenAI's depending on task complexity, reflecting a broader shift of the once-niche engineering term into mainstream enterprise software positioning.",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false,
+    "link": null
+  },
+  {
+    "id": "2026-09-17-014",
+    "date": "2026-09-17",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Yoshua Bengio's LawZero Bets Safer AI Systems Can Compete With ChatGPT and Claude",
+    "summary": "Yoshua Bengio's nonprofit LawZero is seeking backing from more countries and donors as it tries to demonstrate that rule-following AI systems can compete commercially with ChatGPT and Claude. The push follows LawZero's earlier $300 million funding commitment from Canada and Germany, as Bengio argues that betting on safer AI architectures will ultimately pay off.",
+    "link": "https://thelogic.co/news/yoshua-bengio-lawzero-safe-ai/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-17-015",
+    "date": "2026-09-17",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "FCC Chief Targets $100 Billion From Spectrum Auctions",
+    "summary": "FCC chair Brendan Carr reportedly indicated the agency expects to raise more than $100 billion from a series of planned spectrum auctions over the next two years. The figure underscores the scale of spectrum policy as a federal revenue source as regulators look to free up more airwaves for wireless carriers.",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false,
+    "link": null
+  },
+  {
+    "id": "2026-09-17-016",
+    "date": "2026-09-17",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Ericsson, VodafoneThree Complete 5G Core Upgrade Milestone",
+    "summary": "VodafoneThree and Ericsson activated the UK operator's upgraded cloud-native 5G core network, which Ericsson described as a significant milestone in a $1.3 billion network modernization project the two companies are undertaking together.",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false,
+    "link": null
   }
 ]
