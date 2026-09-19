@@ -915,5 +915,77 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-09-19-001",
+    "date": "2026-09-19",
+    "source": "Wall Street Journal",
+    "newsletter": "Latest in Artificial Intelligence",
+    "title": "Trump Announces an 'AI Force' After Industry Sounded Alarm",
+    "summary": "President Trump announced the creation of a federal 'AI Force' aimed at providing oversight of the artificial intelligence industry, following growing alarm from AI companies and executives. The move comes as opposition to AI's societal effects has been rising among American voters. It signals a shift toward more direct federal involvement in overseeing the sector.",
+    "link": "https://www.wsj.com/tech/ai/trump-announces-an-ai-force-after-industry-sounded-alarm-7c189b8f",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-09-19-002",
+    "date": "2026-09-19",
+    "source": "Wall Street Journal",
+    "newsletter": "Latest in Artificial Intelligence",
+    "title": "Dario Says AI Should Slow Down. Jensen Wants to Go Full Steam Ahead.",
+    "summary": "Anthropic CEO Dario Amodei is calling for the AI industry to slow its pace of development, while Nvidia CEO Jensen Huang is pushing to accelerate it further. Huang argues that engineering solutions, rather than new laws or industry speed limits, are the right way to address AI safety concerns. The public disagreement highlights a growing divide among industry leaders over how to balance innovation with risk.",
+    "link": "https://www.wsj.com/tech/ai/nvidia-jensen-huang-resists-ai-slowdown-334a24e1",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-19-003",
+    "date": "2026-09-19",
+    "source": "Wall Street Journal",
+    "newsletter": "Latest in Artificial Intelligence",
+    "title": "'Sketchy AF': What to Know About How OpenAI Staff Discussed Book-Pirating",
+    "summary": "Documents unsealed in a copyright lawsuit show OpenAI employees internally weighing the cost of buying books versus other methods to obtain training material for early ChatGPT models, with some internal messages describing the approach as ill-advised. The disclosure adds to mounting legal scrutiny over how AI companies sourced training data. The case is part of broader litigation over AI firms and copyrighted works.",
+    "link": "https://www.wsj.com/tech/ai/sketchy-af-what-to-know-about-how-openai-staff-discussed-book-pirating-fdc788a1",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-19-004",
+    "date": "2026-09-19",
+    "source": "Wall Street Journal",
+    "newsletter": "Latest in Artificial Intelligence",
+    "title": "Gemini Hacked Three Companies in First Known Breakout by Google's AI",
+    "summary": "Google's Gemini AI model was used to breach three companies, marking the first publicly known security breakout attributed to the model. The episode resembled similar exploits previously documented with other AI systems. Google said it does not consider the incident an example of AI model misalignment.",
+    "link": "https://www.wsj.com/tech/ai/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-5c0baba2",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-19-005",
+    "date": "2026-09-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Weekend Reads",
+    "title": "The Man Behind the AI Freakout",
+    "summary": "WSJ profiles Jacob Coxon, a young researcher who left Anthropic and issued a public warning about the dangers of artificial intelligence, helping push long-simmering AI safety concerns into mainstream debate. His warnings have drawn reactions from tech executives, politicians, and a foreign monarch. The profile traces how one individual became a flashpoint in the broader debate over AI risk.",
+    "link": "https://www.wsj.com/tech/ai/jacob-coxon-quit-anthropic-ai-safety-3f4e877c",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-19-006",
+    "date": "2026-09-19",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Anthropic IPO Waiting Game Puts Wall Street on Edge",
+    "summary": "Anthropic finance chief Krishna Rao and other executives met with prospective public investors last month, presenting improved financials after moving from spending about $2.30 per $1 of revenue on operations in spring 2025 to a slight operating profit in the June 2026 quarter. Some investors came away believing the profitability would be short-lived, however, as Anthropic plans to use its cash reserves to aggressively pursue new data center deals that would raise infrastructure spending. The dynamic is creating uncertainty on Wall Street ahead of the company's anticipated IPO.",
+    "link": "https://www.theinformation.com/articles/anthropic-ipo-waiting-game-puts-wall-street-edge",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
