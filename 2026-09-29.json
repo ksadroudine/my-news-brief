@@ -240,5 +240,266 @@
     "category": "Canadian Business",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-001",
+    "date": "2026-09-30",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "OpenAI's New Agent Delivers a Reality Check for the Enterprise",
+    "summary": "A day after shelving GPT-6.1 Astra over safety concerns, OpenAI launched Dot, an always-on cloud agent built on GPT-6 Astra that requires the $200-a-month Pro plan or certain business plans and can be reached through ChatGPT, Slack and Microsoft Teams. A BCG report released the same day found agentic AI accounts for 22% of the value companies get from AI in 2026, up from 17% in 2025 and projected to reach 39% by 2030. BCG also found 42% of companies expect agents to hold real decision-making authority by 2030, yet only 5% have enterprisewide controls to manage them safely today.",
+    "link": "https://www.wsj.com/cio-journal/openais-new-agent-delivers-a-reality-check-for-the-enterprise-0370ea8a",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Enterprise AI Executive",
+      "The Information (article alert)"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-09-30-002",
+    "date": "2026-09-30",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "FTC Opens Investigation of Anthropic and OpenAI",
+    "summary": "The Federal Trade Commission has opened an investigation into Anthropic and OpenAI. The agency intends to use its consumer-protection authority to examine whether the AI labs misled the public about the dangers posed by their technology.",
+    "link": "https://www.wsj.com/tech/ai/ftc-opens-investigation-of-anthropic-and-openai-a317b617",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-003",
+    "date": "2026-09-30",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Tech CEOs Privately Questioned Amodei for Sounding AI Alarm Bells",
+    "summary": "At Tuesday's White House lunch with President Trump, several tech executives, including Nvidia CEO Jensen Huang, privately challenged Anthropic CEO Dario Amodei over his public warnings about AI's capabilities. The exchange highlights a widening rift within the industry over how to talk about AI risk as the administration doubles down on a light-touch regulatory approach.",
+    "link": "https://www.wsj.com/tech/ai/tech-ceos-privately-questioned-amodei-for-sounding-ai-alarm-bells-aaa47df3",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-004",
+    "date": "2026-09-30",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Tech Giants Face Questions Over Secret AI Data-Center Deals",
+    "summary": "Democratic Rep. Jamie Raskin is seeking information from Amazon, Google, Meta and Oracle about confidential arrangements tied to their AI data-center projects. The inquiry adds congressional scrutiny to the terms under which hyperscalers are securing sites, power and local approvals for the AI build-out.",
+    "link": "https://www.wsj.com/politics/policy/tech-giants-face-questions-over-secret-ai-data-center-deals-bdc9de98",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-005",
+    "date": "2026-09-30",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "CEOs Worry AI Cyber Failures Will Cascade Across Industries",
+    "summary": "CEOs of major banks, airlines, telecom providers and other companies, including JPMorganChase, United Airlines and Amazon, are jointly building crisis-response plans for a scenario in which a misbehaving AI model triggers cybersecurity failures across several critical sectors at once. Citi CEO Jane Fraser said the group also wants to present unified expectations to frontier AI developers. Separately, EY research found 14% of 157 corporate boards have created a committee dedicated to cyber, geopolitical or AI risk in the past two years.",
+    "link": "https://www.wsj.com/pro/cybersecurity/ai-cyber-risk-spurs-top-u-s-ceos-to-build-cross-industry-crisis-plans-2f213477",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-006",
+    "date": "2026-09-30",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Senate AI Safety Bill Blocked Over China Competition Concerns",
+    "summary": "A Democratic Senate bill that would have created a federal AI safety review board and required more incident reporting from AI developers was blocked on Tuesday. Sen. Ted Cruz objected to a unanimous-consent motion, arguing a handpicked review board would be prone to abuse and that the bill failed to address the patchwork of state AI laws, while opponents cited risks to competition with China.",
+    "link": "https://www.warner.senate.gov/wp-content/uploads/2026/09/Artificial-Intelligence-Risk-Management-and-Security-Act.pdf",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-007",
+    "date": "2026-09-30",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Labcorp Settles 43-State Data-Breach Case Over AMCA Hack",
+    "summary": "Laboratory Corp. of America agreed to pay $2.3 million to 43 states and Washington, D.C., and adopt cybersecurity requirements to settle claims tied to the 2018-2019 hack of its third-party debt collector AMCA, which exposed data on more than 27.5 million people. The company had earlier settled a consumer class action for $35 million, while state cases against Quest Diagnostics continue; separately, Finastra agreed to pay more than $3.1 million to resolve a class action over a 2024 breach.",
+    "link": "https://ag.ny.gov/sites/default/files/settlements-agreements/laboratory-corporation-of-america-assurance-of-voluntary-compliance-2026.pdf",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-008",
+    "date": "2026-09-30",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Oura Postpones IPO Over Market Uncertainty",
+    "summary": "Smart-ring maker Oura delayed its previously announced initial public offering, citing uncertain market conditions despite being in the late stages of the process. The San Francisco-based company had been expected to command a valuation well above the $11 billion it reached in a private funding round last year.",
+    "link": "https://www.wsj.com/tech/oura-postpones-ipo-over-market-uncertainty-49d49791",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-009",
+    "date": "2026-09-30",
+    "source": "Bloomberg",
+    "newsletter": "WSJ Morning Download",
+    "title": "Apple CEO John Ternus Moves to Overhaul Company to Run Faster and Leaner",
+    "summary": "Apple's new CEO John Ternus is looking to speed up product development and rely less on the company's traditional spring and fall release cycles, while putting engineering back at the center of strategy. He aims to do so with fewer employees, and Apple is already cutting costs, including layoffs of engineering program managers in the hardware division Ternus previously led.",
+    "link": "https://www.bloomberg.com/news/articles/2026-09-29/apple-s-new-ceo-moves-to-overhaul-company-to-run-faster-and-leaner",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-010",
+    "date": "2026-09-30",
+    "source": "Bloomberg",
+    "newsletter": "WSJ Morning Download",
+    "title": "Trump Orders Federal Agencies to Call AI 'Super Intelligence'",
+    "summary": "President Trump signed an executive order requiring federal agencies to refer to artificial intelligence as \"Super Intelligence\" or \"SI\" in all official communications. Bloomberg interpreted the move as an attempt to counter increasingly negative public perceptions of AI following a public backlash, and it came the same day Trump reaffirmed his light-touch AI policy after meeting tech CEOs.",
+    "link": "https://www.bloomberg.com/news/articles/2026-09-29/trump-responds-to-ai-backlash-with-super-intelligence-rebrand",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-011",
+    "date": "2026-09-30",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Google Is Paying About 100 Digital Publishers for AI Overviews",
+    "summary": "Google has been paying roughly 100 digital publishers in a pilot program based on how much their content contributes to AI-generated answers in search and other products. The move marks a departure from Google's long-held stance that it need not pay publishers because search sends them traffic, a position weakened as AI Overviews sharply reduced referral traffic and drew complaints and lawsuits from publishers.",
+    "link": "https://www.theinformation.com/articles/google-paying-100-digital-publishers-ai-overviews",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-012",
+    "date": "2026-09-30",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Wall Street and Silicon Valley Split Over AI's Price Tag",
+    "summary": "Public-market investors and Silicon Valley backers are increasingly at odds over how to value AI companies. The gap is clouding the outlook for upcoming listings, including Anthropic's planned IPO, as private-round valuations run ahead of what public investors appear willing to pay.",
+    "link": "https://www.theinformation.com/articles/wall-street-silicon-valley-split-ais-price-tag",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-013",
+    "date": "2026-09-30",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "How New Data Center Debt Concessions Could Stall AI Build-Outs",
+    "summary": "Lenders and investors financing data centers are demanding significant concessions on new debt deals. The tougher terms threaten the financing pipeline for the broader AI infrastructure build-out, which relies heavily on debt to fund construction.",
+    "link": "https://www.theinformation.com/articles/new-data-center-debt-concessions-stall-ai-build-outs",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-014",
+    "date": "2026-09-30",
+    "source": "The Information",
+    "newsletter": "The Information Special Report",
+    "title": "Why Shopping Agents Are a Security and Payments Headache",
+    "summary": "A wave of shopping agents such as Meta's Muse and Instinct, which just raised at a $10 billion valuation, is forcing merchants, payment firms and card networks to address fraud, credential security and dispute liability; one investor showed Instinct's agent could read back stored card numbers in plain text. Stripe, PayPal and Shopify are building agent checkout, Visa and Mastercard have introduced an agent registry, and Mastercard's \"verifiable intent\" records what users authorized to help settle chargebacks. Adoption remains uncertain: Amazon has banned Muse from its site, and only 7% of fashion shoppers in an ACI Worldwide/YouGov survey trust AI to buy without approval.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-015",
+    "date": "2026-09-30",
+    "source": "PwC",
+    "newsletter": "Enterprise AI Executive",
+    "title": "PwC Hopes and Fears Survey Finds a Widening AI Divide in the Workforce",
+    "summary": "PwC's 2026 Global Workforce Hopes and Fears Survey of 49,364 workers in 48 countries found that AI-enabled front-runners, 14% of workers, are pulling ahead, while the 56% \"engine room\" feels squeezed, with only 33% trusting top management. Senior executives (51%) and managers (46%) are far more likely than non-managers (29%) to apply new skills extensively, and leading firms are 2.2 times as likely to redesign workflows around AI.",
+    "link": "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html",
+    "category": "Professional Services",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-016",
+    "date": "2026-09-30",
+    "source": "Bain & Company",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Bain Technology Report 2026: $6 Trillion Needed to Justify AI Build-Out",
+    "summary": "Bain's Technology Report 2026 estimates the AI infrastructure build-out will require about $6 trillion in annual revenue by 2031 to be justified. The report also says AI has compressed a typical cyberattack from four weeks to about 18 hours, and sizes the emerging U.S. agentic AI software market at about $100 billion, more than 90% of it still untapped.",
+    "link": "https://www.bain.com/globalassets/noindex/2026/bain_report_technology_report_2026.pdf",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-017",
+    "date": "2026-09-30",
+    "source": "McKinsey & Company",
+    "newsletter": "Enterprise AI Executive",
+    "title": "McKinsey: AI and Automation to Reshape U.S. Labor Demand Through 2035",
+    "summary": "A McKinsey Global Institute report projects automation could reduce U.S. labor demand by the equivalent of 36 million jobs by 2035, while economic growth adds demand for 41 million. Only 14% of workers who need to move have direct routes into growing roles, lower-wage workers are 7.6 times as likely to need to change occupation, and employer demand for AI fluency has risen elevenfold since 2022.",
+    "link": "https://www.mckinsey.com/mgi/our-research/Workforce-in-motion-Skills-and-pathways-to-future-jobs-in-the-United-States",
+    "category": "Global Economy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-018",
+    "date": "2026-09-30",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Anthropic Targets Valuation Above $2 Trillion in IPO",
+    "summary": "Anthropic is reportedly seeking a valuation of more than $2 trillion in its public listing. A leaked prospectus, reported by Reuters, shows the company grew revenue 12-fold in 2025 while losing $42 billion overall, and warns that AI could pose a catastrophic or existential risk to humanity.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "Enterprise AI Executive"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-019",
+    "date": "2026-09-30",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Corning Inks $3 Billion Fibre Deal With AT&T",
+    "summary": "AT&T signed a multi-year fibre and cable supply agreement with Corning valued at more than $3 billion. The deal supports AT&T's converged strategy of bundling mobile and fibre broadband services.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-020",
+    "date": "2026-09-30",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "EU States Press for Changes to High-Risk Supplier Phase-Out Plan",
+    "summary": "European member states are pushing to alter a European Commission proposal that would give operators three years to phase out network equipment from so-called high-risk suppliers. Operators could reportedly be granted more time to strip out the gear as a result.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-09-30-021",
+    "date": "2026-09-30",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Cohere's New Backer Schwarz Digits Exploring Compute Capacity in Canada",
+    "summary": "Schwarz Digits, the tech arm of German retail conglomerate Schwarz Group, is set to make a major investment in the newly combined Canadian-German AI company formed by Cohere and Aleph Alpha. The Logic reports Schwarz Digits is also exploring building compute capacity in Canada as part of a push to challenge U.S. cloud giants.",
+    "link": "https://thelogic.co/news/exclusive/cohere-aleph-alpha-schwarz-digits-canada-compute",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
