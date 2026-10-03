@@ -600,5 +600,29 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-10-03-001",
+    "date": "2026-10-03",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Mulleted, Meme-Loving Billionaire Behind Meta's Hit AI App",
+    "summary": "The Journal profiles Meta chief AI officer Alexandr Wang, who led the launch of Muse, Meta's agentic AI assistant that climbed to the top of the U.S. App Store after its September release and helped put Meta back in contention in the AI race. Muse was downloaded more than 900,000 times in its first six days, according to Bloomberg. The piece also reports that Wang's unconventional style and rapid rise have created friction inside the company.",
+    "link": "https://www.wsj.com/tech/ai/alexandr-wang-muse-meta-efae7659",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-10-03-002",
+    "date": "2026-10-03",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Heard on the Street",
+    "title": "Luxury Stocks Are Selling at Fast-Fashion Prices",
+    "summary": "Heard on the Street argues that the structural trends that made luxury groups such as LVMH outstanding long-term investments over the past two decades are fading. The column notes that luxury shares have de-rated to valuations closer to mass-market apparel retailers amid weaker demand in China and other key markets. The question for investors is whether the sector's premium multiple was a durable feature or a cyclical one.",
+    "link": "https://www.wsj.com/business/retail/luxury-stocks-are-selling-at-fast-fashion-prices-691ae978",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
