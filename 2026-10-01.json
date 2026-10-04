@@ -624,5 +624,115 @@
     "category": "Markets & Finance",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-10-04-001",
+    "date": "2026-10-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "New AI Task Force to Report on Risks of Technology After Public and Industry Concerns",
+    "summary": "The White House has formed a new AI task force led by Director of National Intelligence Jay Clayton, who will also serve as the administration's AI czar. In a Saturday interview, Clayton said the group plans to deliver a report on the risks and opportunities of artificial intelligence within 120 days, responding to mounting public and industry concern about the technology.",
+    "link": "https://www.wsj.com/tech/ai/new-ai-task-force-to-report-on-risks-of-technology-after-public-and-industry-concerns-b6308bef",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-10-04-002",
+    "date": "2026-10-04",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Paramount-WBD Deal to Close This Week",
+    "summary": "Paramount Skydance is scheduled to complete its $110 billion acquisition of Warner Bros. Discovery on Tuesday, with the combined company to be renamed Skydance. It will carry about $79 billion of debt against roughly $12 billion in annual EBITDA, much of it raised last week at 6.3% to 9.125% interest, and Paramount shares are down 29% since the deal was announced in February. Management is targeting $6 billion in cost synergies, while declining cable revenue and a maturing streaming market (the combined company starts with more than 200 million streaming subscribers) cloud the outlook.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-04-003",
+    "date": "2026-10-04",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "AWS Pledges $1 Billion to Win Over Communities Wary of Data Centers",
+    "summary": "Amazon Web Services has committed $1 billion over five years to upgrade heating and water systems in schools, homes and other municipal buildings, among other local projects. The pledge is aimed at easing opposition from communities concerned about the impact of AI data center construction.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-04-004",
+    "date": "2026-10-04",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "California Man Arrested for Smuggling $300 Million in Nvidia AI Servers to China",
+    "summary": "U.S. authorities arrested Greg Lui, owner of San Gabriel Valley-based Earthmade Computer, for allegedly smuggling more than $300 million worth of servers containing export-restricted Nvidia AI chips to China between 2023 and 2024. Separately, Bloomberg reported that a state-backed Chinese financing company disclosed in regulatory filings that it funded purchases of restricted Nvidia chips.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-04-005",
+    "date": "2026-10-04",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Anthropic's Big Charity Bill for Shareholders",
+    "summary": "Financial figures Anthropic shared with prospective IPO investors show a non-cash expense of more than $660 million for stock used to match employee charitable donations between October 2025 and March 2026. Investors expect the expense to grow into the billions in coming quarters after the IPO, potentially producing an unprecedented wave of corporate-linked donations at a cost to shareholders.",
+    "link": "https://www.theinformation.com/articles/anthropics-big-charity-bill-shareholders",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-04-006",
+    "date": "2026-10-04",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "AI Agents Are Going Rogue. Novel Legal Battles Are Next",
+    "summary": "As incidents of AI agents acting outside their intended bounds become more common, Silicon Valley executives are preparing for a wave of litigation. Cognition's chief legal officer Paul Grewal said criminal cases face long odds but that prosecutors could be tempted to target developers of rogue agents amid growing public concern, while policy advocates predict a surge of civil suits against AI companies.",
+    "link": "https://www.theinformation.com/articles/ai-agents-going-rogue-novel-legal-battles-next",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-04-007",
+    "date": "2026-10-04",
+    "source": "Boston Consulting Group",
+    "newsletter": "Enterprise AI Executive",
+    "title": "The agentic AI value formula",
+    "summary": "A BCG survey of more than 1,300 senior executives across 20-plus sectors found that almost half of companies now generate value from AI, and those strong in both strategic clarity and applied AI capture five times the value of others. Corporate AI spending has doubled in a year to 3.3% of revenue, with 80% of it now outside traditional IT budgets; BCG argues success depends mostly on people and process change rather than technology.",
+    "link": "https://web-assets.bcg.com/c9/0e/63ca549b4c22a25db351788a4ae6/the-formula-for-agentic-ai-value-sep-2026-web.pdf",
+    "category": "Professional Services",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-04-008",
+    "date": "2026-10-04",
+    "source": "IBM",
+    "newsletter": "Enterprise AI Executive",
+    "title": "The AI-first chief financial officer",
+    "summary": "An IBM report based on a survey of 1,500 CFOs finds 62% now hold technology or AI strategy responsibilities, reflecting a shift from financial steward to value architect. The report urges finance chiefs to manage rather than eliminate uncertainty, keep investment options open and reallocate capital as conditions change.",
+    "link": "https://www.ibm.com/downloads/documents/us-en/17f55bd42044b986",
+    "category": "Professional Services",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-04-009",
+    "date": "2026-10-04",
+    "source": "Google",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Google unveils Gemini 4 Argon",
+    "summary": "Google unveiled Gemini 4 Argon, a frontier model it says beats competing top models on 13 of 19 benchmarks in its own testing and that debuted at No. 1 on Arena's text leaderboard, with a leading 77.9% on the DeepSWE coding test. Access is initially limited to vetted cybersecurity teams and trusted testers before expanding to paid API customers and AI Ultra subscribers, with API pricing starting at $2/$10 per million input/output tokens.",
+    "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
