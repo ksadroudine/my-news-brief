@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
   <title>My News Brief</title>
   <style>
     /* ── Reset & Base ─────────────────────────────────────────────── */
@@ -24,15 +25,52 @@
       --text-xlight:   #AEAAA6;
       --hl-bg:         #FBF1E7;
       --hl-fg:         #1A1A1A;
+      --input-bg:      rgba(255,255,255,0.7);
+      --input-bg-focus:#FFFFFF;
+      --mark-bg:       #FEF3C0;
+      --shadow:        rgba(0,0,0,0.06);
+      color-scheme: light;
       --font-serif:    Georgia, "Times New Roman", serif;
       --font-sans:     Arial, Helvetica, sans-serif;
       --sidebar-w-min: 220px;
       --sidebar-w-max: 320px;
     }
 
+
+    /* ── Dark mode (follows device setting) ─────────────────────── */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --salmon:        #2A231E;
+        --salmon-mid:    #4A3D33;
+        --salmon-dark:   #E0A070;
+        --main-bg:       #161616;
+        --card-bg:       #1F1F1F;
+        --border:        #3A3836;
+        --border-light:  #2C2A28;
+        --navy:          #8AB4F0;
+        --navy-hover:    #B3CEF7;
+        --text-black:    #EDEBE8;
+        --text-mid:      #D2CFCB;
+        --text-light:    #A19D98;
+        --text-xlight:   #7C7873;
+        --hl-bg:         #2A231E;
+        --hl-fg:         #EDEBE8;
+        --input-bg:      rgba(255,255,255,0.06);
+        --input-bg-focus:#262422;
+        --mark-bg:       #6B5A1E;
+        --shadow:        rgba(0,0,0,0.5);
+        color-scheme: dark;
+      }
+      .cat-pill {
+        background: color-mix(in srgb, var(--pill-fg) 28%, #1F1F1F) !important;
+        color: color-mix(in srgb, var(--pill-fg) 40%, #FFFFFF) !important;
+      }
+    }
+
     html, body { height: 100%; overflow: hidden; }
 
     body {
+      background: var(--main-bg);
       font-family: var(--font-serif);
       color: var(--text-mid);
       font-size: 15px;
@@ -111,7 +149,7 @@
       font-family: var(--font-sans);
       font-size: 12.5px;
       color: var(--text-black);
-      background: rgba(255,255,255,0.7);
+      background: var(--input-bg);
       border: 1px solid var(--salmon-mid);
       border-radius: 2px;
       padding: 7px 10px;
@@ -119,7 +157,7 @@
       margin-bottom: 10px;
     }
     #search-input::placeholder { color: var(--text-xlight); }
-    #search-input:focus { border-color: var(--navy); background: #fff; }
+    #search-input:focus { border-color: var(--navy); background: var(--input-bg-focus); }
 
     /* Time range radio group */
     .range-options { display: flex; flex-direction: column; gap: 2px; }
@@ -150,7 +188,7 @@
       font-family: var(--font-sans);
       font-size: 12px;
       color: var(--text-mid);
-      background: rgba(255,255,255,0.7);
+      background: var(--input-bg);
       border: 1px solid var(--salmon-mid);
       border-radius: 2px;
       padding: 7px 10px;
@@ -352,7 +390,7 @@
       margin-bottom: 10px;
       transition: box-shadow 0.15s ease;
     }
-    .article-card:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.06); }
+    .article-card:hover { box-shadow: 0 2px 10px var(--shadow); }
 
     .card-top {
       display: flex;
@@ -411,7 +449,7 @@
 
     /* ── Mark search matches ─────────────────────────────────────── */
     mark {
-      background: #FEF3C0;
+      background: var(--mark-bg);
       color: inherit;
       border-radius: 1px;
       padding: 0 1px;
@@ -28164,7 +28202,7 @@ function highlight(text, query) {
 
 function pillHtml(cat) {
   const s = CAT_STYLES[cat] || { bg: "#EEE", color: "#444" };
-  return `<span class="cat-pill" style="background:${s.bg};color:${s.color}">${esc(cat)}</span>`;
+  return `<span class="cat-pill" style="--pill-fg:${s.color};background:${s.bg};color:${s.color}">${esc(cat)}</span>`;
 }
 
 /* ================================================================
