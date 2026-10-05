@@ -418,6 +418,15 @@
       "sender": "hello@theinformation.com",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-09-29. Special report format (analytical deep-dive with full plaintext body)."
+    },
+    {
+      "rank": 59,
+      "name": "Wall Street Journal",
+      "newsletter_name": "WSJ Latest in Personal Finance",
+      "domain": "wsj.com",
+      "sender": "access@interactive.wsj.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-10-05."
     }
   ],
   "last_updated": "2026-09-29",

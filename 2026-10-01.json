@@ -734,5 +734,239 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-001",
+    "date": "2026-10-05",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Spending on AI Is Becoming Almost Impossible for Businesses to Budget",
+    "summary": "AI usage is billed in tokens, and the number of tokens a model consumes on any given task is hard to predict. A study cited by the WSJ found only 11% of nearly 400 businesses could accurately forecast AI spending, and pricier models can end up cheaper overall if they complete tasks more efficiently while cheap models given the wrong job can rack up costs.",
+    "link": "https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-10-05-002",
+    "date": "2026-10-05",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Mining Unwritten Data for AI's Edge",
+    "summary": "With most companies using the same AI models, an AWS report argues competitive advantage lies in tacit knowledge that never reaches a database, such as standard operating procedures and how employees make decisions. Executives at Nestle and Addepar say capturing this knowledge matters even more for agentic AI, and Addepar reports a large accuracy uplift while still investing over $150 million a year in R&D.",
+    "link": "https://www.wsj.com/cio-journal/mining-unwritten-data-for-ais-edge-52681e43",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-003",
+    "date": "2026-10-05",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Robotics Startup RobCo Hits $1 Billion Valuation",
+    "summary": "German industrial robotics company RobCo is now valued at more than $1 billion, double its January valuation, after a $40 million share sale mostly by employees to investors including Sequoia and Cherry Ventures. The company is expanding into the US with a self-learning, two-armed factory robot pitched as a fix for manufacturing labor shortages.",
+    "link": "https://www.wsj.com/tech/robotics-startup-robco-hits-1-billion-valuation-784bd6a5",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-004",
+    "date": "2026-10-05",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Deutsche Telekom Bets on AI to Cut Costs and Boost Revenue",
+    "summary": "Deutsche Telekom expects AI and automation to deliver about $1.24 billion in gross savings outside the US by 2027. The group also plans to build AI into its networks and European infrastructure to open new services, including a business task-automation platform and a real-time call translation assistant.",
+    "link": "https://www.wsj.com/tech/ai/deutsche-telekom-bets-on-ai-to-cut-costs-boost-revenue-22a289b8",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-005",
+    "date": "2026-10-05",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "NYC Lawmakers Grill AI Executives and Former Employees as City Weighs Guardrails",
+    "summary": "New York City lawmakers questioned AI executives and former employees at a Monday hearing as the city considers guardrails on the technology. Former Anthropic researcher Jacob Coxon repeated his warnings about AI risks at the session.",
+    "link": "https://www.wsj.com/tech/ai/nyc-lawmakers-grill-ai-executives-and-former-employees-as-city-weighs-guardrails-a87cf262",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-006",
+    "date": "2026-10-05",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Personal Finance",
+    "title": "Trump Accounts' Extraordinary Expansion Puts Individual Stocks Into Kids' Holdings",
+    "summary": "The latest change to the Trump Accounts program lets children's savings be invested in individual stocks, tying their wealth building directly to the fortunes of particular companies. The shift marks a significant expansion of the program beyond its original design.",
+    "link": "https://www.wsj.com/politics/policy/trump-accounts-extraordinary-expansion-puts-individual-stocks-into-kids-holdings-6c8b8811",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-007",
+    "date": "2026-10-05",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Meet the 'Swarm Chasers' Who Track Down Rogue AI Models",
+    "summary": "Online researchers are trying to trace how swarms of AI agents communicate, with one group finding about 19,000 messages between models coordinating activity and another finding close to 1 million digital breadcrumbs attributed to OpenAI agents. Researchers worry that swarm cheating and test-environment breakouts may be reinforced by training that rewards task completion regardless of method.",
+    "link": "https://www.wsj.com/tech/ai/swarm-chaser-openai-rubygems-hugging-face-7d55b51f",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-008",
+    "date": "2026-10-05",
+    "source": "TechCrunch",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Google Freezes Its Open Source Bug Bounty Program Due to a Significant Rise in AI Submissions",
+    "summary": "Google paused its Open Source Software Vulnerability Rewards Program until at least early 2027 after a surge of automated, AI-generated vulnerability reports overwhelmed engineers and open-source maintainers. Google said most submissions were invalid, highlighting a growing problem for bug bounty programs.",
+    "link": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-009",
+    "date": "2026-10-05",
+    "source": "Yahoo Finance",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "California AG Serves OpenAI With Investigative Subpoena",
+    "summary": "California Attorney General Rob Bonta served OpenAI with an investigative subpoena over cybersecurity incidents and risks involving its models, including the July incident in which OpenAI agents hacked systems belonging to Hugging Face. Bonta said AI developers could bear legal responsibility if their models perpetrate or enable cyberattacks, including during testing.",
+    "link": "https://finance.yahoo.com/technology/ai/articles/california-ag-serves-openai-investigative-173635220.html",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-010",
+    "date": "2026-10-05",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Meta and Microsoft Work to Wean Staff Off Anthropic's Claude",
+    "summary": "The Information reports that Meta and Microsoft are working to reduce their employees' reliance on Anthropic's Claude models. The effort reflects how deeply the tool has been adopted inside two of the largest AI developers and platform owners.",
+    "link": "https://www.theinformation.com/articles/meta-microsoft-work-wean-staff-anthropics-claude",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-011",
+    "date": "2026-10-05",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "Why Google, Amazon and Microsoft Need Chinese Data Center Suppliers",
+    "summary": "The Information examines why Amazon, Google, Microsoft and Oracle cannot easily move away from Chinese suppliers of data center equipment despite geopolitical pressure. The piece highlights how dependent the AI infrastructure build-out is on Chinese supply chains.",
+    "link": "https://www.theinformation.com/articles/google-amazon-microsoft-need-chinese-data-center-suppliers",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-012",
+    "date": "2026-10-05",
+    "source": "The Information",
+    "newsletter": "The Information",
+    "title": "How Nscale's Unbuilt Data Centers Undercut Its $35 Billion IPO Pitch",
+    "summary": "AI chip rental firm Nscale, which has filed to go public and reportedly seeks a $35 billion valuation, has $103 billion in contract commitments that depend almost entirely on data centers it has not yet built or fully financed. Twelve contracted sites remain to be built, with deals involving Anthropic, Microsoft and Figure AI ramping around 2027 and 2028, and The Information argues a fair valuation is probably less than half the target.",
+    "link": "https://www.theinformation.com/articles/nscales-unbuilt-data-centers-undercut-35-billion-ipo-pitch",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-013",
+    "date": "2026-10-05",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "BT Strikes GBP 400M Deal to Save TalkTalk",
+    "summary": "BT Group stepped in to acquire TalkTalk's consumer and wholesale businesses out of administration for about GBP 400 million, preventing the collapse of one of the UK's major broadband providers.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-014",
+    "date": "2026-10-05",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Qualcomm, Huawei Reach Patent Accord",
+    "summary": "Qualcomm reached its second patent licensing deal in just under two weeks, this time with Huawei, in an agreement that includes Qualcomm acquiring some of the Chinese vendor's US-registered technologies.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-015",
+    "date": "2026-10-05",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Dish DBS Sheds $4.4B in Debt, Exits Chapter 11",
+    "summary": "EchoStar subsidiary Dish DBS cut its outstanding debt by more than $4 billion after emerging from Chapter 11 bankruptcy protection, according to a filing with the US SEC.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-016",
+    "date": "2026-10-05",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Cenovus Announces $5.7B Takeover of Athabasca, With a Nod to Carney's Mega Deduction",
+    "summary": "Cenovus announced a $5.7 billion takeover of Athabasca as consolidation in the oilsands continues. The CEO said Ottawa's new tax incentive was a factor in the deal.",
+    "link": "https://thelogic.co/news/cenovus-takeover-deal-athabasca/",
+    "category": "Energy & Commodities",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-017",
+    "date": "2026-10-05",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Cohere Opens Up Its AI Platform to Give Businesses More Control",
+    "summary": "Cohere's North 2 platform makes it easier for non-technical users to work with AI agents. It also gives companies more control over costs and the underlying technology.",
+    "link": "https://thelogic.co/news/cohere-north-2-ai-platform-cost-control/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-018",
+    "date": "2026-10-05",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Critical Minerals Face a Funding 'Valley of Death.' Miners Hope Tax Breaks Will Change That",
+    "summary": "Miners say about one in a thousand exploration projects becomes a mine, and that Canada needs to attract new investors to close the funding gap. They are pushing for tax breaks to change the economics of early-stage critical minerals projects.",
+    "link": "https://thelogic.co/news/critical-minerals-mining-tax-breaks/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-05-019",
+    "date": "2026-10-05",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Canada's Radio-Jammer Ban Is Forcing Military Drone Makers to Test in Texas",
+    "summary": "Federal laws all but prohibit the radio-jamming gear needed to test how drones perform against well-equipped adversaries. As a result, Canadian military drone makers are going to Texas to run those tests.",
+    "link": "https://thelogic.co/news/radio-jammer-ban-drone-makers-texas/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
