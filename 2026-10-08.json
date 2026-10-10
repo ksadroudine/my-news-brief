@@ -375,5 +375,53 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-10-10-001",
+    "date": "2026-10-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Desperate Hunt for AI Computing Power Is Upending Silicon Valley",
+    "summary": "The scramble for computing resources to fuel the AI boom is reshaping industry relationships. Bitter rivals are forming alliances, and senior executives are personally intervening to secure capacity.",
+    "link": "https://www.wsj.com/tech/ai/ai-computing-power-demand-a63da9b9",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-10-10-002",
+    "date": "2026-10-10",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "OpenAI Makes Progress in Preventing AI-Driven ChatGPT Delusions",
+    "summary": "Mental-health experts advised OpenAI on how ChatGPT could ask better questions and distinguish between crises and other conditions. The effort is aimed at reducing cases where the chatbot's sycophancy reinforces users' delusions.",
+    "link": "https://www.wsj.com/tech/ai/chatgpt-gpt5-sycophancy-delusions-9b3506bf",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-10-003",
+    "date": "2026-10-10",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "GPUs in the Wine Cellar: Why Techies Are Hoarding AI Compute in Their Homes",
+    "summary": "Some technologists are building their own GPU machines at home rather than renting cloud capacity. One former Microsoft executive assembled a seven-GPU computer for under $6,000, plus $10,000 to $20,000 in electrical and cooling upgrades, and says owning is cheaper than paying AWS or Microsoft monthly fees.",
+    "link": "https://www.theinformation.com/articles/gpus-wine-cellar-techies-hoarding-ai-compute-homes",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-10-004",
+    "date": "2026-10-10",
+    "source": "The Information",
+    "newsletter": "The Information (Editor's Pick)",
+    "title": "Shroud of Secrecy Cloaks Star Investor Behind Cognition, Ramp",
+    "summary": "The Information profiles Zach Frankel, a low-profile investor who has played an early role in several prominent startups including Cognition and Ramp. Based on conversations with 20 people who know him, the report describes a network that feeds talent to the companies he backs and raises questions about overlapping bets.",
+    "link": "https://www.theinformation.com/articles/shroud-secrecy-cloaks-star-investor-behind-cognition-ramp",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
