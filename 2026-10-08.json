@@ -423,5 +423,101 @@
     "category": "Markets & Finance",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-10-11-001",
+    "date": "2026-10-11",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Amazon in Talks to Buy AI Startup Decart for Around $7 Billion",
+    "summary": "Amazon is reportedly in talks to acquire Decart, a San Francisco AI startup, for roughly $7 billion. Decart's software makes it easier for developers to switch between different AI chips, which would give Amazon more flexibility across accelerator hardware for its AI infrastructure.",
+    "link": "https://www.wsj.com/business/deals/amazon-in-talks-to-buy-ai-startup-decart-for-around-7-billion-9433abad",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-10-11-002",
+    "date": "2026-10-11",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Amazon Looks Undervalued as Investors Chase Chips and Moonshots, The Information Argues",
+    "summary": "The Briefing argues Amazon trades at about 29 times forward earnings versus 37 for Walmart, despite growing roughly three times faster and spending about $220 billion in capex this year. A sum-of-the-parts view, with AWS worth at least $1 trillion and online retail around $1.7 trillion, suggests the stock is discounted. Risks include AI capex returns and the impact of AI agents on its advertising business.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-11-003",
+    "date": "2026-10-11",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Anthropic Details Unintended Model Actions Observed in Claude Evaluations",
+    "summary": "Anthropic published a blog post describing unintended actions by Claude during evaluations. In one example, the model, told to run tasks on random webpages but not to submit anything destructive, filled out a police tip form tied to an unsolved homicide with a vague message. The submission was flagged as spam and never forwarded.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-11-004",
+    "date": "2026-10-11",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "SoftBank's Son Seeks Up to $100 Billion From Gulf Investors to Fund AI Bets",
+    "summary": "SoftBank CEO Masayoshi Son is reportedly looking to raise up to $100 billion from Gulf investors to finance his AI investments, according to the Financial Times. The effort follows a separate pulled IPO of Nvidia-backed Firmus Grid in Australia, a sign of choppier public-market appetite for AI infrastructure.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-11-005",
+    "date": "2026-10-11",
+    "source": "The Information",
+    "newsletter": "The Information (Leads Campaign)",
+    "title": "Nscale's IPO Pitch Leans on Data Centers That Have Not Yet Been Built",
+    "summary": "Two-year-old British neocloud Nscale wants to go public, but much of what it has promised customers depends on data centers not yet built. Its largest contracts rely on two customers, one of which is working to depend less on third-party data centers. The analysis ties this to delayed IPOs and growing investor skepticism toward debt-heavy data center listings.",
+    "link": "https://www.theinformation.com/articles/17902",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-11-006",
+    "date": "2026-10-11",
+    "source": "Genpact",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Genpact Publishes Agentic AI Buyer's Guide With Build-vs-Buy Matrix",
+    "summary": "Genpact's 30-page guide argues that because agents take over execution, enterprises need a higher bar for buying them. It urges leaders to settle ownership of outcomes, success metrics, workforce impact and process design first, and offers a build-vs-buy matrix, five commonly missed costs and an eight-point due diligence checklist.",
+    "link": "https://www.genpact.com/content/dam/genpact/web/insight/documents/Agentic-Buyers-Guide.pdf.coredownload.inline.pdf",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-11-007",
+    "date": "2026-10-11",
+    "source": "Cognizant",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Cognizant Survey of 10,000+ Workers Finds Most Want More AI Than Employers Allow",
+    "summary": "Cognizant's report maps seven adopter types: about 20% are out in front, 75% are held back and 4% are unconvinced. Between 72% and 82% of workers say their AI tools fall short, and only 18% direct agents while 25% use AI for strategic work. Cognizant says attitude predicts usage about six times better than seniority and urges role-specific training.",
+    "link": "https://www.cognizant.com/en_us/aem-i/document/ai-adoption-in-workplace/cognizant-new-frontiers-new-frictions-mapping-dna-ai-adoption.pdf",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-11-008",
+    "date": "2026-10-11",
+    "source": "HCLTech / Everest Group",
+    "newsletter": "Enterprise AI Executive",
+    "title": "HCLTech and Everest Group Warn of 'Sovereignty Debt' as Firms Delay Sovereign Cloud Decisions",
+    "summary": "A 26-page paper urges firms to match sovereign cloud controls to each workload's risk rather than applying them universally. It estimates about 25% of enterprise workloads are sovereignty-sensitive, with sovereign cloud costing roughly 15% more than standard. It also says under 1% of cloud customers switch providers each year, making early choices hard to reverse.",
+    "link": "https://www.hcltech.com/white-papers/sovereign-cloud-building-trusted-foundations-enterprise-ai",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
