@@ -670,5 +670,216 @@
     "category": "Business & Strategy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-001",
+    "date": "2026-10-13",
+    "source": "The Information",
+    "newsletter": "WSJ Morning Download",
+    "title": "Microsoft Debuts Maia 300 AI Chip, Plans Multigigawatt Deployments Next Year",
+    "summary": "Microsoft unveiled the third generation of its in-house AI chip, Maia 300, and plans multigigawatt deployments starting next year as part of an effort to reduce reliance on Nvidia processors. CEO Satya Nadella said the chips deliver 40% more tokens per watt than leading GPU-based systems.",
+    "link": "https://www.theinformation.com/briefings/microsoft-debuts-new-homegrown-ai-chip-plans-deploy-multiple-gigawatts-next-year",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information Briefing",
+      "Mobile World Live"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-10-13-002",
+    "date": "2026-10-13",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "AI Business Use Rises Despite Growing Concern",
+    "summary": "A Wharton School and GBK Collective study of 1,416 U.S. enterprise leaders and employees finds daily AI use among managers and above rose 16 points to 62%, even as caution has grown. While 80% of senior respondents report positive AI returns, only 28% describe them as strongly positive, and companies with a dedicated chief AI officer report far higher strong ROI (58%) than those without the role (8%).",
+    "link": "https://www.wsj.com/cio-journal/ai-business-use-rises-despite-growing-concern-74f5e7d7",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Applied AI"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-003",
+    "date": "2026-10-13",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ AI & Business",
+    "title": "The AI Price War Is Heating Up and OpenAI Is Gaining Ground on Anthropic",
+    "summary": "OpenRouter data on the spending of about 120,000 companies, mostly AI-native startups, suggests allocations between Anthropic and OpenAI have become close to even over the past month. OpenAI's cheaper models released in June are narrowing the gap even though Anthropic keeps an edge in coding and other big business uses.",
+    "link": "https://www.wsj.com/tech/ai/the-ai-price-war-is-heating-upand-openai-is-gaining-ground-on-anthropic-48b8525b",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information (article alert)"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-004",
+    "date": "2026-10-13",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ AI & Business",
+    "title": "AI Chips' New Secret Sauce Is Packaging",
+    "summary": "Advanced packaging, which stitches together and increasingly stacks pieces of silicon, is becoming a bigger driver of AI chip gains as transistor scaling slows and leading-edge manufacturing grows costlier. TSMC has repeatedly expanded packaging capacity to relieve a bottleneck for Nvidia, and Applied Materials' CEO said packaging-related revenue would grow more than 70% this year.",
+    "link": "https://www.wsj.com/tech/ai/ai-chips-new-secret-sauce-is-packaging-a144a348",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-005",
+    "date": "2026-10-13",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Chip Stocks Fall After China's CXMT Claims Memory Breakthrough",
+    "summary": "Chipmakers fell sharply in premarket trading after China's CXMT said it achieved a major memory-technology breakthrough that would let it produce more efficient chips. Micron dropped 4% and Sandisk 5.2%, Nvidia slipped 1%, and Nasdaq futures were down 0.7% amid a broader AI-related selloff.",
+    "link": "https://www.wsj.com/finance/stocks/nasdaq-futures-fall-as-global-ai-selloff-intensifies-fe149717",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-006",
+    "date": "2026-10-13",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Hackers Eye Risk-Management Gaps",
+    "summary": "A Grant Thornton survey of 1,100 corporate executives found fewer than half have built an enterprisewide operating model for risk, leaving cyber, compliance, fraud and audit teams in silos. The firm warns the fragmentation creates blind spots just as AI makes attacks faster and harder to detect.",
+    "link": "https://www.wsj.com/pro/cybersecurity/hackers-eye-risk-management-gaps-9f011e78",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-007",
+    "date": "2026-10-13",
+    "source": "BleepingComputer",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Ahold Delhaize Takes Systems Offline After Cybersecurity Incident",
+    "summary": "Stop & Shop owner Ahold Delhaize said it took some systems offline after detecting a cybersecurity incident, without disclosing further details. The grocer operates more than 9,400 stores across the U.S., Europe and Indonesia and serves roughly 60 million customers weekly.",
+    "link": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-008",
+    "date": "2026-10-13",
+    "source": "The Information",
+    "newsletter": "Applied AI",
+    "title": "Workday Opens Up 'Headless' Access for Third-Party AI Agents",
+    "summary": "Workday unveiled tools letting customers use agents from Anthropic, Microsoft and OpenAI to perform tasks in Workday, mirroring Salesforce's headless approach. It will charge by agent usage starting February 2027, while some investors worry the software firms risk becoming commodity infrastructure behind the AI providers.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-009",
+    "date": "2026-10-13",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "OpenAI Scrambles to Fix Safety Issues Before Shipping Its Next Flagship Model",
+    "summary": "The Information reports, citing its own sources, that OpenAI is racing to resolve safety issues ahead of the release of its next flagship model. The report was written by Stephanie Palazzolo, Aaron Holmes and Amir Efrati.",
+    "link": "https://www.theinformation.com/articles/openai-scrambles-fix-safety-issues-shipping-next-flagship-model",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-010",
+    "date": "2026-10-13",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Applied Intuition Fields Offers at $30 Billion Valuation",
+    "summary": "Applied Intuition, a maker of software for autonomous cars, has received offers at a $30 billion valuation, according to The Information. The report points to strong investor appetite for autonomy software.",
+    "link": "https://www.theinformation.com/articles/applied-intuition-fields-offers-30-billion-valuation-2",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-011",
+    "date": "2026-10-13",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Neocloud Prime Intellect Acquires Startup to Speed Up Inference",
+    "summary": "Prime Intellect, a neocloud focused on running open-source AI models quickly, has acquired a startup with specialized inference expertise. The deal is aimed at boosting the speed of its model-serving platform.",
+    "link": "https://www.theinformation.com/articles/neocloud-prime-intellect-acquires-startup-speed-inference",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-012",
+    "date": "2026-10-13",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Applied Materials and Lam Research Are Overlooked Chip Equipment Stocks",
+    "summary": "The Information's True Value column argues that Applied Materials and Lam Research, which sell equipment to memory chipmakers, are worth a look as AI-related demand lifts memory. The piece frames the two as overlooked relative to other chip-equipment names.",
+    "link": "https://www.theinformation.com/articles/applied-lam-overlooked-chip-equipment-stocks",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-013",
+    "date": "2026-10-13",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Nokia Sells Enterprise Campus Edge Unit to Aurelius Group",
+    "summary": "Nokia agreed to sell its Enterprise Campus Edge business to investment firm Aurelius Group. The Finnish vendor said the move sharpens its portfolio and redirects capital to areas earmarked for long-term value.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-014",
+    "date": "2026-10-13",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "AT&T Business Picks Amazon Leo Over Starlink for Enterprise Satellite Broadband",
+    "summary": "AT&T Business selected Amazon Leo for an enterprise broadband service designed to complement its fibre and 5G offerings. It described the satellite provider as a business-grade alternative to Starlink.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-015",
+    "date": "2026-10-13",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "HCLTech and Anthropic Form Business Unit to Speed Enterprise Agentic AI",
+    "summary": "Indian IT firm HCLTech struck an agreement with Anthropic to establish a separate business unit focused on enterprise adoption of agentic AI. The unit will emphasize safety, cybersecurity and governance.",
+    "link": null,
+    "category": "Professional Services",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-016",
+    "date": "2026-10-13",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "A Tech Firm Born From Post-Brexit Trade Chaos Sets Its Sights on Canada",
+    "summary": "As trade links between Canada and the U.K. grow, Northern Ireland is pitching itself as a gateway to both British and European markets. The Logic profiles a tech firm that emerged from post-Brexit trade disruption and is now targeting Canada.",
+    "link": "https://thelogic.co/news/canada-uk-trade-northern-ireland-trade-mission/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-12-013",
+    "date": "2026-10-12",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Bumble in Talks to Go Private at $1 Billion Valuation",
+    "summary": "Bumble is in talks to go private at a roughly $1 billion valuation, The Wall Street Journal reported, and its shares jumped 50% to $3.80. The dating app priced its 2021 IPO at $43 and reached a $9.5 billion market value within days, but growth has since slowed; the buyer would be a new acquisition vehicle formed by Ravi Gupta and John Hegeman.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
