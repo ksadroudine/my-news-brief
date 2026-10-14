@@ -881,5 +881,303 @@
     "category": "Markets & Finance",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-017",
+    "date": "2026-10-13",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Ithaca Holdings to Buy Bumble at $1.3 Billion Valuation",
+    "summary": "Investment firm Ithaca Holdings agreed to buy dating app Bumble at a $1.3 billion valuation, or $6.05 a share, about one-seventh of its IPO price. Bumble's revenue fell 10% last year and 15% in the first half of this year, and it held $154 million in cash against $450 million of debt, which The Information's Martin Peers argues undercuts the deal's AI-driven framing.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-018",
+    "date": "2026-10-13",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Character.AI Files for Bankruptcy After Talent Moves to Google and Disney",
+    "summary": "Character.AI filed for bankruptcy, a late step in the decline of an early AI startup whose investors cashed out in 2024 when Google paid $2.7 billion to license its models. Disney hired its CEO Karandeep Anand as CTO last month and has bid $20 million to license the company's intellectual property in the bankruptcy process.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-13-019",
+    "date": "2026-10-13",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "JPMorgan Blocks External AI Agents From Client Accounts",
+    "summary": "JPMorgan said it is blocking outside AI agents such as Meta's Muse from accessing client accounts, with CEO Jamie Dimon calling it too risky for clients and the bank on the third-quarter earnings call.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-001",
+    "date": "2026-10-14",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Saudi National Charged With Bugging OpenAI Conference Room",
+    "summary": "Federal prosecutors allege an OpenAI engineer, a Saudi national, spent weeks querying internal tools and scouting the building before hiding a thumb-sized recording device in the USB port of a wall-mounted TV in a leadership conference room in late September. OpenAI discovered the device and alerted the FBI, which placed a camera in the room before making an arrest. The room was used for leadership meetings, government briefings and confidential research and product discussions.",
+    "link": "https://www.wsj.com/tech/ai/saudi-national-charged-with-bugging-openais-office-7e960aad",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "The Information Briefing",
+      "Enterprise AI Executive"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-10-14-002",
+    "date": "2026-10-14",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "David's Bridal Uses AI to Power New Strategy",
+    "summary": "David's Bridal is pivoting from selling wedding dresses to serving brides across the full planning process through an AI agent called Pearl and a vendor platform, Pearl Connect, built on its first-party customer data. The company reports a threefold rise in customer engagement and a 26-fold rise in users since launch, with a sub-ten-person engineering team using agentic coding tools and a flat year-over-year budget reallocated to the effort.",
+    "link": "https://www.wsj.com/cio-journal/davids-bridal-uses-ai-to-power-new-strategy-ea39efa3",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-003",
+    "date": "2026-10-14",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "OpenAI Alleges Ex-Employee Took Confidential Files to Apple",
+    "summary": "A new legal filing by OpenAI claims a former employee took confidential files to Apple, including detailed images of an unreleased device. The allegation adds to a run of security and personnel disputes at the AI lab this week.",
+    "link": "https://www.wsj.com/tech/openai-alleges-ex-employee-took-confidential-files-to-apple-71e9e4e3",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-004",
+    "date": "2026-10-14",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "OpenAI Computing Chief to Depart",
+    "summary": "OpenAI's head of computing is leaving, the latest in a series of leadership changes in the company's infrastructure unit. The turnover comes as the company's pace of infrastructure investment increases.",
+    "link": "https://www.wsj.com/tech/ai/openai-computing-chief-to-depart-6ffb7d7e",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-005",
+    "date": "2026-10-14",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "To Get This Job at McKinsey, You'll Need to Survive a Debate With AI First",
+    "summary": "McKinsey is testing an interview format in which some entry-level consulting candidates spend roughly ten minutes in a simulation with an AI avatar playing a client. The firm says the tool, trained on a range of client personalities, tests real-time adaptability rather than rehearsed answers and could make role-play assessments fairer than human interviewers, whose toughness varies.",
+    "link": "https://www.wsj.com/lifestyle/careers/mckinsey-interview-process-ai-7d08a69e",
+    "category": "Professional Services",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-006",
+    "date": "2026-10-14",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "ASML Raises Annual Forecasts for a Third Time on Surging AI Demand",
+    "summary": "ASML lifted its annual sales outlook to between 44 billion and 45 billion euros, up from prior guidance of 43 billion to 45 billion euros. The chip-equipment maker said it is also exploring ways to raise production of its machines as the race to build AI infrastructure drives demand for advanced chips.",
+    "link": "https://www.wsj.com/business/earnings/chip-machine-supplier-asml-boosts-guidance-for-third-time-on-surging-ai-demand-7ea173d9",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-007",
+    "date": "2026-10-14",
+    "source": "Reuters",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "U.S. Dismantles North Korean IT Worker Scheme, Seizing 187 Laptops",
+    "summary": "The Justice Department arrested two Americans accused of helping North Korea run an impostor remote-IT-worker scheme and seized 187 laptops in raids on at least 40 homes in Texas last month. The scheme touched more than 70 U.S. employers and generated about $3 million for the fake workers, with authorities saying such operations help fund Pyongyang's weapons programs.",
+    "link": "https://www.reuters.com/legal/government/doj-arrests-two-seizes-187-devices-north-korean-laptop-farm-crackdown-texas-2026-10-13/",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-008",
+    "date": "2026-10-14",
+    "source": "Claroty",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Hacked French Supermarket Refrigerators Exploited Flaws Disclosed in 2025",
+    "summary": "Hackers who tampered with temperature controls at hundreds of French grocery stores exploited vulnerabilities in Danfoss industrial controllers that were disclosed and patched in 2025, according to Claroty. The flaws allowed temperatures to be raised as high as 120 degrees Fahrenheit, and France's cybersecurity agency warned that campaigns targeting Danfoss, Copeland and Dixell controllers are likely still underway.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-009",
+    "date": "2026-10-14",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Federal Cyber Chief Says Infrastructure Attack Is Inevitable",
+    "summary": "Nick Andersen, acting director of CISA, said another attack on U.S. energy grids, water systems or other critical infrastructure is inevitable and that national security efforts should focus on rapid recovery. He said threats from adversaries armed with advanced AI will worsen, pointing to July's Iran-linked AI-assisted attacks on water facilities, and urged isolating the most vital systems so they can keep operating in a crisis.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-010",
+    "date": "2026-10-14",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "OpenAI's Math Breakthroughs Rattle Cryptography Leaders",
+    "summary": "Leading cryptographers are worried that AI's improving mathematical capabilities, including recent OpenAI results, could undermine the cryptography that underpins internet security. The piece examines how quickly the technique advances could translate into practical attacks on widely used encryption.",
+    "link": "https://www.theinformation.com/articles/openais-math-breakthroughs-rattle-cryptography-leaders",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-011",
+    "date": "2026-10-14",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Inside a TPG-Backed Accounting Firm's Plans for AI and More Acquisitions",
+    "summary": "Investors are betting heavily that AI will transform accounting, and a TPG-backed accounting firm is deploying the technology while continuing to acquire other firms. The article details how the firm is pursuing a combined AI and roll-up strategy.",
+    "link": "https://www.theinformation.com/articles/inside-tpg-backed-accounting-firms-plans-ai-acquisitions",
+    "category": "Professional Services",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-012",
+    "date": "2026-10-14",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "AT&T Strikes $2B Sale to Exit Mexico",
+    "summary": "AT&T agreed to sell its Mexican business to Grupo Televisa and Fintech Holdings in a roughly $2 billion deal. The sale ends a decade-long effort to gain ground in a market dominated by Carlos Slim's America Movil.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-013",
+    "date": "2026-10-14",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Arm Found to Have Breached Qualcomm Licence Agreement",
+    "summary": "A U.S. jury found that Arm breached its long-standing Architectural Licence Agreement with Qualcomm, marking a critical turning point in a high-stakes legal fight between two of the mobile industry's largest players.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-014",
+    "date": "2026-10-14",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Apple Revamps Smart Home Strategy With $299 HomeView",
+    "summary": "Apple expanded its smart home lineup and debuted HomeView, a 7-inch, $299 hub designed for content and home management that can sit on counters or mount on walls. The move is aimed at better competing with Google and Amazon in the smart home market.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-015",
+    "date": "2026-10-14",
+    "source": "Deloitte",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Deloitte: Senior Leaders 32% More Likely to Use Unapproved AI",
+    "summary": "Deloitte reports that 49% of workers using AI rely on unapproved tools, with senior leaders 32% more likely than other employees to do so. Only one in five companies has mature governance for autonomous agents, yet three-quarters plan to deploy them within two years, and the report favours piloting approved personal agents rather than banning them.",
+    "link": "https://www.deloitte.com/global/en/insights/topics/emerging-technologies/personal-ai-agents-at-work.html",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-016",
+    "date": "2026-10-14",
+    "source": "Air Street Capital",
+    "newsletter": "Enterprise AI Executive",
+    "title": "State of AI Report 2026: AI Revenue and Adoption Accelerating",
+    "summary": "Air Street Capital's ninth State of AI Report estimates OpenAI and Anthropic's combined revenue run rate reached about $105 billion by August 2026, up from roughly $30 billion in January. It also finds top-quartile AI-native firms growing at least 172% a year versus 53% for those adding AI to existing software, and that the cost of reaching a given performance level has roughly halved every quarter since 2023.",
+    "link": "https://www.stateof.ai/State-of-AI-Report-2026.pdf",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-017",
+    "date": "2026-10-14",
+    "source": "Coinbase",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Coinbase's Claude-Based Fraud Agent Cuts Fraudulent Transactions 30%",
+    "summary": "Coinbase built a fraud agent on Claude Opus to catch attacks its machine-learning models missed when signals were spread across transactions, cutting fraudulent transactions 30% and fraud value 22% in a live test. The agent reviews only a subset of transactions, can add but not lift blocks, and is projected to save about three times its running cost.",
+    "link": "https://www.coinbase.com/en-gb/blog/part-one-how-coinbase-built-evaluated-and-post-trained-a-fraud-agent",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-018",
+    "date": "2026-10-14",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Tech Firms Want AI Models to Create Better Versions of Themselves",
+    "summary": "AI developers are working toward recursive self-improvement, in which models build more capable successors with little or no human intervention. The Logic's report looks at what that goal means for the labs pursuing it.",
+    "link": "https://thelogic.co/news/recursive-self-improvement-artificial-intelligence/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-019",
+    "date": "2026-10-14",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail",
+    "title": "Globe Maps Canada's Data Centres as Siting Debate Intensifies",
+    "summary": "The Globe launched a daily-updating tool, built with data from Aterio, that maps active, announced and under-construction data centres across Canada, with AI-capable sites starred. One Toronto-area AI campus is planning an expansion drawing up to 60 MW more than its current 10 MW, and Oakville and Mississauga have imposed moratoriums as concerns grow over power, water, noise and home values.",
+    "link": null,
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-020",
+    "date": "2026-10-14",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail",
+    "title": "Founder-Backed H&R REIT Takeover Bid Faces Growing Opposition",
+    "summary": "A founder-backed $3.4-billion takeover bid for H&R REIT is meeting growing opposition ahead of recommendations from key proxy advisory firms that could kill the deal.",
+    "link": null,
+    "category": "Real Estate",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-14-021",
+    "date": "2026-10-14",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail",
+    "title": "Lightspeed Commerce Cutting 250 Roles",
+    "summary": "Montreal-based Lightspeed Commerce is cutting 250 roles through a combination of layoffs and vacancies that will not be filled.",
+    "link": null,
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
