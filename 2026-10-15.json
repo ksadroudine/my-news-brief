@@ -483,5 +483,213 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-001",
+    "date": "2026-10-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Nvidia-Backed Startup doubleAI Launches Model to Pare Cost of Compute",
+    "summary": "DoubleAI, co-founded by Mobileye's Amnon Shashua, is launching what it calls a new category of AI, 'code execution models,' that run inside live programs to use existing hardware more efficiently. The company says it cut one early customer's compute costs by 67% and has raised $220 million from investors including Lightspeed, Bessemer, Nvidia and Dell.",
+    "link": "https://www.wsj.com/cio-journal/nvidia-backed-startup-doubleai-launches-model-to-pare-cost-of-compute-b780f215",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Latest in Artificial Intelligence"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-10-19-002",
+    "date": "2026-10-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Jamie Dimon Tells Leaders to Ramp Up Cyber Defenses",
+    "summary": "JPMorgan Chase CEO Jamie Dimon said cybersecurity is now the bank's biggest risk 'by far' following the arrival of powerful AI models such as Anthropic's Mythos-based systems. He urged companies to start immediately on network segmentation, identity and access management, and AI-driven vulnerability scanning, and flagged critical infrastructure and vendor supply chains as particular weak points.",
+    "link": "https://www.wsj.com/cio-journal/jamie-dimon-tells-leaders-to-ramp-up-cyber-defenses-04ac235f",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-003",
+    "date": "2026-10-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Heard on the Street",
+    "title": "The Weak Points in AI Bonds Are Becoming Clearer",
+    "summary": "Traders are identifying where they see the biggest pitfalls in debt issuance tied to artificial intelligence, as investor pressure mounts on heavily indebted AI infrastructure firms. The column highlights growing scrutiny of the credit structures financing the AI build-out.",
+    "link": "https://www.wsj.com/finance/investing/the-weak-points-in-ai-bonds-are-becoming-clearer-12f09cc6",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-004",
+    "date": "2026-10-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Temu Pays $3 Million to Settle Data Privacy Case in Texas",
+    "summary": "Temu agreed to pay $3 million to resolve Texas allegations that it shared residents' data with the Chinese government, without admitting wrongdoing. The settlement requires Texans' data to be stored on U.S. servers and the shopping apps to undergo annual third-party security testing, and similar suits in Missouri, Arizona and other states remain pending.",
+    "link": "https://www.wsj.com/pro/cybersecurity/temu-pays-3-million-to-settle-data-privacy-case-in-texas-2ea4a286",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-005",
+    "date": "2026-10-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Cybersecurity Stocks Fall 16.4% in a Week as AI Cyber Fears Mount",
+    "summary": "The WSJ Pro CyberIndex fell 16.4% for the week, with Okta down more than 20% and Cloudflare, Palo Alto Networks and SentinelOne each losing more than 17%; only Leidos finished higher. Separately, the G-7 agreed to run joint exercises to prepare for AI-powered cyberattacks, possibly including global banks.",
+    "link": "https://www.wsj.com/pro/cybersecurity/data/cyberindex",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-006",
+    "date": "2026-10-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Former OpenAI Worker Accused of Bugging Discussed Jobs With Saudi Royal",
+    "summary": "In a detention filing, prosecutors argue that Abdulrahman Alfozan, a former OpenAI worker accused of bugging, is a flight risk because his wife and child have moved permanently to Saudi Arabia. The filing says he discussed jobs with a Saudi royal.",
+    "link": "https://www.wsj.com/tech/ai/former-openai-worker-accused-of-bugging-discussed-jobs-with-saudi-royal-277c1c45",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-007",
+    "date": "2026-10-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "U.A.E.-Based AI and Data Startup Expands Into Silicon Valley",
+    "summary": "CNTXT AI, which raised $60 million in June, is opening a Silicon Valley presence. The startup has built Arabic-first AI models and is training robots.",
+    "link": "https://www.wsj.com/cio-journal/u-a-e-based-ai-and-data-startup-expands-into-silicon-valley-f6e54c1e",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-008",
+    "date": "2026-10-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "What to Know About the Obscure Private Trust Looming Over Anthropic's IPO",
+    "summary": "Ahead of its IPO, Anthropic has shared few details about the dynamics of a five-person trust that is empowered to shape its board and block major moves. The structure raises governance questions for prospective public investors.",
+    "link": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-009",
+    "date": "2026-10-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Quantinuum Reports Error-Correction Milestone, Targets Fault-Tolerant Quantum by 2029",
+    "summary": "Quantinuum said it reached a technical milestone addressing qubits' tendency to produce errors from tiny environmental disturbances. The company says this puts it on a path to fully accurate, reliable quantum computers by 2029.",
+    "link": "https://www.wsj.com/tech/quantinuum-sees-path-to-fault-tolerant-quantum-computing-by-2029-with-new-milestone-9daa6b07",
+    "category": "Science & Health",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-010",
+    "date": "2026-10-19",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "How DeepSeek Is Shaping Huawei's AI Chips in a Growing Challenge to Nvidia",
+    "summary": "The Information reports that China's DeepSeek is quietly influencing the design of Huawei's AI chips, in what it describes as a growing challenge to Nvidia. The piece, by Qianer Liu and Juro Osawa, points to deepening ties between Chinese AI labs and domestic chipmakers.",
+    "link": "https://www.theinformation.com/articles/deepseek-shaping-huaweis-ai-chips-growing-challenge-nvidia",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-011",
+    "date": "2026-10-19",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Anthropic Readies Model That Reads Users' Intentions Better",
+    "summary": "The Information reports that Anthropic is preparing to release a model that shows better intuition about what users intend. The article is by Stephanie Palazzolo.",
+    "link": "https://www.theinformation.com/articles/anthropic-readies-model-reads-users-intentions-better",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-012",
+    "date": "2026-10-19",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Pentagon's Emil Michael Vows Export Controls if AI Labs Don't Cooperate With Government",
+    "summary": "In an interview with The Information, Pentagon official Emil Michael vowed to use export controls on AI labs that do not cooperate with the government. The remarks signal a harder line on how U.S. national security agencies intend to deal with frontier AI developers.",
+    "link": "https://www.theinformation.com/articles/pentagons-emil-michael-vows-export-controls-ai-labs-cooperate-government",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-013",
+    "date": "2026-10-19",
+    "source": "The Information",
+    "newsletter": "The Information Editor's Pick",
+    "title": "How Microsoft's New Office Chief Fixed Copilot and Won Over Nadella",
+    "summary": "Charles Lamanna convinced Satya Nadella in 2025 to pay for Anthropic's models to fix a buggy Copilot, a pitch he called 'heresy' at the time. Copilot's corporate users have since more than doubled to over 30 million, and Lamanna's organization has grown to roughly 25,000 people spanning Copilot, Office and Teams, with some senior executives viewing him as a potential Nadella successor.",
+    "link": "https://www.theinformation.com/articles/microsofts-new-office-chief-fixed-copilot-won-nadella",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-014",
+    "date": "2026-10-19",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "European Operators Confirm Satellite Spectrum Move",
+    "summary": "Deutsche Telekom, Orange, Telefonica and Vodafone signed a letter of intent to explore a joint bid for future Mobile Satellite Services spectrum. The move is part of efforts to advance direct-to-device connectivity in Europe.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-015",
+    "date": "2026-10-19",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Report Finds Telco Jobs Fall as Labour Costs Rise",
+    "summary": "Global telecom employment fell 2.1% year on year in the second quarter of 2026, according to MTN Consulting, extending a decline that dates back to 2016. The report notes labour costs are rising even as headcount shrinks.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-016",
+    "date": "2026-10-19",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Apple iPhone Duo Delivery Dates Slip Into 2027",
+    "summary": "Apple's first foldable smartphone hit a supply crunch within minutes of preorders opening, with delivery estimates for the iPhone Duo slipping into January 2027.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-19-017",
+    "date": "2026-10-19",
+    "source": "GSMA Intelligence",
+    "newsletter": "GSMA Intelligence",
+    "title": "Starlink Connectivity Revenue Up 66% to $4.3 Billion, GSMA Satellite Tracker Finds",
+    "summary": "GSMA Intelligence's Q3 2026 satellite and non-terrestrial networks tracker cites SpaceX's Q2 results showing Starlink connectivity revenue up 66% year on year to $4.3 billion. It says spectrum access, regulatory alignment and operator integration are becoming more important in the competitive landscape.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]

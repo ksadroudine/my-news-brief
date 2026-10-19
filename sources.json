@@ -435,8 +435,33 @@
       "domain": "bloomberg.com",
       "auto_discovered": true,
       "note": "Auto-added 2026-10-06; appeared as primary source of an item relayed in WSJ Morning Download."
+    },
+    {
+      "rank": 61,
+      "name": "The Information",
+      "newsletter_name": "The Information Finance",
+      "domain": "theinformation.com",
+      "sender": "hello@theinformation.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-10-09. Wednesday finance newsletter article alert."
+    },
+    {
+      "rank": 62,
+      "name": "GSMA Intelligence",
+      "newsletter_name": "GSMA Intelligence",
+      "domain": "gsmaintelligence.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-10-19. Weekly digest from reply@email.gsmaintelligence.com (telecom intelligence reports, podcasts, events). Link tracking only; link=null."
+    },
+    {
+      "rank": 63,
+      "name": "The Information",
+      "newsletter_name": "The Information Editor's Pick",
+      "domain": "theinformation.com",
+      "auto_discovered": true,
+      "note": "Auto-discovered 2026-10-19. Founder letter from hello@theinformation.com (subject 'Editor's Pick: ...') promoting one article."
     }
   ],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-10-19",
   "notes": "Sources below rank 5 are auto-discovered from the inbox. New sources are appended to other_sources with a rank of 6+ and trigger a post-run review prompt. The Logic (rank 5) is prioritized over The Globe and Mail (rank 6) per user preference set 2026-05-13."
 }
