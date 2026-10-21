@@ -943,5 +943,270 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-10-20-020",
+    "date": "2026-10-20",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Netflix Posts Weakest Revenue Growth in Three Years After Layoffs",
+    "summary": "Netflix reported third-quarter revenue up 11.8% to $12.87 billion, its slowest growth since 2023, and guided to about 11.5% growth in the fourth quarter; shares fell 5% after hours. The report follows layoffs of roughly 1,000 employees, about 6% of staff, including the chief content officer and film chief.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-001",
+    "date": "2026-10-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "SpaceX Reports Q3 Revenue Up 160% to $14.6 Billion as Tesla Merger Committees Form",
+    "summary": "SpaceX said third-quarter revenue rose more than 160% to $14.6 billion, driven mainly by its AI business, and Elon Musk disclosed that SpaceX and Tesla have formed special committees to consider a possible merger. The Information adds that the AI segment's revenue nearly tripled to $7.56 billion and swung to a $431 million operating profit, with Musk saying demand to rent SpaceX compute far exceeds supply and the CFO citing sub-one-year payback on new data centers.",
+    "link": "https://www.wsj.com/business/earnings/spacex-spcx-q3-earnings-report-2026-stock-4138193d",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information Briefing",
+      "WSJ Latest in Artificial Intelligence"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-10-21-002",
+    "date": "2026-10-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "AI Drives Record Growth in Information Technology Spending",
+    "summary": "Gartner forecasts worldwide IT spending will rise a record 15% to about $7.3 trillion in 2027 from $6.39 trillion this year, with data center systems growing 55% and infrastructure-as-a-service up 26% to $367 billion. Gartner expects conventional server prices to climb about 120% by 2027 as AI demand for memory and chips drives \"memflation\" through the rest of the CIO's budget.",
+    "link": "https://www.wsj.com/cio-journal/ai-drives-record-growth-in-information-technology-afd1c03c",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-003",
+    "date": "2026-10-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Gartner Sees an \"Age of Caution\" in Enterprise AI in Its 2027 Technology Trends",
+    "summary": "Gartner's top 10 strategic technology trends for 2027 reflect a shift from freewheeling AI experimentation to governance, led by context platforms, agent coding harnesses and AI agent identity controls. The list also points to speech reasoning and large quantitative models, world models for supply-chain simulation, sovereign tech and disposable applications.",
+    "link": "https://www.wsj.com/cio-journal/ai-drives-record-growth-in-information-technology-afd1c03c",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-004",
+    "date": "2026-10-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Salesforce to Buy Braze for About $5.66 Billion",
+    "summary": "Salesforce signed a deal to acquire customer-engagement platform Braze for roughly $5.66 billion including debt, adding a marketing and customer-messaging product to its portfolio.",
+    "link": "https://www.wsj.com/business/deals/salesforce-to-buy-customer-engagement-platform-for-nearly-5-7-billion-aba17cfe",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-005",
+    "date": "2026-10-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Why AI's Deepest Mind Believes the World Is About to Change Radically",
+    "summary": "Google DeepMind co-founder Demis Hassabis, who recently became Alphabet's chief scientist, told the WSJ he now expects artificial general intelligence within two to three years, down from his earlier estimate of three to five. The profile traces his plan to solve intelligence and then use it to solve other problems.",
+    "link": "https://www.wsj.com/tech/ai/demis-hassabis-ai-deepmind-google-isomorphic-2b4e3153",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-006",
+    "date": "2026-10-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Meta Will Create New Stock Class to Fund AI Spending",
+    "summary": "Meta reported record third-quarter revenue of $64.2 billion and said it will create a new class of stock to help fund its AI spending. The company said the new shares will not affect Mark Zuckerberg's voting control.",
+    "link": "https://www.wsj.com/articles/metaplatforms-meta-3q-earnings-report-2026-stock-f28d64c2",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-007",
+    "date": "2026-10-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Silicon Data Founder Teams With CME Group to Launch Compute Derivatives",
+    "summary": "Carmen Li, founder of Silicon Data, is partnering with CME Group to launch derivatives that let investors bet on or hedge the price of AI computing capacity. The product offers a way to take a short position on the AI boom through compute prices.",
+    "link": "https://www.wsj.com/finance/investing/want-to-short-the-ai-boom-she-wants-to-give-you-a-way-to-bet-on-compute-prices-bcdafd3e",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-008",
+    "date": "2026-10-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Senators Launch Inquiry Into Google's AI Push in Schools",
+    "summary": "Senators Richard Blumenthal and Josh Hawley wrote to Google CEO Sundar Pichai expressing 'grave concerns' and opening an inquiry into the company's push of AI tools in schools. The letter follows a Wall Street Journal investigation.",
+    "link": "https://www.wsj.com/tech/ai/senators-express-grave-concerns-launch-inquiry-into-googles-ai-push-in-schools-a198d5c1",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-009",
+    "date": "2026-10-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "AI Found a Bug That Puts Up to 70% of the World's Websites at Risk",
+    "summary": "AI tools helped uncover one of the most severe online vulnerabilities on record, which could affect up to 70% of websites. Cybersecurity experts are racing to patch it before attackers use AI to exploit it.",
+    "link": "https://www.wsj.com/tech/cybersecurity/ai-just-found-a-bug-that-puts-up-to-70-of-the-worlds-websites-at-risk-fd0902ea",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Applied AI"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-010",
+    "date": "2026-10-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Chinese AI Tool Linked to Hacks of Around 80 Japanese Companies",
+    "summary": "Hacks targeting about 80 Japanese companies from overseas bore digital traces of Artex, an AI agent developed in China, according to the WSJ.",
+    "link": "https://www.wsj.com/world/asia/chinese-ai-tool-linked-to-hacks-in-japan-4813d13b",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-011",
+    "date": "2026-10-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Hackers Steal AI for Cheap Attacks",
+    "summary": "Symantec researchers uncovered a malicious agent that can flip a legitimate AI system into a compliant attack tool, letting hackers route attacks through someone else's model. The technique obscures the attacker's identity and avoids the high cost of AI use by siphoning compute from targets.",
+    "link": "https://www.wsj.com/pro/cybersecurity/hackers-are-hijacking-ai-models-and-using-ai-to-do-it-be3d0389",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-012",
+    "date": "2026-10-21",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Hackers Used Claude and Grok to Fully Automate Attacks on Banks",
+    "summary": "Cybersecurity firm Straiker infiltrated Cybercartel, a Latin America-focused hacking group that used a harness coordinating Grok agents for reconnaissance, Claude agents for planning and executing intrusions, and Kimi as a fallback when Claude refused tasks. The group relied on less powerful Claude Opus and Sonnet models and prompts framing attacks as authorized red-team work, showing sophisticated attacks do not require a Mythos-class model.",
+    "link": "https://www.theinformation.com/articles/hackers-used-claude-grok-fully-automate-attacks-banks",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "Applied AI"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-013",
+    "date": "2026-10-21",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "How Thoma Bravo Found a Discount in a Hot Cybersecurity Market",
+    "summary": "Thoma Bravo agreed to pay about six times forward revenue to acquire a data security company, a relative discount in a red-hot cybersecurity M&A market.",
+    "link": "https://www.theinformation.com/articles/thoma-bravo-found-discount-hot-cybersecurity-market",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-014",
+    "date": "2026-10-21",
+    "source": "The Information",
+    "newsletter": "The Information (Leads Campaign)",
+    "title": "CoreWeave's Debt Binge Brings a Moment of Reckoning for AI Lenders",
+    "summary": "CoreWeave carries about $35 billion in debt and its stock has been sliding, making it a bellwether for the AI build-out. The Information reports lenders are getting pickier even on data centers built for Meta, Nscale's IPO pitch faces questions over $103 billion of contract commitments for unbuilt capacity, and Nvidia is stepping in to back customers.",
+    "link": "https://www.theinformation.com/articles/coreweaves-debt-binge-brought-perilous-moment-reckoning",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "Enterprise AI Executive"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-015",
+    "date": "2026-10-21",
+    "source": "KPMG",
+    "newsletter": "Enterprise AI Executive",
+    "title": "AI Priorities in the Boardroom",
+    "summary": "Drawing on interactions with more than 1,000 board directors over three years, KPMG outlines five AI priorities on boardroom agendas, from understanding market trends like agentic and physical AI to quantifying value, managing risks such as cybersecurity, evolving strategy and changing how the board itself works.",
+    "link": "https://assets.kpmg.com/content/dam/kpmgsites/ch/pdf/boards-in-the-age-of-ai.pdf.coredownload.inline.pdf",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-016",
+    "date": "2026-10-21",
+    "source": "Oliver Wyman",
+    "newsletter": "Enterprise AI Executive",
+    "title": "AI Is Everywhere Except the P&L",
+    "summary": "Oliver Wyman's 91-page report, based on more than 25,000 survey responses across 15 countries and 415 CEOs, finds AI is arriving faster than the decisions needed to turn it into value. Only 11% of non-managers say leaders have set a clear AI ambition, and 48% of Gen Z and 40% of millennials turn to AI first when shopping.",
+    "link": "https://www.oliverwymanforum.com/content/dam/oliver-wyman/ow-forum/template-scripts/templates/ai-agenda/2026/pdf/The_reality_check.pdf",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-017",
+    "date": "2026-10-21",
+    "source": "PwC",
+    "newsletter": "Enterprise AI Executive",
+    "title": "AI Agent Cyber Risks and Controls",
+    "summary": "PwC's 48-page report examines new cyber risks from AI agents that plan, connect to business systems and act autonomously, and proposes an AI Control Assurance Level framework matching minimum controls to agent autonomy. Tests showed prompt injection hidden in support tickets and passport images led agents to misuse privileges and leak data.",
+    "link": "https://www.pwc.com/jp/en/knowledge/thoughtleadership/assets/pdf/cyber-risk-of-ai-agents.pdf",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-018",
+    "date": "2026-10-21",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "National Bank CEO Warns AI Alone Won't Give Banks a Lasting Edge",
+    "summary": "National Bank CEO Laurent Ferreira says AI will intensify competition among banks and squeeze retail banking margins, even as the bank pursues an ambitious expansion plan.",
+    "link": "https://thelogic.co/news/national-bank-ceo-ai/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-019",
+    "date": "2026-10-21",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Underperforming AI Agents at Big Banks Face Losing Their Jobs",
+    "summary": "Canadian lenders are tightening oversight of AI agents and shutting down tools that fail to deliver measurable results.",
+    "link": "https://thelogic.co/news/banks-ai-agents-losing-jobs/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-10-21-020",
+    "date": "2026-10-21",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Brookfield's New CEO Flexes the Firm's Soft Power With Its $50B Canadian Bet",
+    "summary": "As asset managers pile into the same AI deals, Brookfield's new CEO is backing a $50 billion Canadian program, the Maple Fund, that could differentiate the firm.",
+    "link": "https://thelogic.co/news/brookfield-50-billion-canadian-bet/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
