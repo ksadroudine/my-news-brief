@@ -1064,5 +1064,17 @@
     "also_covered_by": [],
     "priority_pick": false,
     "id": "2026-10-28-021"
+  },
+  {
+    "id": "2026-10-28-022",
+    "date": "2026-10-28",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Google Cloud Closes In",
+    "summary": "Google Cloud revenue more than doubled to over $30 billion in the September quarter, nearly matching Azure's $33 billion (up 48%), helped by sales of Google's TPU chips. Alphabet's stock fell about 10% after hours on weak search ad growth of 12%, while Microsoft rose about 3% despite no longer disclosing Copilot paid-user counts.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
