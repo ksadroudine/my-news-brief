@@ -468,8 +468,32 @@
       "domain": "techcrunch.com",
       "auto_discovered": true,
       "note": "Auto-added 2026-10-23; primary source of an item relayed in WSJ Pro Cybersecurity."
+    },
+    {
+      "rank": 65,
+      "name": "The Telegraph",
+      "newsletter_name": "The Telegraph",
+      "domain": "telegraph.co.uk",
+      "auto_discovered": true,
+      "note": "Auto-added 2026-10-26; primary source of an item relayed in WSJ Pro Cybersecurity."
+    },
+    {
+      "rank": 66,
+      "name": "Reuters",
+      "newsletter_name": "Reuters",
+      "domain": "reuters.com",
+      "auto_discovered": true,
+      "note": "Auto-added 2026-10-26; primary source of an item relayed in WSJ Pro Cybersecurity."
+    },
+    {
+      "rank": 67,
+      "name": "The Japan Times",
+      "newsletter_name": "The Japan Times",
+      "domain": "japantimes.co.jp",
+      "auto_discovered": true,
+      "note": "Auto-added 2026-11-03; primary source of an item relayed in WSJ Pro Cybersecurity."
     }
   ],
-  "last_updated": "2026-10-23",
+  "last_updated": "2026-11-03",
   "notes": "Sources below rank 5 are auto-discovered from the inbox. New sources are appended to other_sources with a rank of 6+ and trigger a post-run review prompt. The Logic (rank 5) is prioritized over The Globe and Mail (rank 6) per user preference set 2026-05-13."
 }
