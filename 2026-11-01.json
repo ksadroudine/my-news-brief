@@ -745,5 +745,281 @@
     "category": "Business & Strategy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-001",
+    "date": "2026-11-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Democratic Wave Changes AI Policy Calculus",
+    "summary": "Democratic gains in Congress and governorships make federal and state AI and data-center regulation more plausible, a shift from the prevailing assumption that Congress would produce nothing. Analyst Dan Ives expects the planned build-out of 800 to 1,000 U.S. data centers to slow, with Texas, which hosts an estimated 25% to 30% of capacity, most exposed after Democrat Gina Hinojosa unseated Greg Abbott. Incoming governors in Ohio and Georgia have also backed data-center moratoriums, and The Information counts 12 governor races won or led by candidates favouring pauses.",
+    "link": "https://www.wsj.com/cio-journal/democratic-wave-changes-ai-policy-calculus-bec0ffe5",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "The Information (article alert)",
+      "The Logic Briefing",
+      "The Logic"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-11-04-002",
+    "date": "2026-11-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "AMD Beats Sales Expectations at $13.4 Billion as Data-Center GPUs Reach 64% of Revenue",
+    "summary": "AMD reported $13.4 billion in third-quarter sales, ahead of Wall Street expectations, with data-center GPU sales rising to 64% of revenue from 47% a year earlier. Super Micro Computer separately reported a near-fourfold revenue increase and a fiscal first-quarter profit of $1.59 billion versus $168.3 million a year earlier, underscoring continued AI infrastructure spending.",
+    "link": "https://www.wsj.com/business/earnings/advancedmicrodevices-amd-thirdquarter-earnings-report-2026-stock-e186e911",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-003",
+    "date": "2026-11-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "HP Hires Former GSK Chief Emma Walmsley as Next CEO",
+    "summary": "HP has named Emma Walmsley, who led GSK from April 2017 to the end of 2025, as its next chief executive. Interim CEO Bruce Broussard, who stepped in in February 2026 when Enrique Lores left for PayPal, will become board chair succeeding Chip Bergh.",
+    "link": "https://www.wsj.com/tech/hp-taps-former-gsk-executive-emma-walmsley-as-next-ceo-18165d93",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-004",
+    "date": "2026-11-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "U.K. Cyber Agency Warns Russia and China Will Routinely Use AI in Attacks",
+    "summary": "The U.K.'s National Cyber Security Centre said in its annual review that Russia and China will start using AI routinely in cyberattacks and that an AI-powered ransomware attack on critical national infrastructure is likely between now and 2028. It expects faster and larger attacks against the country over the next two years.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-005",
+    "date": "2026-11-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Cyber Investors Put Money Into Tech to Keep AI Agents In Check",
+    "summary": "Cybersecurity startup Sentra, which helps companies keep AI agents under control, raised $150 million at a valuation above $260 million. The round reflects growing concern that AI agent behaviour must be policed and explainable for auditors and regulators, a theme The Information also tracked in its look at security startups targeting rogue agents.",
+    "link": "https://www.wsj.com/pro/cybersecurity/cyber-investors-put-money-into-tech-to-keep-ai-agents-in-check-51a041b1",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information (article alert)"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-006",
+    "date": "2026-11-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Hackers Crank Up the Heat on Europe's Supermarket Freezers",
+    "summary": "A wave of apparent cyberattacks that raised supermarket freezer temperatures above 120 degrees has now spread to at least six more European countries, prompting investigations across the continent. Ahold Delhaize reported an IT incident affecting dozens of stores and IKEA a cyber incident at a Belgian store, while Censys counted more than 800 still-vulnerable Danfoss refrigeration systems, 41 of them in the U.S.",
+    "link": "https://www.wsj.com/tech/cybersecurity/hackers-crank-the-heat-on-europes-supermarket-freezers-to-above-120-degrees-73597a8a",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-007",
+    "date": "2026-11-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "North Korea Denies Role in $6.3 Billion Binance Hack as Exchange Publishes Its Account",
+    "summary": "Kim Yo Jong called the claim of North Korean responsibility for the $6.3 billion Binance hack absurd, in what analysts see as an effort to push back on depictions of the regime as a rogue state. Binance published a detailed account saying attackers combined fake recruitment interviews, malicious downloads, compromised internal AI tooling, endpoint compromise and an advanced transaction-authorisation method; The Information reported an engineer unknowingly downloaded malicious code for a fictitious job interview.",
+    "link": "https://www.wsj.com/world/asia/eager-to-rebut-rogue-nation-image-north-korea-denies-role-in-binance-heist-a46659c6",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-008",
+    "date": "2026-11-04",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Heard on the Street",
+    "title": "How Beer Companies Stole Happy Hour From Liquor Brands",
+    "summary": "Heard on the Street argues that Diageo and Pernod Ricard missed the cocktails-in-a-can craze and that investors are paying the price as beer companies capture occasions once held by spirits brands.",
+    "link": "https://www.wsj.com/business/retail/how-beer-companies-stole-happy-hour-from-liquor-brands-342e96c7",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-009",
+    "date": "2026-11-04",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Apollo Is Vastly Outspending the Neoclouds on AI Chips",
+    "summary": "Apollo is poised to control about $75 billion worth of AI chips, giving the investment giant a larger stockpile than any neocloud, according to The Information's Dakin Campbell. The report highlights how private-credit and alternative asset managers are becoming major owners of AI compute.",
+    "link": "https://www.theinformation.com/articles/apollo-vastly-outspending-neoclouds-ai-chips",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-010",
+    "date": "2026-11-04",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "Toronto Chatbot Firm Ada to Merge With U.S. Company Dialpad",
+    "summary": "Ada, which makes AI agents that answer customer questions and issue refunds, will combine with business phone and support software provider Dialpad; terms were not disclosed. The Globe and Mail reported the all-share deal values Ada at about $600 million, down from US$1.2 billion after raises in 2020 and 2021. Dialpad CEO Craig Walker will lead the combined company.",
+    "link": "https://thelogic.co/briefing/toronto-chatbot-firm-ada-to-merge-with-u-s-company-dialpad/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-011",
+    "date": "2026-11-04",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "Cenovus Energy Joins Canada's Million-Barrel Club",
+    "summary": "Cenovus averaged 1,024,000 barrels of oil equivalent per day in the third quarter, up more than 50,000 from the prior quarter, becoming the second Canadian producer after Canadian Natural to pass one million. Production should rise further with its $5.7 billion Athabasca Oil acquisition expected to close in December, while a wide Canadian heavy-oil discount to U.S. crude squeezes realized prices but helps refining margins.",
+    "link": "https://thelogic.co/briefing/cenovus-energy-joins-canadas-exclusive-million-barrel-club/",
+    "category": "Energy & Commodities",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-012",
+    "date": "2026-11-04",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "Suncor More Than Doubles Q3 Profit to $3.8 Billion on Refining Returns",
+    "summary": "Suncor's third-quarter net earnings rose 136% to $3.8 billion from $1.6 billion a year earlier, driven by sharply higher gasoline and diesel refining margins. CEO Rich Kruger welcomed Ottawa's new Productivity Mega Deduction but said more is needed before producers commit to major new oilsands projects, with industry seeking royalty concessions ahead of a federal-Alberta agreement targeted for Nov. 15.",
+    "link": "https://thelogic.co/briefing/suncor-more-than-doubles-q3-profit-to-3-8b-amid-booming-returns-from-refining/",
+    "category": "Energy & Commodities",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-013",
+    "date": "2026-11-04",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "Fairfax Stock Rises on Earnings Beat as It Prepares for Global Bank Takeover",
+    "summary": "Fairfax reported a 19% year-over-year drop in third-quarter shareholder earnings but a US$929.6 million profit that beat the $858.3 million analysts expected, and its shares rose more than 10% in Toronto. The insurer says it is soundly financed with US$1.9 billion of cash and US$2 billion of undrawn credit as it funds the $7.9 billion IDBI Bank stake and a US$2.3 billion stake in Boots.",
+    "link": "https://thelogic.co/briefing/fairfax-stock-rises-on-earnings-beat-as-it-prepares-for-global-bank-takeover/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-014",
+    "date": "2026-11-04",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "Ottawa Moves to Ban Transfer Fees for Switching Banks",
+    "summary": "The Department of Finance released draft regulations to stop banks charging fees, typically $150, when customers move investment accounts to another institution, delivering on a 2025 budget promise. About 90% of transfers go to challenger firms such as Wealthsimple, many of which reimburse the fees; no in-force date has been set and the Financial Consumer Agency of Canada would enforce the ban.",
+    "link": "https://thelogic.co/briefing/ottawa-moves-to-ban-transfer-fees-for-switching-banks/",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-015",
+    "date": "2026-11-04",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "Finance Partly Walks Back Proposed Ban on Crypto ATMs",
+    "summary": "Federal legislation introduced Tuesday would let operators run crypto ATMs if they hold a provincial licence, replacing a proposed outright ban. Licensed operators must verify user ID, report every transaction to Fintrac within 15 days and cap daily transactions at $1,000, and unlicensed operation becomes an offence 18 months after royal assent; only Quebec currently has a licensing regime.",
+    "link": "https://thelogic.co/briefing/finance-partly-walks-back-proposed-ban-on-crypto-atms/",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-016",
+    "date": "2026-11-04",
+    "source": "Deloitte",
+    "newsletter": "Enterprise AI Executive",
+    "title": "The State of AI in the Enterprise",
+    "summary": "Deloitte's survey of 3,500 senior leaders across 25 countries finds 81% report faster decisions from AI but only 25% are deeply transforming their business, down from 34% in January. While 28% now report AI-driven revenue gains (up from 20%), only 44% track per-unit inference cost and 23% say accountability for negative AI outcomes is unclear.",
+    "link": "https://www.deloitte.com/content/dam/assets-zone3/us/en/docs/services/consulting/2026/the-state-of-ai-in-the-enterprise-2026.pdf",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-017",
+    "date": "2026-11-04",
+    "source": "Boston Consulting Group",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Who Will Pay the AI Infrastructure Bill?",
+    "summary": "BCG estimates the AI build-out needs $2.6 trillion a year in end-market spending by 2030 to pay off, with enterprises carrying $1.8 trillion of it. AI's share of enterprise tech spending would rise from 5% to 25%, with about $857 billion coming from reallocated IT budgets and $937 billion from new spending; hyperscalers fund the build mainly from cash flow rather than debt.",
+    "link": "https://www.bcg.com/publications/2026/who-pays-for-ai-infrastructure",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-018",
+    "date": "2026-11-04",
+    "source": "Andreessen Horowitz",
+    "newsletter": "Enterprise AI Executive",
+    "title": "The New Security Agenda",
+    "summary": "A16z's survey of 100 CISOs at firms with 1,000+ employees finds AI agents are spreading faster than they can be secured: 83% use coding assistants or agents in production and 87% expect cybersecurity spending to rise in 2027. Top worries are AI-driven attacks outpacing response (55%), data leakage into AI tools (47%) and agents exceeding permissions (46%), and 63% say security is already slowing some AI adoption.",
+    "link": "https://a16z.com/the-new-security-agenda/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-019",
+    "date": "2026-11-04",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Oracle Scraps Chip Leasing Deal With Tencent",
+    "summary": "Oracle reportedly called off a $7 billion AI chip leasing agreement with Tencent after pressure from President Donald Trump, as tensions grow between U.S. providers and Chinese companies.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-020",
+    "date": "2026-11-04",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Verizon Plots National Rollout of Ericsson AI-RAN Controller",
+    "summary": "Verizon will deploy Ericsson's Intelligent Controller across its network this year, giving it a nationwide platform for AI-native rApps that automate the radio access network. The move is part of a wider operator push, discussed at TIP FYUZ, to make networks AI-capable ahead of 6G.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-04-021",
+    "date": "2026-11-04",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "SoftBank, Sceye Strike Five-Year HAPS Deal",
+    "summary": "SoftBank Corp expanded its partnership with U.S. aerospace company Sceye through a five-year Master Services Agreement to manufacture, launch and operate a fleet of high-altitude platform systems across Japan.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-03-027",
+    "date": "2026-11-03",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Salesforce's M&A Blitz",
+    "summary": "Salesforce has spent or committed at least $25 billion on eight acquisitions in 12 months, including Cresta (reported $2.7 billion), Braze ($5.7 billion) and Fin ($3.6 billion), paid almost entirely in cash. Free cash flow has risen to 35% of revenue in fiscal 2026 from 20% in fiscal 2023, funding the deals, while Martin Peers notes a relaxed antitrust regime is driving $2.6 trillion of announced deals this year, up 66%.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
