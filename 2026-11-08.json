@@ -60,5 +60,143 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-11-09-001",
+    "date": "2026-11-09",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "A Timeline of Nvidia CEO Jensen Huang's Suspected Spy Drama",
+    "summary": "Nvidia's board has opened an investigation into reports that CEO Jensen Huang was the target of a foreign espionage effort, following his admission of a relationship with an executive the US suspects of working for Chinese intelligence. The board is examining whether company secrets were shared. Beijing reportedly rejected the allegations, and coverage across newsletters traces how the episode unfolded over the weekend.",
+    "link": "https://www.wsj.com/tech/ai/a-timeline-of-nvidia-ceo-jensen-huangs-suspected-spy-drama-05cbebf3?mod=panda_wsj_section_alert",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Pro Cybersecurity",
+      "The Information (article alert)",
+      "Mobile World Live"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-11-09-002",
+    "date": "2026-11-09",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Anthropic Prepares to Push Ahead With IPO Despite Market Jitters",
+    "summary": "Anthropic is preparing to proceed with its IPO even as investors grow nervous about artificial intelligence valuations and the Nvidia investigation. The move tests appetite for a flagship AI listing in volatile markets. GSMA Intelligence's weekly podcast also discussed the company's S-1 and its risk factors.",
+    "link": "https://www.wsj.com/finance/stocks/anthropic-prepares-to-push-ahead-with-ipo-despite-market-jitters-843dd16c?mod=panda_wsj_section_alert",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "GSMA Intelligence"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-09-003",
+    "date": "2026-11-09",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Enterprises Say AI Regulation Won't Stop Corporate Innovation",
+    "summary": "With Democrats expected to focus on reining in AI, business technology leaders say new policies are unlikely to disrupt their technology plans. The piece, from WSJ's CIO Journal, gauges how enterprise buyers are weighing the political shift against ongoing AI investment.",
+    "link": "https://www.wsj.com/cio-journal/enterprises-say-ai-regulation-wont-stop-corporate-innovation-3be10b7c?mod=panda_wsj_section_alert",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-09-004",
+    "date": "2026-11-09",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "AI Could Crack Encryption Sooner Than Quantum Computers Will",
+    "summary": "AI is advancing mathematics at an unprecedented pace, including problems that have resisted solution for centuries, raising fears it could eventually find solutions to the math that underpins encrypted communications. Johns Hopkins cryptographer Matthew Green says nobody knows what is coming. The concern shifts attention from quantum computing to AI as the nearer-term threat to encryption.",
+    "link": "https://www.wsj.com/pro/cybersecurity/ai-could-crack-encryption-sooner-than-quantum-computers-will-6b237ba0",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-09-005",
+    "date": "2026-11-09",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "GM to Pay $220 Million to Settle State Privacy Case Over Driver Data",
+    "summary": "General Motors agreed to pay $220 million to 35 states and Washington, D.C., which accused it of selling driver data, including location and driving habits, to brokers without permission. The brokers resold the information to businesses such as insurers. In May, GM paid $12.7 million to settle a similar case with California.",
+    "link": "https://www.atg.wa.gov/news/news-releases/gm-pay-220m-sharing-drivers-private-data-case-co-led-washington",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-09-006",
+    "date": "2026-11-09",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Chainalysis Hack Exposes Data of All Users After Agentic AI-Driven Attack",
+    "summary": "Chainalysis said it is still restoring systems shut down after a multifront cyberattack involving agentic AI, disclosed on Oct. 30. Names, usernames, password hashes and live tokens were exposed for all users. The company kept some systems running, including compliance transaction-monitoring products used to detect money laundering.",
+    "link": "https://www.chainalysis.com/blog/security-incident-october-30/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-09-007",
+    "date": "2026-11-09",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Fireworks Reveals Latest Hack Exposed Customer Data",
+    "summary": "Fireworks, a startup that helps developers run and train open-source models, told large customers including Harvey of a serious recent breach that exposed some customer data. Some customers spending millions of dollars a year are considering switching providers. The incident underscores rising security risks as AI-powered breaches become more common.",
+    "link": "https://www.theinformation.com/articles/new-fireworks-hack-threatens-1-billion-business",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-09-008",
+    "date": "2026-11-09",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Meta Plans Sales Team, Consulting Partnerships to Win Over Big Companies",
+    "summary": "Meta is building an enterprise sales team and cultivating relationships with consulting firms to sell its AI agents and other products to businesses. The push marks a shift toward competing directly for corporate AI budgets against rivals with established enterprise channels.",
+    "link": "https://www.theinformation.com/articles/meta-plans-sales-team-consulting-partnerships-win-big-companies",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-09-009",
+    "date": "2026-11-09",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Rakuten, AST Unveil Japan Satellite Joint Venture",
+    "summary": "AST SpaceMobile and Rakuten Group formed a joint venture to build a direct-to-device network in Japan using low Earth orbit satellites. The venture is set to receive JPY148 billion in funding from the Japanese government.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-09-010",
+    "date": "2026-11-09",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Microsoft Walks Away From Oracle AI Rental Deal",
+    "summary": "Microsoft is ending an agreement to rent AI computing capacity from Oracle as it reassesses billions of dollars in cloud partnerships, according to Bloomberg. The decision points to a recalibration of how hyperscalers source AI infrastructure.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-09-011",
+    "date": "2026-11-09",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Alphabet Reveals $548 Million Qualcomm Stake",
+    "summary": "Alphabet disclosed a $548 million stake in Qualcomm, a long-time partner that is trying to build a data centre business while its smartphone chip sales slump.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
