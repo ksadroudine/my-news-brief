@@ -1144,5 +1144,17 @@
     "category": "Science & Health",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-11-14-004",
+    "date": "2026-11-14",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Everything That Led to Nvidia CEO Jensen Huang’s Fall",
+    "summary": "The Information published a timeline tracing Jensen Huang's exit from Nvidia, the company he co-founded 33 years ago, back to the 2010s, when Alice Huang, with whom he allegedly had an affair, was positioning herself to become a major Nvidia customer. The relationship went unnoticed for years before becoming one of several scandals, including two further alleged affairs, a confrontation at Huang's home and a decisive board meeting, that culminated in his resignation on Wednesday.",
+    "link": "https://www.theinformation.com/articles/everything-led-nvidia-ceo-jensen-huangs-fall",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
