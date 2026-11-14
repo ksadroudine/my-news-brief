@@ -203,6 +203,17 @@ Bing was also tested and found unreliable (ignored `site:` and quoted-phrase fil
 
 ---
 
+## index.html Theming (permanent, added 2026-10-05)
+
+index.html follows the device's light/dark setting via `@media (prefers-color-scheme: dark)` and a `<meta name="color-scheme" content="light dark">` tag. All colors are CSS variables on `:root`, redefined in the dark media block; category pills carry a `--pill-fg` inline variable that the dark block uses to derive dark-friendly pill colors.
+
+Rules for every run:
+- Step 9 must only replace the `// @@BRIEF_DATA_START@@` ... `// @@BRIEF_DATA_END@@` block. Never regenerate index.html from a template or an older copy, which would strip the dark-mode styles.
+- If index.html styling is ever edited, keep new colors as CSS variables with a dark-mode value, and keep the `--pill-fg` variable in `pillHtml()`.
+- Before pushing, if the remote index.html has a dark-mode block and the local copy does not, stop and report rather than pushing.
+
+---
+
 ## Web Fetch Provenance Rule
 
 `web_fetch` can only retrieve URLs that appeared in:
