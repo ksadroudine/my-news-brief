@@ -1108,5 +1108,41 @@
     "category": "Politics & Policy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-11-14-001",
+    "date": "2026-11-14",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Weekend Reads",
+    "title": "When the Numbers Don’t Add Up: Bringing Manufacturing Jobs Back to America",
+    "summary": "A WSJ feature follows a U.S. furniture maker to illustrate how difficult it is to return manufacturing work to America from countries such as Vietnam. The piece argues that tariffs, intended to encourage reshoring, have made the cost calculations more complicated rather than simpler for producers weighing where to build.",
+    "link": "https://www.wsj.com/business/furniture-maker-us-tariffs-jobs-vietnam-345d77fe",
+    "category": "Global Economy",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-11-14-002",
+    "date": "2026-11-14",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Weekend Reads",
+    "title": "20-Somethings Are Ditching Entry-Level Jobs to Become Their Own Bosses",
+    "summary": "WSJ reports that some young workers who are finding entry-level roles harder to land as AI absorbs junior tasks are instead founding their own companies. The story profiles Gen Z founders, including the co-founders of startup Turnstone, as an example of a broader shift toward early-career entrepreneurship.",
+    "link": "https://www.wsj.com/lifestyle/careers/20-somethings-are-ditching-entry-level-jobs-to-become-their-own-bosses-168d1f48",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-14-003",
+    "date": "2026-11-14",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Weekend Reads",
+    "title": "How AI Diagnosed a Medical Mystery My Doctors Missed for Decades",
+    "summary": "A first-person WSJ essay describes how a woman used an AI chatbot to reach a diagnosis that had eluded her doctors for decades. The piece weighs that outcome against well-documented risks of relying on AI for medical guidance, including bias, sycophancy and incorrect advice.",
+    "link": "https://www.wsj.com/health/wellness/how-ai-diagnosed-a-medical-mystery-my-doctors-missed-for-decades-cd5fa842",
+    "category": "Science & Health",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
