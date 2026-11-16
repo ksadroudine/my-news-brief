@@ -9,6 +9,30 @@
     "link": "https://www.theinformation.com/articles/introducing-informations-50-promising-startups-2026",
     "category": "Business & Strategy",
     "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-15-002",
+    "date": "2026-11-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Technology",
+    "title": "Jensen Huang's Downfall",
+    "summary": "WSJ Technology's weekly lead recaps Jensen Huang's rapid exit from Nvidia: within a week he acknowledged an affair with a woman U.S. authorities suspect of passing information to Chinese intelligence, a second affair with a longtime Nvidia executive triggered an emergency board meeting, and he resigned with CFO Colette Kress named interim CEO. The piece adds WSJ reporting that in his final months Huang clashed with Kress over Nvidia's use of its balance sheet to support cloud startups and backstop data-center projects, warning that an \"avalanche\" of purchase commitments threatened the company. Investors will hear from Kress when Nvidia reports earnings on Tuesday.",
+    "link": "https://www.wsj.com/tech/ai/jensen-huangs-downfall-14449f8a",
+    "category": "Technology & AI",
+    "also_covered_by": [],
     "priority_pick": true
+  },
+  {
+    "id": "2026-11-15-003",
+    "date": "2026-11-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Technology",
+    "title": "What It Takes to Deliver Your Wings Order During a Football Game, Fast and Hot",
+    "summary": "The Wall Street Journal looks at how Wingstop relies on its digital ordering infrastructure, with a single order potentially drawing on about 40 different Amazon Web Services cloud services. Nearly 74% of the chain's third-quarter restaurant sales came through its app and online delivery and pickup channels, making fast, reliable technology central to its business during demand spikes such as football games.",
+    "link": "https://www.wsj.com/business/wingstop-aws-digital-ordering-8e4567d1",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]

@@ -399,7 +399,10 @@
       "domain": "wsj.com",
       "sender": "access@interactive.wsj.com",
       "auto_discovered": true,
-      "note": "Auto-discovered 2026-08-30. Weekly digest newsletter of tech columns, big stories, and personal tech advice, written primarily by Meghan Bobrowsky. Distinct from WSJ Latest in Artificial Intelligence (single-story alerts) and WSJ Morning Download. Contains multiple sections (main story, columnists, Big Stories, Tech Ticker); apply substantive-stories-only rule, extract 1-3 items per issue."
+      "note": "Auto-discovered 2026-08-30. Weekly digest newsletter of tech columns, big stories, and personal tech advice, written primarily by Meghan Bobrowsky. Distinct from WSJ Latest in Artificial Intelligence (single-story alerts) and WSJ Morning Download. Contains multiple sections (main story, columnists, Big Stories, Tech Ticker); apply substantive-stories-only rule, extract 1-3 items per issue. 2026-11-16: issue of 2026-11-15 arrived from wallstreetjournal@mail.sailthru.com (display name 'WSJ Technology') and was missed by the sender-based Gmail query; add this address to Query 2.",
+      "alt_senders": [
+        "wallstreetjournal@mail.sailthru.com"
+      ]
     },
     {
       "rank": 57,
@@ -550,6 +553,6 @@
       "note": "Auto-added 2026-11-13; primary source of an item relayed in WSJ Pro Cybersecurity."
     }
   ],
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-16",
   "notes": "Sources below rank 5 are auto-discovered from the inbox. New sources are appended to other_sources with a rank of 6+ and trigger a post-run review prompt. The Logic (rank 5) is prioritized over The Globe and Mail (rank 6) per user preference set 2026-05-13."
 }
