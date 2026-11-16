@@ -4,6 +4,17 @@ This file documents special handling rules, known quirks, and source-specific ex
 
 ---
 
+## Entry Dating Rule (permanent, added 2026-11-15 by Karim — overrides all other dating rules)
+
+**Every entry is dated to the day of the run that processes it** (the run's America/Toronto date, `TZ=America/Toronto date +%F`), not to the email's own send date. Any email that arrives after a run finishes appears in the *next* run's brief. Karim reads only the current day's brief and does not go back to earlier days, so nothing new may be filed under a past date.
+
+- This overrides the earlier rule that dated The Information Briefing to the prior day: Briefing entries now also get the run's date.
+- Do not use UTC dates. Gmail `date` headers are UTC (e.g. `2026-11-15T02:15Z` is Saturday 21:15 in Toronto); always convert with the America/Toronto zone.
+- The cross-day duplicate check still applies: if a story is already in the brief from an earlier run, skip it rather than re-adding it under today's date.
+- Example of the failure this fixes: a WSJ alert that arrived Sat 2026-11-14 at 21:15 Toronto, after the Saturday run, was first filed under 2026-11-14 and never appeared in Sunday's brief. It was re-dated to 2026-11-15 (id 2026-11-15-004).
+
+---
+
 ## Email Extraction: General Rules
 
 The Gmail `get_thread` tool returns `plaintextBody` and a short `snippet`. For most newsletters, the plaintext body contains the full article content and is sufficient for extraction.
@@ -176,7 +187,7 @@ There is no article content in the email body.
 
 
 - **Cross-day duplicates:** The same story (e.g. the OpenAI-Broadcom chip deal) may appear in newsletters over multiple days as coverage evolves. Each day's newsletter coverage is a distinct entry dated to that day. Do not suppress a May 8 entry just because the same story has a May 11 entry.
-- **The Information Briefing is May N–1 content:** Always date Briefing articles to the prior calendar day, not the email arrival date.
+- **The Information Briefing:** superseded 2026-11-15 by the Entry Dating Rule; date Briefing entries to the run date like everything else.
 - **Techpresso and The Neuron often cover the same tech stories** as WSJ/The Information but from a different angle. Use the higher-priority source as primary and add the other as `also_covered_by`.
 
 ---

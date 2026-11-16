@@ -34,5 +34,17 @@
     "category": "Business & Strategy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-11-15-004",
+    "date": "2026-11-15",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "How Jensen Huang Built the Backdoor Route That Keeps Beijing in the AI Race",
+    "summary": "The Wall Street Journal examines how large data centers in Southeast Asia, built with Nvidia's cooperation under Jensen Huang, supplied crucial computing power to Chinese companies despite U.S. export controls. The report says these facilities also served as cover for alleged smuggling of restricted chips, adding a national-security dimension to the scandal surrounding Huang's departure.",
+    "link": "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
