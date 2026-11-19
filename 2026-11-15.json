@@ -809,5 +809,391 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-001",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Anthropic Shares Close Up After Historic IPO",
+    "summary": "Anthropic began trading on Nasdaq after an IPO that raised $81 billion at $83 a share, above its marketed $70–$78 range, valuing the Claude developer at about $1.5 trillion. The stock opened roughly 34% above the offer price, briefly implying a value near $2 trillion, and closed higher on its first day. The debut is expected to produce gains for early backers including Canadian pension funds and to spawn new AI investment products for Canadian investors.",
+    "link": "https://www.wsj.com/video/anthropic-shares-close-up-after-historic-ipo/D4D03023-FBD2-4F3F-A450-D717CA6A2C09",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Globe and Mail Business Brief",
+      "Mobile World Live",
+      "The Logic"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-11-19-002",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Thousands of Anthropic Employees and Investors Are Set to Reap Fortunes",
+    "summary": "Most of Anthropic's more than 5,000 employees are expected to become millionaires as a result of the company's IPO. The Information separately examined whether the payday could trigger departures once lockups end and staff can sell shares.",
+    "link": "https://www.wsj.com/tech/ai/thousands-of-anthropic-employees-and-investors-are-set-to-reap-fortunes-d9c3c6ed",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "The Information (article alert)"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-003",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Heard on the Street",
+    "title": "Is Anthropic Worth $1.1 Trillion, or $1.5 Trillion? How to Make Sense of the Valuations",
+    "summary": "Heard on the Street explains why different valuation figures are circulating for Anthropic. Its complex share structure and funding arrangements mean the headline number varies widely depending on which shares and commitments are counted.",
+    "link": "https://www.wsj.com/finance/investing/is-anthropic-worth-1-1-trillion-or-1-5-trillion-how-to-make-sense-of-the-valuations-721b4df8",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-004",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Anthropic vs. OpenAI: The Financial Metrics Behind the AI Battle",
+    "summary": "A WSJ comparison of the two leading AI labs finds that Anthropic heads into its public debut with higher revenue than OpenAI and smaller losses. The analysis lays out the financial metrics investors are using to weigh the rivals.",
+    "link": "https://www.wsj.com/tech/ai/anthropic-vs-openai-the-financial-metrics-behind-the-ai-battle-4f5b90c0",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-005",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Anthropic Pushes the Reset Button for AI",
+    "summary": "The Morning Download argues that Anthropic's IPO filings give investors hard data on AI demand, including $900.9 billion in aggregate compute commitments, $70.7 billion of which come due within 12 months. Analysts say the debate now shifts to margins versus growth, while other demand signals, such as Alibaba's and Lenovo's results, point to continued AI spending.",
+    "link": "https://www.wsj.com/cio-journal/anthropic-pushes-the-reset-button-for-ai-2c3c9d96",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-006",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Nvidia Is the Central Bank to AI's Circular Economy. See Where the Money Goes.",
+    "summary": "Nvidia has made at least 293 deals since 2023 and built an investment portfolio worth more than $100 billion, much of it in companies that buy its chips, including a $10 billion commitment to Anthropic's IPO. The eight public companies in its portfolio have lost a combined $820 billion in market value since Oct. 6, and interim CEO Colette Kress has said the company will be more disciplined about future deals.",
+    "link": "https://www.wsj.com/finance/stocks/nvidia-is-the-central-bank-to-ais-circular-economy-see-where-the-money-goes-da480b61",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-007",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CEO Brief",
+    "title": "Wall Street Pledged to Mobilize $500 Billion for Nvidia—But Hasn't Put Up a Dime",
+    "summary": "In August, Jensen Huang got six Wall Street firms, including Apollo, Blackstone and Goldman Sachs, to pledge $500 billion to help Nvidia customers finance chip purchases. According to the WSJ, none of that money has been deployed.",
+    "link": "https://www.wsj.com/finance/wall-street-pledged-to-mobilize-500-billion-for-nvidiabut-hasnt-put-up-a-dime-1e41f276",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-008",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Uber Co-Founder Kalanick Teases Protest at Nvidia as Calls for Huang's Return Continue",
+    "summary": "Nvidia's board has said Jensen Huang will not return as CEO, but prominent tech figures are still lobbying for it. Travis Kalanick said he would lead a walkout at Nvidia's offices, Elon Musk compared the ouster to benching Michael Jordan, and Sam Altman said it was hard to imagine the AI industry without Huang.",
+    "link": "https://www.wsj.com/tech/ai/uber-co-founder-kalanick-teases-protest-at-nvidia-as-calls-for-huangs-return-continue-37c4f635",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-009",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "See How Data Centers Became the Growth Engine of America's Power Grid",
+    "summary": "Electricity use by U.S. commercial customers, a category that includes data centers, is on track to exceed residential demand this year for the first time. The WSJ graphic shows how AI-driven data-center construction has become the main source of growth in U.S. power demand.",
+    "link": "https://www.wsj.com/business/energy-oil/see-how-data-centers-became-the-growth-engine-of-americas-power-grid-70399f64",
+    "category": "Energy & Commodities",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-010",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Walmart Beats Forecasts as E-Commerce Sales Jump 17%",
+    "summary": "Walmart's quarterly revenue rose 5.2% to $188.8 billion, ahead of forecasts. Global e-commerce sales grew 17%, or 23% in the U.S., and U.S. advertising revenue rose 37%. The CFO described the company's stores and delivery networks as increasingly digital assets.",
+    "link": "https://www.wsj.com/business/earnings/walmart-wmt-3q-earnings-report-2026-6e658c54",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-011",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Alibaba Earnings Rebound Sharply as AI Profitability Improves",
+    "summary": "Alibaba's net profit roughly tripled to about $9.7 billion in the September quarter, well above forecasts, as its AI cloud and e-commerce businesses both became more profitable. The company has committed more than $53 billion over three years to AI hardware and software. Its shares are still down about 10% this week after new U.S. chip-export restrictions.",
+    "link": "https://www.wsj.com/business/earnings/alibaba-earnings-rebound-sharply-as-ai-profitability-improves-70fd90d5",
+    "category": "Global Economy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-012",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Lenovo Maintains Revenue Momentum on AI-Fueled Hardware Demand",
+    "summary": "Lenovo's September-quarter revenue rose 48% to $30.2 billion, beating forecasts, as AI server demand more than doubled sales in its data-center business. The world's largest PC maker is on pace for $100 billion in annual revenue even as supply constraints weigh on global PC shipments.",
+    "link": "https://www.wsj.com/business/earnings/lenovo-maintains-revenue-momentum-on-ai-fueled-hardware-demand-852daa09",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-013",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ CEO Brief",
+    "title": "Where Commerce Actually Begins",
+    "summary": "At the WSJ CMO Council Summit, Visa CMO Frank Cooper III said AI agents will increasingly handle routine purchases such as detergent, while identity-driven shopping will stay human. He said marketers now have to sell to agents ('B to AI'), which makes product catalogs and brand websites more important, and that Visa must keep its brand memorable as payments become frictionless.",
+    "link": "https://www.wsj.com/business/where-commerce-actually-begins-46828154",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-014",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "If You Thought AI Was Bad, Wait Until You Hear About the Drones",
+    "summary": "At the Aspen Cyber Summit, current and former U.S. officials warned that cyber-physical threats are rising, including sabotage of undersea cables and drone strikes on data centers. An FCC national-security official said cable security is a recurring concern for the agency, which licenses cable landings in U.S. waters.",
+    "link": "https://www.wsj.com/pro/cybersecurity/drone-threats-and-subsea-sabotage-add-to-hacking-fears-d43f361c",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-015",
+    "date": "2026-11-19",
+    "source": "The Record",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Equinor Investigates Cyberattack",
+    "summary": "Norwegian energy company Equinor, one of Europe's largest natural gas suppliers, is working to contain a cyberattack that disrupted internal IT systems, including email. The company said oil and gas production was unaffected and it had no indication of data theft, but it could not say when systems would be fully restored.",
+    "link": "https://therecord.media/norway-equinor-cyberattack-energy",
+    "category": "Energy & Commodities",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-016",
+    "date": "2026-11-19",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Tech Stocks Boosted by Cybersecurity Rally",
+    "summary": "Cybersecurity stocks rallied after a string of major technology outages: Okta jumped 12%, and Palo Alto Networks and CrowdStrike were among the market's best performers. The gains helped the Nasdaq end a four-session losing streak, as investors bet on higher corporate security spending.",
+    "link": "https://www.wsj.com/finance/stocks/tech-stocks-boosted-by-cybersecurity-rally-5f9ff803",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-017",
+    "date": "2026-11-19",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Anthropic's IPO Eve",
+    "summary": "Martin Peers argues that Anthropic's public-market path may not resemble Google's after its IPO. Anthropic generated $5.6 billion in free cash flow in the first nine months of the year, but that will shrink as it leases chips and runs its own data centers. It carries $452 billion in purchase and lease commitments due by 2030, against $33 billion of nine-month revenue and an $81 billion annualized run rate, so any slowdown in growth would be costly.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-018",
+    "date": "2026-11-19",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Anthropic Is Pushing New Products, and Big Discounts, to Justify Its Huge Valuation",
+    "summary": "Anthropic is offering new products and steep discounts to expand beyond its core coding business and support its valuation. The push covers tools such as Claude Cowork and Managed Agents that automate legal, finance, HR and sales work.",
+    "link": "https://www.theinformation.com/articles/anthropic-pushing-new-products-big-discounts-justify-huge-valuation",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-019",
+    "date": "2026-11-19",
+    "source": "The Information",
+    "newsletter": "Applied AI",
+    "title": "ServiceNow Builds an AI Weapon to Target Salesforce Customers",
+    "summary": "ServiceNow has released an AI tool that it says cuts the time to migrate customers onto its CRM software from six months to six weeks by automating data extraction. Oracle, SAP, Workday and Salesforce are building similar switching tools to win customers from each other. EY says adoption is still limited because customers usually wait for contracts to expire, and Anthropic's expanding enterprise tools add a further threat to established SaaS vendors.",
+    "link": "https://www.theinformation.com/articles/servicenow-builds-ai-weapon-target-salesforce-customers",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-020",
+    "date": "2026-11-19",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "Meta Bets on $300 Muse Charm to Boost AI Hardware Business",
+    "summary": "Meta plans to price its upcoming pocket-sized Muse Charm AI device at $300 and offer user subsidies. The company hopes the gadget will lift its hardware business and draw users to its new personal assistant.",
+    "link": "https://www.theinformation.com/articles/meta-bets-300-muse-charm-boost-ai-hardware-business",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-021",
+    "date": "2026-11-19",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "China's Moonshot AI Scraps $150 Million Deal to Access Nvidia Chips in Indonesia",
+    "summary": "Moonshot AI, the Beijing developer of the Kimi models, has canceled a $150 million contract to rent Nvidia Blackwell Ultra B300 chips in an Indonesian data center. The move follows a new U.S. Commerce Department rule that closes the loophole allowing Chinese firms to access restricted chips remotely through overseas facilities.",
+    "link": "https://www.theinformation.com/articles/chinas-moonshot-ai-scraps-150-million-deal-access-nvidia-chips-indonesia",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-022",
+    "date": "2026-11-19",
+    "source": "The Information",
+    "newsletter": "The Information (article alert)",
+    "title": "U.S. Commerce Department Rushed to Clear Nvidia H200 Exports to China",
+    "summary": "Jeffrey Kessler, who oversees the Bureau of Industry and Security, pressured staff to speed approvals of Nvidia H200 sales to China, in some cases over objections from other agencies, according to people familiar with the matter. President Trump approved H200 sales to China in December 2025 after lobbying by Jensen Huang, with the U.S. government taking a 25% cut.",
+    "link": "https://www.theinformation.com/articles/u-s-commerce-department-rushed-clear-nvidia-h200-exports-china",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-023",
+    "date": "2026-11-19",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "Stolen Faces, Fake News and Cross-Border Division",
+    "summary": "A McGill-based research centre identified a network of at least 293 Instagram and TikTok accounts that used AI to hijack the faces of 226 real creators and spread false stories about the Canada-U.S. trade war. One fabricated claim, that Carney cancelled $8 billion in U.S. defence contracts, appeared in 161 videos with more than five million views. Researchers could not identify who runs the network, though activity patterns point to East or Southeast Asia.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-024",
+    "date": "2026-11-19",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "BCE Held Talks With Telus as It Weighs Response to Quebecor Bid",
+    "summary": "BCE has held early talks with Telus and hired advisers after Quebecor went public with a $31 billion takeover proposal for the Vancouver telecom company. BCE would weigh what concessions Ottawa might demand before making any formal offer, while the Quebecor bid has already raised regulatory concerns.",
+    "link": null,
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-025",
+    "date": "2026-11-19",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "Carney Contrasts 'Very Professional' Chinese Trade Talks With Elusive U.S. Deal",
+    "summary": "Speaking remotely from Shenzhen, Prime Minister Mark Carney said China had negotiated 'in a very linear fashion' toward a newly announced trade deal, while a U.S. agreement 'should have been done six months ago.' He suggested Canada will keep hedging its reliance on the U.S. even under a future administration.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-026",
+    "date": "2026-11-19",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "Client Files at KPMG Canada Compromised in Data Breach",
+    "summary": "KPMG Canada is contacting clients whose tax documents were exposed in a recent data breach. It is the latest in a string of attacks on professional-services firms, after Bay Street law firms McCarthy Tétrault, Davies, Bennett Jones and BLG also reported breaches in recent weeks.",
+    "link": null,
+    "category": "Professional Services",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-027",
+    "date": "2026-11-19",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Huang's Nvidia Exit Puts Financing of Canada's AI Boom Under Scrutiny",
+    "summary": "Nvidia has bankrolled much of the AI infrastructure buildout and now plans to be more selective with its investments after Jensen Huang's departure. The Logic reports that the shift could squeeze neocloud and compute companies expanding in Canada.",
+    "link": "https://thelogic.co/news/nvidia-jensen-huang-resignation-canadian-neoclouds-ai-compute",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-028",
+    "date": "2026-11-19",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Businesses Want the Agency That Replaces BDC and EDC to Take Bigger Swings",
+    "summary": "Business leaders say the new entity formed by merging the Business Development Bank of Canada and Export Development Canada needs deeper pockets and more appetite for risk than either predecessor. They argue that is necessary to help Canadian firms scale.",
+    "link": "https://thelogic.co/news/edc-bdc-merger/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-029",
+    "date": "2026-11-19",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Qualcomm VP Argues Case for 6G Hardware Overhaul",
+    "summary": "Qualcomm engineering VP Hemanth Sampath said 6G offers operators opportunities in core connectivity and compute, but may require a hardware overhaul. He urged telcos to upgrade to 5G-Advanced to start the transition. At the same event, Vodafone's R&D head warned that 6G must show a strong business case given how well standalone 5G performs.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-030",
+    "date": "2026-11-19",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Microsoft Teams With Intel Foundry",
+    "summary": "Microsoft is using Intel Foundry for advanced packaging of its in-house Azure chips. The deal also secures a multi-year supply of Intel Xeon server processors.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-19-031",
+    "date": "2026-11-19",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Reliance Plans Satellite Network to Take On Starlink",
+    "summary": "Reliance Industries is reportedly exploring manufacturing partnerships for a planned low-Earth-orbit broadband constellation of about 1,600 satellites, which would position it to compete with Starlink in India.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
