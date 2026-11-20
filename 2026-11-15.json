@@ -1195,5 +1195,301 @@
     "category": "Technology & AI",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-001",
+    "date": "2026-11-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Anthropic's Mega IPO Lives Up to Wall Street Hype but Fails to Revive AI Trade",
+    "summary": "Anthropic's shares closed 17% above their IPO price in Thursday's debut, valuing the company at roughly $1.3 trillion, or close to $1.8 trillion on a fully diluted basis. The strong debut did not lift the broader AI trade: North American markets closed sharply lower, Japan's Nikkei fell more than 5% overnight, and Anthropic's own shares were down as much as 10% in Friday premarket trading.",
+    "link": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Information Briefing",
+      "The Globe and Mail Business Brief",
+      "WSJ Morning Download"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-11-20-002",
+    "date": "2026-11-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Heard on the Street",
+    "title": "Anthropic Shares Are a Rational Bet on the Next Phase of AI",
+    "summary": "Heard on the Street columnist Asa Fitch argues that Anthropic's listing marks the start of a third phase of the AI boom, in which profits shift from infrastructure suppliers to the companies applying the technology. The column contends that, despite worries about infrastructure spending, demand for AI is real enough to justify the bet on Anthropic's shares.",
+    "link": "https://www.wsj.com/tech/ai/anthropic-shares-are-a-rational-bet-on-the-next-phase-of-ai-a748dba3",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "WSJ Latest in Artificial Intelligence",
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-003",
+    "date": "2026-11-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "White House Replaces Cybersecurity Official After Tech Outages",
+    "summary": "National Cyber Director Sean Cairncross is leaving his post and will be succeeded by Kirsten Davies, the Defense Department's chief information officer. The change follows a string of major outages, including one that left more than 450 million Microsoft 365 users unable to use email, and a wave of cyber threats tied to AI-armed hackers. A person familiar with the matter said President Trump backed the move over doubts about Cairncross's credentials.",
+    "link": "https://www.wsj.com/politics/policy/white-house-replaces-cybersecurity-official-after-tech-outages-52b1c8ce",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "WSJ Pro Cybersecurity",
+      "The Rundown Tech"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-004",
+    "date": "2026-11-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Tech Outages Are Inevitable. Business Chaos Doesn't Have to Be.",
+    "summary": "After a week of disruptions across email, air travel, banking and government communications, CIOs and CISOs told the WSJ that companies should plan for resilience rather than assume outages can be prevented. Their advice includes joint IT and security decision-making, realistic tabletop exercises, clear lines of authority during incidents, rollback options and staged rollouts for software updates. They also said AI-driven automation is needed for defence, but under human oversight.",
+    "link": "https://www.wsj.com/cio-journal/tech-outages-are-inevitable-business-chaos-doesnt-have-to-be-8394cbaa",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-005",
+    "date": "2026-11-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Financial, Healthcare Companies Fell For Near-Perfect Deepfakes",
+    "summary": "AI is producing increasingly convincing voice and video impersonations of executives, and financial and healthcare firms have been fooled by them. U.S. officials recently warned of a scheme called FaceStealer that has taken more than $400 million in crypto, and the Justice Department arrested three people accused of stealing over $100 million by directing employees to wire funds offshore.",
+    "link": "https://www.wsj.com/pro/cybersecurity/financial-healthcare-companies-fell-for-near-perfect-deepfakes-a97bf25e",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-006",
+    "date": "2026-11-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
+    "summary": "A ransomware group called n0n leaked data on thousands of Visa, Mastercard and JPMorgan Chase customers after breaching third-party entities. The companies said services were not disrupted. The leak added to a week of high-profile tech and security incidents.",
+    "link": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-007",
+    "date": "2026-11-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "States Move to Block Disney's Bid for Character.AI Assets",
+    "summary": "About 40 U.S. states objected to bankrupt chatbot maker Character Technologies' proposed $20 million sale of assets to Disney. They argue the deal could transfer users' private conversations, including those of minors, and threatens consumer privacy.",
+    "link": "https://www.wsj.com/pro/bankruptcy/states-move-to-block-disneys-bid-for-character-ai-assets-4f21cd2b",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-008",
+    "date": "2026-11-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Databricks In Early Talks To Raise Funds At $225 Billion Valuation",
+    "summary": "Data and AI software company Databricks is in early talks to raise new funding at a $225 billion valuation. That would be an increase of nearly 20% from the valuation it reached in August.",
+    "link": "https://www.wsj.com/tech/ai/databricks-in-early-talks-to-raise-funds-at-225-billion-valuation-e593b1de",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-009",
+    "date": "2026-11-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Anthropic Mathematician Says AI Has Solved the Most Famous Problem in Math",
+    "summary": "An Anthropic mathematician says the company's Claude model helped find a proof of the Riemann hypothesis, which has been unsolved for 167 years. The claim came a day after Anthropic's IPO and has not yet been independently verified.",
+    "link": "https://www.wsj.com/tech/ai/anthropic-mathematician-says-claude-has-solved-the-most-famous-problem-in-math-9361920b",
+    "category": "Science & Health",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-010",
+    "date": "2026-11-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "American State Capitalism Helped Produce the Nvidia Scandal",
+    "summary": "This WSJ analysis argues that under President Trump, government and corporate interests have become more closely intertwined, and that this helped set the stage for the Nvidia scandal. It suggests the backlash against Nvidia could slow or halt the trend.",
+    "link": "https://www.wsj.com/economy/american-state-capitalism-helped-produce-the-nvidia-scandal-56ce6dee",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-011",
+    "date": "2026-11-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "California Attorney General Issues Investigative Subpoena to Nvidia",
+    "summary": "California Attorney General Rob Bonta issued an investigative subpoena to Nvidia, opening a probe into the chip maker's conduct. The investigation follows revelations about former CEO Jensen Huang's affair with a suspected Chinese spy.",
+    "link": "https://www.wsj.com/tech/california-attorney-general-issues-investigative-subpoena-to-nvidia-097cea9e",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-012",
+    "date": "2026-11-20",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "China’s AI Firms Are Addicted to Nvidia Chips. Now They Are Facing Withdrawal.",
+    "summary": "New U.S. measures cutting Chinese companies off from high-end computing power, including Nvidia chips accessed through overseas data centres, are a significant setback for Beijing's AI ambitions. Alibaba CEO Eddie Wu said the rule will affect the company's products and services next year.",
+    "link": "https://www.wsj.com/tech/ai/chinas-ai-firms-are-addicted-to-nvidia-chips-now-they-are-facing-withdrawal-ba851ca9",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-013",
+    "date": "2026-11-20",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "AMD Shares Drop 9% After Hunterbrook Report on China Ties",
+    "summary": "Advanced Micro Devices shares fell 9% on Thursday after short-selling research firm Hunterbrook Capital published a report on AMD's business relationships in China. The report cited ties to companies blacklisted by the U.S. government.",
+    "link": null,
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-014",
+    "date": "2026-11-20",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Bending Spoons to Buy Mailchimp From Intuit for $3.68 Billion",
+    "summary": "Italian software group Bending Spoons agreed to buy email-marketing service Mailchimp from Intuit for $3.68 billion, mostly in cash. Bending Spoons also said it raised $1.3 billion in equity through a private placement with existing shareholders.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-015",
+    "date": "2026-11-20",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Google Taps Blue Origin to Launch Project Suncatcher Satellites",
+    "summary": "Google will use Jeff Bezos' Blue Origin to launch satellites for Project Suncatcher, its experiment in running AI chips on solar power in orbit, on a dedicated New Glenn mission planned for the first quarter of 2029. Each satellite is meant to carry roughly a data-centre rack's worth of Google TPUs. The mission will test whether heat, radiation and maintenance problems can be managed in space.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Rundown Tech",
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-016",
+    "date": "2026-11-20",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "Finding the AI Choke Points",
+    "summary": "The Globe's Future of Work reporter found that Canadian AI adoption is held back mainly by distrust of tool accuracy and by inadequate worker training, especially at smaller firms. Large banks have moved faster: TD's custom virtual assistant is used by 19,000 tellers, and BMO says about 58,000 employees now use Microsoft Copilot. The Carney government is counting on workplace AI adoption to lift Canada's long-lagging productivity.",
+    "link": null,
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-017",
+    "date": "2026-11-20",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "Ottawa Open to Telecom Takeovers That Would Leave Three Major Players",
+    "summary": "Sources say the federal government is willing to consider takeovers that would leave Canada's telecom sector with three major companies. That would reverse decades of policy aimed at keeping four competitive national players.",
+    "link": null,
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-018",
+    "date": "2026-11-20",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "OpenAI Asks Judge to Throw Out Tumbler Ridge Shooting Lawsuits and Keep Chat Records Sealed",
+    "summary": "OpenAI has asked a court to dismiss lawsuits connected to the Tumbler Ridge shooting and to keep the related ChatGPT conversation records sealed. The company argues that conversations with AI deserve the same First Amendment protection as books and video games.",
+    "link": "https://thelogic.co/news/tumbler-ridge-shooting-openai-lawsuit-first-amendment/",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-019",
+    "date": "2026-11-20",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Deutsche Telekom Unit Pumps €100M Into Mistral AI",
+    "summary": "Deutsche Telekom's T.Capital Tech Fund invested €100 million in Mistral AI's recent funding round. The German operator also signalled a future strategic partnership with the French AI company around sovereign infrastructure.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-020",
+    "date": "2026-11-20",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Samsung, TSMC Suspend Some China Chip Shipments",
+    "summary": "TSMC and Samsung Electronics reportedly halted some chip shipments to Chinese companies after the latest U.S. export controls. The move shows the new restrictions spreading through the global semiconductor supply chain.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-021",
+    "date": "2026-11-20",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Dell'Oro Sees Q3 Uptick for RAN Revenue",
+    "summary": "Dell'Oro Group said worldwide radio access network revenue grew at a mid-single-digit rate year over year in the third quarter. It was the market's strongest quarterly performance in nearly five years.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-022",
+    "date": "2026-11-20",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "GTA 6 Rakes In Over $2.3B at Launch",
+    "summary": "Rockstar Games' Grand Theft Auto VI generated more than $2.3 billion from preorders and launch-day sales, after a development budget reported at over $1 billion. Launch livestreams peaked at nearly 7.9 million concurrent viewers. Take-Two is counting on the game to help deliver up to $8.2 billion in fiscal 2027 net bookings.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "The Globe and Mail Business Brief"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-20-023",
+    "date": "2026-11-20",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "Uber Tests Solo Rides for Tweens",
+    "summary": "Uber is piloting Uber Kids in Austin, Nashville and Madison, letting parents book unaccompanied rides for children aged 10 to 12. Safeguards include PIN verification at pickup, mandatory audio and video recording, and invite-only drivers who earn $7 more per trip than on UberX. The service competes with HopSkipDrive and follows a failed 2017 Uber pilot.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
