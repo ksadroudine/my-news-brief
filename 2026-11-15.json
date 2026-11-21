@@ -1491,5 +1491,29 @@
     "category": "Business & Strategy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-11-21-001",
+    "date": "2026-11-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Brother-Sister Duo Who Want to Keep Anthropic Weird",
+    "summary": "The WSJ profiles Anthropic co-founders Dario and Daniela Amodei, who saw their company complete the largest IPO on record on Thursday only to face a broad market sell-off the following day. The piece frames the swing as the latest unusual turn for a company that has consistently diverged from conventional corporate norms.",
+    "link": "https://www.wsj.com/tech/ai/anthropic-dario-daniela-amodei-siblings-ipo-be84ad11",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-11-21-002",
+    "date": "2026-11-21",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The Danger of Jensen Huang’s Handshake Deals at Nvidia",
+    "summary": "The WSJ examines Jensen Huang's habit of striking informal, no-contract agreements during his time leading Nvidia. Deals he once touted as a strength are now being viewed as red flags following his ouster as CEO amid the company's widening scandal.",
+    "link": "https://www.wsj.com/business/nvidia-jensen-huang-deals-8750daf4",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
