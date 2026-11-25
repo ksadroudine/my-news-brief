@@ -436,8 +436,9 @@
       "name": "Bloomberg",
       "newsletter_name": "Bloomberg",
       "domain": "bloomberg.com",
-      "auto_discovered": true,
-      "note": "Auto-added 2026-10-06; appeared as primary source of an item relayed in WSJ Morning Download."
+      "auto_discovered": false,
+      "note": "Subscribed newsletter as of 2026-11-25 (sender noreply@news.bloomberg.com), added at Karim's request; search and process daily. Originally auto-added 2026-10-06 as a primary source relayed in WSJ Morning Download.",
+      "sender": "noreply@news.bloomberg.com"
     },
     {
       "rank": 61,
@@ -601,6 +602,6 @@
       "note": "Auto-added 2026-11-23; primary source cited in WSJ Pro Cybersecurity (FBI NCIC database hack probe)."
     }
   ],
-  "last_updated": "2026-11-23",
+  "last_updated": "2026-11-25",
   "notes": "Sources below rank 5 are auto-discovered from the inbox. New sources are appended to other_sources with a rank of 6+ and trigger a post-run review prompt. The Logic (rank 5) is prioritized over The Globe and Mail (rank 6) per user preference set 2026-05-13."
 }

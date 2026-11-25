@@ -15,6 +15,18 @@ This file documents special handling rules, known quirks, and source-specific ex
 
 ---
 
+## Bloomberg Newsletter (added 2026-11-25 by Karim — in effect from the 2026-11-25 run onward)
+
+Karim subscribed to a Bloomberg newsletter sent from **`noreply@news.bloomberg.com`**. It is in scope for every run.
+
+- **Gmail search:** this sender is not in the scheduled prompt's Query 2 sender list, and its subject lines may not hit the Query 1 keywords. Treat it as part of Query 2. If Step 2 has already run when you read this note, run this extra query now (`pageSize` 50), add any new threads to the set and process them like the rest: `after:YESTERDAY from:noreply@news.bloomberg.com`.
+- **Fields:** set `source` to "Bloomberg". Set `newsletter` to the newsletter's own name as shown in the subject or header (e.g. "Bloomberg Evening Briefing"), or "Bloomberg" if no name is shown.
+- **Priority:** this is a lower-priority source (rank 60 in `sources.json`). When it covers the same story as WSJ, The Economist, The Information, FT or The Globe and Mail, keep the higher-priority entry and list the Bloomberg newsletter in `also_covered_by`.
+- **Extraction:** follow the General Rules below and extract 1–3 substantive stories per issue. Skip sponsor content, event promotions and subscription offers. Use bloomberg.com article URLs from the body as `link`. If they are wrapped in tracking redirects, decode them only when the real URL is readable from the redirect itself; never construct one.
+- **Format unknown as of 2026-11-25:** no issue had arrived when this note was written. On the first run that processes one, add a short note here describing its format (plaintext vs HTML-only, link style, sections).
+
+---
+
 ## Email Extraction: General Rules
 
 The Gmail `get_thread` tool returns `plaintextBody` and a short `snippet`. For most newsletters, the plaintext body contains the full article content and is sufficient for extraction.
