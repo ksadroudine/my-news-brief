@@ -504,5 +504,310 @@
     "category": "Politics & Policy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-001",
+    "date": "2026-11-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "Jensen Huang's Vision for the New Nvidia Is a Lot Like the Old One",
+    "summary": "Back in control of Nvidia, Jensen Huang is trying to persuade investors and staff that the company is operating as usual despite new challenges. At his first staff meeting since returning, he said a CEO succession plan makes no sense for Nvidia given its depth of talent and denied that anyone acted unethically to reinstate him. Senator John Kennedy said he expects Huang to invoke the Fifth Amendment when he appears before the Senate Banking Committee on Dec. 3.",
+    "link": "https://www.wsj.com/tech/ai/jensen-huangs-vision-for-the-new-nvidia-is-a-lot-like-the-old-one-d0d4abc3",
+    "category": "Business & Strategy",
+    "also_covered_by": [
+      "WSJ Morning Download",
+      "Mobile World Live"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-11-25-002",
+    "date": "2026-11-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "No Evidence China Orchestrated Jensen Huang's Affair, Officials Brief Congress",
+    "summary": "U.S. officials told lawmakers in a classified briefing that they found no evidence China orchestrated Jensen Huang's relationship that set off Nvidia's leadership crisis. The briefing took place one day after the Trump administration helped reinstall Huang as Nvidia's chief executive.",
+    "link": "https://www.wsj.com/politics/national-security/no-evidence-china-orchestrated-jensen-huangs-affair-officials-brief-congress-00228bb7",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-003",
+    "date": "2026-11-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "Anthropic's Claude Output Can Be Installed as Software",
+    "summary": "Anthropic released a beta 'Install as app' feature that lets Claude users on Mac and Windows turn artifacts they build into standalone desktop apps with their own icon and window. The installed apps can be shared and need user permission before interacting with the computer; Anthropic staff have built tools such as an image editor and a file-organizing app. The newsletter frames the launch as further evidence of AI tools encroaching on traditional software.",
+    "link": "https://www.wsj.com/cio-journal/anthropics-claude-output-can-be-installed-as-software-e840ac45",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-004",
+    "date": "2026-11-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "AI Earnings Can't Outrun the Selloff",
+    "summary": "Dell and Workday both beat forecasts on AI demand but their shares fell sharply premarket amid a broad tech selloff, with Nasdaq-100 futures down about 3%. Dell's third-quarter revenue doubled to $54.94 billion as AI-optimized server revenue nearly quadrupled to $22.03 billion, while Workday's revenue rose 11% to $2.71 billion. HP also topped estimates, with AI PCs reaching nearly 60% of shipments, but struck a cautious tone on rising memory and storage costs.",
+    "link": "https://www.wsj.com/business/earnings/dell-lifts-outlook-as-revenue-doubles-on-server-demand-40c14b0b",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-005",
+    "date": "2026-11-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "SoftBank Stock Drops Another 15% as Slump From AI Eclipses Covid",
+    "summary": "SoftBank shares fell 14.8% on Wednesday and are now down 68% from their early-June record, erasing more than $200 billion in market value. It is the Tokyo-based investor's steepest prolonged decline since the 2008 financial crisis and deeper than its drop early in the Covid pandemic.",
+    "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-25-2026/card/softbank-stock-drops-another-15-as-slump-from-ai-eclipses-covid-rfhXadUhxaiURIDJc87y",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-006",
+    "date": "2026-11-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Pro Cybersecurity",
+    "title": "U.S. Intelligence System Hacked",
+    "summary": "Hackers breached an open-source system used by the CIA and the Office of the Director of National Intelligence to mine public, unclassified material, exposing unclassified information. Officials said no other systems were put at risk and the incident has been resolved, though it was unclear what data was accessed; the New York Times reported the attackers are believed to have used an AI hacking tool called Artex.",
+    "link": "https://www.wsj.com/pro/cybersecurity/u-s-intelligence-system-hacked-08e20037",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "WSJ Morning Download"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-007",
+    "date": "2026-11-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Morning Download",
+    "title": "EU Lays Out Plan to Boost Quantum Technology",
+    "summary": "The European Commission proposed a Quantum Act to fund new research institutes, support technologies such as quantum computers and reduce supply-chain risks as part of a push for tech independence. The plan includes a Sovereign Tech Equity Fund that officials hope will reach €50 billion, along with tighter procurement rules, aiming to make Europe a quantum leader by 2030.",
+    "link": "https://www.wsj.com/world/europe/eu-lays-out-plan-to-boost-quantum-technology-6555b429",
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-008",
+    "date": "2026-11-25",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Heard on the Street",
+    "title": "Where to Find Bargains After the AI Power Boom Reality Check",
+    "summary": "Heard on the Street argues that the sharp correction in power-generation and utility stocks tied to AI demand has opened up buying opportunities. The column looks at which names in the sector now offer value after investors reassessed the AI-driven power boom.",
+    "link": "https://www.wsj.com/finance/where-to-find-bargains-after-the-ai-power-boom-reality-check-a6be0739",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-009",
+    "date": "2026-11-25",
+    "source": "Wall Street Journal",
+    "newsletter": "The Logic Briefing",
+    "title": "Huawei Convicted of Conspiring to Steal U.S. Trade Secrets, but Acquitted on Racketeering Charge",
+    "summary": "A U.S. federal jury found Huawei and three subsidiaries guilty on 10 counts, including stealing trade secrets, bank fraud and conspiring to violate U.S. sanctions on Iran, after a two-month trial. Jurors acquitted the companies of the racketeering conspiracy charge prosecutors used to frame the company's global expansion. The case was central to the 2018 Meng Wanzhou arrest in Vancouver and the ensuing Canada-China diplomatic freeze.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [
+      "Mobile World Live"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-010",
+    "date": "2026-11-25",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "Senators Vote to Curb Liberals' Lawful Access Bill",
+    "summary": "A Senate committee amended Bill C-22, the federal 'lawful access' law, to bar orders forcing service providers to modify systems when there is a credible risk of exposing secured data, and to require that each order be necessary and proportionate, with annual reporting. Tech firms including Apple and Google have warned the bill is overly intrusive, while police argue they need modern powers to fight online fraud and sex crimes. If the full Senate adopts the changes, the bill returns to the House of Commons, setting up a clash between the two chambers.",
+    "link": "https://thelogic.co/news/senators-vote-curb-liberals-lawful-access-bill/",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-011",
+    "date": "2026-11-25",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Ottawa Is Still Assessing What Democrats' Midterm Gains Mean for Canada-U.S. Trade Talks, Jean Charest Says",
+    "summary": "Jean Charest, a member of Prime Minister Mark Carney's Canada-U.S. trade advisory committee, said U.S. tariffs could persist even under a future Democratic administration, noting that Joe Biden kept some first-term Trump tariffs. He warned that Trump's threatened doubling of auto tariffs to 50% in January would hurt the U.S. auto industry and that some Canadian firms could close within months, suggesting Ottawa may need COVID-style support beyond loans.",
+    "link": "https://thelogic.co/news/charest-negotiation-midterm-impact/",
+    "category": "Canadian Business",
+    "also_covered_by": [
+      "The Logic Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-012",
+    "date": "2026-11-25",
+    "source": "The Logic",
+    "newsletter": "The Logic Briefing",
+    "title": "Real Ventures Returns With First Fund in Nine Years",
+    "summary": "Montreal seed investor Real Ventures announced a $45-million first close of its sixth fund, backed by the Quebec government, Desjardins Capital, Fonds de solidarité FTQ, Teralys and BDC Capital, targeting $60 million in total. The firm had paused fundraising in 2022 after a failed raise, but early bets on Tenstorrent, Vention and Xanadu have since paid off; it is also relaunching its FounderFuel accelerator.",
+    "link": null,
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-013",
+    "date": "2026-11-25",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "The Big Read: Quantum Startups Are Shrinking the Gap Between Theories and Things That Actually Work",
+    "summary": "The Logic examines how theoretical quantum research that once seemed decades from practical use is moving toward commercial viability faster than expected. The feature looks at Canadian quantum startups turning research advances into working products.",
+    "link": "https://thelogic.co/news/the-big-read/quantum-theoretical-science-turning-commercial/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-014",
+    "date": "2026-11-25",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "Canadian Mortgage Arrears Hit Worst Level Since Equifax Began Tracking",
+    "summary": "An Equifax report found Canada's mortgage arrears rate jumped 30% over the past year to its worst level since 2013, with Ontario and B.C. accounting for 91% of the increase. Roughly 70% of Canadian mortgages in negative equity are in Ontario, and condo owners are most exposed, with 7.2% of condo mortgages likely underwater versus 2.7% for freehold homes. A TD economist expects Ontario arrears to keep worsening until mid-2027, with tariff-driven job losses or rate hikes posing further risks.",
+    "link": null,
+    "category": "Real Estate",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-015",
+    "date": "2026-11-25",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "Northern B.C. First Nations Make Major Investment in Coastal GasLink Pipeline",
+    "summary": "A group of 12 northern B.C. First Nations is making a substantial investment in the TC Energy entity behind the Coastal GasLink pipeline, according to sources. The deal would give the communities a significant equity interest in the natural gas pipeline that feeds the LNG Canada export terminal.",
+    "link": null,
+    "category": "Energy & Commodities",
+    "also_covered_by": [
+      "The Logic Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-016",
+    "date": "2026-11-25",
+    "source": "Bloomberg",
+    "newsletter": "Bloomberg Canada Daily",
+    "title": "CPP Leans on a Decades-Old Strategy to Manage AI Risk in Portfolios",
+    "summary": "Pension funds are turning to the total portfolio approach (TPA) to manage AI exposure that now runs through every asset class, according to Bloomberg. CPP Investments has used a version of TPA since 2016, while CalPERS and the Healthcare of Ontario Pension Plan adopted it this year; the method drops fixed asset-class allocations so every investment competes for capital based on its contribution to the whole fund. Critics question whether the approach can consistently beat benchmarks.",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-11-25/pension-funds-use-total-portfolio-approach-to-manage-ai-stock-exposure",
+    "category": "Markets & Finance",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-017",
+    "date": "2026-11-25",
+    "source": "Bloomberg",
+    "newsletter": "Bloomberg Canada Daily",
+    "title": "S&P Says It May Downgrade Nvidia's Ratings on Governance Worries",
+    "summary": "S&P Global Ratings placed Nvidia's AA credit rating under review for a possible one-notch downgrade, citing management and governance weaknesses exposed by Jensen Huang's departure and return, including board composition and long director tenures. Nvidia shares closed down 3.9% at $149.30 on Wednesday. The Information's Martin Peers argued the cited weaknesses, such as the lack of a board chair and succession plan, had long been visible.",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/s-p-says-it-may-downgrade-nvidia-s-ratings-on-governance-worries",
+    "category": "Markets & Finance",
+    "also_covered_by": [
+      "The Information Briefing"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-018",
+    "date": "2026-11-25",
+    "source": "Bloomberg",
+    "newsletter": "Bloomberg Canada Daily",
+    "title": "La Caisse's Infrastructure Arm Pauses Bond Sale as Market Sours",
+    "summary": "CDP Infrastructures, the financing platform of Quebec pension manager La Caisse, paused an inaugural debt sale of up to C$1 billion, according to people familiar with the matter. Strains in credit markets would have forced it to price the bonds at wider spreads and possibly shrink the deal.",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/la-caisse-s-infrastructure-arm-pauses-bond-sale-as-market-sours",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-019",
+    "date": "2026-11-25",
+    "source": "The Information",
+    "newsletter": "The Information Briefing",
+    "title": "Chip Glut Worries Rise",
+    "summary": "Martin Peers notes that Nvidia fell nearly 6%, Anthropic closed below its IPO price and neoclouds CoreWeave and Nebius dropped 11% on Tuesday after SemiAnalysis reported signs of cooling prices for Nvidia AI chips, citing price cuts by SpaceX. New U.S. rules redirecting chips away from Southeast Asia and a jump in supply, with JPMorgan forecasting 23.3 million AI chip shipments in 2027, could create a glut. That would undercut neoclouds such as CoreWeave, which has projected nearly $10 billion in extra annual revenue from chips coming off contract in 2027-28.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-020",
+    "date": "2026-11-25",
+    "source": "IBM",
+    "newsletter": "Enterprise AI Executive",
+    "title": "IBM Unveils 1,667-CAIO Guide to AI Results",
+    "summary": "IBM surveyed 1,667 chief AI officers after finding 76% of firms now have a CAIO, up from 26% in 2025, yet most struggle to deliver consistent AI outcomes. Only 18% of CAIOs fully control AI investment, and high-impact CAIOs scale initiatives in eight months versus 13.5 months for peers. Top performers are twice as likely to cut funding for AI projects that fail to deliver, even with senior sponsorship.",
+    "link": "https://www.ibm.com/downloads/documents/us-en/17f55bd460c4b884",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-021",
+    "date": "2026-11-25",
+    "source": "Boston Consulting Group",
+    "newsletter": "Enterprise AI Executive",
+    "title": "BCG: AI Data Center Demand Will Outpace Supply by 23 GW by 2031",
+    "summary": "BCG forecasts that AI data center demand will exceed supply by 23 GW by 2031, a gap worth about $1 trillion in capex, despite more than $800 billion in 2026 spending by Amazon, Google, Meta, Microsoft and Oracle. Global supply outside China is expected to triple to 286 GW by 2031, constrained by powered land, chip wafers and high-bandwidth memory. Smaller models are projected to handle about half of inference tokens by 2031, with enterprise inference driving most demand.",
+    "link": "https://web-assets.bcg.com/fc/dc/46c7efd64b63bc88ee29085629ff/how-the-ai-compute-shortage-will-create-winners-and-losers-slideshow-nov-2026.pdf",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-022",
+    "date": "2026-11-25",
+    "source": "Accenture",
+    "newsletter": "Enterprise AI Executive",
+    "title": "Accenture: Data Issues Delay AI Initiatives at 80% of Large Firms",
+    "summary": "Accenture surveyed 2,000 executives at organizations with more than $1 billion in revenue across 15 countries and found over 80% say data problems force them to delay, limit or change AI initiatives. Only 20% have semantic layers in production and 34% have reusable data products, while the top 7% of 'Reinvention Ready' firms are three times as likely to report measurable value from AI-ready data.",
+    "link": "https://www.accenture.com/content/dam/accenture/final/accenture-com/document-fy27/q1/AI-Ready-Data-Report.pdf",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-023",
+    "date": "2026-11-25",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "KT, LG Record Upload Boost From Potential 6G Tech",
+    "summary": "KT and LG Electronics achieved data upload capacity nearly five times that of 5G in trials of a technology they expect to be core to 6G, according to South Korean media reports. The tests point to uplink performance gains that operators see as key to future AI and immersive services.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-25-024",
+    "date": "2026-11-25",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Xiaomi Profit Falls on Component Costs and Weaker EV Demand",
+    "summary": "Xiaomi reported a significant year-on-year drop in third-quarter 2026 net profit. The company blamed rising component costs and reduced demand for its electric vehicles in China.",
+    "link": null,
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]

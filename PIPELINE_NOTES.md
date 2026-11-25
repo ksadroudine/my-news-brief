@@ -40,7 +40,7 @@ Karim subscribed to a Bloomberg newsletter sent from **`noreply@news.bloomberg.c
 - **Fields:** set `source` to "Bloomberg". Set `newsletter` to the newsletter's own name as shown in the subject or header (e.g. "Bloomberg Evening Briefing"), or "Bloomberg" if no name is shown.
 - **Priority:** Bloomberg is rank 4. See "Source Priority Order" above. When it covers the same story as WSJ, The Logic or The Globe and Mail, keep that source's entry and list the Bloomberg newsletter in `also_covered_by`. When it shares a story with The Economist, The Information, FT or any other source, keep the Bloomberg entry.
 - **Extraction:** follow the General Rules below and extract 1–3 substantive stories per issue. Skip sponsor content, event promotions and subscription offers. Use bloomberg.com article URLs from the body as `link`. If they are wrapped in tracking redirects, decode them only when the real URL is readable from the redirect itself; never construct one.
-- **Format unknown as of 2026-11-25:** no issue had arrived when this note was written. On the first run that processes one, add a short note here describing its format (plaintext vs HTML-only, link style, sections).
+- **Format (verified 2026-11-25, first issue "Canada Daily: Pensions confront AI risk"):** the newsletter is **Bloomberg Canada Daily** (subject prefix "Canada Daily:", arrives ~17:00 Toronto). `get_thread` returns a readable `plaintextBody`. Structure: a lead essay, then "Top stories", "Markets and commodities" and "Before you go...". Links are direct `bloomberg.com/news/articles/...` URLs in angle brackets right after the linked words; strip the `?cmpid=...&utm_...` query string. Set `newsletter` to "Bloomberg Canada Daily".
 
 ---
 

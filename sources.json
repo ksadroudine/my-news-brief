@@ -600,6 +600,22 @@
       "domain": "cnn.com",
       "auto_discovered": true,
       "note": "Auto-added 2026-11-23; primary source cited in WSJ Pro Cybersecurity (FBI NCIC database hack probe)."
+    },
+    {
+      "rank": 81,
+      "name": "Bloomberg",
+      "newsletter_name": "Bloomberg Canada Daily",
+      "domain": "bloomberg.com",
+      "auto_discovered": true,
+      "note": "Auto-added 2026-11-25; Bloomberg Canada Daily newsletter from noreply@news.bloomberg.com (first issue processed)."
+    },
+    {
+      "rank": 82,
+      "name": "Accenture",
+      "newsletter_name": "Enterprise AI Executive",
+      "domain": "accenture.com",
+      "auto_discovered": true,
+      "note": "Auto-added 2026-11-25; primary source of AI-ready data report cited in Enterprise AI Executive."
     }
   ],
   "last_updated": "2026-11-25",
