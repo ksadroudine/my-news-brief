@@ -29,11 +29,20 @@
       "name": "The Logic",
       "newsletter_name": "The Logic",
       "domain": "thelogic.co"
+    },
+    {
+      "rank": 6,
+      "name": "Bloomberg",
+      "newsletter_name": "Bloomberg",
+      "domain": "bloomberg.com",
+      "auto_discovered": false,
+      "note": "Subscribed newsletter as of 2026-11-25 (sender noreply@news.bloomberg.com), added at Karim's request; search and process daily. Originally auto-added 2026-10-06 as a primary source relayed in WSJ Morning Download. Re-ranked 2026-11-25 to 6, just below The Logic, at Karim's request.",
+      "sender": "noreply@news.bloomberg.com"
     }
   ],
   "other_sources": [
     {
-      "rank": 6,
+      "rank": 7,
       "name": "The Globe and Mail",
       "newsletter_name": "The Globe and Mail",
       "domain": "theglobeandmail.com",
@@ -42,7 +51,7 @@
       "note": "HTML-only email, no plaintextBody. Sender is noreply@globeandmailnewsletters.com (not theglobeandmail.com). Use WebSearch to find the weekly Business Brief article on theglobeandmail.com. Site is paywalled — rely on WebSearch snippets for story details. See PIPELINE_NOTES.md."
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Techpresso",
       "newsletter_name": "Techpresso",
       "domain": "dupple.com",
@@ -51,13 +60,13 @@
       "note": "Plaintext body contains only the archive URL, no article content. Use WebSearch on the slug or subject line to surface the URL, then web_fetch. If archive not indexed, search for each topic from the subject/snippet individually. See PIPELINE_NOTES.md."
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "The Neuron",
       "newsletter_name": "The Neuron",
       "domain": "theneurondaily.com"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "SmartBrief",
       "newsletter_name": "SmartBrief on Connectivity",
       "domain": "smartbrief.com",
@@ -66,7 +75,7 @@
       "note": "Email body contains a headline list only — no summaries. Full summaries are on a web page behind a tracking URL (r.smartbrief.com/...). Use WebSearch on each headline to find and summarize the underlying story. Focus on stories unique to this newsletter; skip anything already covered by higher-priority sources. See PIPELINE_NOTES.md."
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "The Rundown Tech",
       "newsletter_name": "The Rundown Tech",
       "sender": "crew@technews.therundown.ai",
@@ -74,7 +83,7 @@
       "note": "Full plaintext body. Covers consumer tech, hardware, and AI product news. Extract 2-3 most substantive stories per issue; skip soft-feature items. See PIPELINE_NOTES.md."
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "The Rundown AI",
       "newsletter_name": "The Rundown AI",
       "sender": "news@daily.therundown.ai",
@@ -82,7 +91,7 @@
       "note": "Full plaintext body. Covers frontier AI research, model releases, and applied AI. Extract 2-3 most substantive stories per issue. Distinct from The Rundown Tech despite shared brand. See PIPELINE_NOTES.md."
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "Enterprise AI Executive",
       "newsletter_name": "Enterprise AI Executive",
       "sender": "generativeaienterprise@mail.beehiiv.com",
@@ -90,7 +99,7 @@
       "note": "Beehiiv-hosted. Formerly named 'Generative AI Enterprise'. Full plaintext body. Focus is enterprise AI adoption, agentic workflows, and AI-in-consulting. Extract 2-3 stories per issue; prioritize those not already covered by WSJ or The Information. See PIPELINE_NOTES.md."
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "Ben Evans",
       "newsletter_name": "Benedict's Newsletter",
       "sender": "list@ben-evans.com",
@@ -98,7 +107,7 @@
       "note": "Weekly tech analysis newsletter from independent analyst Benedict Evans. Full plaintext body. Focus is macro tech strategy, AI deployment, and business model shifts. Extract 3-4 most substantive stories per issue. See PIPELINE_NOTES.md."
     },
     {
-      "rank": 14,
+      "rank": 15,
       "name": "McKinsey & Company",
       "newsletter_name": "McKinsey Insights",
       "sender": "publishing@email.mckinsey.com",
@@ -106,43 +115,43 @@
       "note": "McKinsey thought leadership newsletter. Email body not fully extracted (snippet only). Covers strategy, technology, and business management research."
     },
     {
-      "rank": 15,
+      "rank": 16,
       "name": "The Economist Today",
       "newsletter_name": "The Economist Today",
       "auto_discovered": true
     },
     {
-      "rank": 16,
+      "rank": 17,
       "name": "The Bottom Line",
       "newsletter_name": "The Bottom Line",
       "auto_discovered": true
     },
     {
-      "rank": 17,
+      "rank": 18,
       "name": "The Economist This Weekend",
       "newsletter_name": "The Economist This Weekend",
       "auto_discovered": true
     },
     {
-      "rank": 18,
+      "rank": 19,
       "name": "The Information Weekend",
       "newsletter_name": "The Information Weekend",
       "auto_discovered": true
     },
     {
-      "rank": 19,
+      "rank": 20,
       "name": "The Morning Download",
       "newsletter_name": "The Morning Download",
       "auto_discovered": true
     },
     {
-      "rank": 20,
+      "rank": 21,
       "name": "WSJ Weekend",
       "newsletter_name": "WSJ Weekend",
       "auto_discovered": true
     },
     {
-      "rank": 21,
+      "rank": 22,
       "name": "The Economist",
       "newsletter_name": "The Economist Well Informed",
       "domain": "economist.com",
@@ -150,14 +159,14 @@
       "note": "Weekly health and wellness newsletter from The Economist. Auto-discovered 2026-05-17."
     },
     {
-      "rank": 22,
+      "rank": 23,
       "name": "Mobile World Live",
       "newsletter_name": "Mobile World Live",
       "domain": "mobileworldlive.com",
       "note": "Telecom and mobile industry news from GSMA's editorial team. Covers connectivity, spectrum, network infrastructure, and mobile technology trends. Extract 2-3 most substantive stories per issue; skip event promotional content. Added 2026-05-18."
     },
     {
-      "rank": 23,
+      "rank": 24,
       "newsletter_name": "WSJ AI Alert",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-05-18.",
@@ -165,7 +174,7 @@
       "domain": "wsj.com"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "newsletter_name": "WSJ Pro Cybersecurity",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-05-18.",
@@ -173,7 +182,7 @@
       "domain": "wsj.com"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "newsletter_name": "The Information AM",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-05-18.",
@@ -181,7 +190,7 @@
       "domain": "theinformation.com"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "newsletter_name": "The Economist Inside Tech",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-05-18.",
@@ -189,7 +198,7 @@
       "domain": "economist.com"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "newsletter_name": "WSJ AI & Business",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-05-19. WSJ digest newsletter covering AI business strategy; distinct from WSJ AI Alert (individual article notifications). Sender: access@interactive.wsj.com.",
@@ -197,7 +206,7 @@
       "domain": "wsj.com"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "name": "Wall Street Journal",
       "newsletter_name": "WSJ CIO Journal",
       "domain": "wsj.com",
@@ -205,7 +214,7 @@
       "note": "Auto-discovered 2026-05-22. WSJ newsletter: WSJ CIO Journal. Sender: access@interactive.wsj.com."
     },
     {
-      "rank": 29,
+      "rank": 30,
       "name": "Wall Street Journal",
       "newsletter_name": "WSJ CEO Brief",
       "domain": "wsj.com",
@@ -213,7 +222,7 @@
       "note": "Auto-discovered 2026-05-22. WSJ newsletter: WSJ CEO Brief. Sender: access@interactive.wsj.com."
     },
     {
-      "rank": 30,
+      "rank": 31,
       "name": "The Information",
       "newsletter_name": "The Information Briefing",
       "domain": "theinformation.com",
@@ -222,7 +231,7 @@
       "note": "Auto-discovered 2026-05-26. Nightly column from info@theinformation.com. Per PIPELINE_NOTES: treat as supplementary; date entries to the dateline (prior day), not email arrival date."
     },
     {
-      "rank": 31,
+      "rank": 32,
       "name": "The Information",
       "newsletter_name": "The Information Dealmaker",
       "domain": "theinformation.com",
@@ -232,40 +241,40 @@
     },
     {
       "newsletter_name": "WSJ | Latest in AI",
-      "rank": 32
-    },
-    {
-      "newsletter_name": "WSJ | Heard on the Street",
       "rank": 33
     },
     {
-      "newsletter_name": "WSJ | The Morning Download",
+      "newsletter_name": "WSJ | Heard on the Street",
       "rank": 34
     },
     {
-      "newsletter_name": "WSJ | CMO Today",
+      "newsletter_name": "WSJ | The Morning Download",
       "rank": 35
     },
     {
-      "newsletter_name": "WSJ | Pro Cybersecurity",
+      "newsletter_name": "WSJ | CMO Today",
       "rank": 36
     },
     {
-      "rank": 37,
+      "newsletter_name": "WSJ | Pro Cybersecurity",
+      "rank": 37
+    },
+    {
+      "rank": 38,
       "newsletter": "WSJ Latest in AI",
       "sender": "access@interactive.wsj.com",
       "notes": "WSJ section alert for AI stories — auto-added 2026-05-30"
     },
     {
       "newsletter": "WSJ Latest in Artificial Intelligence",
-      "rank": 38
-    },
-    {
-      "newsletter": "WSJ Technology Newsletter",
       "rank": 39
     },
     {
-      "rank": 40,
+      "newsletter": "WSJ Technology Newsletter",
+      "rank": 40
+    },
+    {
+      "rank": 41,
       "name": "The Information",
       "newsletter_name": "Applied AI",
       "domain": "theinformation.com",
@@ -274,42 +283,42 @@
       "note": "Auto-discovered 2026-06-02. Sub-newsletter from The Information covering enterprise AI adoption and business model shifts. Subject pattern: 'Applied AI: ...'. See PIPELINE_NOTES.md."
     },
     {
-      "rank": 41,
+      "rank": 42,
       "newsletter_name": "WSJ Morning Download",
       "name": "WSJ Morning Download"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "newsletter_name": "WSJ Latest in Artificial Intelligence",
       "name": "WSJ Latest in Artificial Intelligence"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "newsletter_name": "The Logic Briefing",
       "name": "The Logic Briefing"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "name": "WSJ Future of Everything",
       "newsletter_name": "WSJ Future of Everything",
       "auto_discovered": true
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "The Globe and Mail Business Brief",
       "newsletter_name": "The Globe and Mail Business Brief",
       "auto_discovered": true
     },
     {
       "name": "The Information AM",
-      "rank": 44
-    },
-    {
-      "name": "The Information Briefing",
       "rank": 45
     },
     {
-      "rank": 46,
+      "name": "The Information Briefing",
+      "rank": 46
+    },
+    {
+      "rank": 47,
       "name": "The Information",
       "newsletter_name": "The Information (article alert)",
       "domain": "theinformation.com",
@@ -318,7 +327,7 @@
       "note": "Auto-discovered 2026-06-18. Single-article promotional emails from hello@theinformation.com where subject is the article headline. plaintextBody contains 1-3 paragraphs of article text plus a real article URL (theinformation.com/articles/[slug]). Per PIPELINE_NOTES.md."
     },
     {
-      "rank": 47,
+      "rank": 48,
       "name": "Wall Street Journal",
       "newsletter_name": "WSJ Heard on the Street",
       "domain": "wsj.com",
@@ -327,7 +336,7 @@
       "note": "Auto-discovered 2026-06-18. Financial analysis and market commentary column. In scope per PIPELINE_NOTES.md. Extract 1-2 stories per issue; focus on material financial insight or strategic implications."
     },
     {
-      "rank": 48,
+      "rank": 49,
       "name": "Wall Street Journal",
       "newsletter_name": "WSJ AI & Tech",
       "domain": "wsj.com",
@@ -336,7 +345,7 @@
       "note": "Auto-discovered 2026-06-23. Sender: access@interactive.wsj.com."
     },
     {
-      "rank": 49,
+      "rank": 50,
       "name": "The Information",
       "newsletter_name": "The Takeaway",
       "domain": "theinformation.com",
@@ -346,10 +355,10 @@
     },
     {
       "name": "WSJ Latest in Personal Technology",
-      "rank": 50
+      "rank": 51
     },
     {
-      "rank": 51,
+      "rank": 52,
       "name": "Wall Street Journal",
       "newsletter_name": "Wall Street Journal",
       "domain": "wsj.com",
@@ -357,7 +366,7 @@
       "note": "Auto-discovered 2026-07-20. Generic WSJ alert used as fallback label when the specific sub-newsletter type could not be confirmed (get_thread token-limit fallback; subject line did not match a known WSJ sub-newsletter pattern)."
     },
     {
-      "rank": 52,
+      "rank": 53,
       "name": "Wall Street Journal",
       "newsletter_name": "WSJ CMO Today",
       "domain": "wsj.com",
@@ -366,7 +375,7 @@
       "note": "Auto-discovered 2026-08-27. Daily marketing and advertising newsletter covering brand strategy, marketing technology, AI in advertising, consumer behavior, and media industry trends. In scope per PIPELINE_NOTES.md."
     },
     {
-      "rank": 53,
+      "rank": 54,
       "name": "Wall Street Journal",
       "newsletter_name": "WSJ Latest in Personal Technology",
       "domain": "wsj.com",
@@ -375,7 +384,7 @@
       "note": "Auto-discovered 2026-08-27. Single-story WSJ alert covering consumer technology and personal-tech topics."
     },
     {
-      "rank": 54,
+      "rank": 55,
       "name": "Wall Street Journal",
       "newsletter_name": "WSJ Weekend Reads",
       "domain": "wsj.com",
@@ -384,7 +393,7 @@
       "note": "Auto-discovered 2026-08-29. Weekly weekend feature-story newsletter (lifestyle, culture, and long-form journalism), typically written by Cristina Lourosa-Ricardo or a guest editor. Mostly out-of-scope lifestyle content, but occasionally covers substantive business/tech feature stories (e.g. an AI-related hedge fund collapse) worth extracting per the substantive-stories-only rule."
     },
     {
-      "rank": 55,
+      "rank": 56,
       "name": "The Information",
       "newsletter_name": "The Information (Weekly Top Stories)",
       "domain": "theinformation.com",
@@ -393,7 +402,7 @@
       "note": "Auto-discovered 2026-08-29. Weekly promotional round-up email (subject pattern: '...: this week's top stories') listing 5 short teasers linking to paywalled articles, with heavy subscribe-now CTAs. Distinct from The Information AM/Weekend/Dealmaker/Applied AI/Takeaway/article-alert types. Individual teaser items should still be evaluated against the substantive-stories-only rule and cross-checked for duplicates against prior days' entries, since some stories may already have been extracted earlier in the week via other Information sub-newsletters."
     },
     {
-      "rank": 56,
+      "rank": 57,
       "name": "Wall Street Journal",
       "newsletter_name": "WSJ Technology",
       "domain": "wsj.com",
@@ -405,7 +414,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 58,
       "name": "The Information",
       "newsletter_name": "The Information (Leads Campaign)",
       "domain": "theinformation.com",
@@ -414,7 +423,7 @@
       "note": "Auto-discovered 2026-09-07. Subscription-marketing 'Leads: [topic]' campaign email built from teaser excerpts of already-published theinformation.com articles (heavy 'Subscribe and save 25%' CTAs). Distinct from AM/Weekend/Dealmaker/Applied AI/article-alert/Weekly Top Stories/The Takeaway. Contains real article URLs in body usable as link field. Extract the underlying substantive story per the general substantive-stories-only rule."
     },
     {
-      "rank": 58,
+      "rank": 59,
       "name": "The Information",
       "newsletter_name": "The Information Special Report",
       "domain": "theinformation.com",
@@ -423,22 +432,13 @@
       "note": "Auto-discovered 2026-09-29. Special report format (analytical deep-dive with full plaintext body)."
     },
     {
-      "rank": 59,
+      "rank": 60,
       "name": "Wall Street Journal",
       "newsletter_name": "WSJ Latest in Personal Finance",
       "domain": "wsj.com",
       "sender": "access@interactive.wsj.com",
       "auto_discovered": true,
       "note": "Auto-discovered 2026-10-05."
-    },
-    {
-      "rank": 60,
-      "name": "Bloomberg",
-      "newsletter_name": "Bloomberg",
-      "domain": "bloomberg.com",
-      "auto_discovered": false,
-      "note": "Subscribed newsletter as of 2026-11-25 (sender noreply@news.bloomberg.com), added at Karim's request; search and process daily. Originally auto-added 2026-10-06 as a primary source relayed in WSJ Morning Download.",
-      "sender": "noreply@news.bloomberg.com"
     },
     {
       "rank": 61,
