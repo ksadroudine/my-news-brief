@@ -28,7 +28,7 @@ Use this order wherever a run needs source priority: the order for processing em
 7. Financial Times
 8+ Any other source, in `sources.json` rank order
 
-`sources.json` matches this order (ranks 1–7). Older notes below, including mentions of "higher-priority sources (WSJ, The Information, etc.)", follow this list.
+`sources.json` matches this order (ranks 1–7).
 
 ---
 
@@ -69,51 +69,23 @@ When a newsletter contains a mix of substantive and non-substantive items — wh
 
 **Never skip a newsletter solely because it has no outbound hyperlink to a published article.** If `plaintextBody` contains full narrative prose (column text, analysis, multi-paragraph summaries), extract content directly from the email body. The absence of a clickable link is not a reason to skip — it is simply a reason to set `"link": null` on the resulting entries.
 
-The three cases to distinguish:
+The two cases to distinguish:
 1. **Full prose in body** (e.g. The Information Weekend, Dealmaker columns) → extract directly; `link` = null unless a real URL appears elsewhere in the body.
-2. **Body is a URL only** (e.g. Techpresso) → use WebSearch to surface the URL, then web_fetch.
-3. **Body is a headline list** (e.g. SmartBrief) → WebSearch each headline.
+2. **Body is a headline list** (e.g. SmartBrief) → WebSearch each headline.
 
-When a newsletter email has **no `plaintextBody`** or the plaintext body contains **only a URL and no article content**, follow the source-specific rules below.
+When a newsletter email has no usable `plaintextBody`, strip its `htmlBody` to text and follow the source-specific rules below.
 
 ---
 
 ## Source-Specific Handling
 
-### Techpresso (`techpresso@dupple.com`)
-
-**Format:** Beehiiv-hosted newsletter. The plaintext version of the email is intentionally stripped to just a single archive URL in the form:
-`https://archive.techpresso.co/p/[slug]`
-
-There is no article content in the email body.
-
-**How to extract content:**
-1. Pull the archive URL from `plaintextBody`.
-2. The archive URL cannot be fetched directly via `web_fetch` due to provenance restrictions — it was not provided by the user or a prior `web_fetch`/`web_search` result.
-3. Use `WebSearch` with the slug or subject line (e.g. `site:archive.techpresso.co [topic] 2026`) to surface the URL in search results.
-4. Once the URL appears in `WebSearch` results, it enters the provenance set and `web_fetch` can retrieve it.
-5. If the archive page is not indexed by search engines, use the email subject line and snippet to identify the main story and secondary bullet topics, then search for each topic independently (e.g. `"Google Fitbit Air launch May 2026"`).
-
-**Format of content:** Each issue has one main story (usually the email subject) and several secondary items, each with a title, a link, and 2–4 bullet points summarizing the topic.
-
-**Known issue (as of May 2026):** The Techpresso archive domain (`archive.techpresso.co`) is not reliably indexed by search engines. The fallback is to identify topics from the subject line and snippet, search for those topics, and reconstruct coverage from primary sources.
-
----
-
 ### The Globe and Mail Business Brief (`noreply@globeandmailnewsletters.com`)
 
-**Format:** HTML-only email. `get_thread` returns **no `plaintextBody`** regardless of the `messageFormat` parameter — the Gmail tool does not expose the HTML body. The `snippet` field is boilerplate header text only ("Trouble viewing this email...") and contains no article content.
+**Format (verified 2026-11-24):** daily weekday newsletter by Chris Wilson-Smith. `get_thread` returns a readable `plaintextBody`. Sections: an "In focus" lead story, "More top stories", "Charted", "Up next" and a "Morning update" markets summary.
 
-**Important:** The email body *does* contain full readable article text in its HTML version. The limitation is purely on the tool side — `get_thread` does not return HTML body content.
+**Extraction:** take the "In focus" story and 1–2 substantive items from "More top stories", preferring Canadian business and policy stories. Skip "Up next" calendar items, the "Morning update" market recap and podcast or app promotions.
 
-**Root cause:** The Gmail MCP connector (`get_thread`) only returns `plaintextBody`. It does not expose the HTML body, and this cannot be worked around by changing the `messageFormat` parameter — explicitly passing `FULL_CONTENT` was tested and still returns no body for this email.
-
-**How to extract content (in order of preference):**
-1. **With Computer Use enabled (recommended for automation):** Navigate to Gmail in a browser, open the email, and read the HTML content directly. This is the only fully automated solution. Enable at Settings → Desktop app → Computer use.
-2. **For automated runs without Computer Use:** Search for the published article: `site:theglobeandmail.com "business brief" "five files" [month] [year]`. URL pattern: `https://www.theglobeandmail.com/business/article-business-brief-five-files-to-follow-this-week-[N]/`. The site is **paywalled** — `web_fetch` returns empty — but `WebSearch` snippets typically recover 2–3 of the 5 files. Cross-reference with The Logic newsletters from the same week for overlapping Canadian business stories.
-3. **Do not ask the user to paste the content manually.** This is not acceptable for a scheduled pipeline.
-
-**Newsletter format:** Weekly (Monday), 5 numbered sections. Each covers a Canadian or macro business story with 3–5 short paragraphs. Author: Stefanie Marotta.
+**Links:** the body only contains `click.globeandmail.com` tracking redirects, not article URLs, so set `link` to null.
 
 ---
 
@@ -124,21 +96,11 @@ There is no article content in the email body.
 **Newsletter types:**
 - **The Information AM** (`hello@theinformation.com`, arrives ~11am ET): numbered list of articles with full summaries. Primary daily extraction source.
 - **The Information Briefing** (`info@theinformation.com`, arrives ~midnight ET): nightly column by Martin Peers, written in prose. Its dateline is the prior day, but per the Entry Dating Rule (2026-11-15) its entries are dated to the run date like every other newsletter. If a story it covers is already in the brief for yesterday or today, skip it rather than adding a duplicate; otherwise create an entry dated to the run date.
-- **The Information Weekend** (`hello@theinformation.com`, subject: "Weekend: [headline]", arrives Saturday): weekly column by Abram Brown. Full plaintext body — no link needed. Extract the main column story (typically 4–8 paragraphs of analysis on one theme) plus any secondary items that are distinct business/tech facts (e.g. funding milestones, product announcements, notable deals mentioned in passing). Skip entertainment recommendations (books, TV, film) and cultural observations with no business relevance. Date entries to the email's arrival date (Saturday). Link = null unless a real URL appears in the body.
-- **The Information Dealmaker** (`hello@theinformation.com`, subject: "Dealmaker: [headline]"): weekly VC/funding column by Katie Roof. Full plaintext body. Extract the main column thesis as a single entry. Date to email arrival date. Link = null.
+- **The Information Weekend** (`hello@theinformation.com`, subject: "Weekend: [headline]", arrives Saturday): weekly column by Abram Brown. Full plaintext body — no link needed. Extract the main column story (typically 4–8 paragraphs of analysis on one theme) plus any secondary items that are distinct business/tech facts (e.g. funding milestones, product announcements, notable deals mentioned in passing). Skip entertainment recommendations (books, TV, film) and cultural observations with no business relevance. Link = null unless a real URL appears in the body.
+- **The Information Dealmaker** (`hello@theinformation.com`, subject: "Dealmaker: [headline]"): weekly VC/funding column by Katie Roof. Full plaintext body. Extract the main column thesis as a single entry. Link = null.
 - **The Information article alerts** (`hello@theinformation.com`, subject is the article headline): single-article promotional emails. The `plaintextBody` contains 1–3 paragraphs of article text plus a real article URL (e.g. `https://www.theinformation.com/articles/[slug]`). Extract the article and use the URL as the link — these are valid provenance-compliant URLs because they appear in `get_thread` output... **but** per the Web Fetch Provenance Rule, URLs from `get_thread` cannot be fetched directly. However, the article summary in the body is usually sufficient to write the entry without fetching. Use the URL as the `link` field directly (it was present in the email and can be cited as the source).
 - **Applied AI** (`hello@theinformation.com`, subject: "Applied AI: [headline]"): in scope. Covers enterprise AI adoption, AI-driven business model shifts, and the impact of AI on software procurement and vendor relationships. Format is a short analytical piece on one main story. Extract 1 entry per issue; focus on the core business or strategic insight. Set `source` to "The Information" and `newsletter` to "Applied AI". Link = null unless a real article URL appears in the body.
 - **Digest / recap emails** (`hello@theinformation.com`): skip. These are promotional round-ups of already-covered stories (e.g. "Top Posts Today," "This Week's Most Popular Stories," "Sunday recap," "Before X was everywhere, it was in The Information"). Identify by subject patterns like "recap," "most popular," "before X was everywhere," or "don't miss."
-
----
-
-### The Neuron (`theneuron@newsletter.theneurondaily.com`)
-
-**Format:** Beehiiv-hosted. Unlike Techpresso, The Neuron's plaintext body contains the full article content — sections include a featured story, "Around the Horn" (bullet list of secondary stories), "Treats to Try" (product launches), and "Intelligent Insights" (opinion/analysis links).
-
-**Extraction guidance:**
-- Extract 4–6 articles per issue: typically the main story, 2–3 "Around the Horn" items with enough detail for a standalone summary, and 1–2 "Treats to Try" items if they represent meaningful product launches.
-- Skip "AI Skill of the Day," podcast promotions, and "A Cat's Commentary."
 
 ---
 
@@ -164,16 +126,14 @@ There is no article content in the email body.
 
 ---
 
-### The Rundown Tech (`crew@technews.therundown.ai`) and The Rundown AI (`news@daily.therundown.ai`)
+### The Rundown Tech (`crew@technews.therundown.ai`)
 
-**Format:** Both are daily newsletters with full plaintext bodies. The two are distinct newsletters from the same publisher (therundown.ai) with different sender addresses and editorial focus:
-- **The Rundown Tech** — consumer and enterprise technology, hardware, product launches, market trends.
-- **The Rundown AI** — frontier AI research, model releases, AI policy, applied AI in science and industry.
+**Format:** daily newsletter with a full plaintext body covering consumer and enterprise technology, hardware, product launches and market trends. (The Rundown AI, `news@daily.therundown.ai`, is a separate newsletter and is skipped.)
 
 **Extraction guidance:**
-- Extract 2–3 stories per issue. Focus on stories with quantified claims or announcements not already covered by WSJ or The Information.
+- Extract 2–3 stories per issue. Focus on stories with quantified claims or announcements not already covered by a higher-priority source.
 - Skip: sponsor callouts, "tool of the day" sections, and brief one-line items without enough detail for a standalone summary.
-- Links are often present in the body as direct source URLs. Use these as the `link` field if they appeared in `get_thread` output and satisfy the Link Integrity Rule (real article URLs with hash or path components, not constructed slugs).
+- Links are often present in the body as direct source URLs. Use these as the `link` field if they satisfy the Link Integrity Rule (real article URLs with hash or path components, not constructed slugs).
 
 ---
 
@@ -191,7 +151,7 @@ There is no article content in the email body.
 - Extract 2–3 stories per issue. Prioritize the named sections (MARKET INSIGHT, BEST PRACTICE INSIGHT, etc.) over the news digest bullets.
 - The source field should reflect the originating organization (e.g. "Deloitte", "Microsoft", "OpenAI") rather than "Enterprise AI Executive" when the newsletter is reporting on a primary source document or report. Set `newsletter` to "Enterprise AI Executive" and `source` to the primary source organization.
 - When the newsletter is the primary analysis (no external report), set both `source` and `newsletter` to "Enterprise AI Executive".
-- Prioritize stories not already covered by WSJ or The Information — this newsletter often surfaces consulting firm reports (Deloitte, McKinsey, Bain, Accenture, Google Cloud) before they reach general news.
+- Prioritize stories not already covered by a higher-priority source — this newsletter often surfaces consulting firm reports (Deloitte, McKinsey, Bain, Accenture, Google Cloud) before they reach general news.
 - Skip: how-to guides (e.g. "How to prepare for board meetings with Claude"), career listings, events, upgrade pitches, and one-line digest bullets without enough detail for a standalone summary.
 
 ---
@@ -204,7 +164,7 @@ There is no article content in the email body.
 1. Read the headline list from `plaintextBody`.
 2. For each relevant headline, run `WebSearch` to find the underlying story and source article.
 3. Build the summary from the search results and underlying article if fetchable.
-4. Skip headlines that are already covered by higher-priority sources (WSJ, The Information, etc.).
+4. Skip headlines that are already covered by a higher-priority source.
 5. Skip section headers that are not news stories: "ICYMI," "SmartBreak: Question of the Day," "SmartPod," "Friday Fun," "Leadership" (unless genuinely notable).
 
 **Focus areas:** Tower/telco infrastructure, spectrum policy, FCC/NTIA regulation, AI in telecom, broadband policy. Skip consumer gadget or soft-feature items.
@@ -213,34 +173,17 @@ There is no article content in the email body.
 
 ---
 
+## Cross-Day Coverage
 
-
-- **Cross-day duplicates:** The same story (e.g. the OpenAI-Broadcom chip deal) may appear in newsletters over multiple days as coverage evolves. Each day's newsletter coverage is a distinct entry dated to that day. Do not suppress a May 8 entry just because the same story has a May 11 entry.
-- **The Information Briefing:** superseded 2026-11-15 by the Entry Dating Rule; date Briefing entries to the run date like everything else.
-- **Techpresso and The Neuron often cover the same tech stories** as WSJ/The Information but from a different angle. Use the higher-priority source as primary and add the other as `also_covered_by`.
+The same story may appear in newsletters over several days as coverage evolves. If an entry with a matching or closely matching title already exists for yesterday or today, skip it. A genuinely new development or angle on an older story gets its own entry dated to the run date.
 
 ---
 
-## Link Resolution Method (WSJ, The Economist, FT)
+## Link Resolution Method (Step 7b: WSJ, Bloomberg, The Economist, FT)
 
-As of 2026-08-27, resolving missing links for WSJ/Economist/FT entries (Step 7b) should use the **in-app Browser pane**, not the `WebSearch` tool. `WebSearch` was found to ignore `site:` filters and quoted-phrase matching unreliably (returning secondary-source results instead of the direct wsj.com/economist.com/ft.com URL, even when one clearly existed), while the in-app Browser hitting DuckDuckGo directly returned the correct canonical URL on the first try in every test case — **provided the query is built correctly (see below)**.
+Use `WebSearch` with the `site:` operator and the title words **unquoted**, e.g. `site:wsj.com Nvidia board reinstates Jensen Huang` (or `site:bloomberg.com`, `site:economist.com`, `site:ft.com`). Quoting the full title, or writing the domain as plain text instead of `site:`, often returns nothing.
 
-**Correct query format (fixed 2026-08-28):** Use the `site:` operator, not the bare domain as plain text, and leave the title **unquoted**.
-
-- WORKS: `https://duckduckgo.com/html/?q=site%3Awsj.com+[title words joined with +, unquoted, URL-encoded]`
-- FAILS (returns "No results found"): `https://duckduckgo.com/html/?q=wsj.com+%22[exact article title]%22` — wrapping the title in a quoted exact phrase, or using `wsj.com` as bare text instead of `site:wsj.com`, causes DuckDuckGo's `/html/` endpoint to return zero results even when the article clearly exists and is indexed. This was misdiagnosed on 2026-08-28's run as a browser-access problem; it was actually a query-syntax problem. Verified working for all 8/8 test titles on 2026-08-28 using the `site:` + unquoted form.
-
-**Method:**
-1. Build the query as `site:wsj.com <title words>` (or `site:economist.com` / `site:ft.com`), all unquoted, `+`-joined, URL-encoded. Do not wrap the title in `%22...%22`.
-2. Use `mcp__Claude_Browser__navigate` (or `preview_start`) to load `https://duckduckgo.com/html/?q=` + the encoded query above.
-3. Use `mcp__Claude_Browser__get_page_text` to read the results.
-4. Take the URL from the first matching wsj.com/economist.com/ft.com result whose title closely matches. Cross-check the slug against any tracking-link fragment visible in the original `get_thread` body if possible (WSJ's `trk.wsj.com` click links are base64-encoded redirects to the real URL and often contain the same slug).
-5. Note: `wsj.com` itself is blocked by policy from being opened directly in the Browser pane (`navigate` will error). This does not block link resolution — the DuckDuckGo search snippet already contains the full URL text, and the article is paywalled anyway, so there's no need to load the page itself.
-6. If DuckDuckGo returns no matching wsj.com/economist.com/ft.com result even with the corrected query, leave `link` as null per the Link Integrity Rule. Do not force a match.
-
-Bing was also tested and found unreliable (ignored `site:` and quoted-phrase filters, returning unrelated generic results).
-
-**Browser-access note for unattended/scheduled runs:** On 2026-08-28, `navigate` to `duckduckgo.com` returned "navigation to https://duckduckgo.com was denied or failed" during the unattended scheduled run (no user present), but succeeded immediately once a user was active in the session. This looks like a one-time per-domain approval gate on the Browser pane rather than a permanent block — the Browser pane keeps a persistent profile across sessions, so once a domain has been approved interactively it should remain approved for later automated runs. `duckduckgo.com` was approved interactively on 2026-08-28. **If a future scheduled run again gets "navigation denied" for `duckduckgo.com`,** the persistent-approval assumption was wrong; do not keep retrying navigate in a loop. Instead: fall back to `WebSearch` using the corrected `site:` + unquoted query format above (untested against WebSearch specifically, but worth trying before giving up), and if that also fails, leave WSJ/Economist/FT links null and flag "Browser pane access to duckduckgo.com denied again — needs interactive re-approval" prominently in the completion report so Karim knows to run the task interactively once to re-approve.
+Take the URL from the first result on the right domain whose title closely matches. For WSJ, check the slug against any decoded `trk.wsj.com` link from the email. If nothing matches, leave `link` null; never force a match.
 
 ---
 
@@ -286,4 +229,4 @@ When in doubt, set `link` to null. The index.html rendering treats null links as
 
 ---
 
-*Last updated: 2026-05-22 (WSJ CMO Today, Applied AI, WSJ Future of Everything, and WSJ Heard on the Street added to scope; substantive-stories-only general rule added; conference/event-marketing newsletters skip rule preserved; digest/recap skip rule clarified)*
+*Last updated: 2026-11-25 (source priority reordered; Bloomberg added; desktop-era instructions, Techpresso and The Neuron removed; Globe and Mail format updated to the daily plaintext Business Brief).*
