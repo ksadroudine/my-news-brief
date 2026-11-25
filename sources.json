@@ -8,32 +8,12 @@
     },
     {
       "rank": 2,
-      "name": "The Economist",
-      "newsletter_name": "The Economist Espresso",
-      "domain": "economist.com"
-    },
-    {
-      "rank": 3,
-      "name": "The Information",
-      "newsletter_name": "The Information",
-      "domain": "theinformation.com"
-    },
-    {
-      "rank": 4,
-      "name": "Financial Times",
-      "newsletter_name": "FT Morning Briefing",
-      "domain": "ft.com"
-    },
-    {
-      "rank": 5,
       "name": "The Logic",
       "newsletter_name": "The Logic",
       "domain": "thelogic.co"
-    }
-  ],
-  "other_sources": [
+    },
     {
-      "rank": 6,
+      "rank": 3,
       "name": "The Globe and Mail",
       "newsletter_name": "The Globe and Mail",
       "domain": "theglobeandmail.com",
@@ -42,14 +22,34 @@
       "note": "HTML-only email, no plaintextBody. Sender is noreply@globeandmailnewsletters.com (not theglobeandmail.com). Use WebSearch to find the weekly Business Brief article on theglobeandmail.com. Site is paywalled — rely on WebSearch snippets for story details. See PIPELINE_NOTES.md."
     },
     {
-      "rank": 7,
+      "rank": 4,
       "name": "Bloomberg",
       "newsletter_name": "Bloomberg",
       "domain": "bloomberg.com",
       "auto_discovered": false,
-      "note": "Subscribed newsletter as of 2026-11-25 (sender noreply@news.bloomberg.com), added at Karim's request; search and process daily. Originally auto-added 2026-10-06 as a primary source relayed in WSJ Morning Download. Re-ranked 2026-11-25 to 7 at Karim's request: order is The Logic, The Globe and Mail, then Bloomberg.",
+      "note": "Subscribed newsletter as of 2026-11-25 (sender noreply@news.bloomberg.com), added at Karim's request; search and process daily. Originally auto-added 2026-10-06 as a primary source relayed in WSJ Morning Download. Re-ranked 2026-11-25 to 4 at Karim's request (order: WSJ, The Logic, The Globe and Mail, Bloomberg, The Economist, The Information, FT).",
       "sender": "noreply@news.bloomberg.com"
     },
+    {
+      "rank": 5,
+      "name": "The Economist",
+      "newsletter_name": "The Economist Espresso",
+      "domain": "economist.com"
+    },
+    {
+      "rank": 6,
+      "name": "The Information",
+      "newsletter_name": "The Information",
+      "domain": "theinformation.com"
+    },
+    {
+      "rank": 7,
+      "name": "Financial Times",
+      "newsletter_name": "FT Morning Briefing",
+      "domain": "ft.com"
+    }
+  ],
+  "other_sources": [
     {
       "rank": 8,
       "name": "Techpresso",
@@ -304,7 +304,7 @@
       "auto_discovered": true
     },
     {
-      "rank": 6,
+      "rank": 3,
       "name": "The Globe and Mail Business Brief",
       "newsletter_name": "The Globe and Mail Business Brief",
       "auto_discovered": true

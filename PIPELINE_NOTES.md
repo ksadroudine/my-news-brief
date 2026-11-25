@@ -15,13 +15,30 @@ This file documents special handling rules, known quirks, and source-specific ex
 
 ---
 
+## Source Priority Order (permanent, set 2026-11-25 by Karim — overrides all earlier orderings)
+
+Use this order wherever a run needs source priority: the order for processing emails (Step 2), deduplication (Step 5) and the News Highlight tie-break (Step 6):
+
+1. Wall Street Journal
+2. The Logic
+3. The Globe and Mail
+4. Bloomberg
+5. The Economist
+6. The Information
+7. Financial Times
+8+ Any other source, in `sources.json` rank order
+
+`sources.json` matches this order (ranks 1–7). Older notes below, including mentions of "higher-priority sources (WSJ, The Information, etc.)", follow this list.
+
+---
+
 ## Bloomberg Newsletter (added 2026-11-25 by Karim — in effect from the 2026-11-25 run onward)
 
 Karim subscribed to a Bloomberg newsletter sent from **`noreply@news.bloomberg.com`**. It is in scope for every run.
 
-- **Gmail search:** this sender is not in the scheduled prompt's Query 2 sender list, and its subject lines may not hit the Query 1 keywords. Treat it as part of Query 2. If Step 2 has already run when you read this note, run this extra query now (`pageSize` 50), add any new threads to the set and process them like the rest: `after:YESTERDAY from:noreply@news.bloomberg.com`.
+- **Gmail search:** Karim added this sender to the scheduled prompt's Query 2 on 2026-11-25. If a run's Query 2 does not include `noreply@news.bloomberg.com`, run this query separately (`pageSize` 50) and process the results with the rest: `after:YESTERDAY from:noreply@news.bloomberg.com`.
 - **Fields:** set `source` to "Bloomberg". Set `newsletter` to the newsletter's own name as shown in the subject or header (e.g. "Bloomberg Evening Briefing"), or "Bloomberg" if no name is shown.
-- **Priority (re-ranked 2026-11-25 by Karim):** the order is The Logic (rank 5), The Globe and Mail (rank 6), then Bloomberg (rank 7 in `sources.json`). In Step 5 deduplication, use this order: WSJ, The Economist, The Information, FT, The Logic, The Globe and Mail, Bloomberg, then all other sources. This overrides the scheduled prompt's older list, which put The Globe and Mail ahead of The Logic. When Bloomberg covers the same story as a higher-ranked source, keep that source's entry and list the Bloomberg newsletter in `also_covered_by`. When Bloomberg shares a story only with lower-ranked sources, keep the Bloomberg entry. Process Bloomberg emails right after the priority sources.
+- **Priority:** Bloomberg is rank 4. See "Source Priority Order" above. When it covers the same story as WSJ, The Logic or The Globe and Mail, keep that source's entry and list the Bloomberg newsletter in `also_covered_by`. When it shares a story with The Economist, The Information, FT or any other source, keep the Bloomberg entry.
 - **Extraction:** follow the General Rules below and extract 1–3 substantive stories per issue. Skip sponsor content, event promotions and subscription offers. Use bloomberg.com article URLs from the body as `link`. If they are wrapped in tracking redirects, decode them only when the real URL is readable from the redirect itself; never construct one.
 - **Format unknown as of 2026-11-25:** no issue had arrived when this note was written. On the first run that processes one, add a short note here describing its format (plaintext vs HTML-only, link style, sections).
 
