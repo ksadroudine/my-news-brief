@@ -929,5 +929,201 @@
     "category": "Politics & Policy",
     "also_covered_by": [],
     "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-001",
+    "date": "2026-11-27",
+    "source": "Wall Street Journal",
+    "newsletter": "WSJ Latest in Artificial Intelligence",
+    "title": "The AI Boom Looks Alive and Well in Asia",
+    "summary": "Despite stock-market turbulence tied to the Nvidia leadership saga, AI-related exports and investment continue to power economic growth across Asia. The WSJ notes the momentum may not last indefinitely, but for now chip and hardware demand remains a key driver of regional output.",
+    "link": "https://www.wsj.com/tech/ai/the-ai-boom-looks-alive-and-well-in-asia-59841697",
+    "category": "Global Economy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-002",
+    "date": "2026-11-27",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "EU Plan to Reduce Internal Business Barriers Is a 'Huge Opportunity' for Canadian Firms",
+    "summary": "A European Union proposal would let companies incorporate once and operate across all 27 member states. Ireland's enterprise minister told The Logic the change could be a major opening for Canadian companies, including startups, seeking to expand in Europe.",
+    "link": "https://thelogic.co/news/european-union-ireland-canada-trade-startups/",
+    "category": "Canadian Business",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-003",
+    "date": "2026-11-27",
+    "source": "The Logic",
+    "newsletter": "The Logic",
+    "title": "Half of You Don't Trust AI Agents With Your Money",
+    "summary": "A survey of The Logic's subscribers found nearly two-thirds back Bay Street's bans on AI agents handling client finances. Some respondents said they would consider using the technology for personal finance if proper safeguards were in place.",
+    "link": "https://thelogic.co/news/ai-agents-personal-finances/",
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-004",
+    "date": "2026-11-27",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "The World Wants Montney Gas",
+    "summary": "Tim Kiladze reports from the Montney Formation on the B.C.-Alberta border, one of the world's largest and least-developed natural gas plays, which is drawing renewed interest two decades after a U.S. shale boom burned investors. LNG exports, Shell's $19-billion purchase of Arc Resources and gas-fired power for Alberta data centres are driving a wave of deals. Risks remain, including fast-growing U.S. LNG capacity and geopolitical uncertainty.",
+    "link": null,
+    "category": "Energy & Commodities",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-005",
+    "date": "2026-11-27",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "Freedom Mobile Founder Anthony Lacavera Seeks Return to Canadian Wireless Amid Quebecor-Telus Takeover Bid",
+    "summary": "Anthony Lacavera, founder of the carrier now known as Freedom Mobile, is making a fresh bid to re-enter Canadian wireless as Quebecor pursues a takeover of Telus. He has urged Ottawa to run an open process for any assets that must be divested, and his firm Globalive Capital has said it would be interested in buying them.",
+    "link": null,
+    "category": "Canadian Business",
+    "also_covered_by": [
+      "Bloomberg Canada Daily"
+    ],
+    "priority_pick": true
+  },
+  {
+    "id": "2026-11-27-006",
+    "date": "2026-11-27",
+    "source": "The Globe and Mail",
+    "newsletter": "The Globe and Mail Business Brief",
+    "title": "Ottawa Begins Rolling Out $700-Million in AI Compute Funding",
+    "summary": "The federal government has started distributing $700 million in AI compute funding using a new sector-by-sector approach. The first tranche goes to companies in health and life sciences.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-007",
+    "date": "2026-11-27",
+    "source": "Bloomberg",
+    "newsletter": "Bloomberg Canada Daily",
+    "title": "Black Friday Shoppers Trim Budgets While Thanksgiving Spending Hits $7.1 Billion",
+    "summary": "US online spending on Thanksgiving rose more than 10% from a year earlier to $7.1 billion, according to Adobe Analytics, but Black Friday started slowly as shoppers cut gift lists and traded down. More than 80% of surveyed shoppers planned to manage costs, while Canadian brands Garage and Lululemon drew crowds in US stores and Shopify reported strong sales of personal care items.",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-11-27/black-friday-shoppers-trim-budgets-while-thanksgiving-spending-hits-7-1-billion",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-008",
+    "date": "2026-11-27",
+    "source": "Bloomberg",
+    "newsletter": "Bloomberg Canada Daily",
+    "title": "Shell's Arc Deal Helps Lift Foreign Investment in Canada to Two-Year High",
+    "summary": "Foreign direct investment in Canada reached C$33.7 billion in the third quarter, its highest quarterly level in more than two years. Inflows were driven by spending in the energy and mining sectors, including Shell's acquisition of Arc Resources.",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/shell-s-arc-deal-helps-lift-foreign-investment-in-canada-to-two-year-high",
+    "category": "Global Economy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-009",
+    "date": "2026-11-27",
+    "source": "Bloomberg",
+    "newsletter": "Bloomberg Canada Daily",
+    "title": "Nvidia Blackwell Chips Turn Up at China Site Tied to Alice Huang",
+    "summary": "Nvidia Blackwell processors, which cannot legally be shipped to China without a US license, were found installed in a Shanghai data center linked to Alice Huang, the figure at the centre of the recent Nvidia controversy. The finding adds to scrutiny of how advanced US chips reach Chinese facilities.",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang",
+    "category": "Technology & AI",
+    "also_covered_by": [
+      "The Rundown Tech"
+    ],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-010",
+    "date": "2026-11-27",
+    "source": "Bloomberg",
+    "newsletter": "Bloomberg Canada Daily",
+    "title": "How an Aluminum Squeeze Brought the LME to the Brink of Crisis Again",
+    "summary": "A historic supply squeeze in early November pushed aluminum spot prices far above futures, leaving holders of expiring short positions facing the steepest premiums in decades as exchange inventories shrank. The London Metal Exchange introduced rules to curb big traders' ability to squeeze the market, though it is unclear whether the problem is resolved.",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/how-an-aluminum-squeeze-brought-the-lme-to-the-brink-of-crisis-again",
+    "category": "Energy & Commodities",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-011",
+    "date": "2026-11-27",
+    "source": "Bloomberg",
+    "newsletter": "Bloomberg Canada Daily",
+    "title": "Canada to Put Billions More Toward Tariff-Hit Softwood Lumber Sector",
+    "summary": "Ottawa unveiled a new aid plan for softwood lumber producers hurt by US tariffs. Natural Resources Minister Tim Hodgson said a coordinated national approach was warranted given the scale of the challenge, even though provinces hold most responsibility for resource industries.",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/canada-to-put-billions-more-toward-tariff-hit-softwood-lumber-sector",
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-012",
+    "date": "2026-11-27",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Netherlands, US Row Escalates Over ASML Curbs",
+    "summary": "The Dutch government reportedly stepped up its opposition to proposed US legislation that would restrict sales of ASML chipmaking equipment to China. The dispute widens tensions between the two allies over export controls on semiconductor technology.",
+    "link": null,
+    "category": "Politics & Policy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-013",
+    "date": "2026-11-27",
+    "source": "Mobile World Live",
+    "newsletter": "Mobile World Live",
+    "title": "Nvidia Stops Exports to Four Asian Nations",
+    "summary": "Following new US export controls, Nvidia told its manufacturing partners to stop supplying servers containing its technology to Malaysia, Singapore, Thailand and Indonesia, according to a Financial Times report cited by Mobile World Live. The move tightens the flow of AI hardware into Southeast Asia.",
+    "link": null,
+    "category": "Technology & AI",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-014",
+    "date": "2026-11-27",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "Neuralink Lands Its Make-or-Break Trial",
+    "summary": "Neuralink received FDA approval to launch LINK, a late-stage trial of its N1 brain implant in adults with ALS, a key step toward potential commercial clearance. The company says more than 30 people have been implanted across earlier trials, though the device remains investigational and rival Synchron paused a study of its own second-generation implant this month.",
+    "link": "https://neuralink.com/updates/neuralink-receives-fda-approval-to-launch-link-pivotal-study",
+    "category": "Science & Health",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-015",
+    "date": "2026-11-27",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "Amazon Faces Strikes in 20+ Countries",
+    "summary": "Unions in more than 20 countries launched strikes and protests against Amazon over the Black Friday weekend as part of the Make Amazon Pay campaign, with Germany's Verdi calling strikes at 11 sites. The actions follow an arbitrated first North American union contract for about 800 Amazon workers in British Columbia, which raised pay to C$29 an hour.",
+    "link": "https://www.engadget.com/2329231/amazon-workers-plan-protests-on-black-friday-and-cyber-monday",
+    "category": "Business & Strategy",
+    "also_covered_by": [],
+    "priority_pick": false
+  },
+  {
+    "id": "2026-11-27-016",
+    "date": "2026-11-27",
+    "source": "The Rundown Tech",
+    "newsletter": "The Rundown Tech",
+    "title": "EU Seeks €50 Billion for Frontier Technology to Rival US, China",
+    "summary": "The European Union wants a €50 billion public-private fund to take stakes in European AI, quantum and chip companies. The goal is to keep promising firms from relocating to the US or China.",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/eu-seeks-50-billion-for-frontier-technology-to-rival-us-china",
+    "category": "Global Economy",
+    "also_covered_by": [],
+    "priority_pick": false
   }
 ]
